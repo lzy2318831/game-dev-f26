@@ -1,0 +1,15 @@
+test_device_exclusion_and_many_states (test_fusion_replenish.Replenish.test_device_exclusion_and_many_states) ... ok
+test_final_opportunity_never_spawns (test_fusion_replenish.Replenish.test_final_opportunity_never_spawns) ... ok
+test_max_two_and_empty_clear_priority (test_fusion_replenish.Replenish.test_max_two_and_empty_clear_priority) ... ok
+test_moving_or_blocked_batch_atomic (test_fusion_replenish.Replenish.test_moving_or_blocked_batch_atomic) ... ok
+test_nine_no_spawn_and_no_invalid_spawn (test_fusion_replenish.Replenish.test_nine_no_spawn_and_no_invalid_spawn) ... ok
+test_no_overlap_and_deterministic_positions (test_fusion_replenish.Replenish.test_no_overlap_and_deterministic_positions) ... ok
+test_points_and_scratch_precedence (test_fusion_replenish.Replenish.test_points_and_scratch_precedence) ... ok
+test_replay_counters_events_and_tampering (test_fusion_replenish.Replenish.test_replay_counters_events_and_tampering) ... ok
+test_reset_and_single_event_per_boundary (test_fusion_replenish.Replenish.test_reset_and_single_event_per_boundary) ... ok
+test_threshold_count_and_isolation (test_fusion_replenish.Replenish.test_threshold_count_and_isolation) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 16.474s
+
+OK

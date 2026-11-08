@@ -1,0 +1,65 @@
+{
+  "schema_version": "fusion-1",
+  "project": "Pool + Pinball: Arcade Fusion",
+  "student": "lzy2318831",
+  "status": "grand_circuit_playable_awaiting_review",
+  "native_artifacts": {
+    "implementation": "AGENTS.md",
+    "engine": "fusion/engine.py",
+    "interface": "fusion/engine.py:Episode",
+    "ui": "fusion/web/",
+    "baseline": "fusion/baseline.py",
+    "runner": "fusion/runner.py",
+    "player_boundary": "fusion/player.py",
+    "skill": "skills/competitive-rule-change/SKILL.md",
+    "review_instructions": "agents/rules-reviewer.md",
+    "review_handoff": "fusion/REVIEW-HANDOFF.md",
+    "evidence": "evidence/maximal-1/REPORT.md"
+  },
+  "permissions": {
+    "writes": [
+      "midterms/lzy2318831/",
+      ".github/workflows/midterm-lzy2318831.yml"
+    ],
+    "player_tools": [],
+    "no_paid_calls_without_approval": true,
+    "no_push_or_submission": true
+  },
+  "model": {
+    "provider": null,
+    "model": null,
+    "transport": null,
+    "live_calls": 0,
+    "gui_mode": "not_implemented",
+    "history_default": "observation_only",
+    "history_comparison": "last_two_visible_shots_up_to_2000_characters"
+  },
+  "limits": {
+    "shots_per_player": 6,
+    "total_opportunities": 12,
+    "physics_ticks_per_shot": 9600,
+    "model_calls_per_match": 12,
+    "request_timeout_seconds": 20,
+    "episode_deadline_seconds": 300,
+    "automatic_fallback": false
+  },
+  "evidence_status": {
+    "independent_review": "Grand Circuit fresh read-only review complete; evidence/maximal-1/INDEPENDENT-REVIEW.md; gate pending",
+    "distinct_skill_sessions": "pending; multiple phase invocations are one conversation",
+    "human_playtest": "pending",
+    "recording": "pending",
+    "student_authorship": "worksheet_only",
+    "remote_ci": "not_run",
+    "live_evaluation": "not_run"
+  },
+  "evaluation": "fusion/evaluation.json",
+  "preserved_versions": [
+    "pool/",
+    "historical/",
+    "versions/pre-fusion/",
+    "backup-six-ball/",
+    "versions/fusion-v1/",
+    "versions/aurum-v1.1/"
+  ],
+  "ci_workflow": ".github/workflows/midterm-lzy2318831.yml"
+}

@@ -1,0 +1,185 @@
+{
+  "kind": "ACTUAL_HEADLESS_CHROME_SYNTHETIC_MODEL_NOT_PAID_EVALUATION",
+  "two_consecutive_matches": true,
+  "shots_each": 12,
+  "opportunities_each_player": 6,
+  "same_running_server": true,
+  "back_to_menu_twice": true,
+  "real_api_calls": 0,
+  "qa_only": "Rendering clock accelerated; confirmation accepted by QA stub in MOCK mode only.",
+  "results": [
+    {
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p2",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 200,
+          "p2": 2265
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 12,
+            "bumper_points": 360,
+            "combo_points": 600,
+            "lane_points": 10,
+            "spinner_points": 25,
+            "multiplier_points": 0,
+            "device_points": 70
+          }
+        },
+        "replenishments_used": 2,
+        "object_balls_remaining": 11
+      },
+      "live": {
+        "phase": "complete",
+        "reason": "shots_exhausted",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "variant": "kinetic-geometry-assisted-v1",
+        "mocked": true,
+        "paid_enabled": false,
+        "credentials_configured": false,
+        "can_start": false,
+        "calls": 6,
+        "call_cap": 6,
+        "cost_cap_usd": 0.25,
+        "estimated_cost_usd": 0.000774,
+        "committed_or_reserved_usd": 0.000774,
+        "unknown_cost_calls": 0,
+        "sequence": null,
+        "selected_action": {
+          "angle": 346,
+          "power": 30
+        },
+        "selected_player": "p2",
+        "cancel_requested": false,
+        "artifact_directory": "20261107T214350Z-d1964ac63432",
+        "server_budget": {
+          "calls": 6,
+          "call_cap": 12,
+          "committed_or_reserved_usd": 0.0007740000000000039,
+          "cost_cap_usd": 0.5,
+          "known_estimated_usd": 0.000774,
+          "unknown_cost_calls": 0,
+          "can_start": true,
+          "scope": "this server process; new match does not reset cumulative spending"
+        },
+        "match_number": 1
+      },
+      "title": "Mocked test: Geometric wins."
+    },
+    {
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p2",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 200,
+          "p2": 2265
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 12,
+            "bumper_points": 360,
+            "combo_points": 600,
+            "lane_points": 10,
+            "spinner_points": 25,
+            "multiplier_points": 0,
+            "device_points": 70
+          }
+        },
+        "replenishments_used": 2,
+        "object_balls_remaining": 11
+      },
+      "live": {
+        "phase": "complete",
+        "reason": "shots_exhausted",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "variant": "kinetic-geometry-assisted-v1",
+        "mocked": true,
+        "paid_enabled": false,
+        "credentials_configured": false,
+        "can_start": false,
+        "calls": 6,
+        "call_cap": 6,
+        "cost_cap_usd": 0.25,
+        "estimated_cost_usd": 0.000774,
+        "committed_or_reserved_usd": 0.000774,
+        "unknown_cost_calls": 0,
+        "sequence": null,
+        "selected_action": {
+          "angle": 346,
+          "power": 30
+        },
+        "selected_player": "p2",
+        "cancel_requested": false,
+        "artifact_directory": "20261107T214419Z-f85da414f26b",
+        "server_budget": {
+          "calls": 12,
+          "call_cap": 12,
+          "committed_or_reserved_usd": 0.0015480000000000077,
+          "cost_cap_usd": 0.5,
+          "known_estimated_usd": 0.001548,
+          "unknown_cost_calls": 0,
+          "can_start": false,
+          "scope": "this server process; new match does not reset cumulative spending"
+        },
+        "match_number": 2
+      },
+      "title": "Mocked test: Geometric wins."
+    }
+  ],
+  "traces": [
+    "matches/20261107T214350Z-d1964ac63432/trace.json",
+    "matches/20261107T214419Z-f85da414f26b/trace.json"
+  ],
+  "browser_runtime_errors": []
+}

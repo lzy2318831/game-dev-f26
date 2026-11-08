@@ -1,0 +1,7 @@
+test_human_baseline_complete_and_restart (test_ui.UITests.test_human_baseline_complete_and_restart) ... ok
+test_human_human_aim_and_alternate (test_ui.UITests.test_human_human_aim_and_alternate) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.233s
+
+OK

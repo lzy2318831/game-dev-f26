@@ -1,0 +1,25 @@
+{
+  "status": "NOT_AUTHORIZED_NOT_EXECUTED",
+  "retained_failed_trial": "observation_only-direct-101-p1",
+  "pending_trials": [
+    "observation_only-direct-101-p2",
+    "observation_only-direct-102-p1",
+    "observation_only-direct-102-p2",
+    "observation_only-bumper-101-p1",
+    "observation_only-bumper-101-p2",
+    "observation_only-bumper-102-p1",
+    "observation_only-bumper-102-p2",
+    "observation_only-risk-101-p1",
+    "observation_only-risk-101-p2",
+    "observation_only-risk-102-p1",
+    "observation_only-risk-102-p2"
+  ],
+  "max_new_calls_for_pending_trials": 66,
+  "original_approved_call_cap": 72,
+  "original_attempts_used": 1,
+  "remaining_total_call_allowance": 71,
+  "original_local_budget_usd": 5,
+  "original_unknown_cost_reservation_usd": 0.0109875,
+  "remaining_conservative_local_budget_usd": 4.9890125,
+  "note": "Resolve provider issue and obtain explicit continuation approval first. Preserve original failure; do not restart original launcher or reset counters in a fresh full suite."
+}

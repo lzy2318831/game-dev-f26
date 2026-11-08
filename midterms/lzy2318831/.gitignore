@@ -1,0 +1,10 @@
+# Isolated browser QA profile, never part of the submission.
+.fusion-qa-profile/
+.fusion-browser-profile/
+.venv/
+__pycache__/
+*.pyc
+
+# Credentials must remain session-local; never commit private env files.
+.env
+.env.*

@@ -1,0 +1,186 @@
+{
+  "kind": "ACTUAL_HEADLESS_CHROME_SYNTHETIC_MODEL_NOT_PAID_EVALUATION",
+  "synthetic_error": "invalid_candidate_selection",
+  "two_consecutive_matches": false,
+  "simulation_limit_then_fresh_complete_match": false,
+  "exactly_one_visible_back": true,
+  "hung_leave_did_not_trap_browser": false,
+  "shots_each": 12,
+  "opportunities_each_player": 6,
+  "same_running_server": true,
+  "back_to_menu_twice": true,
+  "real_api_calls": 0,
+  "qa_only": "Rendering clock accelerated; confirmation accepted by QA stub in MOCK mode only.",
+  "results": [
+    {
+      "outcome": {
+        "status": "terminal",
+        "reason": "invalid_model_response",
+        "winner": null,
+        "draw": false,
+        "failure": true,
+        "scores": {
+          "p1": 0,
+          "p2": 0
+        },
+        "shots": 0,
+        "shots_remaining": {
+          "p1": 6,
+          "p2": 6
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 0,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 0,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 15
+      },
+      "live": {
+        "phase": "failed",
+        "reason": "invalid_candidate_selection",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "variant": "kinetic-geometry-assisted-v1",
+        "mocked": true,
+        "paid_enabled": false,
+        "credentials_configured": false,
+        "can_start": false,
+        "calls": 1,
+        "call_cap": 6,
+        "cost_cap_usd": 0.25,
+        "estimated_cost_usd": 0.000129,
+        "committed_or_reserved_usd": 0.000129,
+        "unknown_cost_calls": 0,
+        "sequence": null,
+        "selected_action": null,
+        "selected_player": null,
+        "cancel_requested": false,
+        "artifact_directory": "20261107T221729Z-dc293ef483b9",
+        "server_budget": {
+          "calls": 1,
+          "call_cap": 12,
+          "committed_or_reserved_usd": 0.00012900000000000064,
+          "cost_cap_usd": 0.5,
+          "known_estimated_usd": 0.000129,
+          "unknown_cost_calls": 0,
+          "can_start": true,
+          "scope": "this server process; new match does not reset cumulative spending"
+        },
+        "match_number": 1
+      },
+      "title": "Live agent error - match incomplete"
+    },
+    {
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p2",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 0,
+          "p2": 260
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 1,
+          "p2": 4
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 0,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 60,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 50
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 9
+      },
+      "live": {
+        "phase": "complete",
+        "reason": "shots_exhausted",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "variant": "kinetic-geometry-assisted-v1",
+        "mocked": true,
+        "paid_enabled": false,
+        "credentials_configured": false,
+        "can_start": false,
+        "calls": 6,
+        "call_cap": 6,
+        "cost_cap_usd": 0.25,
+        "estimated_cost_usd": 0.000774,
+        "committed_or_reserved_usd": 0.000774,
+        "unknown_cost_calls": 0,
+        "sequence": null,
+        "selected_action": {
+          "angle": 236,
+          "power": 20
+        },
+        "selected_player": "p2",
+        "cancel_requested": false,
+        "artifact_directory": "20261107T221731Z-203e9fcd152f",
+        "server_budget": {
+          "calls": 7,
+          "call_cap": 12,
+          "committed_or_reserved_usd": 0.0009030000000000045,
+          "cost_cap_usd": 0.5,
+          "known_estimated_usd": 0.0009029999999999999,
+          "unknown_cost_calls": 0,
+          "can_start": false,
+          "scope": "this server process; new match does not reset cumulative spending"
+        },
+        "match_number": 2
+      },
+      "title": "Mocked test: Geometric wins."
+    }
+  ],
+  "traces": [
+    "matches/20261107T221729Z-dc293ef483b9/trace.json",
+    "matches/20261107T221731Z-203e9fcd152f/trace.json"
+  ],
+  "browser_runtime_errors": []
+}

@@ -1,0 +1,13 @@
+{
+  "fusion/web/game.js": true,
+  "fusion/geometry_navigation.js": true,
+  "fusion/geometry_budget.py": true,
+  "fusion/geometry_agent.py": true,
+  "fusion/geometry_candidates.py": true,
+  "fusion/geometry_adaptive_power.py": true,
+  "fusion/baseline.py": true,
+  "fusion/smart.py": true,
+  "fusion/llm.py": true,
+  "fusion/prompt_v2.py": true,
+  "run-geometry-live.ps1": true
+}

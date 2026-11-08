@@ -1,0 +1,9 @@
+test_429_billing_keeps_provider_details_without_retry (test_fusion_http_errors.HTTPDiagnostics.test_429_billing_keeps_provider_details_without_retry) ... ok
+test_429_rate_limit_and_unknown_are_distinct (test_fusion_http_errors.HTTPDiagnostics.test_429_rate_limit_and_unknown_are_distinct) ... ok
+test_auth_and_unsupported_parameter_redact_secrets (test_fusion_http_errors.HTTPDiagnostics.test_auth_and_unsupported_parameter_redact_secrets) ... ok
+test_non_json_body_is_not_logged (test_fusion_http_errors.HTTPDiagnostics.test_non_json_body_is_not_logged) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.006s
+
+OK

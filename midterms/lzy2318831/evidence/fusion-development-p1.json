@@ -1,0 +1,323 @@
+{
+  "version": "fusion-1.0.0",
+  "seed": 101,
+  "seats": [
+    "baseline",
+    "direct"
+  ],
+  "layout": [
+    [
+      230,
+      250
+    ],
+    [
+      700,
+      250
+    ],
+    [
+      721,
+      238
+    ],
+    [
+      721,
+      262
+    ],
+    [
+      742,
+      226
+    ],
+    [
+      742,
+      250
+    ],
+    [
+      742,
+      274
+    ]
+  ],
+  "steps": [
+    {
+      "player": "p1",
+      "action": {
+        "angle": 8,
+        "power": 41
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 1,
+          "x": 552.2918506955472,
+          "y": 295.08175821325807,
+          "points": 15,
+          "t": 0.9166666666666666
+        }
+      ],
+      "after": "b5c80b0f9270cbc5ca05dccdf2ef8697d4feb20f103b83db7e71318593d866ba",
+      "latency_seconds": 0.000693499983754009
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 182,
+        "power": 48
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 1,
+          "bumper": 1,
+          "x": 584.2472261607046,
+          "y": 307.6979879513507,
+          "points": 0,
+          "t": 1.025
+        },
+        {
+          "type": "bumper",
+          "ball": 2,
+          "bumper": 0,
+          "x": 479.91597526380144,
+          "y": 127.874351427488,
+          "points": 0,
+          "t": 1.5958333333333332
+        },
+        {
+          "type": "pocket",
+          "ball": 2,
+          "x": 503.1283436208328,
+          "y": 28.584878945937472,
+          "t": 1.9083333333333332
+        }
+      ],
+      "after": "9c050bec18bc867c908b6ebb518d0b1dfbff1de7132f7e6fc04e0825ea8b45c4",
+      "latency_seconds": 3.300001844763756e-05
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 80,
+        "power": 30
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 3,
+          "x": 973.3063215921535,
+          "y": 488.73825154383667,
+          "t": 1.625
+        }
+      ],
+      "after": "6c5e5aac5698b0c0d793902398ef47943c57c010764ed066dc8be7253e9a01f5",
+      "latency_seconds": 0.0008705999935045838
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 354,
+        "power": 48
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 6,
+          "bumper": 1,
+          "x": 593.5863004997559,
+          "y": 324.42183788446516,
+          "points": 0,
+          "t": 2.3541666666666665
+        }
+      ],
+      "after": "e68c0560c4fa184c35b81e6aa1759866fd862f6d40607bee17221d2f77027af6",
+      "latency_seconds": 2.9699993319809437e-05
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 298,
+        "power": 27
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 4,
+          "x": 982.1331126714732,
+          "y": 22.763031397457354,
+          "t": 2.1666666666666665
+        }
+      ],
+      "after": "f432fef6374fcb35ae867e276b4d72755237a9aa7ee855c0755f8cc905086f6e",
+      "latency_seconds": 0.0005566999898292124
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 128,
+        "power": 48
+      },
+      "accepted": true,
+      "events": [],
+      "after": "0d73c13b700f3bd3ae2a29d2c781315f13983368b96d7b2104990027baeff849",
+      "latency_seconds": 2.5399989681318402e-05
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 213,
+        "power": 27
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 501.60113747659057,
+          "y": 148.83965237317844,
+          "points": 15,
+          "t": 1.3791666666666667
+        }
+      ],
+      "after": "3ca613f9114b51fedfd8d424fc025ce8d95aa8beecc7e80dd6d47be1ade07727",
+      "latency_seconds": 0.00035329998354427516
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 238,
+        "power": 48
+      },
+      "accepted": true,
+      "events": [],
+      "after": "849f23224822373aa378fca91baee65243fce3396ed4417a41d7ef15fb587d2c",
+      "latency_seconds": 2.9099988751113415e-05
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 183,
+        "power": 17
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 1,
+          "x": 516.0771637297521,
+          "y": 23.83313670958622,
+          "t": 0.9041666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 473.9355646410614,
+          "y": 126.00056686892215,
+          "points": 15,
+          "t": 1.6291666666666667
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 477.8740364789943,
+          "y": 18.109477689630644,
+          "t": 2.2416666666666667
+        }
+      ],
+      "after": "3dee44353f7a4b05745532155ebddedc7ad0899027c0be0211a39978e68b150d",
+      "latency_seconds": 0.000371600006474182
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 134,
+        "power": 48
+      },
+      "accepted": true,
+      "events": [],
+      "after": "aef9e4ad57442c5273e6bc6cf76d4bf2fba730e7cb3b730e109913cd0d8f3b6a",
+      "latency_seconds": 2.6399997295811772e-05
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 248,
+        "power": 21
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 6,
+          "x": 15.583225311489475,
+          "y": 23.933366839279632,
+          "t": 1.6875
+        }
+      ],
+      "after": "66ad75b1d29d056445aefbb20ab8b88ead1004b70250b0a175085dc490a74240",
+      "latency_seconds": 0.0002145000034943223
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 356,
+        "power": 48
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 5,
+          "x": 975.3796892545439,
+          "y": 14.201657077432122,
+          "t": 2.525
+        }
+      ],
+      "after": "503e0c93a9aa55e80d25d47b8232a6a892a575c3daae0e92bc87e4ab4ba42d6b",
+      "latency_seconds": 2.609999501146376e-05
+    }
+  ],
+  "model_calls": 0,
+  "engine_sha256": "70339468b742b0e7dcddd674b21e9c0116fc15be6eb60ed46c3dbee025df69f0",
+  "outcome": {
+    "status": "terminal",
+    "reason": "table_cleared",
+    "winner": "p1",
+    "draw": false,
+    "failure": false,
+    "scores": {
+      "p1": 330,
+      "p2": 200
+    },
+    "shots": 12,
+    "shots_remaining": {
+      "p1": 0,
+      "p2": 0
+    },
+    "scratches": {
+      "p1": 1,
+      "p2": 0
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "metrics": {
+      "p1": {
+        "pots": 3,
+        "bumper_points": 30,
+        "combo_points": 0
+      },
+      "p2": {
+        "pots": 2,
+        "bumper_points": 0,
+        "combo_points": 0
+      }
+    }
+  },
+  "elapsed_seconds": 0.14130739998654462
+}

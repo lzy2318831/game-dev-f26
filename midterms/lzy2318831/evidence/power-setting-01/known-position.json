@@ -1,0 +1,53 @@
+{
+  "saved_requests_built": 76,
+  "maximum_json_bytes": 14157,
+  "known_failure_position": [
+    {
+      "power_multiplier": 1,
+      "candidate": {
+        "angle": 266,
+        "id": 2,
+        "minimum_power": 1,
+        "original_power": 1,
+        "power": 1,
+        "power_multiplier": 1,
+        "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+        "route": "contact",
+        "target": 5,
+        "travel": 30.4
+      },
+      "result": {
+        "points": 0,
+        "foul": false,
+        "potted": [],
+        "settled": true,
+        "ticks": 354
+      }
+    },
+    {
+      "power_multiplier": 2,
+      "candidate": {
+        "angle": 266,
+        "id": 2,
+        "minimum_power": 1,
+        "original_power": 1,
+        "power": 2,
+        "power_multiplier": 2,
+        "risk": "2x power: base stopping/scratch estimates below do not establish safety. clear initial contact; pocket/rebound outcome not guaranteed",
+        "route": "contact",
+        "target": 5,
+        "travel": 30.4
+      },
+      "result": {
+        "points": 355,
+        "foul": false,
+        "potted": [
+          9,
+          4
+        ],
+        "settled": true,
+        "ticks": 4671
+      }
+    }
+  ]
+}

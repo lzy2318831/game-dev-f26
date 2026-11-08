@@ -1,0 +1,5 @@
+PASS: geometry failure/result messages, no-candidate stop and cancellation labels
+Error: Previous match is still settling. Back to Main Menu remains available.
+    at Object.geometryLoadInfo (evalmachine.<anonymous>:13:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\geometry-controller.cjs:27:25

@@ -1,0 +1,724 @@
+{
+  "version": "fusion-1.6.0-balanced",
+  "mode": "hvh",
+  "busy": false,
+  "observation": {
+    "player_id": "p1",
+    "active_player": "p1",
+    "table": {
+      "width": 1000,
+      "height": 500,
+      "ball_radius": 11,
+      "pocket_radius": 29,
+      "pockets": [
+        [
+          0,
+          0
+        ],
+        [
+          500,
+          0
+        ],
+        [
+          1000,
+          0
+        ],
+        [
+          0,
+          500
+        ],
+        [
+          500,
+          500
+        ],
+        [
+          1000,
+          500
+        ]
+      ]
+    },
+    "balls": [
+      {
+        "id": 0,
+        "x": 230,
+        "y": 250
+      },
+      {
+        "id": 1,
+        "x": 700.0,
+        "y": 250.0
+      },
+      {
+        "id": 2,
+        "x": 720.7846096908265,
+        "y": 238.0
+      },
+      {
+        "id": 3,
+        "x": 720.7846096908265,
+        "y": 262.0
+      },
+      {
+        "id": 4,
+        "x": 741.569219381653,
+        "y": 226.0
+      },
+      {
+        "id": 5,
+        "x": 741.569219381653,
+        "y": 250.0
+      },
+      {
+        "id": 6,
+        "x": 741.569219381653,
+        "y": 274.0
+      },
+      {
+        "id": 7,
+        "x": 762.3538290724796,
+        "y": 214.0
+      },
+      {
+        "id": 8,
+        "x": 762.3538290724796,
+        "y": 238.0
+      },
+      {
+        "id": 9,
+        "x": 762.3538290724796,
+        "y": 262.0
+      },
+      {
+        "id": 10,
+        "x": 762.3538290724796,
+        "y": 286.0
+      },
+      {
+        "id": 11,
+        "x": 783.1384387633061,
+        "y": 202.0
+      },
+      {
+        "id": 12,
+        "x": 783.1384387633061,
+        "y": 226.0
+      },
+      {
+        "id": 13,
+        "x": 783.1384387633061,
+        "y": 250.0
+      },
+      {
+        "id": 14,
+        "x": 783.1384387633061,
+        "y": 274.0
+      },
+      {
+        "id": 15,
+        "x": 783.1384387633061,
+        "y": 298.0
+      }
+    ],
+    "bumpers": [
+      {
+        "id": 0,
+        "x": 280,
+        "y": 105,
+        "radius": 24,
+        "color": "cyan",
+        "impulse": 260
+      },
+      {
+        "id": 1,
+        "x": 670,
+        "y": 112,
+        "radius": 29,
+        "color": "gold",
+        "impulse": 260
+      },
+      {
+        "id": 2,
+        "x": 330,
+        "y": 388,
+        "radius": 29,
+        "color": "gold",
+        "impulse": 260
+      },
+      {
+        "id": 3,
+        "x": 670,
+        "y": 388,
+        "radius": 29,
+        "color": "cyan",
+        "impulse": 260
+      },
+      {
+        "id": 4,
+        "x": 435,
+        "y": 405,
+        "radius": 29,
+        "color": "cyan",
+        "impulse": 260
+      },
+      {
+        "id": 5,
+        "x": 565,
+        "y": 405,
+        "radius": 29,
+        "color": "gold",
+        "impulse": 260
+      },
+      {
+        "id": 6,
+        "x": 375,
+        "y": 105,
+        "radius": 24,
+        "color": "gold",
+        "impulse": 260
+      },
+      {
+        "id": 7,
+        "x": 327,
+        "y": 181,
+        "radius": 24,
+        "color": "cyan",
+        "impulse": 260
+      },
+      {
+        "id": 8,
+        "x": 620,
+        "y": 165,
+        "radius": 16,
+        "color": "cyan",
+        "impulse": 200
+      },
+      {
+        "id": 9,
+        "x": 725,
+        "y": 165,
+        "radius": 16,
+        "color": "gold",
+        "impulse": 200
+      }
+    ],
+    "devices": {
+      "guides": [
+        {
+          "id": "left-channel",
+          "a": [
+            88,
+            125
+          ],
+          "b": [
+            88,
+            330
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-exit",
+          "a": [
+            88,
+            330
+          ],
+          "b": [
+            140,
+            365
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-return",
+          "a": [
+            18,
+            380
+          ],
+          "b": [
+            76,
+            440
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-channel",
+          "a": [
+            912,
+            125
+          ],
+          "b": [
+            912,
+            330
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-exit",
+          "a": [
+            912,
+            330
+          ],
+          "b": [
+            860,
+            365
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-return",
+          "a": [
+            982,
+            380
+          ],
+          "b": [
+            924,
+            440
+          ],
+          "radius": 4
+        },
+        {
+          "id": "orbit-left",
+          "a": [
+            410,
+            52
+          ],
+          "b": [
+            440,
+            95
+          ],
+          "radius": 4
+        },
+        {
+          "id": "orbit-right",
+          "a": [
+            590,
+            52
+          ],
+          "b": [
+            560,
+            95
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-orbit-rise",
+          "a": [
+            148,
+            150
+          ],
+          "b": [
+            148,
+            72
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-orbit-crown",
+          "a": [
+            148,
+            72
+          ],
+          "b": [
+            225,
+            35
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-orbit-roof",
+          "a": [
+            225,
+            35
+          ],
+          "b": [
+            385,
+            35
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-split-return",
+          "a": [
+            175,
+            110
+          ],
+          "b": [
+            175,
+            180
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-lower-bank",
+          "a": [
+            120,
+            455
+          ],
+          "b": [
+            245,
+            420
+          ],
+          "radius": 4
+        },
+        {
+          "id": "left-sling-0",
+          "a": [
+            175,
+            330
+          ],
+          "b": [
+            225,
+            375
+          ],
+          "radius": 4,
+          "powered": "left-sling"
+        },
+        {
+          "id": "left-sling-1",
+          "a": [
+            225,
+            375
+          ],
+          "b": [
+            165,
+            400
+          ],
+          "radius": 4,
+          "powered": "left-sling"
+        },
+        {
+          "id": "left-sling-2",
+          "a": [
+            165,
+            400
+          ],
+          "b": [
+            175,
+            330
+          ],
+          "radius": 4,
+          "powered": "left-sling"
+        },
+        {
+          "id": "right-orbit-rise",
+          "a": [
+            852,
+            150
+          ],
+          "b": [
+            852,
+            72
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-orbit-crown",
+          "a": [
+            852,
+            72
+          ],
+          "b": [
+            775,
+            35
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-orbit-roof",
+          "a": [
+            775,
+            35
+          ],
+          "b": [
+            615,
+            35
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-split-return",
+          "a": [
+            825,
+            110
+          ],
+          "b": [
+            825,
+            180
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-lower-bank",
+          "a": [
+            880,
+            455
+          ],
+          "b": [
+            755,
+            420
+          ],
+          "radius": 4
+        },
+        {
+          "id": "right-sling-0",
+          "a": [
+            825,
+            330
+          ],
+          "b": [
+            775,
+            375
+          ],
+          "radius": 4,
+          "powered": "right-sling"
+        },
+        {
+          "id": "right-sling-1",
+          "a": [
+            775,
+            375
+          ],
+          "b": [
+            835,
+            400
+          ],
+          "radius": 4,
+          "powered": "right-sling"
+        },
+        {
+          "id": "right-sling-2",
+          "a": [
+            835,
+            400
+          ],
+          "b": [
+            825,
+            330
+          ],
+          "radius": 4,
+          "powered": "right-sling"
+        },
+        {
+          "id": "chamber-west",
+          "a": [
+            600,
+            80
+          ],
+          "b": [
+            600,
+            170
+          ],
+          "radius": 4
+        },
+        {
+          "id": "chamber-bank",
+          "a": [
+            600,
+            170
+          ],
+          "b": [
+            590,
+            195
+          ],
+          "radius": 4
+        },
+        {
+          "id": "chamber-east",
+          "a": [
+            850,
+            180
+          ],
+          "b": [
+            800,
+            200
+          ],
+          "radius": 4
+        }
+      ],
+      "lanes": [
+        {
+          "id": "left",
+          "x_min": 24,
+          "x_max": 70,
+          "y": 270
+        },
+        {
+          "id": "right",
+          "x_min": 930,
+          "x_max": 976,
+          "y": 270
+        },
+        {
+          "id": "left-orbit",
+          "x_min": 100,
+          "x_max": 132,
+          "y": 110
+        },
+        {
+          "id": "right-orbit",
+          "x_min": 868,
+          "x_max": 900,
+          "y": 110
+        },
+        {
+          "id": "left-inner",
+          "x_min": 190,
+          "x_max": 238,
+          "y": 160
+        },
+        {
+          "id": "right-inner",
+          "x_min": 762,
+          "x_max": 810,
+          "y": 160
+        }
+      ],
+      "spinner": {
+        "id": "orbit",
+        "x_min": 470,
+        "x_max": 530,
+        "y": 84
+      },
+      "scoop": {
+        "id": "vault",
+        "x": 805,
+        "y": 88,
+        "radius": 17,
+        "direction": [
+          -135,
+          24
+        ],
+        "speed": 640,
+        "exit": [
+          775,
+          88
+        ]
+      },
+      "bridge": {
+        "id": "skyway",
+        "x": 230,
+        "y": 55,
+        "radius": 14,
+        "exit": [
+          630,
+          75
+        ],
+        "direction": [
+          0.86,
+          0.51
+        ],
+        "speed": 620
+      }
+    },
+    "replenishment": {
+      "threshold": 8,
+      "batch": 5,
+      "max_events": 2,
+      "used": 0,
+      "remaining": 2,
+      "object_count": 15,
+      "pending": false,
+      "rule": "One atomic batch after a valid settled shot and scratch respot, before next turn/early clearance; none after final opportunity. IDs reused; no spawn points.",
+      "placement": "Ordered clear grid x250..850 step28; y250,222,278,306,194,334,166,362,138,390; avoids balls, pockets, solids and device sensors."
+    },
+    "scores": {
+      "p1": 0,
+      "p2": 0
+    },
+    "shots_remaining": {
+      "p1": 6,
+      "p2": 6
+    },
+    "scratches": {
+      "p1": 0,
+      "p2": 0
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "last_events": [],
+    "last_shot": null,
+    "status": "terminal"
+  },
+  "outcome": {
+    "status": "terminal",
+    "reason": "provider_error",
+    "winner": null,
+    "draw": false,
+    "failure": true,
+    "scores": {
+      "p1": 0,
+      "p2": 0
+    },
+    "shots": 0,
+    "shots_remaining": {
+      "p1": 6,
+      "p2": 6
+    },
+    "scratches": {
+      "p1": 0,
+      "p2": 0
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "metrics": {
+      "p1": {
+        "pots": 0,
+        "bumper_points": 0,
+        "combo_points": 0,
+        "lane_points": 0,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 0
+      },
+      "p2": {
+        "pots": 0,
+        "bumper_points": 0,
+        "combo_points": 0,
+        "lane_points": 0,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 0
+      }
+    },
+    "replenishments_used": 0,
+    "object_balls_remaining": 15
+  },
+  "live": {
+    "phase": "failed",
+    "reason": "http_error",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "variant": "kinetic-geometry-assisted-v1",
+    "mocked": true,
+    "paid_enabled": false,
+    "credentials_configured": false,
+    "can_start": false,
+    "calls": 1,
+    "call_cap": 6,
+    "cost_cap_usd": 0.25,
+    "estimated_cost_usd": 0.0,
+    "committed_or_reserved_usd": 0.0116715,
+    "unknown_cost_calls": 1,
+    "sequence": null,
+    "selected_action": null,
+    "selected_player": null,
+    "cancel_requested": false,
+    "artifact_directory": "20261108T010109Z-ce5194e35c6c",
+    "server_budget": {
+      "calls": 1,
+      "call_cap": 12,
+      "committed_or_reserved_usd": 0.0116715,
+      "cost_cap_usd": 0.5,
+      "known_estimated_usd": 0.0,
+      "unknown_cost_calls": 1,
+      "can_start": true,
+      "scope": "this server process; new match does not reset cumulative spending"
+    },
+    "match_number": 1,
+    "power_multiplier": null,
+    "power_mode": "adaptive",
+    "adaptive_profile": "adaptive-distance-v2"
+  }
+}

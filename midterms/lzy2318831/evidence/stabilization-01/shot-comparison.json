@@ -1,0 +1,53 @@
+{
+  "source": "evidence/live-browser-geometry-v1/20261107T215634Z-8dbde2c0c71f/trace.json",
+  "shot": 7,
+  "llm_shot": 4,
+  "candidate_id": 2,
+  "comparison": [
+    {
+      "angle": 266,
+      "power": 1,
+      "points": 0,
+      "foul": false,
+      "potted": [],
+      "settled": true,
+      "ticks": 354
+    },
+    {
+      "angle": 266,
+      "power": 2,
+      "points": 355,
+      "foul": false,
+      "potted": [
+        9,
+        4
+      ],
+      "settled": true,
+      "ticks": 4671
+    },
+    {
+      "angle": 266,
+      "power": 3,
+      "points": 0,
+      "foul": false,
+      "potted": [],
+      "settled": true,
+      "ticks": 1715
+    },
+    {
+      "angle": 266,
+      "power": 4,
+      "points": 655,
+      "foul": false,
+      "potted": [
+        12,
+        14,
+        5,
+        9
+      ],
+      "settled": false,
+      "ticks": 9600
+    }
+  ],
+  "interpretation": "Power4 triggers an extended powered-device cascade; this evidence does not prove an infinite loop. Power1 settles; neither universal settlement nor better performance is established."
+}

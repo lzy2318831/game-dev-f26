@@ -1,0 +1,189 @@
+{
+  "kind": "OFFLINE_ADAPTIVE_FLOOR_HYPOTHESES_NOT_MODEL_EVALUATION",
+  "saved_observations": 50,
+  "unique_candidate_states": 96,
+  "duplicate_candidates_removed": 9,
+  "totals": {
+    "1x": {
+      "pairs": 96,
+      "scratches": 2,
+      "simulation_limits": 0,
+      "settled_points": 155,
+      "physical_pots": 2,
+      "scratch_free_pots": 1,
+      "powered_events": 32,
+      "cue_travel": 19393.849999999995,
+      "object_travel": 10446.699999999997,
+      "target_proximity": 48,
+      "target_moved": 48,
+      "long_powered_cascades": 0
+    },
+    "2x": {
+      "pairs": 96,
+      "scratches": 9,
+      "simulation_limits": 0,
+      "settled_points": 2375,
+      "physical_pots": 24,
+      "scratch_free_pots": 11,
+      "powered_events": 865,
+      "cue_travel": 53618.15000000001,
+      "object_travel": 211419.97,
+      "target_proximity": 48,
+      "target_moved": 48,
+      "long_powered_cascades": 7
+    },
+    "floor25-35-50": {
+      "pairs": 96,
+      "scratches": 15,
+      "simulation_limits": 0,
+      "settled_points": 8270,
+      "physical_pots": 61,
+      "scratch_free_pots": 42,
+      "powered_events": 1891,
+      "cue_travel": 107650.84,
+      "object_travel": 474677.27000000014,
+      "target_proximity": 48,
+      "target_moved": 48,
+      "long_powered_cascades": 15
+    },
+    "floor30-40-55": {
+      "pairs": 96,
+      "scratches": 18,
+      "simulation_limits": 0,
+      "settled_points": 7220,
+      "physical_pots": 67,
+      "scratch_free_pots": 37,
+      "powered_events": 1592,
+      "cue_travel": 93349.79000000001,
+      "object_travel": 420137.16000000015,
+      "target_proximity": 48,
+      "target_moved": 48,
+      "long_powered_cascades": 11
+    },
+    "floor35-50-65": {
+      "pairs": 96,
+      "scratches": 15,
+      "simulation_limits": 0,
+      "settled_points": 8885,
+      "physical_pots": 66,
+      "scratch_free_pots": 49,
+      "powered_events": 2282,
+      "cue_travel": 95167.32000000002,
+      "object_travel": 573787.79,
+      "target_proximity": 48,
+      "target_moved": 48,
+      "long_powered_cascades": 16
+    }
+  },
+  "mandatory_known_position": [
+    {
+      "profile": "1x",
+      "angle": 266,
+      "power": 1,
+      "result": {
+        "points": 0,
+        "foul": false,
+        "potted": [],
+        "settled": true,
+        "ticks": 354,
+        "cue_travel": 30.4,
+        "object_travel": 50.5,
+        "intended_contact_radius_sample": true,
+        "intended_target_moved": true,
+        "powered_events": 0,
+        "events": 0,
+        "simulation_limit": false,
+        "max_object_displacement": 50.5
+      }
+    },
+    {
+      "profile": "2x",
+      "angle": 266,
+      "power": 2,
+      "result": {
+        "points": 355,
+        "foul": false,
+        "potted": [
+          9,
+          4
+        ],
+        "settled": true,
+        "ticks": 4671,
+        "cue_travel": 1115.03,
+        "object_travel": 18157.63,
+        "intended_contact_radius_sample": true,
+        "intended_target_moved": true,
+        "powered_events": 65,
+        "events": 184,
+        "simulation_limit": false,
+        "max_object_displacement": 689.83
+      }
+    },
+    {
+      "profile": "floor25-35-50",
+      "angle": 266,
+      "power": 25,
+      "result": {
+        "points": 100,
+        "foul": false,
+        "potted": [
+          5
+        ],
+        "settled": true,
+        "ticks": 844,
+        "cue_travel": 30.52,
+        "object_travel": 1875.9,
+        "intended_contact_radius_sample": true,
+        "intended_target_moved": true,
+        "powered_events": 6,
+        "events": 14,
+        "simulation_limit": false,
+        "max_object_displacement": 257.6
+      }
+    },
+    {
+      "profile": "floor30-40-55",
+      "angle": 266,
+      "power": 30,
+      "result": {
+        "points": 355,
+        "foul": false,
+        "potted": [
+          6,
+          9
+        ],
+        "settled": true,
+        "ticks": 2635,
+        "cue_travel": 1792.28,
+        "object_travel": 6896.16,
+        "intended_contact_radius_sample": true,
+        "intended_target_moved": true,
+        "powered_events": 21,
+        "events": 76,
+        "simulation_limit": false,
+        "max_object_displacement": 529.5
+      }
+    },
+    {
+      "profile": "floor35-50-65",
+      "angle": 266,
+      "power": 35,
+      "result": {
+        "points": 0,
+        "foul": false,
+        "potted": [],
+        "settled": true,
+        "ticks": 1029,
+        "cue_travel": 136.65,
+        "object_travel": 1109.08,
+        "intended_contact_radius_sample": true,
+        "intended_target_moved": true,
+        "powered_events": 1,
+        "events": 5,
+        "simulation_limit": false,
+        "max_object_displacement": 327.98
+      }
+    }
+  ],
+  "limitations": "Contact samples/movement are proxies; travel includes portal relocations and collision correction, so it is not pure physical path length. >=50 powered events is a descriptive cascade threshold, not a game rule. All candidates tested, not selected by a model. Correlated development observations; no human experience or win-rate measurement."
+}

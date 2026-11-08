@@ -1,0 +1,17 @@
+{
+  "version": "fusion-1.6.0-balanced",
+  "python_tests": 217,
+  "python_suite": "complete31modules",
+  "javascript_checks": 7,
+  "current_freeze": 18,
+  "original_freeze": 18,
+  "archive_hashes": 157,
+  "historical_replays": 24,
+  "historical_evidence_changed": false,
+  "unexpected_preservation_changes": [],
+  "browser_table_geometry_and_cue_verified": true,
+  "browser_2x_then_1x_complete": true,
+  "browser_adaptive_then_1x_complete": true,
+  "real_api_calls": 0,
+  "independent_review": "no remaining findings"
+}

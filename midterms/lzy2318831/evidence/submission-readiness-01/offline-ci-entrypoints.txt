@@ -1,0 +1,351 @@
+COMMAND: -m pool.runner --trace evidence\submission-readiness-01\legacy-match.json
+{
+  "status": "terminal",
+  "reason": "table_cleared",
+  "scores": {
+    "p1": 3,
+    "p2": 3
+  },
+  "winner": null,
+  "draw": true,
+  "failure": false,
+  "attempts": 9,
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "scratches": {
+    "p1": 0,
+    "p2": 0
+  }
+}
+Elapsed seconds: 0.108
+COMMAND: -m pool.runner --replay evidence\submission-readiness-01\legacy-match.json
+{
+  "status": "terminal",
+  "reason": "table_cleared",
+  "scores": {
+    "p1": 3,
+    "p2": 3
+  },
+  "winner": null,
+  "draw": true,
+  "failure": false,
+  "attempts": 9,
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "scratches": {
+    "p1": 0,
+    "p2": 0
+  }
+}
+COMMAND: -m historical.runner --trace evidence\submission-readiness-01\historical-match.json
+{
+  "status": "terminal",
+  "reason": "heats_complete",
+  "failure": false,
+  "winner": null,
+  "draw": true,
+  "scores": {
+    "p1": 2,
+    "p2": 2
+  },
+  "total_pockets": {
+    "p1": 2,
+    "p2": 2
+  },
+  "scratches": {
+    "p1": 0,
+    "p2": 0
+  },
+  "clearances": {
+    "p1": 0,
+    "p2": 0
+  },
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "frames": 7936,
+  "steps": 124,
+  "heat": 2,
+  "heats": 2
+}
+Elapsed seconds: 0.382
+COMMAND: -m historical.runner --replay evidence\submission-readiness-01\historical-match.json
+{
+  "status": "terminal",
+  "reason": "heats_complete",
+  "failure": false,
+  "winner": null,
+  "draw": true,
+  "scores": {
+    "p1": 2,
+    "p2": 2
+  },
+  "total_pockets": {
+    "p1": 2,
+    "p2": 2
+  },
+  "scratches": {
+    "p1": 0,
+    "p2": 0
+  },
+  "clearances": {
+    "p1": 0,
+    "p2": 0
+  },
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "frames": 7936,
+  "steps": 124,
+  "heat": 2,
+  "heats": 2
+}
+COMMAND: -m fusion.runner --trace evidence\submission-readiness-01\fusion-match.json
+{
+  "status": "terminal",
+  "reason": "shots_exhausted",
+  "winner": "p1",
+  "draw": false,
+  "failure": false,
+  "scores": {
+    "p1": 1320,
+    "p2": 765
+  },
+  "shots": 12,
+  "shots_remaining": {
+    "p1": 0,
+    "p2": 0
+  },
+  "scratches": {
+    "p1": 2,
+    "p2": 2
+  },
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "metrics": {
+    "p1": {
+      "pots": 7,
+      "bumper_points": 150,
+      "combo_points": 350,
+      "lane_points": 20,
+      "spinner_points": 0,
+      "multiplier_points": 0,
+      "device_points": 100
+    },
+    "p2": {
+      "pots": 4,
+      "bumper_points": 135,
+      "combo_points": 200,
+      "lane_points": 0,
+      "spinner_points": 0,
+      "multiplier_points": 0,
+      "device_points": 30
+    }
+  },
+  "replenishments_used": 2,
+  "object_balls_remaining": 13
+}
+Elapsed: 5.393 seconds
+COMMAND: -m fusion.runner --replay evidence\submission-readiness-01\fusion-match.json
+{
+  "status": "terminal",
+  "reason": "shots_exhausted",
+  "winner": "p1",
+  "draw": false,
+  "failure": false,
+  "scores": {
+    "p1": 1320,
+    "p2": 765
+  },
+  "shots": 12,
+  "shots_remaining": {
+    "p1": 0,
+    "p2": 0
+  },
+  "scratches": {
+    "p1": 2,
+    "p2": 2
+  },
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "metrics": {
+    "p1": {
+      "pots": 7,
+      "bumper_points": 150,
+      "combo_points": 350,
+      "lane_points": 20,
+      "spinner_points": 0,
+      "multiplier_points": 0,
+      "device_points": 100
+    },
+    "p2": {
+      "pots": 4,
+      "bumper_points": 135,
+      "combo_points": 200,
+      "lane_points": 0,
+      "spinner_points": 0,
+      "multiplier_points": 0,
+      "device_points": 30
+    }
+  },
+  "replenishments_used": 2,
+  "object_balls_remaining": 13
+}
+COMMAND: -m fusion.runner --p1 smart --p2 baseline --trace evidence\submission-readiness-01\smart-match.json
+{
+  "status": "terminal",
+  "reason": "shots_exhausted",
+  "winner": "p1",
+  "draw": false,
+  "failure": false,
+  "scores": {
+    "p1": 3125,
+    "p2": 1045
+  },
+  "shots": 12,
+  "shots_remaining": {
+    "p1": 0,
+    "p2": 0
+  },
+  "scratches": {
+    "p1": 0,
+    "p2": 1
+  },
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "metrics": {
+    "p1": {
+      "pots": 17,
+      "bumper_points": 240,
+      "combo_points": 800,
+      "lane_points": 70,
+      "spinner_points": 25,
+      "multiplier_points": 200,
+      "device_points": 90
+    },
+    "p2": {
+      "pots": 5,
+      "bumper_points": 240,
+      "combo_points": 150,
+      "lane_points": 30,
+      "spinner_points": 25,
+      "multiplier_points": 0,
+      "device_points": 100
+    }
+  },
+  "replenishments_used": 2,
+  "object_balls_remaining": 3
+}
+Elapsed: 49.548 seconds
+COMMAND: -m fusion.runner --replay evidence\submission-readiness-01\smart-match.json
+{
+  "status": "terminal",
+  "reason": "shots_exhausted",
+  "winner": "p1",
+  "draw": false,
+  "failure": false,
+  "scores": {
+    "p1": 3125,
+    "p2": 1045
+  },
+  "shots": 12,
+  "shots_remaining": {
+    "p1": 0,
+    "p2": 0
+  },
+  "scratches": {
+    "p1": 0,
+    "p2": 1
+  },
+  "invalid_actions": {
+    "p1": 0,
+    "p2": 0
+  },
+  "metrics": {
+    "p1": {
+      "pots": 17,
+      "bumper_points": 240,
+      "combo_points": 800,
+      "lane_points": 70,
+      "spinner_points": 25,
+      "multiplier_points": 200,
+      "device_points": 90
+    },
+    "p2": {
+      "pots": 5,
+      "bumper_points": 240,
+      "combo_points": 150,
+      "lane_points": 30,
+      "spinner_points": 25,
+      "multiplier_points": 0,
+      "device_points": 100
+    }
+  },
+  "replenishments_used": 2,
+  "object_balls_remaining": 3
+}
+COMMAND: -m fusion.freeze
+PASS: final gameplay and visual freeze (18 artifacts)
+COMMAND: -m fusion.llm_smoke --output evidence\submission-readiness-01\llm-offline
+{
+  "kind": "OFFLINE_FIXTURE_ONLY_NOT_LIVE_LLM_EVALUATION",
+  "calls": 6,
+  "outcome": {
+    "status": "terminal",
+    "reason": "shots_exhausted",
+    "winner": "p2",
+    "draw": false,
+    "failure": false,
+    "scores": {
+      "p1": 515,
+      "p2": 905
+    },
+    "shots": 12,
+    "shots_remaining": {
+      "p1": 0,
+      "p2": 0
+    },
+    "scratches": {
+      "p1": 0,
+      "p2": 4
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "metrics": {
+      "p1": {
+        "pots": 3,
+        "bumper_points": 45,
+        "combo_points": 150,
+        "lane_points": 10,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 10
+      },
+      "p2": {
+        "pots": 5,
+        "bumper_points": 105,
+        "combo_points": 250,
+        "lane_points": 10,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 40
+      }
+    },
+    "replenishments_used": 1,
+    "object_balls_remaining": 10
+  }
+}

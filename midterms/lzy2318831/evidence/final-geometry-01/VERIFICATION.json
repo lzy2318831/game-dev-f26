@@ -1,0 +1,65 @@
+{
+  "kind": "OFFLINE_FINALIZATION_NOT_LIVE_LLM_EVIDENCE",
+  "python_tests": {
+    "count": 183,
+    "seconds": 278.448,
+    "passed": true
+  },
+  "js_controller_checks": 4,
+  "combined_js_syntax": true,
+  "node_local": "24.22.1",
+  "official_traces_replayed": 24,
+  "frozen_artifacts": 18,
+  "preserved_hashes": 424,
+  "local_links": 89,
+  "real_api_calls": 0,
+  "api_key_configured": false,
+  "real_provider_smoke": "pending_explicit_student_approval_and_private_key",
+  "branch": "lzy2318831/midterm",
+  "workflow": {
+    "offline_steps": 16,
+    "formal_yaml_parser": false,
+    "remote_ci": "pending"
+  },
+  "secret_scan": {
+    "real_credentials_detected": 0,
+    "reviewed_synthetic_fixture": "tests/test_geometry_final.py:80"
+  },
+  "excluded_new_synthetic_preflight_files": [
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/calls.jsonl",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/comparison.csv",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/manifest.json",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/preservation.json",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/prompt-v2-seed-2701101-p1.json",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/prompt-v2-seed-2701101-p1.steps.jsonl",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/prompt-v2-seed-2701102-p2.json",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/prompt-v2-seed-2701102-p2.steps.jsonl",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/prompt-v2-seed-2701103-p1.json",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/prompt-v2-seed-2701103-p1.steps.jsonl",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/summary.json",
+    "midterms/lzy2318831/evidence/prompt-v2-pilot-preflight/3d4e44dc46eb891586e8/verification.json"
+  ],
+  "staging_scope": [
+    "midterms/lzy2318831/",
+    ".github/workflows/midterm-lzy2318831.yml"
+  ],
+  "known_warnings": [
+    "Historical CRLF/whitespace retained for exact bytes",
+    "Archived synthetic preflight journals are evidence, not runtime caches"
+  ],
+  "staged_verification": {
+    "files": 834,
+    "scope_pass": true,
+    "working_and_staged_content_match": true,
+    "frozen_hashes": 18,
+    "preserved_hashes": 424,
+    "untracked_new_preflight_files": 12
+  },
+  "whitespace_check": {
+    "exit_code": 2,
+    "affected_files": 23,
+    "new_blank_line_at_eof": 20,
+    "trailing_whitespace": 5,
+    "resolution": "Nonfunctional historical/official bytes preserved; not silently rewritten"
+  }
+}

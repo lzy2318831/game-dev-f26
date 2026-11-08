@@ -1,0 +1,10 @@
+test_boundaries_interpolation_rounding_and_cap (test_adaptive_distance_v2.AdaptiveDistanceV2.test_boundaries_interpolation_rounding_and_cap) ... ok
+test_escape_fallback_and_device_keep_prior_separate_treatment (test_adaptive_distance_v2.AdaptiveDistanceV2.test_escape_fallback_and_device_keep_prior_separate_treatment) ... ok
+test_intended_power_ignores_base_floor_and_preserves_identity (test_adaptive_distance_v2.AdaptiveDistanceV2.test_intended_power_ignores_base_floor_and_preserves_identity) ... ok
+test_mandatory_266_position_on_unchanged_current_physics (test_adaptive_distance_v2.AdaptiveDistanceV2.test_mandatory_266_position_on_unchanged_current_physics) ... ok
+test_monotone_legal_integer_profile (test_adaptive_distance_v2.AdaptiveDistanceV2.test_monotone_legal_integer_profile) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.389s
+
+OK

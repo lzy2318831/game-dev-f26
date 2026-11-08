@@ -1,0 +1,16 @@
+test_illegal_wrong_seat_and_limits (test_fusion.FusionInterface.test_illegal_wrong_seat_and_limits) ... ok
+test_initial_state_and_isolation (test_fusion.FusionInterface.test_initial_state_and_isolation) ... ok
+test_pot_end_and_final_score (test_fusion.FusionInterface.test_pot_end_and_final_score) ... ok
+test_scratch_and_respot (test_fusion.FusionInterface.test_scratch_and_respot) ... ok
+test_simulation_limit_and_frame_independence (test_fusion.FusionInterface.test_simulation_limit_and_frame_independence) ... ok
+test_bumper_impulse_and_farming_caps (test_fusion.FusionPhysics.test_bumper_impulse_and_farming_caps) ... ok
+test_combo_and_scratch_scoring (test_fusion.FusionPhysics.test_combo_and_scratch_scoring) ... ok
+test_equal_mass_transfer_and_friction (test_fusion.FusionPhysics.test_equal_mass_transfer_and_friction) ... ok
+test_rail_and_pocket (test_fusion.FusionPhysics.test_rail_and_pocket) ... ok
+test_baseline_complete_replay_and_determinism (test_fusion.FusionRunner.test_baseline_complete_replay_and_determinism) ... ok
+test_deadline (test_fusion.FusionRunner.test_deadline) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 21.628s
+
+OK

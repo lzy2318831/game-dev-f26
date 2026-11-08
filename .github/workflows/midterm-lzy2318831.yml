@@ -1,0 +1,58 @@
+name: Midterm lzy2318831 deterministic checks
+on:
+  pull_request:
+    paths:
+      - 'midterms/lzy2318831/**'
+      - '.github/workflows/midterm-lzy2318831.yml'
+  push:
+    branches: ['lzy2318831/midterm']
+    paths:
+      - 'midterms/lzy2318831/**'
+      - '.github/workflows/midterm-lzy2318831.yml'
+permissions:
+  contents: read
+jobs:
+  deterministic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    # No provider credentials are available to the offline checks.
+    env:
+      OPENAI_API_KEY: ''
+      ANTHROPIC_API_KEY: ''
+      GOOGLE_APPLICATION_CREDENTIALS: ''
+    strategy:
+      matrix:
+        python-version: ['3.11', '3.12']
+    defaults:
+      run:
+        working-directory: midterms/lzy2318831
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m unittest discover -s tests -v
+      - run: node tests/replay-timers.cjs
+      - run: node tests/geometry-controller.cjs
+      - run: node tests/geometry-navigation.cjs
+      - run: node tests/geometry-power.cjs
+      - run: node tests/cue-stroke.cjs
+      - run: node -e "require('./tests/navigation-controller.cjs').then(console.log)"
+      - run: node -e "require('./tests/live-demo-controller.cjs').then(console.log)"
+      - name: Replay authentic saved evaluation offline (no API)
+        run: python -m fusion.final_analysis --verify --output evidence/ci-final-analysis.json
+      - run: python -m pool.runner --p1 baseline --p2 baseline --trace evidence/ci-match.json
+      - run: python -m pool.runner --replay evidence/ci-match.json
+      - run: python -m historical.runner --p1 baseline --p2 baseline --trace evidence/ci-historical.json
+      - run: python -m historical.runner --replay evidence/ci-historical.json
+      - run: python -m fusion.runner --p1 baseline --p2 baseline --trace evidence/ci-fusion.json
+      - run: python -m fusion.runner --replay evidence/ci-fusion.json
+      - run: python -m fusion.runner --p1 smart --p2 baseline --trace evidence/ci-smart.json
+      - run: python -m fusion.runner --replay evidence/ci-smart.json
+      - run: python -m fusion.freeze
+      - run: python -c "from fusion.legacy import verify; print(verify())"
+      - name: Offline LLM adapter smoke and replay (no credentials)
+        run: python -m fusion.llm_smoke --output evidence/ci-llm-offline

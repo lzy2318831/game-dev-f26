@@ -1,0 +1,15 @@
+test_cancel_before_reservation_blocks_dispatch (test_live_demo.LiveDemo.test_cancel_before_reservation_blocks_dispatch) ... ok
+test_cancel_during_physics_cannot_lose_wake (test_live_demo.LiveDemo.test_cancel_during_physics_cannot_lose_wake) ... ok
+test_cancel_inflight_discards_reply_and_blocks_new_calls (test_live_demo.LiveDemo.test_cancel_inflight_discards_reply_and_blocks_new_calls) ... ok
+test_full_autonomous_mock_match_and_replay (test_live_demo.LiveDemo.test_full_autonomous_mock_match_and_replay) ... ok
+test_get_and_missing_confirmation_never_call (test_live_demo.LiveDemo.test_get_and_missing_confirmation_never_call) ... ok
+test_http_confirmation_origin_and_no_manual_shots (test_live_demo.LiveDemo.test_http_confirmation_origin_and_no_manual_shots) ... ok
+test_match_ledger_has_strict_caps (test_live_demo.LiveDemo.test_match_ledger_has_strict_caps) ... ok
+test_missing_browser_ack_stops_safely (test_live_demo.LiveDemo.test_missing_browser_ack_stops_safely) ... ok
+test_paid_server_disabled_even_with_key (test_live_demo.LiveDemo.test_paid_server_disabled_even_with_key) ... ok
+test_provider_failure_no_retry (test_live_demo.LiveDemo.test_provider_failure_no_retry) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 36.698s
+
+OK

@@ -1,0 +1,55 @@
+test_cluster_public_geometry (test_fusion_kinetic.Kinetic.test_cluster_public_geometry) ... FAIL
+test_no_stationary_device_launch (test_fusion_kinetic.Kinetic.test_no_stationary_device_launch) ... ERROR
+test_skyway_blocked_exit_and_once (test_fusion_kinetic.Kinetic.test_skyway_blocked_exit_and_once) ... ERROR
+test_stronger_inward_sling (test_fusion_kinetic.Kinetic.test_stronger_inward_sling) ... FAIL
+test_vault_fixed_launch_and_followup (test_fusion_kinetic.Kinetic.test_vault_fixed_launch_and_followup) ... ERROR
+
+======================================================================
+ERROR: test_no_stationary_device_launch (test_fusion_kinetic.Kinetic.test_no_stationary_device_launch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_kinetic.py", line 31, in test_no_stationary_device_launch
+    l=ShotLedger();b=Ball(0,230,55);process_sensors(b,(230,55),DEVICES,l,[b]);self.assertEqual((b.x,b.y),(230,55));self.assertEqual(l.score(),0)
+                                    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_sensors() takes 4 positional arguments but 5 were given
+
+======================================================================
+ERROR: test_skyway_blocked_exit_and_once (test_fusion_kinetic.Kinetic.test_skyway_blocked_exit_and_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_kinetic.py", line 21, in test_skyway_blocked_exit_and_once
+    process_sensors(b,(230,56),e.devices,l,[b,block]);self.assertEqual(b.x,230);self.assertEqual(l.device_points,0)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_sensors() takes 4 positional arguments but 5 were given
+
+======================================================================
+ERROR: test_vault_fixed_launch_and_followup (test_fusion_kinetic.Kinetic.test_vault_fixed_launch_and_followup)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_kinetic.py", line 13, in test_vault_fixed_launch_and_followup
+    process_sensors(b,(805,79),e.devices,l,[b])
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_sensors() takes 4 positional arguments but 5 were given
+
+======================================================================
+FAIL: test_cluster_public_geometry (test_fusion_kinetic.Kinetic.test_cluster_public_geometry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_kinetic.py", line 6, in test_cluster_public_geometry
+    e=Episode();o=e.observe('p1');self.assertEqual(len(o['bumpers']),10)
+                                  ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 6 != 10
+
+======================================================================
+FAIL: test_stronger_inward_sling (test_fusion_kinetic.Kinetic.test_stronger_inward_sling)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_kinetic.py", line 29, in test_stronger_inward_sling
+    self.assertGreater(b.vx,0);self.assertLess(b.vy,0);self.assertGreater(math.hypot(b.vx,b.vy),300)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^
+AssertionError: -180.62047753806155 not greater than 0
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+FAILED (failures=2, errors=3)

@@ -1,0 +1,26 @@
+{
+  "status": "TWO_UI_FIXES_COMPLETE_PHYSICS_IDENTIFICATION_PENDING",
+  "python_tests": 212,
+  "python_all_modules_passed": true,
+  "javascript_checks": 7,
+  "historical_traces": 24,
+  "current_freeze_artifacts": 18,
+  "archived_snapshot_files": 108,
+  "archived_changes": [],
+  "original_paths_checked": 1434,
+  "intentional_current_changes": [
+    "AGENT-TEAM.md",
+    "EVALUATION.md",
+    "README.md",
+    "rule-source-map.md",
+    "fusion/gameplay-freeze.json",
+    "fusion/geometry_lifecycle_check.py",
+    "fusion/geometry_live.py",
+    "fusion/geometry_status.js",
+    "tests/geometry-controller.cjs",
+    "fusion/web/game.js"
+  ],
+  "unexpected_changes": [],
+  "physics_changed": false,
+  "real_api_calls": 0
+}

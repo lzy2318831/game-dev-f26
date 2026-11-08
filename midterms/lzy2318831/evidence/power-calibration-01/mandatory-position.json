@@ -1,0 +1,129 @@
+[
+  {
+    "angle": 266,
+    "power": 1,
+    "result": {
+      "points": 0,
+      "foul": false,
+      "potted": [],
+      "settled": true,
+      "ticks": 354,
+      "cue_travel": 30.4,
+      "object_travel": 50.5,
+      "intended_contact_radius_sample": true,
+      "intended_target_moved": true,
+      "powered_events": 0,
+      "events": 0,
+      "simulation_limit": false,
+      "max_object_displacement": 50.5
+    }
+  },
+  {
+    "angle": 266,
+    "power": 2,
+    "result": {
+      "points": 355,
+      "foul": false,
+      "potted": [
+        9,
+        4
+      ],
+      "settled": true,
+      "ticks": 4671,
+      "cue_travel": 1115.03,
+      "object_travel": 18157.63,
+      "intended_contact_radius_sample": true,
+      "intended_target_moved": true,
+      "powered_events": 65,
+      "events": 184,
+      "simulation_limit": false,
+      "max_object_displacement": 689.83
+    }
+  },
+  {
+    "angle": 266,
+    "power": 4,
+    "result": {
+      "points": 655,
+      "foul": false,
+      "potted": [
+        12,
+        14,
+        5,
+        9
+      ],
+      "settled": false,
+      "ticks": 9600,
+      "cue_travel": 4027.48,
+      "object_travel": 55375.71,
+      "intended_contact_radius_sample": true,
+      "intended_target_moved": true,
+      "powered_events": 221,
+      "events": 511,
+      "simulation_limit": true,
+      "max_object_displacement": 564.39
+    }
+  },
+  {
+    "angle": 266,
+    "power": 25,
+    "result": {
+      "points": 100,
+      "foul": false,
+      "potted": [
+        5
+      ],
+      "settled": true,
+      "ticks": 844,
+      "cue_travel": 30.52,
+      "object_travel": 1875.9,
+      "intended_contact_radius_sample": true,
+      "intended_target_moved": true,
+      "powered_events": 6,
+      "events": 14,
+      "simulation_limit": false,
+      "max_object_displacement": 257.6
+    }
+  },
+  {
+    "angle": 266,
+    "power": 30,
+    "result": {
+      "points": 355,
+      "foul": false,
+      "potted": [
+        6,
+        9
+      ],
+      "settled": true,
+      "ticks": 2635,
+      "cue_travel": 1792.28,
+      "object_travel": 6896.16,
+      "intended_contact_radius_sample": true,
+      "intended_target_moved": true,
+      "powered_events": 21,
+      "events": 76,
+      "simulation_limit": false,
+      "max_object_displacement": 529.5
+    }
+  },
+  {
+    "angle": 266,
+    "power": 35,
+    "result": {
+      "points": 0,
+      "foul": false,
+      "potted": [],
+      "settled": true,
+      "ticks": 1029,
+      "cue_travel": 136.65,
+      "object_travel": 1109.08,
+      "intended_contact_radius_sample": true,
+      "intended_target_moved": true,
+      "powered_events": 1,
+      "events": 5,
+      "simulation_limit": false,
+      "max_object_displacement": 327.98
+    }
+  }
+]

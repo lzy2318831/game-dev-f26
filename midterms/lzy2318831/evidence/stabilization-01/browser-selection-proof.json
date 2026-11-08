@@ -1,0 +1,86 @@
+[
+  {
+    "case": "two-matches-budget",
+    "phases": [
+      "complete",
+      "complete"
+    ],
+    "shots": [
+      12,
+      12
+    ],
+    "selected_candidate_actions_verified": 12,
+    "chrome_errors": [],
+    "back_return_verified": true
+  },
+  {
+    "case": "failure-recovery",
+    "phases": [
+      "failed",
+      "complete"
+    ],
+    "shots": [
+      7,
+      12
+    ],
+    "selected_candidate_actions_verified": 10,
+    "chrome_errors": [],
+    "back_return_verified": true
+  },
+  {
+    "case": "browser-http_error",
+    "phases": [
+      "failed",
+      "complete"
+    ],
+    "shots": [
+      0,
+      12
+    ],
+    "selected_candidate_actions_verified": 6,
+    "chrome_errors": [],
+    "back_return_verified": true
+  },
+  {
+    "case": "browser-invalid_candidate_selection",
+    "phases": [
+      "failed",
+      "complete"
+    ],
+    "shots": [
+      0,
+      12
+    ],
+    "selected_candidate_actions_verified": 6,
+    "chrome_errors": [],
+    "back_return_verified": true
+  },
+  {
+    "case": "browser-request_timeout-final",
+    "phases": [
+      "failed",
+      "complete"
+    ],
+    "shots": [
+      0,
+      12
+    ],
+    "selected_candidate_actions_verified": 6,
+    "chrome_errors": [],
+    "back_return_verified": true
+  },
+  {
+    "case": "browser-user_cancelled-final",
+    "phases": [
+      "cancelled",
+      "complete"
+    ],
+    "shots": [
+      0,
+      12
+    ],
+    "selected_candidate_actions_verified": 6,
+    "chrome_errors": [],
+    "back_return_verified": true
+  }
+]

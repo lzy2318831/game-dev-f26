@@ -1,0 +1,163 @@
+{
+  "kind": "COMPLETE_DISCOVERED_SUITE_MODULE_ISOLATION",
+  "expected_tests": 216,
+  "executed_tests": 216,
+  "modules": [
+    {
+      "module": "test_api_smoke.py",
+      "returncode": 0,
+      "tests": 4
+    },
+    {
+      "module": "test_balanced_table.py",
+      "returncode": 0,
+      "tests": 4
+    },
+    {
+      "module": "test_fusion.py",
+      "returncode": 0,
+      "tests": 11
+    },
+    {
+      "module": "test_fusion_final.py",
+      "returncode": 1,
+      "tests": 6
+    },
+    {
+      "module": "test_fusion_http_errors.py",
+      "returncode": 0,
+      "tests": 4
+    },
+    {
+      "module": "test_fusion_kinetic.py",
+      "returncode": 0,
+      "tests": 10
+    },
+    {
+      "module": "test_fusion_llm.py",
+      "returncode": 0,
+      "tests": 13
+    },
+    {
+      "module": "test_fusion_maximal.py",
+      "returncode": 0,
+      "tests": 8
+    },
+    {
+      "module": "test_fusion_player.py",
+      "returncode": 0,
+      "tests": 2
+    },
+    {
+      "module": "test_fusion_polish.py",
+      "returncode": 0,
+      "tests": 11
+    },
+    {
+      "module": "test_fusion_replenish.py",
+      "returncode": 0,
+      "tests": 10
+    },
+    {
+      "module": "test_fusion_server.py",
+      "returncode": 0,
+      "tests": 2
+    },
+    {
+      "module": "test_geometry_adaptive.py",
+      "returncode": 0,
+      "tests": 6
+    },
+    {
+      "module": "test_geometry_agent.py",
+      "returncode": 0,
+      "tests": 14
+    },
+    {
+      "module": "test_geometry_final.py",
+      "returncode": 0,
+      "tests": 5
+    },
+    {
+      "module": "test_geometry_launcher.py",
+      "returncode": 0,
+      "tests": 5
+    },
+    {
+      "module": "test_geometry_lifecycle.py",
+      "returncode": 0,
+      "tests": 3
+    },
+    {
+      "module": "test_geometry_power_experiment.py",
+      "returncode": 0,
+      "tests": 5
+    },
+    {
+      "module": "test_geometry_power_setting.py",
+      "returncode": 0,
+      "tests": 7
+    },
+    {
+      "module": "test_geometry_stability.py",
+      "returncode": 0,
+      "tests": 3
+    },
+    {
+      "module": "test_historical.py",
+      "returncode": 0,
+      "tests": 18
+    },
+    {
+      "module": "test_historical_ui.py",
+      "returncode": 0,
+      "tests": 2
+    },
+    {
+      "module": "test_live_demo.py",
+      "returncode": 0,
+      "tests": 10
+    },
+    {
+      "module": "test_llm_resume.py",
+      "returncode": 0,
+      "tests": 10
+    },
+    {
+      "module": "test_model.py",
+      "returncode": 0,
+      "tests": 4
+    },
+    {
+      "module": "test_navigation.py",
+      "returncode": 0,
+      "tests": 2
+    },
+    {
+      "module": "test_pool.py",
+      "returncode": 0,
+      "tests": 14
+    },
+    {
+      "module": "test_prompt_v2.py",
+      "returncode": 0,
+      "tests": 6
+    },
+    {
+      "module": "test_prompt_v2_pilot.py",
+      "returncode": 0,
+      "tests": 10
+    },
+    {
+      "module": "test_recorded_replay.py",
+      "returncode": 0,
+      "tests": 5
+    },
+    {
+      "module": "test_ui.py",
+      "returncode": 0,
+      "tests": 2
+    }
+  ],
+  "passed": false
+}

@@ -1,0 +1,207 @@
+{
+  "kind": "ACTUAL_HEADLESS_CHROME_SYNTHETIC_MODEL_NOT_PAID_EVALUATION",
+  "ui_power_switch": true,
+  "power_settings": [
+    null,
+    1
+  ],
+  "power_modes": [
+    "adaptive",
+    "1x"
+  ],
+  "cue_contact_browser_verified": true,
+  "delayed_settlement_restart_verified": true,
+  "balanced_table_render_verified": true,
+  "original_v15_viewer_verified": true,
+  "synthetic_error": null,
+  "two_consecutive_matches": true,
+  "simulation_limit_then_fresh_complete_match": false,
+  "exactly_one_visible_back": true,
+  "hung_leave_did_not_trap_browser": false,
+  "shots_each": 12,
+  "opportunities_each_player": 6,
+  "same_running_server": true,
+  "back_to_menu_twice": true,
+  "real_api_calls": 0,
+  "qa_only": "Rendering clock accelerated; confirmation accepted by QA stub in MOCK mode only.",
+  "results": [
+    {
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p1",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 565,
+          "p2": 470
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 3,
+            "bumper_points": 75,
+            "combo_points": 150,
+            "lane_points": 30,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 10
+          },
+          "p2": {
+            "pots": 2,
+            "bumper_points": 120,
+            "combo_points": 100,
+            "lane_points": 20,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 30
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 10
+      },
+      "live": {
+        "phase": "complete",
+        "reason": "shots_exhausted",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "variant": "kinetic-geometry-assisted-v1",
+        "mocked": true,
+        "paid_enabled": false,
+        "credentials_configured": false,
+        "can_start": false,
+        "calls": 6,
+        "call_cap": 6,
+        "cost_cap_usd": 0.25,
+        "estimated_cost_usd": 0.000774,
+        "committed_or_reserved_usd": 0.000774,
+        "unknown_cost_calls": 0,
+        "sequence": null,
+        "selected_action": {
+          "angle": 150,
+          "power": 48
+        },
+        "selected_player": "p2",
+        "cancel_requested": false,
+        "artifact_directory": "20261108T005749Z-5a0964f16c73",
+        "server_budget": {
+          "calls": 6,
+          "call_cap": 12,
+          "committed_or_reserved_usd": 0.0007740000000000039,
+          "cost_cap_usd": 0.5,
+          "known_estimated_usd": 0.000774,
+          "unknown_cost_calls": 0,
+          "can_start": true,
+          "scope": "this server process; new match does not reset cumulative spending"
+        },
+        "match_number": 1,
+        "power_multiplier": null,
+        "power_mode": "adaptive",
+        "adaptive_profile": "adaptive-distance-v2"
+      },
+      "title": "Mocked test: LLM wins."
+    },
+    {
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p2",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 770
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 1
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 4,
+            "bumper_points": 120,
+            "combo_points": 200,
+            "lane_points": 20,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 30
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 13
+      },
+      "live": {
+        "phase": "complete",
+        "reason": "shots_exhausted",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "variant": "kinetic-geometry-assisted-v1",
+        "mocked": true,
+        "paid_enabled": false,
+        "credentials_configured": false,
+        "can_start": false,
+        "calls": 6,
+        "call_cap": 6,
+        "cost_cap_usd": 0.25,
+        "estimated_cost_usd": 0.000774,
+        "committed_or_reserved_usd": 0.000774,
+        "unknown_cost_calls": 0,
+        "sequence": null,
+        "selected_action": {
+          "angle": 316,
+          "power": 48
+        },
+        "selected_player": "p2",
+        "cancel_requested": false,
+        "artifact_directory": "20261108T005814Z-c47806022f5b",
+        "server_budget": {
+          "calls": 12,
+          "call_cap": 12,
+          "committed_or_reserved_usd": 0.001548000000000006,
+          "cost_cap_usd": 0.5,
+          "known_estimated_usd": 0.001548,
+          "unknown_cost_calls": 0,
+          "can_start": false,
+          "scope": "this server process; new match does not reset cumulative spending"
+        },
+        "match_number": 2,
+        "power_multiplier": 1,
+        "power_mode": "1x"
+      },
+      "title": "Mocked test: Geometric wins."
+    }
+  ],
+  "traces": [
+    "matches/20261108T005749Z-5a0964f16c73/trace.json",
+    "matches/20261108T005814Z-c47806022f5b/trace.json"
+  ],
+  "browser_runtime_errors": []
+}

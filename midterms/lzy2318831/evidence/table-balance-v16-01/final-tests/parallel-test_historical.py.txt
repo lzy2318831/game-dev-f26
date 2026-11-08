@@ -1,0 +1,23 @@
+test_fifteen_objects_mirrored_rack_and_reset (test_historical.HistoricalControls.test_fifteen_objects_mirrored_rack_and_reset) ... ok
+test_public_boundary_illegal_and_wrong_seat (test_historical.HistoricalControls.test_public_boundary_illegal_and_wrong_seat) ... ok
+test_velocity_control_delay_and_neutral_stop (test_historical.HistoricalControls.test_velocity_control_delay_and_neutral_stop) ... ok
+test_collision_transfer_friction_and_rebound (test_historical.HistoricalPhysics.test_collision_transfer_friction_and_rebound) ... ok
+test_corner_and_middle_openings (test_historical.HistoricalPhysics.test_corner_and_middle_openings) ... ok
+test_pocket_score_scratch_preserves_points (test_historical.HistoricalPhysics.test_pocket_score_scratch_preserves_points) ... ok
+test_score_digit_wrap (test_historical.HistoricalPhysics.test_score_digit_wrap) ... ok
+test_small_object_velocity_eventually_stops (test_historical.HistoricalPhysics.test_small_object_velocity_eventually_stops) ... ok
+test_countdown_zero_then_segment_transition (test_historical.HistoricalProgression.test_countdown_zero_then_segment_transition) ... ok
+test_default_limits_allow_five_extended_heats_at_gui_rate (test_historical.HistoricalProgression.test_default_limits_allow_five_extended_heats_at_gui_rate) ... ok
+test_heat_progression_and_terminal_immutability (test_historical.HistoricalProgression.test_heat_progression_and_terminal_immutability) ... ok
+test_limits_and_invalid_state_isolation (test_historical.HistoricalProgression.test_limits_and_invalid_state_isolation) ... ok
+test_rerack_bonus_only_once_and_disabled (test_historical.HistoricalProgression.test_rerack_bonus_only_once_and_disabled) ... ok
+test_baseline_handles_clearance_before_next_frame_rerack (test_historical.HistoricalRunner.test_baseline_handles_clearance_before_next_frame_rerack) ... ok
+test_model_call_budget_and_public_context (test_historical.HistoricalRunner.test_model_call_budget_and_public_context) ... ok
+test_model_timeout_and_failed_calls (test_historical.HistoricalRunner.test_model_timeout_and_failed_calls) ... ok
+test_repeatable_baseline_trace_and_replay (test_historical.HistoricalRunner.test_repeatable_baseline_trace_and_replay) ... ok
+test_trace_tampering_and_deadline (test_historical.HistoricalRunner.test_trace_tampering_and_deadline) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.915s
+
+OK

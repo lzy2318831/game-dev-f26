@@ -1,0 +1,360 @@
+{
+  "version": "fusion-1.5.0-replenish",
+  "guides": [
+    {
+      "id": "left-entry",
+      "a": [
+        125,
+        85
+      ],
+      "b": [
+        88,
+        125
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-channel",
+      "a": [
+        88,
+        125
+      ],
+      "b": [
+        88,
+        330
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-exit",
+      "a": [
+        88,
+        330
+      ],
+      "b": [
+        140,
+        365
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-return",
+      "a": [
+        18,
+        380
+      ],
+      "b": [
+        76,
+        440
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-entry",
+      "a": [
+        875,
+        85
+      ],
+      "b": [
+        912,
+        125
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-channel",
+      "a": [
+        912,
+        125
+      ],
+      "b": [
+        912,
+        330
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-exit",
+      "a": [
+        912,
+        330
+      ],
+      "b": [
+        860,
+        365
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-return",
+      "a": [
+        982,
+        380
+      ],
+      "b": [
+        924,
+        440
+      ],
+      "radius": 4
+    },
+    {
+      "id": "orbit-left",
+      "a": [
+        410,
+        52
+      ],
+      "b": [
+        440,
+        95
+      ],
+      "radius": 4
+    },
+    {
+      "id": "orbit-right",
+      "a": [
+        590,
+        52
+      ],
+      "b": [
+        560,
+        95
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-orbit-rise",
+      "a": [
+        148,
+        150
+      ],
+      "b": [
+        148,
+        72
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-orbit-crown",
+      "a": [
+        148,
+        72
+      ],
+      "b": [
+        225,
+        35
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-orbit-roof",
+      "a": [
+        225,
+        35
+      ],
+      "b": [
+        385,
+        35
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-split-return",
+      "a": [
+        175,
+        110
+      ],
+      "b": [
+        175,
+        180
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-lower-bank",
+      "a": [
+        120,
+        455
+      ],
+      "b": [
+        245,
+        420
+      ],
+      "radius": 4
+    },
+    {
+      "id": "left-sling-0",
+      "a": [
+        175,
+        330
+      ],
+      "b": [
+        225,
+        375
+      ],
+      "radius": 4,
+      "powered": "left-sling"
+    },
+    {
+      "id": "left-sling-1",
+      "a": [
+        225,
+        375
+      ],
+      "b": [
+        165,
+        400
+      ],
+      "radius": 4,
+      "powered": "left-sling"
+    },
+    {
+      "id": "left-sling-2",
+      "a": [
+        165,
+        400
+      ],
+      "b": [
+        175,
+        330
+      ],
+      "radius": 4,
+      "powered": "left-sling"
+    },
+    {
+      "id": "right-orbit-rise",
+      "a": [
+        852,
+        150
+      ],
+      "b": [
+        852,
+        72
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-orbit-crown",
+      "a": [
+        852,
+        72
+      ],
+      "b": [
+        775,
+        35
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-orbit-roof",
+      "a": [
+        775,
+        35
+      ],
+      "b": [
+        615,
+        35
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-split-return",
+      "a": [
+        825,
+        110
+      ],
+      "b": [
+        825,
+        180
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-lower-bank",
+      "a": [
+        880,
+        455
+      ],
+      "b": [
+        755,
+        420
+      ],
+      "radius": 4
+    },
+    {
+      "id": "right-sling-0",
+      "a": [
+        825,
+        330
+      ],
+      "b": [
+        775,
+        375
+      ],
+      "radius": 4,
+      "powered": "right-sling"
+    },
+    {
+      "id": "right-sling-1",
+      "a": [
+        775,
+        375
+      ],
+      "b": [
+        835,
+        400
+      ],
+      "radius": 4,
+      "powered": "right-sling"
+    },
+    {
+      "id": "right-sling-2",
+      "a": [
+        835,
+        400
+      ],
+      "b": [
+        825,
+        330
+      ],
+      "radius": 4,
+      "powered": "right-sling"
+    },
+    {
+      "id": "chamber-west",
+      "a": [
+        600,
+        80
+      ],
+      "b": [
+        600,
+        170
+      ],
+      "radius": 4
+    },
+    {
+      "id": "chamber-bank",
+      "a": [
+        600,
+        170
+      ],
+      "b": [
+        590,
+        195
+      ],
+      "radius": 4
+    },
+    {
+      "id": "chamber-east",
+      "a": [
+        850,
+        180
+      ],
+      "b": [
+        800,
+        200
+      ],
+      "radius": 4
+    }
+  ],
+  "identity": "fusion-1.5.0-replenish | observation_only-bumper-102-p2 \u00b7 gpt-5.4-mini-2026-03-17 \u00b7 LLM P2 \u00b7 trace SHA256 0df55facde42d952\u2026"
+}

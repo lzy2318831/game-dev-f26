@@ -1,0 +1,8 @@
+test_known_nonsettling_candidate_is_not_offered (test_geometry_stability.GeometryStability.test_known_nonsettling_candidate_is_not_offered) ... ok
+test_leave_does_not_wait_for_locked_simulation_or_audit (test_geometry_stability.GeometryStability.test_leave_does_not_wait_for_locked_simulation_or_audit) ... ok
+test_replacement_contact_settles_in_frozen_simulator (test_geometry_stability.PowerRegression.test_replacement_contact_settles_in_frozen_simulator) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 3.184s
+
+OK

@@ -1,0 +1,55 @@
+{
+  "schema_version": "midterm-pool-1",
+  "status": "phase_2_offline_implemented_live_transport_pending",
+  "project": "Six-ball Pool",
+  "student": "lzy2318831",
+  "implementation": {
+    "artifact": "AGENTS.md",
+    "session_evidence": ["evidence/phase-1.md", "evidence/phase-2.md"],
+    "permissions": "project files and named workflow; no merge or gate approval"
+  },
+  "reusable_skill": {
+    "name": "competitive-rule-change",
+    "artifact": "skills/competitive-rule-change/SKILL.md",
+    "required_sessions": 2,
+    "recorded_sessions": 1,
+    "recorded_phase_invocations": 2,
+    "session_note": "Two authorized phase turns in the same conversation; a distinct second session still needs evidence.",
+    "evidence": ["evidence/phase-1.md", "evidence/phase-2.md"]
+  },
+  "independent_review": {
+    "instructions": "agents/rules-reviewer.md",
+    "permissions": "fresh non-author context, read-only",
+    "session": null,
+    "findings": null,
+    "status": "pending"
+  },
+  "player": {
+    "status": "boundary_and_fake_transport_tests_implemented_provider_transport_pending",
+    "provider": null,
+    "model": null,
+    "prompt_artifact": "pool/model.py:SYSTEM",
+    "tools": [],
+    "inputs": ["serialized public observation", "action vocabulary", "optional last two visible records"],
+    "prohibited": ["private engine state", "repository access", "shell", "answer key", "credentials"],
+    "memory_default": "observation_only",
+    "history_condition_characters": 2000,
+    "output": "validated angle/power proposal",
+    "automatic_fallback": false
+  },
+  "limits": {
+    "match_attempts": 24,
+    "model_calls_total": 24,
+    "model_calls_per_seat": 12,
+    "request_timeout_seconds": 20,
+    "episode_timeout_seconds": 300,
+    "max_output_tokens": 512,
+    "automatic_retries": 0,
+    "physics_ticks_per_shot": 4800
+  },
+  "evaluation": "EVALUATION.md",
+  "logging": "small redacted action traces and provider usage; never credentials or personal playtester data",
+  "human_decisions": ["provider/model and live budget", "scope", "review disposition", "own-voice reflection", "submission"],
+  "ci_workflow": ".github/workflows/midterm-lzy2318831.yml",
+  "ci_status": "workflow_implemented_local_tests_pass_remote_run_pending"
+}

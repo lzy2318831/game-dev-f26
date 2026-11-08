@@ -1,0 +1,13 @@
+trial,memory,case,seed,seat,status,reason,score,opponent_score,winner,failure,object_pots,invalid_actions,invalid_proposals,calls,latency_seconds,input_tokens,output_tokens,usage_unknown_calls,known_estimated_cost_usd,unknown_cost_calls,matched_baseline_score,matched_baseline_latency_seconds
+observation_only-direct-101-p1,observation_only,direct,101,p1,failed,provider_error,0,0,,True,0,0,0,1,1.7962202000198886,0,0,1,0,1,0,0.3334144000255037
+observation_only-direct-101-p2,observation_only,direct,101,p2,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-direct-102-p1,observation_only,direct,102,p1,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-direct-102-p2,observation_only,direct,102,p2,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-bumper-101-p1,observation_only,bumper,101,p1,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-bumper-101-p2,observation_only,bumper,101,p2,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-bumper-102-p1,observation_only,bumper,102,p1,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-bumper-102-p2,observation_only,bumper,102,p2,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-risk-101-p1,observation_only,risk,101,p1,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-risk-101-p2,observation_only,risk,101,p2,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-risk-102-p1,observation_only,risk,102,p1,not_run,http_error,,,,,,,,,,0,0,0,,,,
+observation_only-risk-102-p2,observation_only,risk,102,p2,not_run,http_error,,,,,,,,,,0,0,0,,,,

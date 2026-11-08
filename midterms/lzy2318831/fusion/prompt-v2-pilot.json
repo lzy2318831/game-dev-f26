@@ -1,0 +1,25 @@
+{
+  "version": "prompt-v2-fresh-seed-pilot-1",
+  "declared_before_live_execution": true,
+  "agent_variant": "kinetic-prompt-v2-risk-aware",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "memory": "observation_only",
+  "layout": "unchanged standard 15-ball opening rack",
+  "trials": [
+    {"id": "prompt-v2-seed-2701101-p1", "seed": 2701101, "seat": "p1"},
+    {"id": "prompt-v2-seed-2701102-p2", "seed": 2701102, "seat": "p2"},
+    {"id": "prompt-v2-seed-2701103-p1", "seed": 2701103, "seat": "p1"}
+  ],
+  "max_calls": 18,
+  "budget_usd": 0.25,
+  "model_shots_per_match": 6,
+  "automatic_retries": false,
+  "seed_audit": "Before this declaration, rg -n '270110[123]' midterms/lzy2318831 found no matches. Offline preflight will use these seeds without making live calls.",
+  "limitations": [
+    "Seed is recorded but does not randomize the frozen engine; starting physical states are identical, not three distinct held-out layouts.",
+    "Three matches give P1/P2/P1 seat allocation, not fully balanced seats.",
+    "Six LLM opportunities per match; existing early termination, failure and budget limits can prevent completing six actions. Never pad with extra calls.",
+    "This is a small separate v2-versus-Geometric pilot, not a controlled v1-versus-v2 improvement estimate.",
+    "Live execution needs separate explicit approval. No original evaluation allowance is reused."
+  ]
+}

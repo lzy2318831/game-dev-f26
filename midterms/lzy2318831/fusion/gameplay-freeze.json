@@ -1,0 +1,26 @@
+{
+  "version": "fusion-1.6.0-balanced",
+  "date": "2026-11-07",
+  "authorization": "student-confirmed entry-diagonal removal and 0.75 Slingshot boost balance; no policy/scoring/quota changes",
+  "sha256": {
+    "fusion/engine.py": "bd3b9ee8aa56a83b1376e1cdca39d4d9af02d959c14a7394b39d24a7fc149494",
+    "fusion/devices.py": "6bb17311e1d9c203d641e078f4d3cf270cff1b04dd13addf0c35c4044519881b",
+    "fusion/geometry.py": "3f353ea296385dba769e9692c768cad12e90b88279aa0f951bf35bfc95b2cd8d",
+    "fusion/baseline.py": "4a158e18097e8f9d41ed0de6d476abf437020a15a45ad36febe311395130d0a4",
+    "fusion/smart.py": "34cfb0afc4c6ad419a57580fdb419afd95b69606b302443e8a149a28d64c3bd2",
+    "fusion/web/game.js": "bb15ae5dd9a60a86f85cf77709255e3451f63e0c58f98b17ec2c9782ed729e6a",
+    "fusion/web/aurum.js": "32ecb3cab59f4dd3c753a1f80068d52afd8a057efe6cd9a5c8f1a1dda81e9919",
+    "fusion/web/index.html": "37499f482451f3de761445e620dd77a5995fd999170c7d0e45ba566b671949a8",
+    "fusion/web/style.css": "307c25474c909a808b44271b57b82b039816851e91f2a4add7e8654ba358287e",
+    "fusion/evaluation.json": "86222c28fd048cb2e3bd2a4c1bb0737f82bae6de5577c735713a8ac7c389ffe0",
+    "fusion/smart-comparison.json": "a5c510cca931c29e3dfa192c1f86d83a96101ab921d8533b9920d991ba9ee53c",
+    "fusion/FINAL-RULES.md": "2068f176ded60f3a650bc80b2ee35318e44f97a60561bdc607ab572c7dc60ca6",
+    "RULES.md": "da0d50a9667cbdb390e6f82bd749288a6fe40a9ff9fb0e5c1b9f650eb6323904",
+    "fusion/RULES.md": "6980432327b75b9b42b568b83386ed5d4d4342617b2780871c7db4474a112d1b",
+    "fusion/replenish.py": "23110fb7fe8aa5a4deed0cc793799620d96343276a4afedb6de3f904e67e72a4",
+    "fusion/REPLENISH-RULES.md": "305066df18c88979e2d4430d3b49d24ecef38283f2785cc2df3f8f6f43ba68d3",
+    "fusion/player.py": "cad3b7f444ce954b2253896048edb50a32e82ffd31afebb42c90bd322621c341",
+    "fusion/__init__.py": "6409124a0f6f3d46dd13bc6e5e53b007ec6949d3375f244049122fc40775050a"
+  },
+  "prior_manifest": "versions/kinetic-replenish-v1.5-final/fusion/gameplay-freeze.json"
+}

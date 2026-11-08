@@ -1,0 +1,12 @@
+--- v1.4 Smart
++++ v1.5 Smart
+@@ -90,7 +90,8 @@
+     l=s.ledger; player=o['active_player']; other='p2' if player=='p1' else 'p1'
+     value=l.score()-180*l.scratch+15*len(l.pots)*(not l.scratch)
+     if s.done:
+-        terminal=not any(b.active and b.id for b in s.balls) or sum(o['shots_remaining'].values())==1
++        supplies=o.get('replenishment',{}).get('remaining',0)>0
++        terminal=(not any(b.active and b.id for b in s.balls) and not supplies) or sum(o['shots_remaining'].values())==1
+         if terminal:
+             margin=o['scores'][player]+l.score()-o['scores'][other]
+             value+=10000 if margin>0 else 5000 if margin==0 else -10000

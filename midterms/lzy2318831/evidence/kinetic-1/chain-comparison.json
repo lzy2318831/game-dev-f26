@@ -1,0 +1,295 @@
+{
+  "protocol": "same24defaultshots angles0..345 step15 power85; development physics comparison, not held-out or policy evaluation",
+  "grand": [
+    {
+      "angle": 0,
+      "hits": 0,
+      "duration": 10.045833333333333,
+      "failure": false
+    },
+    {
+      "angle": 15,
+      "hits": 1,
+      "duration": 1.1166666666666667,
+      "failure": false
+    },
+    {
+      "angle": 30,
+      "hits": 3,
+      "duration": 3.6374999999999997,
+      "failure": false
+    },
+    {
+      "angle": 45,
+      "hits": 2,
+      "duration": 6.679166666666666,
+      "failure": false
+    },
+    {
+      "angle": 60,
+      "hits": 10,
+      "duration": 10.220833333333333,
+      "failure": false
+    },
+    {
+      "angle": 75,
+      "hits": 2,
+      "duration": 6.8,
+      "failure": false
+    },
+    {
+      "angle": 90,
+      "hits": 3,
+      "duration": 8.35,
+      "failure": false
+    },
+    {
+      "angle": 105,
+      "hits": 13,
+      "duration": 13.345833333333333,
+      "failure": false
+    },
+    {
+      "angle": 120,
+      "hits": 1,
+      "duration": 1.5,
+      "failure": false
+    },
+    {
+      "angle": 135,
+      "hits": 10,
+      "duration": 13.654166666666667,
+      "failure": false
+    },
+    {
+      "angle": 150,
+      "hits": 6,
+      "duration": 11.595833333333333,
+      "failure": false
+    },
+    {
+      "angle": 165,
+      "hits": 1,
+      "duration": 2.6,
+      "failure": false
+    },
+    {
+      "angle": 180,
+      "hits": 1,
+      "duration": 11.9625,
+      "failure": false
+    },
+    {
+      "angle": 195,
+      "hits": 1,
+      "duration": 3.1083333333333334,
+      "failure": false
+    },
+    {
+      "angle": 210,
+      "hits": 5,
+      "duration": 4.483333333333333,
+      "failure": false
+    },
+    {
+      "angle": 225,
+      "hits": 10,
+      "duration": 20.629166666666666,
+      "failure": false
+    },
+    {
+      "angle": 240,
+      "hits": 2,
+      "duration": 11.333333333333334,
+      "failure": false
+    },
+    {
+      "angle": 255,
+      "hits": 4,
+      "duration": 8.945833333333333,
+      "failure": false
+    },
+    {
+      "angle": 270,
+      "hits": 5,
+      "duration": 8.154166666666667,
+      "failure": false
+    },
+    {
+      "angle": 285,
+      "hits": 8,
+      "duration": 8.279166666666667,
+      "failure": false
+    },
+    {
+      "angle": 300,
+      "hits": 2,
+      "duration": 11.195833333333333,
+      "failure": false
+    },
+    {
+      "angle": 315,
+      "hits": 3,
+      "duration": 2.0833333333333335,
+      "failure": false
+    },
+    {
+      "angle": 330,
+      "hits": 17,
+      "duration": 15.479166666666666,
+      "failure": false
+    },
+    {
+      "angle": 345,
+      "hits": 5,
+      "duration": 8.425,
+      "failure": false
+    }
+  ],
+  "kinetic": [
+    {
+      "angle": 0,
+      "hits": 0,
+      "duration": 13.65,
+      "failure": false
+    },
+    {
+      "angle": 15,
+      "hits": 1,
+      "duration": 1.0708333333333333,
+      "failure": false
+    },
+    {
+      "angle": 30,
+      "hits": 1,
+      "duration": 0.875,
+      "failure": false
+    },
+    {
+      "angle": 45,
+      "hits": 1,
+      "duration": 5.708333333333333,
+      "failure": false
+    },
+    {
+      "angle": 60,
+      "hits": 20,
+      "duration": 14.779166666666667,
+      "failure": false
+    },
+    {
+      "angle": 75,
+      "hits": 7,
+      "duration": 3.308333333333333,
+      "failure": false
+    },
+    {
+      "angle": 90,
+      "hits": 10,
+      "duration": 9.4625,
+      "failure": false
+    },
+    {
+      "angle": 105,
+      "hits": 19,
+      "duration": 31.133333333333333,
+      "failure": false
+    },
+    {
+      "angle": 120,
+      "hits": 2,
+      "duration": 0.9666666666666667,
+      "failure": false
+    },
+    {
+      "angle": 135,
+      "hits": 15,
+      "duration": 8.095833333333333,
+      "failure": false
+    },
+    {
+      "angle": 150,
+      "hits": 1,
+      "duration": 4.208333333333333,
+      "failure": false
+    },
+    {
+      "angle": 165,
+      "hits": 6,
+      "duration": 8.75,
+      "failure": false
+    },
+    {
+      "angle": 180,
+      "hits": 16,
+      "duration": 18.28333333333333,
+      "failure": false
+    },
+    {
+      "angle": 195,
+      "hits": 11,
+      "duration": 9.641666666666666,
+      "failure": false
+    },
+    {
+      "angle": 210,
+      "hits": 12,
+      "duration": 9.1,
+      "failure": false
+    },
+    {
+      "angle": 225,
+      "hits": 3,
+      "duration": 3.4583333333333335,
+      "failure": false
+    },
+    {
+      "angle": 240,
+      "hits": 13,
+      "duration": 4.308333333333334,
+      "failure": false
+    },
+    {
+      "angle": 255,
+      "hits": 6,
+      "duration": 17.933333333333334,
+      "failure": false
+    },
+    {
+      "angle": 270,
+      "hits": 14,
+      "duration": 7.5249999999999995,
+      "failure": false
+    },
+    {
+      "angle": 285,
+      "hits": 5,
+      "duration": 7.645833333333333,
+      "failure": false
+    },
+    {
+      "angle": 300,
+      "hits": 11,
+      "duration": 6.5375,
+      "failure": false
+    },
+    {
+      "angle": 315,
+      "hits": 11,
+      "duration": 4.8875,
+      "failure": false
+    },
+    {
+      "angle": 330,
+      "hits": 2,
+      "duration": 4.945833333333333,
+      "failure": false
+    },
+    {
+      "angle": 345,
+      "hits": 23,
+      "duration": 9.975,
+      "failure": false
+    }
+  ]
+}

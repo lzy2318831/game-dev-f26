@@ -1,0 +1,20 @@
+{
+  "changed_previous": [
+    "agent-config.json",
+    "AGENT-TEAM.md",
+    "EVALUATION.md",
+    "README.md",
+    "rule-source-map.md",
+    "SUBMISSION-CHECKLIST.md",
+    "fusion/GEOMETRY-ASSISTED.md",
+    "fusion/geometry_adaptive_power.py",
+    "fusion/geometry_agent.py",
+    "fusion/geometry_lifecycle_check.py",
+    "fusion/geometry_live.py",
+    "fusion/geometry_power.js",
+    "tests/test_geometry_adaptive.py"
+  ],
+  "local_link_errors": [],
+  "credential_findings": [],
+  "historical_evidence_unchanged": true
+}

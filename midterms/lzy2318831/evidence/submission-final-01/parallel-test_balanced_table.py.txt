@@ -1,0 +1,10 @@
+test_former_diagonal_is_open_and_surrounding_boundary_remains (test_balanced_table.BalancedTable.test_former_diagonal_is_open_and_surrounding_boundary_remains) ... ok
+test_historical_replay_remains_versioned_and_fingerprint_checked (test_balanced_table.BalancedTable.test_historical_replay_remains_versioned_and_fingerprint_checked) ... ok
+test_legacy_prompt_host_and_preferred_geometry_host_are_explicit (test_balanced_table.BalancedTable.test_legacy_prompt_host_and_preferred_geometry_host_are_explicit) ... ok
+test_new_version_and_only_confirmed_segments_removed (test_balanced_table.BalancedTable.test_new_version_and_only_confirmed_segments_removed) ... ok
+test_sling_vector_reduced_exactly_and_floor_scaled (test_balanced_table.BalancedTable.test_sling_vector_reduced_exactly_and_floor_scaled) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.672s
+
+OK

@@ -1,0 +1,46 @@
+[
+  {
+    "profile": "previous",
+    "action": {
+      "angle": 266,
+      "power": 25
+    },
+    "result": {
+      "points": 100,
+      "foul": false,
+      "potted": [
+        5
+      ],
+      "settled": true,
+      "ticks": 844,
+      "target_contact_sample": true,
+      "target_moved": true,
+      "powered_events": 6,
+      "long_cascade": false,
+      "simulation_limit": false,
+      "cue_travel": 30.52,
+      "object_travel": 1875.9
+    }
+  },
+  {
+    "profile": "v2",
+    "action": {
+      "angle": 266,
+      "power": 32
+    },
+    "result": {
+      "points": 0,
+      "foul": false,
+      "potted": [],
+      "settled": true,
+      "ticks": 2217,
+      "target_contact_sample": true,
+      "target_moved": true,
+      "powered_events": 5,
+      "long_cascade": false,
+      "simulation_limit": false,
+      "cue_travel": 111.03,
+      "object_travel": 3910.05
+    }
+  }
+]

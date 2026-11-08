@@ -1,0 +1,10 @@
+test_actual_openai_http_adapter_with_synthetic_http (test_geometry_final.FinalGeometry.test_actual_openai_http_adapter_with_synthetic_http) ... ok
+test_cancel_inflight_selection_never_commits_move (test_geometry_final.FinalGeometry.test_cancel_inflight_selection_never_commits_move) ... ok
+test_masked_launcher_and_single_match_cancel (test_geometry_final.FinalGeometry.test_masked_launcher_and_single_match_cancel) ... ok
+test_preferred_menu_failure_labels_and_navigation (test_geometry_final.FinalGeometry.test_preferred_menu_failure_labels_and_navigation) ... ok
+test_real_transport_branch_without_network (test_geometry_final.FinalGeometry.test_real_transport_branch_without_network) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 7.746s
+
+OK

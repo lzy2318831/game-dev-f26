@@ -1,0 +1,11 @@
+test_invalid_action_keeps_usage_and_v2_identity (test_prompt_v2.PromptV2.test_invalid_action_keeps_usage_and_v2_identity) ... ok
+test_live_unapproved_refuses_without_request (test_prompt_v2.PromptV2.test_live_unapproved_refuses_without_request) ... ok
+test_only_developer_prompt_changes (test_prompt_v2.PromptV2.test_only_developer_prompt_changes) ... ok
+test_runner_and_audit_compatibility_no_replacement (test_prompt_v2.PromptV2.test_runner_and_audit_compatibility_no_replacement) ... ok
+test_same_public_feedback_no_added_history (test_prompt_v2.PromptV2.test_same_public_feedback_no_added_history) ... ok
+test_unchanged_strict_parser (test_prompt_v2.PromptV2.test_unchanged_strict_parser) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 1.641s
+
+OK

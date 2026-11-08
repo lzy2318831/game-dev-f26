@@ -1,0 +1,7 @@
+test_baseline_turn_and_mouse_controls_use_valid_actions (test_historical_ui.HistoricalUI.test_baseline_turn_and_mouse_controls_use_valid_actions) ... ok
+test_start_steer_pause_restart_and_game_over (test_historical_ui.HistoricalUI.test_start_steer_pause_restart_and_game_over) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK

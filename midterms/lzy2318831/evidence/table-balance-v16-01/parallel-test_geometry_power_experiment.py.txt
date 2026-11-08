@@ -1,0 +1,10 @@
+test_equal_safe_results_do_not_automatically_enable (test_geometry_power_experiment.PowerExperiment.test_equal_safe_results_do_not_automatically_enable) ... ok
+test_exact_doubling_and_cap (test_geometry_power_experiment.PowerExperiment.test_exact_doubling_and_cap) ... ok
+test_five_percentage_point_scratch_regression_rejects (test_geometry_power_experiment.PowerExperiment.test_five_percentage_point_scratch_regression_rejects) ... ok
+test_new_limit_rejects_even_with_provisional_pots (test_geometry_power_experiment.PowerExperiment.test_new_limit_rejects_even_with_provisional_pots) ... ok
+test_public_observation_is_not_modified_by_simulator (test_geometry_power_experiment.PowerExperiment.test_public_observation_is_not_modified_by_simulator) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.009s
+
+OK

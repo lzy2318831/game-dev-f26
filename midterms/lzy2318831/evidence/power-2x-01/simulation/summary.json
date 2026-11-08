@@ -1,0 +1,59 @@
+{
+  "kind": "OFFLINE_PAIRED_POWER_SIMULATION_NOT_LLM_EVALUATION",
+  "observations": 38,
+  "candidate_pairs": 77,
+  "formula": "min(100, original_power * 2)",
+  "totals": {
+    "original": {
+      "shots": 77,
+      "settled": 77,
+      "foul": 1,
+      "simulation_limit": 0,
+      "cue_object_contact_radius_sample": 37,
+      "intended_contact_radius_sample": 37,
+      "intended_target_moved": 37,
+      "target_potted": 1,
+      "settled_pots": 2,
+      "settled_points": 130
+    },
+    "doubled": {
+      "shots": 77,
+      "settled": 77,
+      "foul": 14,
+      "simulation_limit": 0,
+      "cue_object_contact_radius_sample": 38,
+      "intended_contact_radius_sample": 37,
+      "intended_target_moved": 37,
+      "target_potted": 10,
+      "settled_pots": 58,
+      "settled_points": 860
+    }
+  },
+  "paired_changes": {
+    "new_simulation_limits": 0,
+    "resolved_simulation_limits": 0,
+    "new_scratches": 14,
+    "avoided_scratches": 1,
+    "both_settled": 77,
+    "doubled_more_pots": 11,
+    "doubled_fewer_pots": 1
+  },
+  "decision": "KEEP_STABILIZED_RUNTIME_UNCHANGED",
+  "source_sha256": {
+    "evidence/live-browser-v2/20261107T140001Z-d4531653511b/trace.json": "1ad9449882689cc9965ae07e4fd95e57ea4e490350a24ae4fb29997908fff288",
+    "evidence/live-browser-v2/20261107T140001Z-d4531653511b/calls.jsonl": "214791403a681988a792732199612aa3e72ff446769cf1cbac80e68693dcfddf",
+    "evidence/live-browser-v2/20261107T144900Z-a1e923c36aca/trace.json": "ae90d09ee5f0971bcc05abd91cfbdfe2e940433625d1a01e8b14af905b59b849",
+    "evidence/live-browser-v2/20261107T144900Z-a1e923c36aca/calls.jsonl": "7fe9d34c0faf7989131a41747f8e152a4ce7c05102172c14555497c15b717a29",
+    "evidence/live-browser-v2/20261107T200656Z-b6750e1dad0a/trace.json": "daed3c7e57a1839e20938c8f6cff6d685582962abe635e7d3a7338b488196e9b",
+    "evidence/live-browser-v2/20261107T200656Z-b6750e1dad0a/calls.jsonl": "766ac65e8d9fb30be27608326de80069d8b2464a0498cd7d737b10a4202b1f50",
+    "evidence/live-browser-v2/20261107T201358Z-5c2a430494a3/trace.json": "75efaf63fa656112595cc917713aa893911bd079b935dab8e838719d8e610ece",
+    "evidence/live-browser-v2/20261107T201358Z-5c2a430494a3/calls.jsonl": "b0b188695ff5bf55bd53c102e6e910ab5adeec52e7470a0b5a2b3fb2c37d6b76",
+    "evidence/live-browser-v2/20261107T201921Z-4e938fbec433/trace.json": "a91b432e964364689fcd8985f6a6892828c17868bc29a64c7c38940d52118bb7",
+    "evidence/live-browser-v2/20261107T201921Z-4e938fbec433/calls.jsonl": "e96391e523144f22928cf0ffe86c5184f8d4458d2b17da5155c60670580165f6",
+    "evidence/live-browser-v2/20261107T202440Z-a6109b3fa881/trace.json": "cce3ae5270c8da253711227e5ba7dff02234d609d8a6f1989200233c22ad066b",
+    "evidence/live-browser-v2/20261107T202440Z-a6109b3fa881/calls.jsonl": "31009cfd2e760c1b4007762aa8036252d1c8183b7754c680c9e79cd92cb953ec",
+    "evidence/live-browser-geometry-v1/20261107T215634Z-8dbde2c0c71f/trace.json": "ede25ca74bd0fad589bbd9c49d0517310ec104201b53787de8ff205fab33a349",
+    "evidence/live-browser-geometry-v1/20261107T215634Z-8dbde2c0c71f/calls.jsonl": "5eb82b7650558972382f0600c65c9bc8df9977ef1e27be274bce643209246c9c"
+  },
+  "limitations": "Correlated saved development states; every candidate tested, not LLM-selected. Contact-radius samples and target movement are proxies, not complete collision logs. Pots/points on unsettled trajectories are provisional and excluded from settled totals. No match win-rate or genuine LLM benefit measured."
+}

@@ -1,0 +1,13 @@
+test_default_clear_and_replay (test_fusion_maximal.Maximal.test_default_clear_and_replay) ... ok
+test_density_and_copy (test_fusion_maximal.Maximal.test_density_and_copy) ... ok
+test_lane_caps (test_fusion_maximal.Maximal.test_lane_caps) ... ok
+test_long_cascade_settles (test_fusion_maximal.Maximal.test_long_cascade_settles) ... ok
+test_objects_no_device_score_and_full_cap (test_fusion_maximal.Maximal.test_objects_no_device_score_and_full_cap) ... ok
+test_scoop_once_scratch (test_fusion_maximal.Maximal.test_scoop_once_scratch) ... ok
+test_sling_cap (test_fusion_maximal.Maximal.test_sling_cap) ... ok
+test_wrong_seat (test_fusion_maximal.Maximal.test_wrong_seat) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.117s
+
+OK

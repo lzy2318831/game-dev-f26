@@ -1,0 +1,10 @@
+{
+  "eligible_files": 764,
+  "bytes": 59078236,
+  "largest_file_bytes": 809715,
+  "outside_allowed_paths": [],
+  "credential_pattern_locations": [],
+  "staged_files": 0,
+  "tracked_diff_files": 0,
+  "note": "Final audit inventory excludes this newly-created summary itself. All current changes are untracked. Credential-pattern scan is bounded, not an absolute guarantee."
+}

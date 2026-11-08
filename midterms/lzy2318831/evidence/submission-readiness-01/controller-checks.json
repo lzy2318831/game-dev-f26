@@ -1,0 +1,20 @@
+{
+  "runtime": "VSCode bundled Node v24.22.1, ELECTRON_RUN_AS_NODE=1; CI Node22 not tested remotely",
+  "checks": [
+    {
+      "command": "tests/replay-timers.cjs",
+      "exit_code": 0,
+      "output": "PASS: complete replay.js syntax; preview/final timers preserved; automatic progression schedules"
+    },
+    {
+      "command": "navigation-controller.cjs",
+      "exit_code": 0,
+      "output": "PASS: safe navigation, stopped timers, modal Back controls and delayed result cannot cover Main Menu"
+    },
+    {
+      "command": "live-demo-controller.cjs",
+      "exit_code": 0,
+      "output": "PASS: live.js syntax; rejection dispatches nothing; explicit confirmation once; cancelled delayed packet cannot animate"
+    }
+  ]
+}

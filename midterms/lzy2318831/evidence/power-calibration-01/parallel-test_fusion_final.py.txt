@@ -1,0 +1,11 @@
+test_break_settles (test_fusion_final.FinalRack.test_break_settles) ... ok
+test_fifteen_clear_deterministic (test_fusion_final.FinalRack.test_fifteen_clear_deterministic) ... ok
+test_broadphase_matches_preserved_physics (test_fusion_final.PhysicsRegression.test_broadphase_matches_preserved_physics) ... ok
+test_prediction_matches_real_physics_preserving_ids (test_fusion_final.SmartTests.test_prediction_matches_real_physics_preserving_ids) ... ok
+test_public_legal_deterministic_budget (test_fusion_final.SmartTests.test_public_legal_deterministic_budget) ... ok
+test_smart_mode_automatic (test_fusion_final.SmartTests.test_smart_mode_automatic) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 18.357s
+
+OK

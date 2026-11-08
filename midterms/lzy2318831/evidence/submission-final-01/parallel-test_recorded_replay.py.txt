@@ -1,0 +1,10 @@
+test_authentic_source_and_failed_trial_rejection (test_recorded_replay.RecordedReplay.test_authentic_source_and_failed_trial_rejection) ... ok
+test_automatic_sequence_matches_recorded_outcome (test_recorded_replay.RecordedReplay.test_automatic_sequence_matches_recorded_outcome) ... ok
+test_game_button_replay_assets_and_manual_action_rejection (test_recorded_replay.RecordedReplay.test_game_button_replay_assets_and_manual_action_rejection) ... ok
+test_occupied_port_is_refused (test_recorded_replay.RecordedReplay.test_occupied_port_is_refused) ... ok
+test_tampering_stops_playback (test_recorded_replay.RecordedReplay.test_tampering_stops_playback) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 21.800s
+
+OK

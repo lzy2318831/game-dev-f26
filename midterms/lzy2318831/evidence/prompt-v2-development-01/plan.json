@@ -1,0 +1,18 @@
+{
+  "kind": "post_official_prompt_v2_plan_NOT_performance_results",
+  "agent_variant": "kinetic-prompt-v2-risk-aware",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "prompt_sha256": "0ebe16889300ec5d7efaf2c70d889f613e9fbc585c89138c81c1539eff06afe9",
+  "original_prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+  "changed_request_fields": [
+    "input[0].content"
+  ],
+  "memory": "observation_only",
+  "reasoning_effort": "none",
+  "simulator_access": false,
+  "candidate_actions_supplied": false,
+  "live_calls": 0,
+  "paid_approval": false,
+  "official_results_replaced": false,
+  "evaluation_warning": "Original official scenarios are now inspected development cases for v2; fresh held-out evaluation and explicit call/budget approval needed."
+}

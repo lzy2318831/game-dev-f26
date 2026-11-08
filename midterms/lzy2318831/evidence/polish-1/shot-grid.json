@@ -1,0 +1,146 @@
+[
+  {
+    "angle": 0,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 0,
+    "power": 65,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 0,
+    "power": 100,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 45,
+    "power": 25,
+    "reason": "",
+    "points": 70
+  },
+  {
+    "angle": 45,
+    "power": 65,
+    "reason": "",
+    "points": 50
+  },
+  {
+    "angle": 45,
+    "power": 100,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 90,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 90,
+    "power": 65,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 90,
+    "power": 100,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 135,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 135,
+    "power": 65,
+    "reason": "",
+    "points": 15
+  },
+  {
+    "angle": 135,
+    "power": 100,
+    "reason": "",
+    "points": 25
+  },
+  {
+    "angle": 180,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 180,
+    "power": 65,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 180,
+    "power": 100,
+    "reason": "",
+    "points": 100
+  },
+  {
+    "angle": 225,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 225,
+    "power": 65,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 225,
+    "power": 100,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 270,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 270,
+    "power": 65,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 270,
+    "power": 100,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 315,
+    "power": 25,
+    "reason": "",
+    "points": 0
+  },
+  {
+    "angle": 315,
+    "power": 65,
+    "reason": "",
+    "points": 165
+  },
+  {
+    "angle": 315,
+    "power": 100,
+    "reason": "",
+    "points": 40
+  }
+]

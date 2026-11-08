@@ -1,0 +1,12 @@
+{
+  "archive_files_verified": 157,
+  "completed": 11,
+  "outcomes": {
+    "failure": 1,
+    "loss": 9,
+    "win": 2
+  },
+  "source": "byte-exact archived official/recovery/smoke inputs",
+  "new_api_calls": 0,
+  "analysis_only_no_additional_replay": true
+}

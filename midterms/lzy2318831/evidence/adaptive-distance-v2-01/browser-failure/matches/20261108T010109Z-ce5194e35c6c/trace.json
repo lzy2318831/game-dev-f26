@@ -1,0 +1,192 @@
+{
+  "version": "fusion-1.6.0-balanced",
+  "seed": 2701201,
+  "seats": [
+    "kinetic-geometry-assisted-v1",
+    "baseline"
+  ],
+  "layout": [
+    [
+      230,
+      250
+    ],
+    [
+      700.0,
+      250.0
+    ],
+    [
+      720.7846096908265,
+      238.0
+    ],
+    [
+      720.7846096908265,
+      262.0
+    ],
+    [
+      741.569219381653,
+      226.0
+    ],
+    [
+      741.569219381653,
+      250.0
+    ],
+    [
+      741.569219381653,
+      274.0
+    ],
+    [
+      762.3538290724796,
+      214.0
+    ],
+    [
+      762.3538290724796,
+      238.0
+    ],
+    [
+      762.3538290724796,
+      262.0
+    ],
+    [
+      762.3538290724796,
+      286.0
+    ],
+    [
+      783.1384387633061,
+      202.0
+    ],
+    [
+      783.1384387633061,
+      226.0
+    ],
+    [
+      783.1384387633061,
+      250.0
+    ],
+    [
+      783.1384387633061,
+      274.0
+    ],
+    [
+      783.1384387633061,
+      298.0
+    ]
+  ],
+  "steps": [],
+  "model_calls": 1,
+  "call_events": [
+    {
+      "player": "p1",
+      "reason": "provider_error",
+      "executed": false,
+      "latency_seconds": 0.21978409998700954,
+      "metadata": {
+        "error_kind": "http_error",
+        "http_status": 429,
+        "network_attempted": false,
+        "agent_variant": "kinetic-geometry-assisted-v1",
+        "prompt_sha256": "7abdb2ac2369edb1cbc945efb625e9caaa62dc3df815d152e90918121fa84350",
+        "request_sha256": "dc1621913bd87d4908c724aea701b817a7df4deeec536a299ac19d40659d761c",
+        "live": false,
+        "latency_seconds": 0.21978409998700954,
+        "candidate_count": 1,
+        "power_multiplier": null,
+        "power_mode": "adaptive",
+        "power_formula": "half_up(30+d/15 if d<=150 else 40+(d-150)/5 if d<=350 else min(100,80+(d-350)/32.5)); d=max(0,travel); escape/device=min(100,2*original_power)",
+        "adaptive_profile": "adaptive-distance-v2",
+        "failure": "provider_error"
+      }
+    }
+  ],
+  "limits": {
+    "shots": 12,
+    "model_calls": 6,
+    "estimated_budget_usd": 0.25,
+    "request_timeout": 20,
+    "session_timeout": 600,
+    "playback_ack_timeout": 60
+  },
+  "engine_sha256": "677974d08956ea4538f42a62cd2c487dffa110403b89c9d1c1f5c3d4cc65c3bb",
+  "outcome": {
+    "status": "terminal",
+    "reason": "provider_error",
+    "winner": null,
+    "draw": false,
+    "failure": true,
+    "scores": {
+      "p1": 0,
+      "p2": 0
+    },
+    "shots": 0,
+    "shots_remaining": {
+      "p1": 6,
+      "p2": 6
+    },
+    "scratches": {
+      "p1": 0,
+      "p2": 0
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "metrics": {
+      "p1": {
+        "pots": 0,
+        "bumper_points": 0,
+        "combo_points": 0,
+        "lane_points": 0,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 0
+      },
+      "p2": {
+        "pots": 0,
+        "bumper_points": 0,
+        "combo_points": 0,
+        "lane_points": 0,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 0
+      }
+    },
+    "replenishments_used": 0,
+    "object_balls_remaining": 15
+  },
+  "elapsed_seconds": 0.2604525000206195,
+  "kind": "MOCKED_LIVE_DEMO_NOT_REAL_LLM",
+  "consent": {
+    "confirmed": true,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "variant": "kinetic-geometry-assisted-v1",
+    "prompt_sha256": "7abdb2ac2369edb1cbc945efb625e9caaa62dc3df815d152e90918121fa84350",
+    "max_requests": 6,
+    "budget_usd": 0.25,
+    "scope": "one match; no retries; no automatic reset",
+    "power_multiplier": null,
+    "power_mode": "adaptive",
+    "adaptive_profile": "adaptive-distance-v2"
+  },
+  "server_budget": {
+    "calls": 1,
+    "call_cap": 12,
+    "committed_or_reserved_usd": 0.0116715,
+    "cost_cap_usd": 0.5,
+    "known_estimated_usd": 0.0,
+    "unknown_cost_calls": 1,
+    "can_start": true,
+    "scope": "this server process; new match does not reset cumulative spending"
+  },
+  "match_number": 1,
+  "power_multiplier": null,
+  "power_mode": "adaptive",
+  "power_formula": "half_up(30+d/15 if d<=150 else 40+(d-150)/5 if d<=350 else min(100,80+(d-350)/32.5)); d=max(0,travel); escape/device=min(100,2*original_power)",
+  "adaptive_profile": "adaptive-distance-v2",
+  "run_status": "failed",
+  "termination_reason": "http_error",
+  "accounting": {
+    "calls": 1,
+    "known_estimated_usd": 0.0,
+    "cost_unknown_calls": 1,
+    "conservative_charged_or_reserved_usd": 0.0116715
+  }
+}

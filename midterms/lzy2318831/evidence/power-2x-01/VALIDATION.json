@@ -1,0 +1,15 @@
+{
+  "project_python_tests": 199,
+  "python_returncode": 0,
+  "javascript_checks": 5,
+  "historical_replays": 24,
+  "frozen_artifacts": 18,
+  "preservation_checked": 1033,
+  "preservation_changed": [],
+  "chrome_two_full_matches": true,
+  "chrome_simulation_failure_menu_fresh_match": true,
+  "real_api_calls": 0,
+  "runtime_multiplier_added": false,
+  "existing_tracked_or_staged_files_modified": [],
+  "experiment_files_staged": false
+}

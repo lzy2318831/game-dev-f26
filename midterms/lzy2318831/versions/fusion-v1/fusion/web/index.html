@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Arcade Fusion · Pool + Pinball</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<div class="ambient ambient-cyan"></div><div class="ambient ambient-gold"></div>
+<main class="app">
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Arcade Fusion home"><span class="brand-mark"><i></i><i></i><i></i></span><span>ARCADE<span class="brand-light">FUSION</span><small>THE PRECISION SERIES</small></span></a>
+    <div class="top-actions"><span class="local-tag"><span></span> ORIGINAL ARCADE GAME</span><button id="helpButton" class="quiet-button" aria-label="How to play">? <span>How to play</span></button><button id="restartButton" class="quiet-button">↻ <span>New match</span></button></div>
+  </header>
+  <section class="heading-row"><div><div class="eyebrow">BILLIARDS, WITH A LITTLE CHAOS.</div><h1>Pool <span>+</span> Pinball<span class="title-dot">.</span></h1></div><div class="mode-switch" role="group" aria-label="Game mode"><button id="hvb" class="selected">VS BASELINE</button><button id="hvh">2 PLAYERS</button></div></section>
+  <section class="scoreboard" aria-label="Match scoreboard">
+    <article class="player-card active" id="card1"><div class="player-avatar cyan">01</div><div class="player-meta"><div class="player-label">PLAYER ONE <span id="tag1">YOUR TURN</span></div><div class="player-name" id="name1">You</div><div class="shots" id="shots1"></div></div><div class="score" id="score1">000<small>POINTS</small></div></article>
+    <div class="round-card"><span>MATCH PROGRESS</span><strong id="roundLabel">01 <i>/ 12</i></strong><div class="round-track"><div id="roundProgress"></div></div><small>SIX SHOTS EACH</small></div>
+    <article class="player-card" id="card2"><div class="player-avatar gold">02</div><div class="player-meta"><div class="player-label">PLAYER TWO <span id="tag2"></span></div><div class="player-name" id="name2">Geometric AI</div><div class="shots" id="shots2"></div></div><div class="score" id="score2">000<small>POINTS</small></div></article>
+  </section>
+  <section class="arena" aria-label="Pool and pinball table">
+    <div class="arena-topline"><span><i class="status-light"></i> <b id="statusLabel">READY TO PLAY</b></span><span id="tableTag">FUSION TABLE · 01</span></div>
+    <canvas id="table" width="1112" height="612" tabindex="0" aria-label="Aim with the mouse. Click and pull backward to build power, then release to shoot."></canvas>
+    <div id="notice" class="shot-notice"><span class="notice-symbol">✦</span><div><strong id="noticeTitle"></strong><small id="noticeDetail"></small></div></div>
+    <div class="arena-bottomline"><span><span class="keycap">↗</span> AIM <em>·</em> <span class="keycap">↤</span> PULL BACK <em>·</em> RELEASE TO SHOOT</span><span id="aimReadout">MAKE YOUR ANGLE.</span></div>
+  </section>
+  <section class="bottom-hud"><div class="power-control"><div class="power-label"><span>SHOT POWER</span><strong id="powerNumber">— <small>%</small></strong></div><div class="power-track"><div id="powerFill"></div><i></i><i></i><i></i><i></i></div><small id="powerHint">Click on the table and pull back to charge.</small></div><div class="rule-chips"><div><span class="chip-icon gold-text">◉</span><strong>100</strong><small>PER POCKET</small></div><div><span class="chip-icon cyan-text">✦</span><strong>15</strong><small>PER BUMPER*</small></div><div><span class="chip-icon gold-text">↗</span><strong>+50</strong><small>BUMPER + POT</small></div></div></section>
+  <footer><span>PRECISION MEETS POSSIBILITY.</span><span>*Cue ball only · once per bumper per shot. A scratch voids the shot.</span><span>BUILT TO PLAY.</span></footer>
+</main>
+<div class="modal-backdrop" id="intro"><section class="modal intro-modal"><div class="modal-orbit"><span>✦</span></div><div class="eyebrow">WELCOME TO YOUR NEXT GREAT SHOT</div><h2>Precision.<br><span>With a twist.</span></h2><p>Six balls. Two live bumpers. Twelve chances.<br>Find the angle, feel the power, make it count.</p><div class="how-grid"><div><b>01</b><strong>Line it up</strong><small>Move your mouse to aim.</small></div><div><b>02</b><strong>Pull it back</strong><small>Click, drag backward, release.</small></div><div><b>03</b><strong>Make it a combo</strong><small>Bumper + pocket = bonus.</small></div></div><button id="startButton" class="primary-button">LET’S PLAY <span>↗</span></button><small class="modal-footnote">Six alternating shots each · highest score wins.</small></section></div>
+<div class="modal-backdrop hidden" id="help"><section class="modal help-modal"><button id="closeHelp" class="close-button" aria-label="Close help">×</button><div class="eyebrow">THE RULES OF THE TABLE</div><h2>Every angle<br><span>has potential.</span></h2><ul><li>Point to aim. Press and drag opposite the aiming line. Release to shoot.</li><li>Pocket an object ball for <b>100 points</b>.</li><li>Your cue ball earns <b>15 per bumper</b>, once per bumper per shot.</li><li>Trigger a bumper, then pocket a ball: <b>+50</b>. Each additional pot: <b>+50</b>.</li><li>A scratch voids all points from the shot. The cue ball is respotted.</li><li>Six shots each, alternating turns. Clear the table to end early. Higher score wins; equal scores draw.</li></ul><p class="help-cancel">Right-click or Escape cancels a drag. Physics finishes before the next player acts.</p></section></div>
+<div class="modal-backdrop hidden" id="gameOver"><section class="modal result-modal"><div class="eyebrow">THAT’S A MATCH</div><h2 id="resultTitle">Well played.</h2><p id="resultDetail"></p><div class="result-scores"><div><small id="resultName1">PLAYER ONE</small><strong id="resultScore1">0</strong></div><span>:</span><div><small id="resultName2">PLAYER TWO</small><strong id="resultScore2">0</strong></div></div><button id="playAgain" class="primary-button">PLAY ANOTHER <span>↗</span></button></section></div>
+<div id="toast" role="status"></div><script src="/game.js"></script>
+</body></html>

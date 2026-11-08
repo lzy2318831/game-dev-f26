@@ -1,0 +1,10 @@
+test_combined_windowsapps_and_install_path_is_not_invoked (test_geometry_launcher.LauncherResolution.test_combined_windowsapps_and_install_path_is_not_invoked) ... ok
+test_environment_override_precedes_alias_and_other_installation (test_geometry_launcher.LauncherResolution.test_environment_override_precedes_alias_and_other_installation) ... ok
+test_multiple_application_results_resolve_individually (test_geometry_launcher.LauncherResolution.test_multiple_application_results_resolve_individually) ... ok
+test_no_valid_interpreter_stops (test_geometry_launcher.LauncherResolution.test_no_valid_interpreter_stops) ... ok
+test_same_verified_interpreter_runs_freeze_and_mock_server (test_geometry_launcher.LauncherResolution.test_same_verified_interpreter_runs_freeze_and_mock_server) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 2.518s
+
+OK

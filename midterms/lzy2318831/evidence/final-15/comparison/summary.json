@@ -1,0 +1,552 @@
+{
+  "protocol": {
+    "version": "smart-comparison-1",
+    "declared": "2026-11-07 before Smart implementation/tuning",
+    "seeds": [
+      101
+    ],
+    "seat_orders": [
+      [
+        "smart",
+        "baseline"
+      ],
+      [
+        "baseline",
+        "smart"
+      ]
+    ],
+    "max_candidates": 24,
+    "max_ticks": 40000,
+    "preview_ticks": 480,
+    "description": "fixed public 15-object direct, pinball and rack cases; deterministic seed repeats are not independent trials",
+    "situations": [
+      {
+        "id": "direct",
+        "cue": [
+          470,
+          330
+        ],
+        "objects": [
+          [
+            500,
+            405
+          ],
+          [
+            850,
+            250
+          ],
+          [
+            150,
+            250
+          ],
+          [
+            700.0,
+            250.0
+          ],
+          [
+            720.7846096908265,
+            238.0
+          ],
+          [
+            720.7846096908265,
+            262.0
+          ],
+          [
+            741.569219381653,
+            226.0
+          ],
+          [
+            741.569219381653,
+            250.0
+          ],
+          [
+            741.569219381653,
+            274.0
+          ],
+          [
+            762.3538290724796,
+            214.0
+          ],
+          [
+            762.3538290724796,
+            238.0
+          ],
+          [
+            762.3538290724796,
+            262.0
+          ],
+          [
+            762.3538290724796,
+            286.0
+          ],
+          [
+            783.1384387633061,
+            202.0
+          ],
+          [
+            783.1384387633061,
+            226.0
+          ]
+        ]
+      },
+      {
+        "id": "pinball",
+        "cue": [
+          325,
+          125
+        ],
+        "objects": [
+          [
+            700.0,
+            250.0
+          ],
+          [
+            720.7846096908265,
+            238.0
+          ],
+          [
+            720.7846096908265,
+            262.0
+          ],
+          [
+            741.569219381653,
+            226.0
+          ],
+          [
+            741.569219381653,
+            250.0
+          ],
+          [
+            741.569219381653,
+            274.0
+          ],
+          [
+            762.3538290724796,
+            214.0
+          ],
+          [
+            762.3538290724796,
+            238.0
+          ],
+          [
+            762.3538290724796,
+            262.0
+          ],
+          [
+            762.3538290724796,
+            286.0
+          ],
+          [
+            783.1384387633061,
+            202.0
+          ],
+          [
+            783.1384387633061,
+            226.0
+          ],
+          [
+            783.1384387633061,
+            250.0
+          ],
+          [
+            783.1384387633061,
+            274.0
+          ],
+          [
+            783.1384387633061,
+            298.0
+          ]
+        ]
+      },
+      {
+        "id": "rack",
+        "cue": [
+          230,
+          250
+        ],
+        "objects": [
+          [
+            700.0,
+            250.0
+          ],
+          [
+            720.7846096908265,
+            238.0
+          ],
+          [
+            720.7846096908265,
+            262.0
+          ],
+          [
+            741.569219381653,
+            226.0
+          ],
+          [
+            741.569219381653,
+            250.0
+          ],
+          [
+            741.569219381653,
+            274.0
+          ],
+          [
+            762.3538290724796,
+            214.0
+          ],
+          [
+            762.3538290724796,
+            238.0
+          ],
+          [
+            762.3538290724796,
+            262.0
+          ],
+          [
+            762.3538290724796,
+            286.0
+          ],
+          [
+            783.1384387633061,
+            202.0
+          ],
+          [
+            783.1384387633061,
+            226.0
+          ],
+          [
+            783.1384387633061,
+            250.0
+          ],
+          [
+            783.1384387633061,
+            274.0
+          ],
+          [
+            783.1384387633061,
+            298.0
+          ]
+        ]
+      }
+    ]
+  },
+  "results": [
+    {
+      "situation": "direct",
+      "seed": 101,
+      "agent": "smart",
+      "seat": "p1",
+      "score": 2830,
+      "pots": 10,
+      "all_pots": 10,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 34.28128160000779,
+      "win": true,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "direct",
+      "seed": 101,
+      "agent": "baseline",
+      "seat": "p2",
+      "score": 815,
+      "pots": 3,
+      "all_pots": 3,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 0.254275699990103,
+      "win": false,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "direct",
+      "seed": 101,
+      "agent": "baseline",
+      "seat": "p1",
+      "score": 180,
+      "pots": 0,
+      "all_pots": 0,
+      "scratches": 3,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 0.42224529999657534,
+      "win": false,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "direct",
+      "seed": 101,
+      "agent": "smart",
+      "seat": "p2",
+      "score": 3105,
+      "pots": 12,
+      "all_pots": 12,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 46.900489599996945,
+      "win": true,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "pinball",
+      "seed": 101,
+      "agent": "smart",
+      "seat": "p1",
+      "score": 2480,
+      "pots": 9,
+      "all_pots": 9,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 40.0239754000504,
+      "win": true,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "pinball",
+      "seed": 101,
+      "agent": "baseline",
+      "seat": "p2",
+      "score": 0,
+      "pots": 0,
+      "all_pots": 2,
+      "scratches": 6,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 0.13751369999954477,
+      "win": false,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "pinball",
+      "seed": 101,
+      "agent": "baseline",
+      "seat": "p1",
+      "score": 0,
+      "pots": 0,
+      "all_pots": 2,
+      "scratches": 6,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 0.27514230002998374,
+      "win": false,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "pinball",
+      "seed": 101,
+      "agent": "smart",
+      "seat": "p2",
+      "score": 2410,
+      "pots": 9,
+      "all_pots": 9,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 40.32717930004583,
+      "win": true,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "rack",
+      "seed": 101,
+      "agent": "smart",
+      "seat": "p1",
+      "score": 2410,
+      "pots": 9,
+      "all_pots": 9,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 40.15341040000203,
+      "win": true,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "rack",
+      "seed": 101,
+      "agent": "baseline",
+      "seat": "p2",
+      "score": 0,
+      "pots": 0,
+      "all_pots": 2,
+      "scratches": 6,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 0.14302720001433045,
+      "win": false,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "rack",
+      "seed": 101,
+      "agent": "baseline",
+      "seat": "p1",
+      "score": 1215,
+      "pots": 6,
+      "all_pots": 6,
+      "scratches": 2,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 0.34533949999604374,
+      "win": false,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    },
+    {
+      "situation": "rack",
+      "seed": 101,
+      "agent": "smart",
+      "seat": "p2",
+      "score": 1700,
+      "pots": 5,
+      "all_pots": 5,
+      "scratches": 0,
+      "illegal": 0,
+      "shots": 6,
+      "planning_seconds": 35.498056199983694,
+      "win": true,
+      "draw": false,
+      "failure": false,
+      "reason": "shots_exhausted"
+    }
+  ],
+  "summary": {
+    "all": {
+      "smart": {
+        "matches": 6,
+        "average_score": 2489.1666666666665,
+        "object_pots": 54,
+        "credited_pots": 54,
+        "wins": 6,
+        "win_rate": 1,
+        "scratches": 0,
+        "scratch_rate": 0.0,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 6.58845534722463,
+        "failures": 0
+      },
+      "baseline": {
+        "matches": 6,
+        "average_score": 368.3333333333333,
+        "object_pots": 15,
+        "credited_pots": 9,
+        "wins": 0,
+        "win_rate": 0,
+        "scratches": 23,
+        "scratch_rate": 0.6388888888888888,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 0.0438206583340717,
+        "failures": 0
+      }
+    },
+    "direct": {
+      "smart": {
+        "matches": 2,
+        "average_score": 2967.5,
+        "object_pots": 22,
+        "credited_pots": 22,
+        "wins": 2,
+        "win_rate": 1,
+        "scratches": 0,
+        "scratch_rate": 0.0,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 6.765147600000394,
+        "failures": 0
+      },
+      "baseline": {
+        "matches": 2,
+        "average_score": 497.5,
+        "object_pots": 3,
+        "credited_pots": 3,
+        "wins": 0,
+        "win_rate": 0,
+        "scratches": 3,
+        "scratch_rate": 0.25,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 0.056376749998889863,
+        "failures": 0
+      }
+    },
+    "pinball": {
+      "smart": {
+        "matches": 2,
+        "average_score": 2445,
+        "object_pots": 18,
+        "credited_pots": 18,
+        "wins": 2,
+        "win_rate": 1,
+        "scratches": 0,
+        "scratch_rate": 0.0,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 6.695929558341352,
+        "failures": 0
+      },
+      "baseline": {
+        "matches": 2,
+        "average_score": 0,
+        "object_pots": 4,
+        "credited_pots": 0,
+        "wins": 0,
+        "win_rate": 0,
+        "scratches": 12,
+        "scratch_rate": 1.0,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 0.03438800000246071,
+        "failures": 0
+      }
+    },
+    "rack": {
+      "smart": {
+        "matches": 2,
+        "average_score": 2055,
+        "object_pots": 14,
+        "credited_pots": 14,
+        "wins": 2,
+        "win_rate": 1,
+        "scratches": 0,
+        "scratch_rate": 0.0,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 6.304288883332144,
+        "failures": 0
+      },
+      "baseline": {
+        "matches": 2,
+        "average_score": 607.5,
+        "object_pots": 8,
+        "credited_pots": 6,
+        "wins": 0,
+        "win_rate": 0,
+        "scratches": 8,
+        "scratch_rate": 0.6666666666666666,
+        "illegal_actions": 0,
+        "planning_seconds_per_shot": 0.04069722500086451,
+        "failures": 0
+      }
+    }
+  }
+}

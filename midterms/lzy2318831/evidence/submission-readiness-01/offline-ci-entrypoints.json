@@ -1,0 +1,94 @@
+[
+  {
+    "command": [
+      "-m",
+      "pool.runner",
+      "--trace",
+      "evidence\\submission-readiness-01\\legacy-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "pool.runner",
+      "--replay",
+      "evidence\\submission-readiness-01\\legacy-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "historical.runner",
+      "--trace",
+      "evidence\\submission-readiness-01\\historical-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "historical.runner",
+      "--replay",
+      "evidence\\submission-readiness-01\\historical-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "fusion.runner",
+      "--trace",
+      "evidence\\submission-readiness-01\\fusion-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "fusion.runner",
+      "--replay",
+      "evidence\\submission-readiness-01\\fusion-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "fusion.runner",
+      "--p1",
+      "smart",
+      "--p2",
+      "baseline",
+      "--trace",
+      "evidence\\submission-readiness-01\\smart-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "fusion.runner",
+      "--replay",
+      "evidence\\submission-readiness-01\\smart-match.json"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "fusion.freeze"
+    ],
+    "exit_code": 0
+  },
+  {
+    "command": [
+      "-m",
+      "fusion.llm_smoke",
+      "--output",
+      "evidence\\submission-readiness-01\\llm-offline"
+    ],
+    "exit_code": 0
+  }
+]

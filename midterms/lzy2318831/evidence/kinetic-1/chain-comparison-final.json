@@ -1,0 +1,355 @@
+{
+  "protocol": "24 fixed default-layout shots, angle0..345 step15 power85; physical cue bumper/rail contacts only, not suppressed device awards; development QA not held-out or policy eval",
+  "grand": [
+    {
+      "angle": 0,
+      "physical_contacts": 0,
+      "bumper_hits": 0,
+      "duration": 10.045833333333333,
+      "failure": false
+    },
+    {
+      "angle": 15,
+      "physical_contacts": 1,
+      "bumper_hits": 1,
+      "duration": 1.1166666666666667,
+      "failure": false
+    },
+    {
+      "angle": 30,
+      "physical_contacts": 10,
+      "bumper_hits": 3,
+      "duration": 3.6374999999999997,
+      "failure": false
+    },
+    {
+      "angle": 45,
+      "physical_contacts": 9,
+      "bumper_hits": 1,
+      "duration": 6.679166666666666,
+      "failure": false
+    },
+    {
+      "angle": 60,
+      "physical_contacts": 18,
+      "bumper_hits": 7,
+      "duration": 10.220833333333333,
+      "failure": false
+    },
+    {
+      "angle": 75,
+      "physical_contacts": 6,
+      "bumper_hits": 2,
+      "duration": 6.8,
+      "failure": false
+    },
+    {
+      "angle": 90,
+      "physical_contacts": 3,
+      "bumper_hits": 1,
+      "duration": 8.35,
+      "failure": false
+    },
+    {
+      "angle": 105,
+      "physical_contacts": 26,
+      "bumper_hits": 11,
+      "duration": 13.345833333333333,
+      "failure": false
+    },
+    {
+      "angle": 120,
+      "physical_contacts": 5,
+      "bumper_hits": 0,
+      "duration": 1.5,
+      "failure": false
+    },
+    {
+      "angle": 135,
+      "physical_contacts": 30,
+      "bumper_hits": 8,
+      "duration": 13.654166666666667,
+      "failure": false
+    },
+    {
+      "angle": 150,
+      "physical_contacts": 31,
+      "bumper_hits": 5,
+      "duration": 11.595833333333333,
+      "failure": false
+    },
+    {
+      "angle": 165,
+      "physical_contacts": 4,
+      "bumper_hits": 1,
+      "duration": 2.6,
+      "failure": false
+    },
+    {
+      "angle": 180,
+      "physical_contacts": 2,
+      "bumper_hits": 1,
+      "duration": 11.9625,
+      "failure": false
+    },
+    {
+      "angle": 195,
+      "physical_contacts": 5,
+      "bumper_hits": 1,
+      "duration": 3.1083333333333334,
+      "failure": false
+    },
+    {
+      "angle": 210,
+      "physical_contacts": 14,
+      "bumper_hits": 4,
+      "duration": 4.483333333333333,
+      "failure": false
+    },
+    {
+      "angle": 225,
+      "physical_contacts": 30,
+      "bumper_hits": 8,
+      "duration": 20.629166666666666,
+      "failure": false
+    },
+    {
+      "angle": 240,
+      "physical_contacts": 5,
+      "bumper_hits": 1,
+      "duration": 11.333333333333334,
+      "failure": false
+    },
+    {
+      "angle": 255,
+      "physical_contacts": 16,
+      "bumper_hits": 3,
+      "duration": 8.945833333333333,
+      "failure": false
+    },
+    {
+      "angle": 270,
+      "physical_contacts": 18,
+      "bumper_hits": 5,
+      "duration": 8.154166666666667,
+      "failure": false
+    },
+    {
+      "angle": 285,
+      "physical_contacts": 25,
+      "bumper_hits": 7,
+      "duration": 8.279166666666667,
+      "failure": false
+    },
+    {
+      "angle": 300,
+      "physical_contacts": 3,
+      "bumper_hits": 2,
+      "duration": 11.195833333333333,
+      "failure": false
+    },
+    {
+      "angle": 315,
+      "physical_contacts": 6,
+      "bumper_hits": 3,
+      "duration": 2.0833333333333335,
+      "failure": false
+    },
+    {
+      "angle": 330,
+      "physical_contacts": 34,
+      "bumper_hits": 15,
+      "duration": 15.479166666666666,
+      "failure": false
+    },
+    {
+      "angle": 345,
+      "physical_contacts": 34,
+      "bumper_hits": 4,
+      "duration": 8.425,
+      "failure": false
+    }
+  ],
+  "kinetic": [
+    {
+      "angle": 0,
+      "physical_contacts": 11,
+      "bumper_hits": 7,
+      "duration": 18.404166666666665,
+      "failure": false
+    },
+    {
+      "angle": 15,
+      "physical_contacts": 1,
+      "bumper_hits": 1,
+      "duration": 1.0708333333333333,
+      "failure": false
+    },
+    {
+      "angle": 30,
+      "physical_contacts": 2,
+      "bumper_hits": 1,
+      "duration": 0.875,
+      "failure": false
+    },
+    {
+      "angle": 45,
+      "physical_contacts": 8,
+      "bumper_hits": 1,
+      "duration": 5.708333333333333,
+      "failure": false
+    },
+    {
+      "angle": 60,
+      "physical_contacts": 36,
+      "bumper_hits": 14,
+      "duration": 14.120833333333334,
+      "failure": false
+    },
+    {
+      "angle": 75,
+      "physical_contacts": 58,
+      "bumper_hits": 29,
+      "duration": 33.3,
+      "failure": false
+    },
+    {
+      "angle": 90,
+      "physical_contacts": 12,
+      "bumper_hits": 7,
+      "duration": 6.179166666666666,
+      "failure": false
+    },
+    {
+      "angle": 105,
+      "physical_contacts": 59,
+      "bumper_hits": 14,
+      "duration": 23.1125,
+      "failure": false
+    },
+    {
+      "angle": 120,
+      "physical_contacts": 4,
+      "bumper_hits": 1,
+      "duration": 1.0125,
+      "failure": false
+    },
+    {
+      "angle": 135,
+      "physical_contacts": 38,
+      "bumper_hits": 13,
+      "duration": 8.095833333333333,
+      "failure": false
+    },
+    {
+      "angle": 150,
+      "physical_contacts": 17,
+      "bumper_hits": 0,
+      "duration": 4.404166666666667,
+      "failure": false
+    },
+    {
+      "angle": 165,
+      "physical_contacts": 8,
+      "bumper_hits": 2,
+      "duration": 4.154166666666667,
+      "failure": false
+    },
+    {
+      "angle": 180,
+      "physical_contacts": 19,
+      "bumper_hits": 10,
+      "duration": 21.7,
+      "failure": false
+    },
+    {
+      "angle": 195,
+      "physical_contacts": 20,
+      "bumper_hits": 12,
+      "duration": 13.208333333333334,
+      "failure": false
+    },
+    {
+      "angle": 210,
+      "physical_contacts": 28,
+      "bumper_hits": 11,
+      "duration": 9.1,
+      "failure": false
+    },
+    {
+      "angle": 225,
+      "physical_contacts": 11,
+      "bumper_hits": 3,
+      "duration": 3.4583333333333335,
+      "failure": false
+    },
+    {
+      "angle": 240,
+      "physical_contacts": 38,
+      "bumper_hits": 12,
+      "duration": 4.308333333333334,
+      "failure": false
+    },
+    {
+      "angle": 255,
+      "physical_contacts": 22,
+      "bumper_hits": 5,
+      "duration": 17.066666666666666,
+      "failure": false
+    },
+    {
+      "angle": 270,
+      "physical_contacts": 34,
+      "bumper_hits": 12,
+      "duration": 7.5249999999999995,
+      "failure": false
+    },
+    {
+      "angle": 285,
+      "physical_contacts": 17,
+      "bumper_hits": 4,
+      "duration": 7.645833333333333,
+      "failure": false
+    },
+    {
+      "angle": 300,
+      "physical_contacts": 23,
+      "bumper_hits": 11,
+      "duration": 6.5375,
+      "failure": false
+    },
+    {
+      "angle": 315,
+      "physical_contacts": 43,
+      "bumper_hits": 19,
+      "duration": 16.875,
+      "failure": false
+    },
+    {
+      "angle": 330,
+      "physical_contacts": 13,
+      "bumper_hits": 1,
+      "duration": 4.945833333333333,
+      "failure": false
+    },
+    {
+      "angle": 345,
+      "physical_contacts": 54,
+      "bumper_hits": 21,
+      "duration": 9.975,
+      "failure": false
+    }
+  ],
+  "means": {
+    "grand": {
+      "physical_contacts": 13.958333333333334,
+      "bumper_hits": 3.9166666666666665,
+      "duration": 8.484375
+    },
+    "kinetic": {
+      "physical_contacts": 24.0,
+      "bumper_hits": 8.791666666666666,
+      "duration": 10.115972222222222
+    }
+  }
+}

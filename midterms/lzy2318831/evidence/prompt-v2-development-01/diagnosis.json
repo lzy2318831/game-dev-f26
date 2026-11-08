@@ -1,0 +1,1240 @@
+{
+  "kind": "retrospective_official_trace_diagnosis_not_new_evaluation",
+  "shots": [
+    {
+      "trial": "observation_only-direct-101-p2",
+      "shot": 2,
+      "player": "p2",
+      "action": {
+        "angle": 251,
+        "power": 84
+      },
+      "points": 270,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 7,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-101-p2",
+      "shot": 4,
+      "player": "p2",
+      "action": {
+        "angle": 212,
+        "power": 86
+      },
+      "points": 270,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 7,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-101-p2",
+      "shot": 6,
+      "player": "p2",
+      "action": {
+        "angle": 222,
+        "power": 79
+      },
+      "points": 415,
+      "scratch": false,
+      "physical_pots": 2,
+      "cue_device_events": 6,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-101-p2",
+      "shot": 8,
+      "player": "p2",
+      "action": {
+        "angle": 214,
+        "power": 86
+      },
+      "points": 10,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 24
+    },
+    {
+      "trial": "observation_only-direct-101-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 342,
+        "power": 64
+      },
+      "points": 25,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-101-p2",
+      "shot": 12,
+      "player": "p2",
+      "action": {
+        "angle": 202,
+        "power": 86
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 1,
+      "player": "p1",
+      "action": {
+        "angle": 330,
+        "power": 86
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 6,
+      "previous_visible_actor": null,
+      "previous_visible_foul": null,
+      "history_records": 0,
+      "visible_event_count": 0
+    },
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 3,
+      "player": "p1",
+      "action": {
+        "angle": 241,
+        "power": 73
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 7,
+      "cue_device_events": 13,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 5,
+      "player": "p1",
+      "action": {
+        "angle": 332,
+        "power": 84
+      },
+      "points": 40,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 7,
+      "player": "p1",
+      "action": {
+        "angle": 242,
+        "power": 86
+      },
+      "points": 25,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 13
+    },
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 9,
+      "player": "p1",
+      "action": {
+        "angle": 205,
+        "power": 92
+      },
+      "points": 10,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 11,
+      "player": "p1",
+      "action": {
+        "angle": 212,
+        "power": 86
+      },
+      "points": 530,
+      "scratch": false,
+      "physical_pots": 3,
+      "cue_device_events": 6,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 2,
+      "player": "p2",
+      "action": {
+        "angle": 244,
+        "power": 72
+      },
+      "points": 270,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 7,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 4,
+      "player": "p2",
+      "action": {
+        "angle": 208,
+        "power": 72
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 6,
+      "player": "p2",
+      "action": {
+        "angle": 205,
+        "power": 73
+      },
+      "points": 305,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 9,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 8,
+      "player": "p2",
+      "action": {
+        "angle": 205,
+        "power": 72
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 288,
+        "power": 78
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 7,
+      "cue_device_events": 4,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 29
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 12,
+      "player": "p2",
+      "action": {
+        "angle": 252,
+        "power": 86
+      },
+      "points": 110,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 6,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 1,
+      "player": "p1",
+      "action": {
+        "angle": 336,
+        "power": 79
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 3,
+      "cue_device_events": 5,
+      "previous_visible_actor": null,
+      "previous_visible_foul": null,
+      "history_records": 0,
+      "visible_event_count": 0
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 3,
+      "player": "p1",
+      "action": {
+        "angle": 206,
+        "power": 86
+      },
+      "points": 835,
+      "scratch": false,
+      "physical_pots": 3,
+      "cue_device_events": 5,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 5,
+      "player": "p1",
+      "action": {
+        "angle": 344,
+        "power": 88
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 3,
+      "cue_device_events": 11,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 7,
+      "player": "p1",
+      "action": {
+        "angle": 207,
+        "power": 54
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 9,
+      "player": "p1",
+      "action": {
+        "angle": 334,
+        "power": 92
+      },
+      "points": 400,
+      "scratch": false,
+      "physical_pots": 2,
+      "cue_device_events": 8,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 21
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 11,
+      "player": "p1",
+      "action": {
+        "angle": 208,
+        "power": 62
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 4
+    },
+    {
+      "trial": "observation_only-bumper-101-p2",
+      "shot": 2,
+      "player": "p2",
+      "action": {
+        "angle": 0,
+        "power": 84
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p2",
+      "shot": 4,
+      "player": "p2",
+      "action": {
+        "angle": 202,
+        "power": 86
+      },
+      "points": 220,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p2",
+      "shot": 6,
+      "player": "p2",
+      "action": {
+        "angle": 322,
+        "power": 84
+      },
+      "points": 865,
+      "scratch": false,
+      "physical_pots": 4,
+      "cue_device_events": 11,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p2",
+      "shot": 8,
+      "player": "p2",
+      "action": {
+        "angle": 258,
+        "power": 86
+      },
+      "points": 10,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-101-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 246,
+        "power": 86
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 2,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 4
+    },
+    {
+      "trial": "observation_only-bumper-101-p2",
+      "shot": 12,
+      "player": "p2",
+      "action": {
+        "angle": 201,
+        "power": 62
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 8,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-102-p1",
+      "shot": 1,
+      "player": "p1",
+      "action": {
+        "angle": 334,
+        "power": 78
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 7,
+      "previous_visible_actor": null,
+      "previous_visible_foul": null,
+      "history_records": 0,
+      "visible_event_count": 0
+    },
+    {
+      "trial": "observation_only-bumper-102-p1",
+      "shot": 3,
+      "player": "p1",
+      "action": {
+        "angle": 206,
+        "power": 84
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 2,
+      "cue_device_events": 11,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-102-p1",
+      "shot": 5,
+      "player": "p1",
+      "action": {
+        "angle": 205,
+        "power": 84
+      },
+      "points": 100,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 16
+    },
+    {
+      "trial": "observation_only-bumper-102-p1",
+      "shot": 7,
+      "player": "p1",
+      "action": {
+        "angle": 197,
+        "power": 86
+      },
+      "points": 10,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 24
+    },
+    {
+      "trial": "observation_only-bumper-102-p1",
+      "shot": 9,
+      "player": "p1",
+      "action": {
+        "angle": 342,
+        "power": 78
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 4
+    },
+    {
+      "trial": "observation_only-bumper-102-p1",
+      "shot": 11,
+      "player": "p1",
+      "action": {
+        "angle": 341,
+        "power": 86
+      },
+      "points": 635,
+      "scratch": false,
+      "physical_pots": 3,
+      "cue_device_events": 11,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 12
+    },
+    {
+      "trial": "observation_only-bumper-102-p2",
+      "shot": 2,
+      "player": "p2",
+      "action": {
+        "angle": 0,
+        "power": 18
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-102-p2",
+      "shot": 4,
+      "player": "p2",
+      "action": {
+        "angle": 201,
+        "power": 87
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-bumper-102-p2",
+      "shot": 6,
+      "player": "p2",
+      "action": {
+        "angle": 15,
+        "power": 74
+      },
+      "points": 505,
+      "scratch": false,
+      "physical_pots": 2,
+      "cue_device_events": 13,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 27
+    },
+    {
+      "trial": "observation_only-bumper-102-p2",
+      "shot": 8,
+      "player": "p2",
+      "action": {
+        "angle": 338,
+        "power": 67
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 5,
+      "cue_device_events": 8,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 15
+    },
+    {
+      "trial": "observation_only-bumper-102-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 18,
+        "power": 87
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 4,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 5
+    },
+    {
+      "trial": "observation_only-bumper-102-p2",
+      "shot": 12,
+      "player": "p2",
+      "action": {
+        "angle": 338,
+        "power": 86
+      },
+      "points": 395,
+      "scratch": false,
+      "physical_pots": 2,
+      "cue_device_events": 7,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 5
+    },
+    {
+      "trial": "observation_only-risk-101-p1",
+      "shot": 1,
+      "player": "p1",
+      "action": {
+        "angle": 270,
+        "power": 38
+      },
+      "points": 100,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 0,
+      "previous_visible_actor": null,
+      "previous_visible_foul": null,
+      "history_records": 0,
+      "visible_event_count": 0
+    },
+    {
+      "trial": "observation_only-risk-101-p1",
+      "shot": 3,
+      "player": "p1",
+      "action": {
+        "angle": 280,
+        "power": 86
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 2
+    },
+    {
+      "trial": "observation_only-risk-101-p1",
+      "shot": 5,
+      "player": "p1",
+      "action": {
+        "angle": 338,
+        "power": 63
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-risk-101-p1",
+      "shot": 7,
+      "player": "p1",
+      "action": {
+        "angle": 198,
+        "power": 86
+      },
+      "points": 195,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-risk-101-p1",
+      "shot": 9,
+      "player": "p1",
+      "action": {
+        "angle": 175,
+        "power": 78
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 5,
+      "cue_device_events": 12,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 8
+    },
+    {
+      "trial": "observation_only-risk-101-p1",
+      "shot": 11,
+      "player": "p1",
+      "action": {
+        "angle": 238,
+        "power": 82
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 1,
+      "cue_device_events": 12,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-101-p2",
+      "shot": 2,
+      "player": "p2",
+      "action": {
+        "angle": 0,
+        "power": 10
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-101-p2",
+      "shot": 4,
+      "player": "p2",
+      "action": {
+        "angle": 232,
+        "power": 56
+      },
+      "points": 100,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 4
+    },
+    {
+      "trial": "observation_only-risk-101-p2",
+      "shot": 6,
+      "player": "p2",
+      "action": {
+        "angle": 258,
+        "power": 78
+      },
+      "points": 0,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 2
+    },
+    {
+      "trial": "observation_only-risk-101-p2",
+      "shot": 8,
+      "player": "p2",
+      "action": {
+        "angle": 197,
+        "power": 74
+      },
+      "points": 30,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 2,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-101-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 205,
+        "power": 87
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 6,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-101-p2",
+      "shot": 12,
+      "player": "p2",
+      "action": {
+        "angle": 201,
+        "power": 87
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 3,
+      "cue_device_events": 7,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-102-p1",
+      "shot": 1,
+      "player": "p1",
+      "action": {
+        "angle": 279,
+        "power": 72
+      },
+      "points": 550,
+      "scratch": false,
+      "physical_pots": 3,
+      "cue_device_events": 7,
+      "previous_visible_actor": null,
+      "previous_visible_foul": null,
+      "history_records": 0,
+      "visible_event_count": 0
+    },
+    {
+      "trial": "observation_only-risk-102-p1",
+      "shot": 3,
+      "player": "p1",
+      "action": {
+        "angle": 205,
+        "power": 78
+      },
+      "points": 190,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 2
+    },
+    {
+      "trial": "observation_only-risk-102-p1",
+      "shot": 5,
+      "player": "p1",
+      "action": {
+        "angle": 338,
+        "power": 94
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 2,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 21
+    },
+    {
+      "trial": "observation_only-risk-102-p1",
+      "shot": 7,
+      "player": "p1",
+      "action": {
+        "angle": 286,
+        "power": 78
+      },
+      "points": 255,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 7,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 9
+    },
+    {
+      "trial": "observation_only-risk-102-p1",
+      "shot": 9,
+      "player": "p1",
+      "action": {
+        "angle": 348,
+        "power": 73
+      },
+      "points": 15,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-risk-102-p1",
+      "shot": 11,
+      "player": "p1",
+      "action": {
+        "angle": 228,
+        "power": 68
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 3,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 8
+    },
+    {
+      "trial": "observation_only-risk-102-p2",
+      "shot": 2,
+      "player": "p2",
+      "action": {
+        "angle": 170,
+        "power": 62
+      },
+      "points": 95,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 5,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-102-p2",
+      "shot": 4,
+      "player": "p2",
+      "action": {
+        "angle": 332,
+        "power": 86
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 5,
+      "cue_device_events": 3,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-102-p2",
+      "shot": 6,
+      "player": "p2",
+      "action": {
+        "angle": 335,
+        "power": 92
+      },
+      "points": 20,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 2,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 32
+    },
+    {
+      "trial": "observation_only-risk-102-p2",
+      "shot": 8,
+      "player": "p2",
+      "action": {
+        "angle": 208,
+        "power": 86
+      },
+      "points": 110,
+      "scratch": false,
+      "physical_pots": 1,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 1
+    },
+    {
+      "trial": "observation_only-risk-102-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 338,
+        "power": 62
+      },
+      "points": 10,
+      "scratch": false,
+      "physical_pots": 0,
+      "cue_device_events": 1,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 8
+    },
+    {
+      "trial": "observation_only-risk-102-p2",
+      "shot": 12,
+      "player": "p2",
+      "action": {
+        "angle": 241,
+        "power": 84
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 0,
+      "cue_device_events": 0,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 6
+    }
+  ],
+  "summary": {
+    "model_shots": 66,
+    "scratches": 25,
+    "total_points": 7925,
+    "physical_pots": 80,
+    "mean_power": 76.8030303030303,
+    "median_power": 84.0,
+    "min_power": 10,
+    "max_power": 94,
+    "power_frequencies": {
+      "84": 7,
+      "86": 18,
+      "79": 2,
+      "64": 1,
+      "73": 3,
+      "92": 3,
+      "72": 4,
+      "78": 7,
+      "88": 1,
+      "54": 1,
+      "62": 4,
+      "18": 1,
+      "87": 4,
+      "74": 2,
+      "67": 1,
+      "38": 1,
+      "63": 1,
+      "82": 1,
+      "10": 1,
+      "56": 1,
+      "94": 1,
+      "68": 1
+    },
+    "full_power_shots": 0,
+    "power_at_least80": 35,
+    "empty_history_shots": 66,
+    "preceding_opponent_feedback": 61,
+    "preceding_own_feedback": 0,
+    "capped_last_events": 30,
+    "zero_point_shots": 32,
+    "scratch_pots": 44
+  },
+  "examples": [
+    {
+      "trial": "observation_only-direct-102-p1",
+      "shot": 3,
+      "player": "p1",
+      "action": {
+        "angle": 241,
+        "power": 73
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 7,
+      "cue_device_events": 13,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 3
+    },
+    {
+      "trial": "observation_only-direct-102-p2",
+      "shot": 10,
+      "player": "p2",
+      "action": {
+        "angle": 288,
+        "power": 78
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 7,
+      "cue_device_events": 4,
+      "previous_visible_actor": "p1",
+      "previous_visible_foul": false,
+      "history_records": 0,
+      "visible_event_count": 29
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 1,
+      "player": "p1",
+      "action": {
+        "angle": 336,
+        "power": 79
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 3,
+      "cue_device_events": 5,
+      "previous_visible_actor": null,
+      "previous_visible_foul": null,
+      "history_records": 0,
+      "visible_event_count": 0
+    },
+    {
+      "trial": "observation_only-bumper-101-p1",
+      "shot": 5,
+      "player": "p1",
+      "action": {
+        "angle": 344,
+        "power": 88
+      },
+      "points": 0,
+      "scratch": true,
+      "physical_pots": 3,
+      "cue_device_events": 11,
+      "previous_visible_actor": "p2",
+      "previous_visible_foul": true,
+      "history_records": 0,
+      "visible_event_count": 32
+    }
+  ],
+  "interpretation": "Observed outcomes/actions, not proof of model internal reasoning. Original cases are now retrospective development evidence for any revised prompt."
+}

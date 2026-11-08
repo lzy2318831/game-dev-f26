@@ -1,0 +1,9 @@
+/* Viewer controls only; the frozen playfield artwork remains untouched. */
+[hidden]{display:none!important}
+.recorded-panel{border:1px solid #58768a;background:#0c1c2b;border-radius:12px;padding:14px 20px;margin:0 0 16px;color:#a8c4d2}
+.recorded-panel>strong{color:#e5c88c;font-size:13px;letter-spacing:.08em}
+.recorded-panel p{font-size:12px;overflow-wrap:anywhere;margin:8px 0}
+.recorded-controls{display:flex;gap:16px;align-items:center;font-size:13px;color:#e0f4fa}
+.recorded-panel>small{display:block;font-size:11px;margin-top:8px}
+#recordedHistory{font-size:11px;max-height:72px;overflow:auto;margin:8px 0 0;padding-left:20px}
+.recorded-controls button{flex-shrink:0;border:1px solid #55758a}

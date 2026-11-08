@@ -1,0 +1,78 @@
+test_final_opportunity_never_spawns (test_fusion_replenish.Replenish.test_final_opportunity_never_spawns) ... ERROR
+test_max_two_and_empty_clear_priority (test_fusion_replenish.Replenish.test_max_two_and_empty_clear_priority) ... FAIL
+test_moving_or_blocked_batch_atomic (test_fusion_replenish.Replenish.test_moving_or_blocked_batch_atomic) ... ERROR
+test_nine_no_spawn_and_no_invalid_spawn (test_fusion_replenish.Replenish.test_nine_no_spawn_and_no_invalid_spawn) ... ERROR
+test_no_overlap_and_deterministic_positions (test_fusion_replenish.Replenish.test_no_overlap_and_deterministic_positions) ... ERROR
+test_points_and_scratch_precedence (test_fusion_replenish.Replenish.test_points_and_scratch_precedence) ... FAIL
+test_threshold_count_and_isolation (test_fusion_replenish.Replenish.test_threshold_count_and_isolation) ... FAIL
+
+======================================================================
+ERROR: test_final_opportunity_never_spawns (test_fusion_replenish.Replenish.test_final_opportunity_never_spawns)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 28, in test_final_opportunity_never_spawns
+    e.step('p1',dict(angle=180,power=1));self.assertEqual(e.replenishments_used,0);self.assertEqual(e.reason,'shots_exhausted')
+                                                          ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Episode' object has no attribute 'replenishments_used'
+
+======================================================================
+ERROR: test_moving_or_blocked_batch_atomic (test_fusion_replenish.Replenish.test_moving_or_blocked_batch_atomic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 41, in test_moving_or_blocked_batch_atomic
+    e=self.sparse(8);e.balls[0].vx=1;self.assertEqual(e._replenish(),[])
+                                                      ^^^^^^^^^^^^
+AttributeError: 'Episode' object has no attribute '_replenish'
+
+======================================================================
+ERROR: test_nine_no_spawn_and_no_invalid_spawn (test_fusion_replenish.Replenish.test_nine_no_spawn_and_no_invalid_spawn)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 16, in test_nine_no_spawn_and_no_invalid_spawn
+    e=self.sparse(9);e.step('p1',dict(angle=180,power=1));self.assertEqual(e.replenishments_used,0)
+                                                                           ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Episode' object has no attribute 'replenishments_used'
+
+======================================================================
+ERROR: test_no_overlap_and_deterministic_positions (test_fusion_replenish.Replenish.test_no_overlap_and_deterministic_positions)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 30, in test_no_overlap_and_deterministic_positions
+    from fusion.replenish import placement_clear
+ModuleNotFoundError: No module named 'fusion.replenish'
+
+======================================================================
+FAIL: test_max_two_and_empty_clear_priority (test_fusion_replenish.Replenish.test_max_two_and_empty_clear_priority)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 21, in test_max_two_and_empty_clear_priority
+    e.step(player,dict(angle=180,power=1));self.assertEqual(e.reason,'')
+                                           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: 'table_cleared' != ''
+- table_cleared
+
+
+======================================================================
+FAIL: test_points_and_scratch_precedence (test_fusion_replenish.Replenish.test_points_and_scratch_precedence)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 47, in test_points_and_scratch_precedence
+    self.assertEqual(e.scores['p1'],100);self.assertEqual(e.reason,'');self.assertEqual(len(e.last_shot['replenished']),5)
+                                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+AssertionError: 'table_cleared' != ''
+- table_cleared
+
+
+======================================================================
+FAIL: test_threshold_count_and_isolation (test_fusion_replenish.Replenish.test_threshold_count_and_isolation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_replenish.py", line 11, in test_threshold_count_and_isolation
+    o=e.observe('p2');self.assertEqual(len(o['balls']),14)
+                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: 9 != 14
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.201s
+
+FAILED (failures=3, errors=4)

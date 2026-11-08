@@ -1,0 +1,92 @@
+{
+  "kind": "OFFLINE_CURRENT_1_6_PAIRED_ADAPTIVE_PROFILE_COMPARISON",
+  "physics_version": "fusion-1.6.0-balanced",
+  "observations": 30,
+  "observation_kinds": {
+    "genuine_saved": 6,
+    "synthetic_saved": 24
+  },
+  "unique_candidate_states": 38,
+  "totals": {
+    "previous": {
+      "cases": 38,
+      "contacts": 34,
+      "target_moved": 34,
+      "scratches": 6,
+      "limits": 0,
+      "settled_pots": 19,
+      "scratch_free_pots": 8,
+      "retained_points": 1450,
+      "long_cascades": 1,
+      "powered_events": 460
+    },
+    "v2": {
+      "cases": 38,
+      "contacts": 34,
+      "target_moved": 34,
+      "scratches": 1,
+      "limits": 0,
+      "settled_pots": 18,
+      "scratch_free_pots": 17,
+      "retained_points": 2935,
+      "long_cascades": 5,
+      "powered_events": 721
+    }
+  },
+  "mandatory": {
+    "kind": "HISTORICAL_PUBLIC_POSITION_TRANSPLANTED_TO_REVISED_1_6_DEVICES_NOT_A_RECONSTRUCTED_MATCH",
+    "original_source": "evidence/live-browser-geometry-v1/20261107T215634Z-8dbde2c0c71f",
+    "previous_action": {
+      "angle": 266,
+      "power": 25
+    },
+    "v2_action": {
+      "angle": 266,
+      "power": 32
+    },
+    "previous": {
+      "points": 100,
+      "foul": false,
+      "potted": [
+        5
+      ],
+      "settled": true,
+      "ticks": 844,
+      "target_contact_sample": true,
+      "target_moved": true,
+      "powered_events": 6,
+      "long_cascade": false,
+      "simulation_limit": false,
+      "cue_travel": 30.52,
+      "object_travel": 1875.9
+    },
+    "v2": {
+      "points": 0,
+      "foul": false,
+      "potted": [],
+      "settled": true,
+      "ticks": 2217,
+      "target_contact_sample": true,
+      "target_moved": true,
+      "powered_events": 5,
+      "long_cascade": false,
+      "simulation_limit": false,
+      "cue_travel": 111.03,
+      "object_travel": 3910.05
+    }
+  },
+  "repeated_v2_limits": 0,
+  "source_sha256": {
+    "evidence/live-browser-geometry-v1/20261108T004538Z-b1086e47d652/trace.json": "49cf356a698f34103709362ea077845a40e070fb64c963637d1c0cdc8711aa95",
+    "evidence/live-browser-geometry-v1/20261108T004538Z-b1086e47d652/calls.jsonl": "7d005f504b65147195b16900bfb0c91c23b8644f07e5b2266799b92d4b90fecf",
+    "evidence/table-balance-v16-01/browser-presentation/matches/20261108T003611Z-5f84c95611b2/trace.json": "750e3343405e74ebdde9e5d6c685d7af7a4fa5e2bbd1c4c27b2a8602254b4817",
+    "evidence/table-balance-v16-01/browser-presentation/matches/20261108T003611Z-5f84c95611b2/calls.jsonl": "8ae7ed3f894169842fd056220481cc592ca2165c8d8ac89ab7f47e0300dc7c6c",
+    "evidence/table-balance-v16-01/browser-presentation/matches/20261108T003634Z-2ff776e5a34c/trace.json": "de17abb9aeadae2878a2068aae42073028958433e0ce9c65613259071b76a9e6",
+    "evidence/table-balance-v16-01/browser-presentation/matches/20261108T003634Z-2ff776e5a34c/calls.jsonl": "03d58383fb6ac6966eb5f7e8af0b45a8de1ee325a700f75f4125a769141c3148",
+    "evidence/table-balance-v16-01/browser-adaptive/matches/20261108T003236Z-3fbc66935b53/trace.json": "2469024aa6499de593f52d9801efdf33e5c10ebaa7744befb7848736a354a8e3",
+    "evidence/table-balance-v16-01/browser-adaptive/matches/20261108T003236Z-3fbc66935b53/calls.jsonl": "cb8e75d12edf59e73c073dd54d26c8e88cd2620fd86df5d3a6131c7795ecdf27",
+    "evidence/table-balance-v16-01/browser-adaptive/matches/20261108T003304Z-effab2a840ab/trace.json": "6aeaae1c186f9e9ff229f1ba699bb60684dad05324b77811467965d1f27f8a95",
+    "evidence/table-balance-v16-01/browser-adaptive/matches/20261108T003304Z-effab2a840ab/calls.jsonl": "c4728db88d8e06e554529f120b45da18d3f977b6a0c093d4ffe701a5d46fff63"
+  },
+  "limitations": "All-candidate correlated saved-state comparison, not new LLM choices/wins/human play. Contact/proximity and travel are proxies; travel includes transfers/correction. Unsettled points/pots are provisional and excluded from totals. Profile chosen by student, not optimized on this corpus."
+}

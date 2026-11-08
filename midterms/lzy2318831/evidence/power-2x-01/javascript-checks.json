@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "tests/replay-timers.cjs"
+    ],
+    "returncode": 0,
+    "stdout": "PASS: complete replay.js syntax; preview/final timers preserved; automatic progression schedules\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "tests/geometry-controller.cjs"
+    ],
+    "returncode": 0,
+    "stdout": "PASS: geometry failure/result messages, no-candidate stop and cancellation labels\nPASS: fresh-page session preparation, no automatic consent, incomplete failure and cumulative server budget\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "tests/geometry-navigation.cjs"
+    ],
+    "returncode": 0,
+    "stdout": "PASS: one result Back owner; hung settlement cannot trap navigation\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "-e",
+      "require('./tests/navigation-controller.cjs').then(console.log)"
+    ],
+    "returncode": 0,
+    "stdout": "PASS: safe navigation, stopped timers, modal Back controls and delayed result cannot cover Main Menu\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "-e",
+      "require('./tests/live-demo-controller.cjs').then(console.log)"
+    ],
+    "returncode": 0,
+    "stdout": "PASS: live.js syntax; rejection dispatches nothing; explicit confirmation once; cancelled delayed packet cannot animate\n",
+    "stderr": ""
+  }
+]

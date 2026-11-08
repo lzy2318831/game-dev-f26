@@ -1,0 +1,1844 @@
+{
+  "version": "historical-0.3.0",
+  "seed": 101,
+  "seats": [
+    "baseline",
+    "baseline"
+  ],
+  "config": {
+    "heats": 2,
+    "extended": true,
+    "frames_per_step": 64,
+    "scenario": "opening"
+  },
+  "engine_sha256": "2f625756f15dabdbd832fbdc7b3b045d616dc681915c183f073b43860c2b7a90",
+  "steps": [
+    {
+      "player": "p1",
+      "action": {
+        "x": 14,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "373fd724d2aa5b9c0dc5bcd992918b8787e8df397b014071c4c7c6a9af980118",
+      "latency_seconds": 0.0017191999941132963,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "39439e5772d29b89fe545cfd41218cfbb523ee1a03280e217ff18625b8039377",
+      "latency_seconds": 0.0016924999945331365,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "0ecfa0493285446f829a114f957f1e12f496af822e6f82390d37fc79cbaf4e20",
+      "latency_seconds": 0.0028594000032171607,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "7afc51758fca5289834fd5a3fb78653da71bb36c26b43081a6264c1536903f5c",
+      "latency_seconds": 0.0022625999990850687,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "230dabc3814149dd0c5953843a02551e8d45b3bed3a78cc205bd4a880c0470dd",
+      "latency_seconds": 0.0022425000206567347,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "59a8f4aee36d3b540b266e5ae709c3880f8c13040c5e223b6de53d16ad9f081b",
+      "latency_seconds": 0.0021712000016123056,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c7ea75a10b61700f2c2f33b5c2aad3a2ec69289a4f4229e009e02d2ea7788c53",
+      "latency_seconds": 0.0019643999985419214,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "dc6acbcb7563deb683dff7c917ad0cc6726373b8850e969cdf6a3f90fdc562e9",
+      "latency_seconds": 0.0022339000133797526,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "316cf0e7505144726a33028680df73b58e29e45d490f782a0aa982c48b148438",
+      "latency_seconds": 0.001797500008251518,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "82db091c0fe5fa5ab39bb6b4d9cf76972970a82f741898bb5ebfc4db399791ce",
+      "latency_seconds": 0.0016826000064611435,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "20f435fa32263313c4411ae994d107e65e614a12d7087f496807cfc483c7e8db",
+      "latency_seconds": 0.0015414000081364065,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "ceb235e515f669eef73ed2c59b03e240a6a429595ce2fb59c7adf3d87b48c895",
+      "latency_seconds": 0.0014395999896805733,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "641452e82babc8cf58c70547838a9c24ae9f8b79332d743337c7dbb37fe118c5",
+      "latency_seconds": 0.0013106999977026135,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "b2979e5d7534a515591c3409d2782928d1dfb48f9fd945f51fb71f9f2ea957a0",
+      "latency_seconds": 0.0013739000132773072,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 1,
+          "player": "p1"
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "375d953ac42910df5e53f726cdf9dbf511369e60e3238a83d0af8e0c9e424551",
+      "latency_seconds": 0.0016791000089142472,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "34fdc53ea3a7e3084942f3cc597b3d5611131972f00a2b4d3216b13c5c8d2453",
+      "latency_seconds": 0.0015303000109270215,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "98ad93ff05de3c27f0e67fa3f80163f4164ad311fb7616fd35489db591fe85ed",
+      "latency_seconds": 0.0013341000012587756,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "eaae667d031db5abdea59409bf2d21d89d6b0e00d39460c066b4548aede41620",
+      "latency_seconds": 0.0013189000019337982,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "098ede167c147d9db8c126151d9e6b67b18792c56152bc427664a210784c6855",
+      "latency_seconds": 0.0012851999781560153,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "eea7d894a7147b6dbfa17f1a5282c03fae1ac92ea7ddeab63220727bce333356",
+      "latency_seconds": 0.001300199975958094,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "5598e914d9b22602308d038306734783e210053bec8f2e79080e8528ad64fc40",
+      "latency_seconds": 0.0014461000100709498,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 4,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "97994c97fb81fd66202145e40497c222659b8babcbd76833e13f6658cc423f85",
+      "latency_seconds": 0.0013065999955870211,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 5,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "720076a3d91c16f5531f412a13736d1042b6c1eaef95dd2ab73e4c0c90720f0a",
+      "latency_seconds": 0.001267799991182983,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 13
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "50bbdb439b4a692e50d0bc4964bc4cca67c09775ad85314b6bc85a6df9411337",
+      "latency_seconds": 0.0012872999941464514,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "60564a4575c2b683d69403f64512103e4e71f39a94df1b679bc1e3d0b4d450c3",
+      "latency_seconds": 0.001254200004041195,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "857a485c82570d5aa39b9eff2dac510e59325a369a1b936d15d43dc479ada2f7",
+      "latency_seconds": 0.0013050000125076622,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "bdfded34f1dd8286652fc1704471065220ebafad2ca8b74af400090deab7a1cc",
+      "latency_seconds": 0.00129489999380894,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "880db6af9a7eb030b193f06110fb4dc236ec2623302dcacb26bdf0602e9cf60a",
+      "latency_seconds": 0.001363799994578585,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "9cd974da4ac5d88485af9cedc95e4870f6b68269ae8f08c391b720e79f4d3817",
+      "latency_seconds": 0.0011633000103756785,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "d67555935ae24cbf74d394739905ef2c9577433689bd0a7657b1cf732d17b286",
+      "latency_seconds": 0.0012775000068359077,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 5,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "segment_end",
+          "player": "p1",
+          "reason": "timer_expired",
+          "heat": 1
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "67e83a60342f9bf678dfebdf077b41c5a8a8f3edbc4c51a8fa254b763f777226",
+      "latency_seconds": 0.0011919999960809946,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 1,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "ea21d79af6ff6eb4d344aa2e1f3ad02a6e9d75adfc77434a929b4d3317673046",
+      "latency_seconds": 0.001783300016541034,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "a09aba7476765a85ca2f50b2f88e3b0e6d1501fdd8ab989be8d785aeb1bb1d53",
+      "latency_seconds": 0.0016874000139068812,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "de5d2ede2223467fe3ceab69ffe821e5b377203eacffb1618c40dd4e2778350d",
+      "latency_seconds": 0.0019164999830536544,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 5,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "9e1d102e954426d7630c111cf987dc78da5c44ebab44c508b6d226df337cc6a1",
+      "latency_seconds": 0.001564000005600974,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 4,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c0367c205e41890575c150cc44a6daaf3848e891d83e579cf1a0e25894f6fd51",
+      "latency_seconds": 0.0015730000159237534,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "21c48d580d9253aeb2c6806a79914c67aa90e81eccc815d9523b77cc38b9d68c",
+      "latency_seconds": 0.0017044999985955656,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "9852cb22b8cd590c32a9e0ab2a36caed2e0ee386dcd59a4d3283d7c5936f4ab5",
+      "latency_seconds": 0.001597599999513477,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "94ba6564c9038c14284987006056d67ea8a8684beb97cb4be39bb46500d0417a",
+      "latency_seconds": 0.0017361999780405313,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "b53b20e03404a90dc580011a23b3324370c0c740951168f70b296070da2fa562",
+      "latency_seconds": 0.0019121000077575445,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "bd2e97aedd053842d2e87788e156921b38bc8f3ee575b889e28ca27fcef42c08",
+      "latency_seconds": 0.0013752999948337674,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "7c88611a0bcafc8698b9c133652bbf809995ad9936535381fddf1b00864eb277",
+      "latency_seconds": 0.0013258999970275909,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "4a21985574f550272d9cdb4cbde0b0e0325cbd565f33491c2be7d31ac7406c56",
+      "latency_seconds": 0.0013367999927140772,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "48dae3fd2a5fb9836f6e4c2cbf61fd5580844b0ead39b7ba90d29875597d8a2c",
+      "latency_seconds": 0.0014398999919649214,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "a2e5d76e5b54e277bd03ac60f4bbe35d1350126810588ae301a94fe11346fd9f",
+      "latency_seconds": 0.0013812000106554478,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "10617a6ec276822aa28f4e840e25446357621aaf71e0d8da8d5db22892f056d8",
+      "latency_seconds": 0.0013460000045597553,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "d97835691cda767d59b7d307f3660cef2b3091b19e440c64269c0c26cb677a8e",
+      "latency_seconds": 0.001406199997290969,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "cf3c917441cb59a2bc110d3f1d00bc55f630cd4d6b31cb0d1e70c0061d003d07",
+      "latency_seconds": 0.0014167999906931072,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "819fa64d6e1bdc224e2be011d67bc57954fe27b888e20ca3af95356a8af5f88e",
+      "latency_seconds": 0.0013337000273168087,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 1,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "debac7f168db567503a7bbbd536b69d55781a295ca0c416318d52c4c06092d74",
+      "latency_seconds": 0.001349600002868101,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c8061f30e26750b4977c5c5119625bb1c7dbce0d02035ec9461471bf11c3d35f",
+      "latency_seconds": 0.0012944999907631427,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "e622dd831b80dae9b4f356117e5717f791c8b4e6ba983a14fff628a6b95b8006",
+      "latency_seconds": 0.0013381000026129186,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "8645d15d657b14dff6aa2ecf55adfb152a4b9bd180a0c4b8cbea261efe692e4c",
+      "latency_seconds": 0.0016127999988384545,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "66d96b0f0c6bef6c79e5787fea47031fe630d98db61082b242580394c7bf4386",
+      "latency_seconds": 0.001154999976279214,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "87acb41355b6fe228884ab7003fb77d6c3efd5ed5175ca40193914b7cf07f76b",
+      "latency_seconds": 0.001184399996418506,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "724cc4fa1ca7fe65299173bc507aa212da3fce7118f2944fdb50f49d7eeeb403",
+      "latency_seconds": 0.0011796999897342175,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "1db2ee6bac0efc1069621dad89e6ab2f867796919422e492dd0a2354610d0bbc",
+      "latency_seconds": 0.0011224000190850347,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "3cb84917a48d3753290ca15bd49dd7002b23441ec74ac93012d985c69e7f9e1f",
+      "latency_seconds": 0.0012098999868612736,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 5,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "5903b4b1be4e0b87a5efb44b9644e2e70262b89e0cb5740ce7a126842329e687",
+      "latency_seconds": 0.0012264999968465418,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 5,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "29b27969620b0894053f2231da8ad21e4caf820abcd28126ac9756051e6316e0",
+      "latency_seconds": 0.0011842999956570566,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 1,
+          "player": "p2"
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "6cd6fd17af89dda34ac53f64c7cdb265a3e9f6e23ccad6d88f44026bcff4ed5b",
+      "latency_seconds": 0.001073999999789521,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "segment_end",
+          "player": "p2",
+          "reason": "timer_expired",
+          "heat": 1
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "40eb2db245361dd9d9d670c9d7504fd06d0965fb0360da1e7abddc3e022874b9",
+      "latency_seconds": 0.000984799989964813,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 14,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "39a1b877393d411f6b014dac2c41d22ac8de0542540c51e8fd1aa00db3aa6852",
+      "latency_seconds": 0.0018290000152774155,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "eb7d28ea440a4d271b0cf4af8954e61bb199bca203258e5f7856713a5c082b99",
+      "latency_seconds": 0.0017407000123057514,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "2dad01a0f63e80bde35f73e6e295a4c9aceb7399215edeafffa22cd1131fd0ad",
+      "latency_seconds": 0.0022658000234514475,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "5a116b617f800078d31e000f2f27290f4b2cdfdd8719e0873302c1dfc02d3b07",
+      "latency_seconds": 0.0016756999830249697,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "fa563e08de42e7d1f5ef38cb7d2c94fb3a22a27ba040dcd2f61805d5845b1e26",
+      "latency_seconds": 0.0016783000028226525,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "59c788c0d36fd1cda1c7a5c7d16a346f522ed123b26bc77e6532725c40c4e981",
+      "latency_seconds": 0.0016928999975789338,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "1062ec7dcfa35e241cd618a57e3cc7ed9002284cff164e2cc145e2b857570a04",
+      "latency_seconds": 0.0016722999862395227,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "ece2eb29bd2168b807f567913549968ea3990638ef13054ecf1e7d83296f49ef",
+      "latency_seconds": 0.0016888999962247908,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "8853d96ab45bb4a4bdd145b9fd5280ce4fb7c4fb44a868d490cb40c771e097bf",
+      "latency_seconds": 0.0016426999936811626,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "5e5d2862018bf4b3b1465731f94b665d766c97317f3a1eef9b5beb7bf742573d",
+      "latency_seconds": 0.0015956000133883208,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "725d6b4748f358155cfacdc630f7398a21bef7ff0a23305aea2b86e257cdc5de",
+      "latency_seconds": 0.0019011999829672277,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "6d8d0c619f6b7b1b670faedae1747c238ab4d5ada7ad89d439a8be918fb1d2b7",
+      "latency_seconds": 0.0017063000123016536,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "9f785af4dfaa86ac8f2b29d1d9809efac75036aba5d2e04ed42515caab968504",
+      "latency_seconds": 0.0012983999913558364,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c054cec9a153a987e2254b0ce9bd880bbf893d02328092a6bbedaa1ec96c2575",
+      "latency_seconds": 0.001411700010066852,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 1,
+          "player": "p1"
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "1050aa7c03cc042dd4c54f44f9b2015fcbd583fc6532dcf719e57c68e7937417",
+      "latency_seconds": 0.001441300002625212,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "df6fdfa58f51c1b0e9ca332b837062d197c91508495c0f4407e1e0893c1f2dda",
+      "latency_seconds": 0.0015186000091489404,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "54fe3c9ed8e63a70daa3f2f99e8299728ac2d1f4188e06dce6ded8b56a486012",
+      "latency_seconds": 0.0015764000127092004,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "85cc456ef6577556bff2b60fa8be8940fb88a48272392e9eaf427cc9650c52bf",
+      "latency_seconds": 0.0015401999989990145,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "f9ee33b85fd49ef8b8f60e97be63319630e01a6d109cc5ec5c2e0f5403214b6c",
+      "latency_seconds": 0.0014957999810576439,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c6c7ffe6828e0d35a76086855467be893693e851bf4745a9ebdbefe804d25834",
+      "latency_seconds": 0.0014547999890055507,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "3b01e3ceb40b82373358e3eb23218d8745bbf945456eca1742fafdb061024781",
+      "latency_seconds": 0.0018669999844860286,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 4,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "793a2d52e7a565be73e9b20675a53b92331d3041b7dbecf1c607c8677bf374e1",
+      "latency_seconds": 0.0013667999883182347,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 5,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "eb9625842c9b3f443b16e3bf910f892168bc966051dc4a3f237b4624767d6e12",
+      "latency_seconds": 0.001356099994154647,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 13
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "9f76dc6a801b5ef4f86779be68cf4006772c6533a86bedb58340ec82ded8ac09",
+      "latency_seconds": 0.0012548999802675098,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "b13556b8ad4581dae81b4158a5e041f1e5b8b79ef1d76c53def13fe0c479f465",
+      "latency_seconds": 0.001255100010894239,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "dd6cad8b72e775756490cc10c09fd1f0d627e8349a299ac6d75e4d7cb56973e7",
+      "latency_seconds": 0.0018115999992005527,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "1dfa303634287189c36d61c252f12fa29ef5db78f7b974a4d22e1506718120f8",
+      "latency_seconds": 0.0012733999756164849,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 10,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "b8a87b280c332cf7a5e54cbbd1b274270e27f25dbda3afb080af18f14f978903",
+      "latency_seconds": 0.0011899999808520079,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "57c406ae10a25d031bc4cf14ad6cda3f22744b2af7c25a714858a1a48ed9ccf9",
+      "latency_seconds": 0.0010827000078279525,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "6cf2830c999406ec50ec8d787a5ee8838349c4e0ea82f635b0b90c469d1776c6",
+      "latency_seconds": 0.0010999999940395355,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "action": {
+        "x": 5,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "segment_end",
+          "player": "p1",
+          "reason": "timer_expired",
+          "heat": 2
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "dfd4bde08df813841d364b894f04ce99d07f88256af8b3fd9de5c9b6b16404f6",
+      "latency_seconds": 0.0013051000132691115,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 1,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "88cff4f09a59eec4c02f349c8b87fdf8ca42cf8236197b2c8b709f19a6d56364",
+      "latency_seconds": 0.001902799995150417,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "76db7f930788f3b7b44aa7f84b158699b372b944b0df6a00a30e93999664877e",
+      "latency_seconds": 0.0017423999961465597,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "2d132a75bc7db5bcc4a972cdb2bf15db9af68ecb16d4694460deae6ffb9e7b6c",
+      "latency_seconds": 0.0023246000055223703,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 5,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "e8196843e9f2e27739f98892f96c7a159bfc4c609cfa4b86fc0e8bb82574bdd9",
+      "latency_seconds": 0.0016187999863177538,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 4,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c0bc76dce2f1b3a3b71da6930794ea7b227796e99cfe07c94d596e0375b67c24",
+      "latency_seconds": 0.0014996999816503376,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "2ce23dd5b8e8805b34d36623aa7c9bbfde0a3e5fc5a895a8bad14a06390620af",
+      "latency_seconds": 0.0018412999925203621,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "a4005a37abe181a5d096e648cb0eb0ca8b5a78ccdf4474363b40530e1935fb2f",
+      "latency_seconds": 0.0015181000053416938,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "5176b0f9dad5f314e3d1a5076003c01893412459734914b8dcedf5cd3283cb5d",
+      "latency_seconds": 0.0013214000209700316,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "74d932393bc128fc5605a470a04c93dda8d6a3b7b8f15ee41733e82702c6b329",
+      "latency_seconds": 0.0017247000068891793,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "c801c5c0cccb1f09b63a4e0719b4997ec98afeb4a3ca05f17e81d23898adcd99",
+      "latency_seconds": 0.001597900001797825,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "73ac90b414a6b34416db7053cbb0e5e62e0b9f8ea82fb60ff9849bd2c763dcd1",
+      "latency_seconds": 0.0013675999944098294,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "17149cf7d1bf898e3e6a5e8cd29242ad8f0e921ff4d859c2635a953c02ff9ec3",
+      "latency_seconds": 0.0015438999980688095,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "a7c9da3150040ee08505139b47498290ef1e7d5424b1aad5585ab25c895202cc",
+      "latency_seconds": 0.0014620000147260725,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "099db1489792e7afc9fa6db0ca74a0c12cff707257af94a5760e848b98652636",
+      "latency_seconds": 0.0012870999926235527,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "903a5054c481c8a810faeb749b3871110e28c11a59ae99b254bafd1c47054bcd",
+      "latency_seconds": 0.0013160999806132168,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "76ca2c50f1ca1b5b985a7c757a5f857b4da166bcdc59017e8e5ee516d3ecbf32",
+      "latency_seconds": 0.0013269999762997031,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 10,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "ecd2302fdb4a80eb45e024898da2425a6760ea417762e13b9eb97dee7ceda822",
+      "latency_seconds": 0.001378299988573417,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "2924e842243b2b5d31b227f9fad190553fa20e9582e6879a628a79ec7120a1e6",
+      "latency_seconds": 0.001522899983683601,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 1,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "da0611a8c33857c8605d8dc86a2dcba2c597df7341d2de406085d7390f25d55a",
+      "latency_seconds": 0.0014199000142980367,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "6b07aac53a1c6012ee22f4842b1e0093540d9412625d4ec1ad9b23020478d892",
+      "latency_seconds": 0.001433600002201274,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 5
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "1980043aa7ea9398efee9de0ec8d0f961a4e77a114722981500817dd2e9824e9",
+      "latency_seconds": 0.001278200012166053,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 11
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "4a6c0759b68aa7b8718727d34023003af409d37b95c6d3e9f2d99dd8562ac981",
+      "latency_seconds": 0.0011681999894790351,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "3c44093a2046bb5add36cb4e456a8f1e22fc8a27e34913180a215313dc7c54b7",
+      "latency_seconds": 0.0011937000090256333,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 10
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "58df231624d9598114174205cda48d49d24b9d581876dada3ef91e3104e86286",
+      "latency_seconds": 0.001191100018331781,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 6,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "b5b42b6626d0eeb48714c9143d2dbc208423426d369d88efc9567cc7ffb05212",
+      "latency_seconds": 0.002004500012844801,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 9,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "479f6cd59eead09027b4fab79d7a9e5ee96e8cf5bba8ce9017625291b3681d5a",
+      "latency_seconds": 0.0011807999981101602,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 9
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "6cd2d149e31b7f950a23d8c652612d912b588db2334308ed235ed5d8002513fb",
+      "latency_seconds": 0.0012731000024359673,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 5,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "94a24b001e61f40a909941be743be58e072a8640987ae5bd3670e44f3af71dd6",
+      "latency_seconds": 0.0012455999967642128,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 5,
+        "y": 8
+      },
+      "accepted": true,
+      "events": [],
+      "frames_advanced": 64,
+      "after_sha256": "ab0a5cbe358be50c595b436ee3517065152b35e4314032bf228f5876439a9762",
+      "latency_seconds": 0.001344099990092218,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 6
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 1,
+          "player": "p2"
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "4aaf92158a5247f3df587d1f0bf1b4b25b594047c24f49919c12fd55d2370721",
+      "latency_seconds": 0.0012472000089474022,
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "action": {
+        "x": 8,
+        "y": 3
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "segment_end",
+          "player": "p2",
+          "reason": "timer_expired",
+          "heat": 2
+        }
+      ],
+      "frames_advanced": 64,
+      "after_sha256": "de2e3eaadff6261441b957e8689e51cfdce8c25600c9bdd9c686260f09a56d73",
+      "latency_seconds": 0.0013438999885693192,
+      "source": "baseline",
+      "model_metadata": null
+    }
+  ],
+  "model_calls": 0,
+  "call_events": [],
+  "limits": {
+    "model_calls": 128,
+    "request_timeout": 20,
+    "deadline_seconds": 300
+  },
+  "outcome": {
+    "status": "terminal",
+    "reason": "heats_complete",
+    "failure": false,
+    "winner": null,
+    "draw": true,
+    "scores": {
+      "p1": 2,
+      "p2": 2
+    },
+    "total_pockets": {
+      "p1": 2,
+      "p2": 2
+    },
+    "scratches": {
+      "p1": 0,
+      "p2": 0
+    },
+    "clearances": {
+      "p1": 0,
+      "p2": 0
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "frames": 7936,
+    "steps": 124,
+    "heat": 2,
+    "heats": 2
+  },
+  "elapsed_seconds": 0.3824000999738928
+}

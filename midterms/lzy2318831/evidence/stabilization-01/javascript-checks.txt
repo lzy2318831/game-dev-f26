@@ -1,0 +1,10 @@
+PASS: complete replay.js syntax; preview/final timers preserved; automatic progression schedules
+
+PASS: geometry failure/result messages, no-candidate stop and cancellation labels
+PASS: fresh-page session preparation, no automatic consent, incomplete failure and cumulative server budget
+
+PASS: one result Back owner; hung settlement cannot trap navigation
+
+PASS: safe navigation, stopped timers, modal Back controls and delayed result cannot cover Main Menu
+
+PASS: live.js syntax; rejection dispatches nothing; explicit confirmation once; cancelled delayed packet cannot animate

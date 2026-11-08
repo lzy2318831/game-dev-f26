@@ -1,0 +1,8 @@
+test_failure_and_cancel_can_prepare_fresh_match_without_resetting_spend (test_geometry_lifecycle.GeometryLifecycle.test_failure_and_cancel_can_prepare_fresh_match_without_resetting_spend) ... ok
+test_timeout_is_incomplete_and_unknown_reservation_survives_new_match (test_geometry_lifecycle.GeometryLifecycle.test_timeout_is_incomplete_and_unknown_reservation_survives_new_match) ... ok
+test_two_complete_matches_same_server_with_fresh_consent (test_geometry_lifecycle.GeometryLifecycle.test_two_complete_matches_same_server_with_fresh_consent) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 44.801s
+
+OK

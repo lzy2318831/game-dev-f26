@@ -1,0 +1,9 @@
+test_failures_count_and_never_fallback (test_model.ModelTests.test_failures_count_and_never_fallback) ... ok
+test_hung_transport_is_terminated (test_model.ModelTests.test_hung_transport_is_terminated) ... ok
+test_public_context_and_history_budget (test_model.ModelTests.test_public_context_and_history_budget) ... ok
+test_valid_fake_model_and_budget (test_model.ModelTests.test_valid_fake_model_and_budget) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.578s
+
+OK

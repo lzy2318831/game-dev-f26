@@ -1,0 +1,20 @@
+{
+  "python_tests": 206,
+  "python_returncode": 0,
+  "javascript_checks": 6,
+  "official_replays": 24,
+  "frozen_artifacts": 18,
+  "preserved_paths_checked": 1098,
+  "unexpected_changes": [],
+  "historical_evidence_changes": [],
+  "browser_power_settings": [
+    2,
+    1
+  ],
+  "two_consecutive_full_matches": true,
+  "http_failure_recovery": true,
+  "simulation_limit_hung_leave_recovery": true,
+  "real_api_calls": 0,
+  "student_preferred_multiplier": 2,
+  "stabilized_fallback_multiplier": 1
+}

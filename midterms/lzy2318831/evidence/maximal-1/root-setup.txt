@@ -1,0 +1,8 @@
+PASS Python 3.15.1
+PASS Git
+FAIL GitHub CLI authentication: rerun gh auth status locally for details.
+FAIL Pyxel engine: rerun C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\python.exe -m course_game.engine_check --headless locally for details.
+FAIL deterministic tests: rerun C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\python.exe -m unittest discover -s tests -v locally for details.
+PASS scripted fixture (no live call)
+{"provider": "fixture", "model": "scripted-fixture-v1", "elapsed_seconds": 0.0, "input_tokens": null, "output_tokens": null, "total_tokens": null, "cost": "not estimated; use the dated price for your approved model"}
+SETUP INCOMPLETE. No failed check was replaced with an offline pass.

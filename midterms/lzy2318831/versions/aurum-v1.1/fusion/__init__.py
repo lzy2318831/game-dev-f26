@@ -1,0 +1,2 @@
+"""Pool + Pinball: Arcade Fusion. Original assets and rules."""
+VERSION = 'fusion-1.1.0-aurum'

@@ -1,0 +1,35 @@
+{
+  "kind": "fresh_process_offline_http_launch_check",
+  "command": "python -m fusion.live_demo --port 18825 --replay-port 18827 --live-port 18829",
+  "note": "Alternate ports avoid existing user-owned servers. Earlier 8825 probes reached an existing server; not a verified fresh startup. No GUI visual check claimed.",
+  "startup": [
+    "PASS: final gameplay and visual freeze (18 artifacts)",
+    "KINETIC CIRCUIT | http://127.0.0.1:18825 | recorded and separate live buttons"
+  ],
+  "http": {
+    "18825": 200,
+    "18827": 200,
+    "18829": 200
+  },
+  "live": {
+    "phase": "waiting",
+    "reason": null,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "variant": "kinetic-prompt-v2-risk-aware",
+    "mocked": false,
+    "paid_enabled": false,
+    "credentials_configured": false,
+    "can_start": false,
+    "calls": 0,
+    "call_cap": 6,
+    "cost_cap_usd": 0.25,
+    "estimated_cost_usd": 0,
+    "committed_or_reserved_usd": 0,
+    "unknown_cost_calls": 0,
+    "sequence": null,
+    "selected_action": null,
+    "selected_player": null,
+    "cancel_requested": false,
+    "artifact_directory": null
+  }
+}

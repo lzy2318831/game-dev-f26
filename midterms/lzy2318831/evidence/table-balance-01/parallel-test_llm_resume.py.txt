@@ -1,0 +1,24 @@
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+{"trial": "observation_only-direct-101-p2", "player": "p2", "source": "model", "action": {"angle": 345, "power": 72}, "scores": {"p1": 0, "p2": 205}}
+{"trial": "observation_only-direct-101-p2", "player": "p1", "source": "baseline", "action": {"angle": 294, "power": 35}, "scores": {"p1": 0, "p2": 205}}
+test_corrupt_journal_is_preserved (test_llm_resume.Recovery.test_corrupt_journal_is_preserved) ... ok
+test_exclusive_process_lock (test_llm_resume.Recovery.test_exclusive_process_lock) ... ok
+test_execute_skips_completed_trials_and_preserves_failure (test_llm_resume.Recovery.test_execute_skips_completed_trials_and_preserves_failure) ... ok
+test_interrupted_trials_are_counted (test_llm_resume.Recovery.test_interrupted_trials_are_counted) ... ok
+test_ledger_restores_and_never_resets_limits (test_llm_resume.Recovery.test_ledger_restores_and_never_resets_limits) ... ok
+test_live_output_cannot_reset_budget (test_llm_resume.Recovery.test_live_output_cannot_reset_budget) ... ok
+test_prior_attempts_and_budget (test_llm_resume.Recovery.test_prior_attempts_and_budget) ... ok
+test_prior_evidence_unchanged (test_llm_resume.Recovery.test_prior_evidence_unchanged) ... ok
+test_recorded_response_reused_without_network_and_replay (test_llm_resume.Recovery.test_recorded_response_reused_without_network_and_replay) ... ok
+test_unanswered_request_is_not_retried (test_llm_resume.Recovery.test_unanswered_request_is_not_retried) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 6.897s
+
+OK

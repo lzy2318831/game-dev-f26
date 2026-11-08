@@ -1,0 +1,44 @@
+[
+  {
+    "file": "tests\\cue-stroke.cjs",
+    "returncode": 0,
+    "stdout": "PASS: cue pulls back, strikes forward, ball clock starts after contact\n",
+    "stderr": ""
+  },
+  {
+    "file": "tests\\geometry-controller.cjs",
+    "returncode": 0,
+    "stdout": "PASS: geometry failure/result messages, no-candidate stop and cancellation labels\nPASS: fresh-page session preparation, no automatic consent, incomplete failure and cumulative server budget\n",
+    "stderr": ""
+  },
+  {
+    "file": "tests\\geometry-navigation.cjs",
+    "returncode": 0,
+    "stdout": "PASS: one result Back owner; hung settlement cannot trap navigation\n",
+    "stderr": ""
+  },
+  {
+    "file": "tests\\geometry-power.cjs",
+    "returncode": 0,
+    "stdout": "PASS: preferred2x,1x switch without dispatch,active lock,setting failure blocks consent,result label\n",
+    "stderr": ""
+  },
+  {
+    "file": "tests\\live-demo-controller.cjs",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "file": "tests\\navigation-controller.cjs",
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "file": "tests\\replay-timers.cjs",
+    "returncode": 0,
+    "stdout": "PASS: complete replay.js syntax; preview/final timers preserved; automatic progression schedules\n",
+    "stderr": ""
+  }
+]

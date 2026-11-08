@@ -1,0 +1,1 @@
+PASS: final gameplay and visual freeze (18 artifacts)

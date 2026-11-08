@@ -1,0 +1,239 @@
+{
+  "drag_power": 67,
+  "first_shot_events": [
+    {
+      "type": "bumper",
+      "ball": 0,
+      "bumper": 0,
+      "x": 427.23083600929226,
+      "y": 178.2019071138615,
+      "points": 15,
+      "t": 0.37916666666666665
+    },
+    {
+      "type": "scratch",
+      "ball": 0,
+      "x": 479.84882328832185,
+      "y": 480.0699384301666,
+      "t": 2.0375
+    }
+  ],
+  "state_after_human_and_baseline": {
+    "version": "fusion-1.0.0",
+    "observation": {
+      "player_id": "p1",
+      "active_player": "p1",
+      "table": {
+        "width": 1000,
+        "height": 500,
+        "ball_radius": 11,
+        "pocket_radius": 29,
+        "pockets": [
+          [
+            0,
+            0
+          ],
+          [
+            500,
+            0
+          ],
+          [
+            1000,
+            0
+          ],
+          [
+            0,
+            500
+          ],
+          [
+            500,
+            500
+          ],
+          [
+            1000,
+            500
+          ]
+        ]
+      },
+      "balls": [
+        {
+          "id": 0,
+          "x": 768.9194939982527,
+          "y": 252.23103560724198
+        },
+        {
+          "id": 1,
+          "x": 696.8729876774999,
+          "y": 247.22382647161902
+        },
+        {
+          "id": 2,
+          "x": 720.1202376275626,
+          "y": 238.7502463428048
+        },
+        {
+          "id": 3,
+          "x": 691.7966287479055,
+          "y": 292.1619156060629
+        },
+        {
+          "id": 4,
+          "x": 732.656442278755,
+          "y": 217.83475792157853
+        },
+        {
+          "id": 5,
+          "x": 740.1510574535923,
+          "y": 251.23889568624736
+        },
+        {
+          "id": 6,
+          "x": 742,
+          "y": 274
+        }
+      ],
+      "bumpers": [
+        {
+          "id": 0,
+          "x": 465,
+          "y": 165,
+          "radius": 29
+        },
+        {
+          "id": 1,
+          "x": 555,
+          "y": 335,
+          "radius": 29
+        }
+      ],
+      "scores": {
+        "p1": 0,
+        "p2": 15
+      },
+      "shots_remaining": {
+        "p1": 5,
+        "p2": 5
+      },
+      "scratches": {
+        "p1": 1,
+        "p2": 0
+      },
+      "invalid_actions": {
+        "p1": 0,
+        "p2": 0
+      },
+      "last_events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 1,
+          "x": 552.2918506955472,
+          "y": 295.08175821325807,
+          "points": 15,
+          "t": 0.9166666666666666
+        }
+      ],
+      "last_shot": {
+        "player": "p2",
+        "points": 15,
+        "foul": false,
+        "invalid": false,
+        "breakdown": {
+          "pots": 0,
+          "bumpers": 15,
+          "multi": 0,
+          "assisted": 0,
+          "voided": false
+        },
+        "potted": []
+      },
+      "status": "ongoing"
+    },
+    "outcome": {
+      "status": "ongoing",
+      "reason": "",
+      "winner": null,
+      "draw": false,
+      "failure": false,
+      "scores": {
+        "p1": 0,
+        "p2": 15
+      },
+      "shots": 2,
+      "shots_remaining": {
+        "p1": 5,
+        "p2": 5
+      },
+      "scratches": {
+        "p1": 1,
+        "p2": 0
+      },
+      "invalid_actions": {
+        "p1": 0,
+        "p2": 0
+      },
+      "metrics": {
+        "p1": {
+          "pots": 0,
+          "bumper_points": 0,
+          "combo_points": 0
+        },
+        "p2": {
+          "pots": 0,
+          "bumper_points": 15,
+          "combo_points": 0
+        }
+      }
+    },
+    "mode": "hvb",
+    "busy": false
+  },
+  "desktop_layout_height": 1100,
+  "laptop_layout_height": 720,
+  "ending": {
+    "status": "terminal",
+    "reason": "shots_exhausted",
+    "winner": null,
+    "draw": true,
+    "failure": false,
+    "scores": {
+      "p1": 15,
+      "p2": 15
+    },
+    "shots": 12,
+    "shots_remaining": {
+      "p1": 0,
+      "p2": 0
+    },
+    "scratches": {
+      "p1": 2,
+      "p2": 4
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "metrics": {
+      "p1": {
+        "pots": 0,
+        "bumper_points": 15,
+        "combo_points": 0
+      },
+      "p2": {
+        "pots": 0,
+        "bumper_points": 15,
+        "combo_points": 0
+      }
+    }
+  },
+  "end_screen_time_accelerated": true,
+  "reset_race": {
+    "staleMovie": false,
+    "busy": false,
+    "shots": {
+      "p1": 6,
+      "p2": 6
+    }
+  },
+  "javascript_errors": []
+}

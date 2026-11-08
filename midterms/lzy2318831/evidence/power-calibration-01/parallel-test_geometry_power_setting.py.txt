@@ -1,0 +1,12 @@
+test_settings_lock_failure_recovery_and_cumulative_budget (test_geometry_power_setting.PowerHTTP.test_settings_lock_failure_recovery_and_cumulative_budget) ... ok
+test_capped_same_angle_candidates_keep_the_selected_id (test_geometry_power_setting.PowerSetting.test_capped_same_angle_candidates_keep_the_selected_id) ... ok
+test_known_simulation_limit_position_at_both_settings (test_geometry_power_setting.PowerSetting.test_known_simulation_limit_position_at_both_settings) ... ok
+test_only_candidate_power_changes_and_selection_is_genuine (test_geometry_power_setting.PowerSetting.test_only_candidate_power_changes_and_selection_is_genuine) ... ok
+test_power_cap_and_invalid_settings (test_geometry_power_setting.PowerSetting.test_power_cap_and_invalid_settings) ... ok
+test_preferred_server_and_waiting_only_change_without_spend (test_geometry_power_setting.PowerSetting.test_preferred_server_and_waiting_only_change_without_spend) ... ok
+test_snapshot_trace_consent_and_policy_match_setting (test_geometry_power_setting.PowerSetting.test_snapshot_trace_consent_and_policy_match_setting) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 21.693s
+
+OK

@@ -1,0 +1,16 @@
+test_crossing_segments_are_obstacles (test_fusion_polish.AurumDevices.test_crossing_segments_are_obstacles) ... ok
+test_device_farming_is_bounded (test_fusion_polish.AurumDevices.test_device_farming_is_bounded) ... ok
+test_frozen_layouts_clear_new_solids (test_fusion_polish.AurumDevices.test_frozen_layouts_clear_new_solids) ... ok
+test_full_spinner_assisted_pot (test_fusion_polish.AurumDevices.test_full_spinner_assisted_pot) ... ok
+test_lane_scores_once_and_objects_do_not_score (test_fusion_polish.AurumDevices.test_lane_scores_once_and_objects_do_not_score) ... ok
+test_layout_is_open_and_public (test_fusion_polish.AurumDevices.test_layout_is_open_and_public) ... ok
+test_rail_reflects_and_end_has_finite_normal (test_fusion_polish.AurumDevices.test_rail_reflects_and_end_has_finite_normal) ... ok
+test_recording_does_not_change_device_physics (test_fusion_polish.AurumDevices.test_recording_does_not_change_device_physics) ... ok
+test_return_elbow_banks_downward_ball_inward (test_fusion_polish.AurumDevices.test_return_elbow_banks_downward_ball_inward) ... ok
+test_spinner_doubles_later_pots_without_stacking (test_fusion_polish.AurumDevices.test_spinner_doubles_later_pots_without_stacking) ... ok
+test_spinner_object_and_minimum_speed (test_fusion_polish.AurumDevices.test_spinner_object_and_minimum_speed) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.975s
+
+OK

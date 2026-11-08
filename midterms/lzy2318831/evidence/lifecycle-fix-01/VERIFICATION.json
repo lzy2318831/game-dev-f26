@@ -1,0 +1,31 @@
+{
+  "kind": "OFFLINE_LIFECYCLE_REPAIR_NOT_LLM_PERFORMANCE",
+  "python_tests": 191,
+  "python_seconds": 384.95,
+  "js_controller_checks": 4,
+  "official_replays": 24,
+  "frozen_artifacts": 18,
+  "preserved_hashes": 444,
+  "primary_local_links": 72,
+  "actual_chrome_matches": 2,
+  "shots_each": 12,
+  "shots_per_player": 6,
+  "same_server": true,
+  "back_to_menu_twice": true,
+  "browser_errors": 0,
+  "real_api_calls": 0,
+  "browser_summary": "browser-run-05/summary.json",
+  "per_match": {
+    "calls": 6,
+    "estimated_usd": 0.25
+  },
+  "server_process": {
+    "calls": 12,
+    "estimated_usd": 0.5
+  },
+  "original_failures": [
+    "no_reliable_candidate after4shots with4/4remaining",
+    "single-use backend phase prevented fresh match"
+  ],
+  "branch": "lzy2318831/midterm"
+}

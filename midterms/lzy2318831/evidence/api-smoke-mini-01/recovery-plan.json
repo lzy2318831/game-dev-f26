@@ -1,0 +1,26 @@
+{
+  "status": "AWAITING_USER_APPROVAL_NOT_EXECUTED",
+  "original_run": "evidence\\live-mini-approved-01",
+  "smoke_run": "C:\\Users\\lzy21\\Documents\\game-dev-f26\\midterms\\lzy2318831\\evidence\\api-smoke-mini-01",
+  "pending_trial_ids": [
+    "observation_only-direct-101-p2",
+    "observation_only-direct-102-p1",
+    "observation_only-direct-102-p2",
+    "observation_only-bumper-101-p1",
+    "observation_only-bumper-101-p2",
+    "observation_only-bumper-102-p1",
+    "observation_only-bumper-102-p2",
+    "observation_only-risk-101-p1",
+    "observation_only-risk-101-p2",
+    "observation_only-risk-102-p1",
+    "observation_only-risk-102-p2"
+  ],
+  "original_failed_attempts": 1,
+  "smoke_attempts": 1,
+  "cumulative_attempts": 2,
+  "remaining_original_72_call_allowance": 70,
+  "max_calls_for_11_pending_trials": 66,
+  "remaining_original_5_usd_local_budget": 4.987305500000001,
+  "preserve_first_trial_as_failure": true,
+  "automatic_continuation": false
+}

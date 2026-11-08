@@ -1,0 +1,1117 @@
+{
+  "kind": "OFFLINE_GEOMETRIC_COVERAGE_NOT_LLM_PERFORMANCE",
+  "counts": {
+    "shots": 34,
+    "direct_contact_or_pot": 16,
+    "bank_contact": 3,
+    "contact_including_bank": 18,
+    "ghost_pot": 0,
+    "device_route": 9,
+    "escape_available": 17,
+    "escape_only": 15,
+    "no_candidate": 1,
+    "raw_ray_reaches_any_object_ignoring_blockers": 14,
+    "raw_clear_reachable_contact": 3,
+    "raw_scratches": 10
+  },
+  "rows": [
+    {
+      "run": "20261107T140001Z-d4531653511b",
+      "model_shot": 1,
+      "raw_action": {
+        "angle": 171,
+        "power": 57
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T140001Z-d4531653511b",
+      "model_shot": 2,
+      "raw_action": {
+        "angle": 316,
+        "power": 56
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "bank-contact",
+          "target": 10,
+          "angle": 158,
+          "power": 15,
+          "minimum_power": 7,
+          "risk": "one cushion, clear geometric contact; bank loss estimated; outcome not guaranteed",
+          "travel": 149.5,
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 165,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 165,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "run": "20261107T140001Z-d4531653511b",
+      "model_shot": 3,
+      "raw_action": {
+        "angle": 197,
+        "power": 56
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 195,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 180,
+          "power": 10,
+          "minimum_power": 10,
+          "travel": 209.4,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T140001Z-d4531653511b",
+      "model_shot": 4,
+      "raw_action": {
+        "angle": 167,
+        "power": 47
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 180,
+          "power": 10,
+          "minimum_power": 10,
+          "travel": 209.4,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 180,
+          "power": 15,
+          "minimum_power": 15,
+          "travel": 303.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T140001Z-d4531653511b",
+      "model_shot": 5,
+      "raw_action": {
+        "angle": 203,
+        "power": 53
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 120,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 135,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T140001Z-d4531653511b",
+      "model_shot": 6,
+      "raw_action": {
+        "angle": 198,
+        "power": 46
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 120,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 135,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T144900Z-a1e923c36aca",
+      "model_shot": 1,
+      "raw_action": {
+        "angle": 350,
+        "power": 72
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T144900Z-a1e923c36aca",
+      "model_shot": 2,
+      "raw_action": {
+        "angle": 359,
+        "power": 32
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T144900Z-a1e923c36aca",
+      "model_shot": 3,
+      "raw_action": {
+        "angle": 173,
+        "power": 33
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 3,
+          "angle": 6,
+          "power": 8,
+          "minimum_power": 2,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 91.3,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "run": "20261107T144900Z-a1e923c36aca",
+      "model_shot": 4,
+      "raw_action": {
+        "angle": 171,
+        "power": 92
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 14,
+          "angle": 262,
+          "power": 7,
+          "minimum_power": 1,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 71.3,
+          "id": 1
+        },
+        {
+          "route": "contact",
+          "target": 7,
+          "angle": 189,
+          "power": 17,
+          "minimum_power": 11,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 219.1,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T200656Z-b6750e1dad0a",
+      "model_shot": 1,
+      "raw_action": {
+        "angle": 180,
+        "power": 1
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T200656Z-b6750e1dad0a",
+      "model_shot": 2,
+      "raw_action": {
+        "angle": 190,
+        "power": 54
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 135,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 150,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T200656Z-b6750e1dad0a",
+      "model_shot": 3,
+      "raw_action": {
+        "angle": 156,
+        "power": 33
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 240,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 120,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T200656Z-b6750e1dad0a",
+      "model_shot": 4,
+      "raw_action": {
+        "angle": 177,
+        "power": 42
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 120,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 135,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T200656Z-b6750e1dad0a",
+      "model_shot": 5,
+      "raw_action": {
+        "angle": 208,
+        "power": 56
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 165,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 150,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T200656Z-b6750e1dad0a",
+      "model_shot": 6,
+      "raw_action": {
+        "angle": 214,
+        "power": 60
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 255,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 255,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201358Z-5c2a430494a3",
+      "model_shot": 1,
+      "raw_action": {
+        "angle": 0,
+        "power": 15
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201358Z-5c2a430494a3",
+      "model_shot": 2,
+      "raw_action": {
+        "angle": 292,
+        "power": 60
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": []
+    },
+    {
+      "run": "20261107T201358Z-5c2a430494a3",
+      "model_shot": 3,
+      "raw_action": {
+        "angle": 341,
+        "power": 43
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 75,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 285,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201358Z-5c2a430494a3",
+      "model_shot": 4,
+      "raw_action": {
+        "angle": 153,
+        "power": 10
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 255,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 255,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201358Z-5c2a430494a3",
+      "model_shot": 5,
+      "raw_action": {
+        "angle": 131,
+        "power": 47
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 93,
+          "power": 6,
+          "minimum_power": 1,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 58.6,
+          "id": 1
+        },
+        {
+          "route": "contact",
+          "target": 2,
+          "angle": 73,
+          "power": 6,
+          "minimum_power": 1,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 62.0,
+          "id": 2
+        },
+        {
+          "route": "contact",
+          "target": 3,
+          "angle": 57,
+          "power": 7,
+          "minimum_power": 1,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 73.8,
+          "id": 3
+        },
+        {
+          "route": "contact",
+          "target": 12,
+          "angle": 129,
+          "power": 15,
+          "minimum_power": 9,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 180.7,
+          "id": 4
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 258,
+          "power": 6,
+          "minimum_power": 5,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 117.0,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "run": "20261107T201358Z-5c2a430494a3",
+      "model_shot": 6,
+      "raw_action": {
+        "angle": 207,
+        "power": 53
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 195,
+          "power": 10,
+          "minimum_power": 10,
+          "travel": 209.4,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 180,
+          "power": 15,
+          "minimum_power": 15,
+          "travel": 303.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201921Z-4e938fbec433",
+      "model_shot": 1,
+      "raw_action": {
+        "angle": 0,
+        "power": 29
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201921Z-4e938fbec433",
+      "model_shot": 2,
+      "raw_action": {
+        "angle": 171,
+        "power": 61
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 85,
+          "power": 2,
+          "minimum_power": 1,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 15.2,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "run": "20261107T201921Z-4e938fbec433",
+      "model_shot": 3,
+      "raw_action": {
+        "angle": 192,
+        "power": 67
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "bank-contact",
+          "target": 3,
+          "angle": 55,
+          "power": 23,
+          "minimum_power": 16,
+          "risk": "one cushion, clear geometric contact; bank loss estimated; outcome not guaranteed",
+          "travel": 315.6,
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 330,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 345,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "run": "20261107T201921Z-4e938fbec433",
+      "model_shot": 4,
+      "raw_action": {
+        "angle": 201,
+        "power": 54
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 345,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 0,
+          "power": 10,
+          "minimum_power": 10,
+          "travel": 209.4,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201921Z-4e938fbec433",
+      "model_shot": 5,
+      "raw_action": {
+        "angle": 43,
+        "power": 62
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 120,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 345,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T201921Z-4e938fbec433",
+      "model_shot": 6,
+      "raw_action": {
+        "angle": 341,
+        "power": 58
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 75,
+          "power": 1,
+          "minimum_power": 1,
+          "travel": 84.8,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 1
+        },
+        {
+          "route": "escape",
+          "target": null,
+          "angle": 75,
+          "power": 5,
+          "minimum_power": 5,
+          "travel": 133.2,
+          "risk": "clear stopping segment; reposition only, no contact or pot claim",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T202440Z-a6109b3fa881",
+      "model_shot": 1,
+      "raw_action": {
+        "angle": 0,
+        "power": 7
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 1,
+          "angle": 0,
+          "power": 27,
+          "minimum_power": 22,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 448.0,
+          "id": 1
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T202440Z-a6109b3fa881",
+      "model_shot": 2,
+      "raw_action": {
+        "angle": 173,
+        "power": 64
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 13,
+          "angle": 244,
+          "power": 4,
+          "minimum_power": 1,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 31.3,
+          "id": 1
+        },
+        {
+          "route": "contact",
+          "target": 12,
+          "angle": 282,
+          "power": 8,
+          "minimum_power": 2,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 90.4,
+          "id": 2
+        },
+        {
+          "route": "contact",
+          "target": 14,
+          "angle": 196,
+          "power": 13,
+          "minimum_power": 6,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 143.6,
+          "id": 3
+        },
+        {
+          "route": "contact",
+          "target": 6,
+          "angle": 188,
+          "power": 31,
+          "minimum_power": 27,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 577.7,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "run": "20261107T202440Z-a6109b3fa881",
+      "model_shot": 3,
+      "raw_action": {
+        "angle": 153,
+        "power": 63
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 14,
+          "angle": 359,
+          "power": 24,
+          "minimum_power": 19,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 374.1,
+          "id": 1
+        },
+        {
+          "route": "contact",
+          "target": 4,
+          "angle": 13,
+          "power": 26,
+          "minimum_power": 21,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 427.6,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T202440Z-a6109b3fa881",
+      "model_shot": 4,
+      "raw_action": {
+        "angle": 167,
+        "power": 44
+      },
+      "raw_ray_reaches_object_ignoring_blockers": true,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 14,
+          "angle": 2,
+          "power": 31,
+          "minimum_power": 26,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 567.5,
+          "id": 1
+        },
+        {
+          "route": "contact",
+          "target": 3,
+          "angle": 5,
+          "power": 33,
+          "minimum_power": 29,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 642.1,
+          "id": 2
+        },
+        {
+          "route": "device",
+          "target": "bridge",
+          "angle": 270,
+          "power": 11,
+          "minimum_power": 10,
+          "risk": "entry path only; powered exit/occupancy/scratch uncertain; not a pot route",
+          "travel": 195.0,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "run": "20261107T202440Z-a6109b3fa881",
+      "model_shot": 5,
+      "raw_action": {
+        "angle": 180,
+        "power": 26
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 8,
+          "angle": 280,
+          "power": 13,
+          "minimum_power": 7,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 148.8,
+          "id": 1
+        },
+        {
+          "route": "bank-contact",
+          "target": 8,
+          "angle": 85,
+          "power": 26,
+          "minimum_power": 18,
+          "risk": "one cushion, clear geometric contact; bank loss estimated; outcome not guaranteed",
+          "travel": 350.3,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "run": "20261107T202440Z-a6109b3fa881",
+      "model_shot": 6,
+      "raw_action": {
+        "angle": 198,
+        "power": 61
+      },
+      "raw_ray_reaches_object_ignoring_blockers": false,
+      "candidates": [
+        {
+          "route": "contact",
+          "target": 6,
+          "angle": 240,
+          "power": 14,
+          "minimum_power": 8,
+          "risk": "clear initial contact; pocket/rebound outcome not guaranteed",
+          "travel": 164.3,
+          "id": 1
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "evidence/live-browser-v2/20261107T140001Z-d4531653511b/calls.jsonl": "214791403a681988a792732199612aa3e72ff446769cf1cbac80e68693dcfddf",
+    "evidence/live-browser-v2/20261107T140001Z-d4531653511b/trace.json": "1ad9449882689cc9965ae07e4fd95e57ea4e490350a24ae4fb29997908fff288",
+    "evidence/live-browser-v2/20261107T144900Z-a1e923c36aca/calls.jsonl": "7fe9d34c0faf7989131a41747f8e152a4ce7c05102172c14555497c15b717a29",
+    "evidence/live-browser-v2/20261107T144900Z-a1e923c36aca/trace.json": "ae90d09ee5f0971bcc05abd91cfbdfe2e940433625d1a01e8b14af905b59b849",
+    "evidence/live-browser-v2/20261107T200656Z-b6750e1dad0a/calls.jsonl": "766ac65e8d9fb30be27608326de80069d8b2464a0498cd7d737b10a4202b1f50",
+    "evidence/live-browser-v2/20261107T200656Z-b6750e1dad0a/trace.json": "daed3c7e57a1839e20938c8f6cff6d685582962abe635e7d3a7338b488196e9b",
+    "evidence/live-browser-v2/20261107T201358Z-5c2a430494a3/calls.jsonl": "b0b188695ff5bf55bd53c102e6e910ab5adeec52e7470a0b5a2b3fb2c37d6b76",
+    "evidence/live-browser-v2/20261107T201358Z-5c2a430494a3/trace.json": "75efaf63fa656112595cc917713aa893911bd079b935dab8e838719d8e610ece",
+    "evidence/live-browser-v2/20261107T201921Z-4e938fbec433/calls.jsonl": "e96391e523144f22928cf0ffe86c5184f8d4458d2b17da5155c60670580165f6",
+    "evidence/live-browser-v2/20261107T201921Z-4e938fbec433/trace.json": "a91b432e964364689fcd8985f6a6892828c17868bc29a64c7c38940d52118bb7",
+    "evidence/live-browser-v2/20261107T202440Z-a6109b3fa881/calls.jsonl": "31009cfd2e760c1b4007762aa8036252d1c8183b7754c680c9e79cd92cb953ec",
+    "evidence/live-browser-v2/20261107T202440Z-a6109b3fa881/trace.json": "cce3ae5270c8da253711227e5ba7dff02234d609d8a6f1989200233c22ad066b"
+  },
+  "limitations": "Candidate clearance/reach is geometry, not simulated collision success, a pot, or a win. No LLM selection or paid calls. Saved v2 cases are development data, not held-out evaluation."
+}

@@ -1,0 +1,21 @@
+PASS: final gameplay and visual freeze (18 artifacts)
+{"trial": "observation_only-direct-101-p1", "player": "p1", "source": "model", "action": {"angle": 180, "power": 1}, "scores": {"p1": 0, "p2": 0}}
+{"trial": "observation_only-direct-101-p1", "player": "p2", "source": "baseline", "action": {"angle": 15, "power": 45}, "scores": {"p1": 0, "p2": 0}}
+test_completed_reply_at_deadline_retains_metadata (test_fusion_llm.LLMContracts.test_completed_reply_at_deadline_retains_metadata) ... ok
+test_control_latency (test_fusion_llm.LLMContracts.test_control_latency) ... ok
+test_http_adapter_contract_and_no_redirect (test_fusion_llm.LLMContracts.test_http_adapter_contract_and_no_redirect) ... ok
+test_invalid_keeps_usage_and_counts_failed_call (test_fusion_llm.LLMContracts.test_invalid_keeps_usage_and_counts_failed_call) ... ok
+test_ledger_budget_refuses_before_dispatch_and_no_overwrite (test_fusion_llm.LLMContracts.test_ledger_budget_refuses_before_dispatch_and_no_overwrite) ... ok
+test_live_requires_explicit_consent (test_fusion_llm.LLMContracts.test_live_requires_explicit_consent) ... ok
+test_malformed_envelopes_retain_usage_and_duplicate_keys_reject (test_fusion_llm.LLMContracts.test_malformed_envelopes_retain_usage_and_duplicate_keys_reject) ... ok
+test_parse_valid_invalid_and_usage (test_fusion_llm.LLMContracts.test_parse_valid_invalid_and_usage) ... ok
+test_plan_counts_and_offline_fixture_suite (test_fusion_llm.LLMContracts.test_plan_counts_and_offline_fixture_suite) ... ok
+test_real_boundary_executes_fixture_action_and_replays (test_fusion_llm.LLMContracts.test_real_boundary_executes_fixture_action_and_replays) ... ok
+test_request_is_public_and_structured (test_fusion_llm.LLMContracts.test_request_is_public_and_structured) ... ok
+test_watchdog_unknown_cost_and_error_privacy (test_fusion_llm.LLMContracts.test_watchdog_unknown_cost_and_error_privacy) ... ok
+test_zero_cli_limit_rejected_without_network (test_fusion_llm.LLMContracts.test_zero_cli_limit_rejected_without_network) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 12.637s
+
+OK

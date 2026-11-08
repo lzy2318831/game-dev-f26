@@ -1,0 +1,40 @@
+{
+  "totals": {
+    "original": {
+      "shots": 70,
+      "settled": 70,
+      "foul": 1,
+      "simulation_limit": 0,
+      "cue_object_contact_radius_sample": 30,
+      "intended_contact_radius_sample": 30,
+      "intended_target_moved": 30,
+      "target_potted": 1,
+      "settled_pots": 2,
+      "settled_points": 130
+    },
+    "doubled": {
+      "shots": 70,
+      "settled": 70,
+      "foul": 7,
+      "simulation_limit": 0,
+      "cue_object_contact_radius_sample": 31,
+      "intended_contact_radius_sample": 30,
+      "intended_target_moved": 30,
+      "target_potted": 3,
+      "settled_pots": 16,
+      "settled_points": 860
+    }
+  },
+  "paired_changes": {
+    "new_simulation_limits": 0,
+    "resolved_simulation_limits": 0,
+    "new_scratches": 7,
+    "avoided_scratches": 1,
+    "both_settled": 70,
+    "doubled_more_pots": 4,
+    "doubled_fewer_pots": 1
+  },
+  "decision": "KEEP_STABILIZED_RUNTIME_UNCHANGED",
+  "unique_physics_candidate_pairs": 70,
+  "method": "Exact deduplication of public balls/bumpers/devices plus angle/original power/target; ignores history, scores and quotas because isolated shot physics does not use them."
+}

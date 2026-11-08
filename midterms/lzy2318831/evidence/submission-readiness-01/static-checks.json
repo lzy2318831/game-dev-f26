@@ -1,0 +1,12 @@
+{
+  "structured_files_validated": {
+    ".json": 165,
+    ".jsonl": 44,
+    ".py": 235,
+    ".toml": 3
+  },
+  "errors": [],
+  "workflow_run_count": 15,
+  "formal_yaml_or_actionlint_run": false,
+  "notes": "Manual structure review plus assertions; not a substitute for GitHub workflow validation. No credentials references or live flags."
+}

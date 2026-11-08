@@ -1,0 +1,21 @@
+{
+  "version": "fusion-1.4.0-final15",
+  "date": "2026-11-07",
+  "authorization": "user final game design instruction; technical freeze not course gate approval",
+  "sha256": {
+    "fusion/engine.py": "726ed64e3777780bc7b85b1600fd4103158ca9133e839f4cd98a53d440c40acb",
+    "fusion/devices.py": "6ea3992190eba334f355efb7567d766784ced8eb67ffcbe90be15ec25def7590",
+    "fusion/geometry.py": "3f353ea296385dba769e9692c768cad12e90b88279aa0f951bf35bfc95b2cd8d",
+    "fusion/baseline.py": "4a158e18097e8f9d41ed0de6d476abf437020a15a45ad36febe311395130d0a4",
+    "fusion/smart.py": "e827f37967a57f16ff774c42fac3154f5ee102812ba0f5ed373202a702c4b722",
+    "fusion/web/game.js": "078a87e02f87c6b5acb0f7efa4bb2f44917e36e7c3f3f6877300e87cc2e9a35a",
+    "fusion/web/aurum.js": "b3fb61c1a2224014ca98b4601691b29cf5afca202f146bc9f5ae783f54cab3f2",
+    "fusion/web/index.html": "05cc8687e50560f354a1c4dff2f2f3ccc3a0a685e47c953e733219387dccba8e",
+    "fusion/web/style.css": "307c25474c909a808b44271b57b82b039816851e91f2a4add7e8654ba358287e",
+    "fusion/evaluation.json": "6a9ad458f02a14b33e229163e04f31b77d3afee87a1c92d1bccbee81c7901c89",
+    "fusion/smart-comparison.json": "54c27e9bfe6ef6a14ab674314f889c099edac3da680ec97060bef3585d077b90",
+    "fusion/FINAL-RULES.md": "2068f176ded60f3a650bc80b2ee35318e44f97a60561bdc607ab572c7dc60ca6",
+    "RULES.md": "1ca977fe7ad6890f7fdd3610a70b9b88d894efd8800996dfdd1fea50d9b792ce",
+    "fusion/RULES.md": "5d06ea5ad19b65cd0e6203af3c721ae93a9a16c2f38efe428f3ec1852f600d8e"
+  }
+}

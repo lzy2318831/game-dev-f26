@@ -1,0 +1,51 @@
+{
+  "kind": "real_single_api_smoke",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "max_api_requests": 1,
+  "budget_usd": 0.099,
+  "status": "success",
+  "action": {
+    "angle": 345,
+    "power": 72
+  },
+  "metadata": {
+    "provider": "openai",
+    "requested_model": "gpt-5.4-mini-2026-03-17",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "response_id": "resp_00781f5829aeb2df016aeed64efdcc87d2a745446761be29e7",
+    "usage": {
+      "input_tokens": 2132,
+      "output_tokens": 24,
+      "total_tokens": 2156
+    },
+    "estimated_cost_usd": 0.001707,
+    "price_date": "2026-11-07",
+    "price_source": "https://developers.openai.com/api/docs/pricing",
+    "input_usd_per_million": 0.75,
+    "output_usd_per_million": 4.5,
+    "cache_discount_ignored": true,
+    "live": true,
+    "status": "completed",
+    "network_attempted": true,
+    "service_tier": "default",
+    "http_status": 200,
+    "latency_seconds": 1.7810086000245064,
+    "request_sha256": "a79d1a88b1374b35c663b8440b1ac8d0be3f3538686c624720ecea03c4266cf9",
+    "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+    "action": {
+      "angle": 345,
+      "power": 72
+    }
+  },
+  "api_attempts": 1,
+  "http_status": 200,
+  "actual_reported_usage": {
+    "input_tokens": 2132,
+    "output_tokens": 24,
+    "total_tokens": 2156
+  },
+  "estimated_cost_usd": 0.001707,
+  "conservative_charged_or_reserved_usd": 0.0017070000000000002,
+  "cost_unknown_calls": 0,
+  "original_failed_run_unchanged": true
+}

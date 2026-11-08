@@ -1,0 +1,26 @@
+test_break_settles (test_fusion_final.FinalRack.test_break_settles) ... ok
+test_fifteen_clear_deterministic (test_fusion_final.FinalRack.test_fifteen_clear_deterministic) ... ok
+test_broadphase_matches_preserved_physics (test_fusion_final.PhysicsRegression.test_broadphase_matches_preserved_physics) ... FAIL
+test_prediction_matches_real_physics_preserving_ids (test_fusion_final.SmartTests.test_prediction_matches_real_physics_preserving_ids) ... ok
+test_public_legal_deterministic_budget (test_fusion_final.SmartTests.test_public_legal_deterministic_budget) ... ok
+test_smart_mode_automatic (test_fusion_final.SmartTests.test_smart_mode_automatic) ... ok
+
+======================================================================
+FAIL: test_broadphase_matches_preserved_physics (test_fusion_final.PhysicsRegression.test_broadphase_matches_preserved_physics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\midterms\lzy2318831\tests\test_fusion_final.py", line 58, in test_broadphase_matches_preserved_physics
+    self.assertEqual([vars(v) for v in a.balls],[vars(v) for v in b]);self.assertEqual(left.events,right.events)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [{'id': 0, 'x': 487.97290185565083, 'y': 191.270004284556[1986 chars]rue}] != [{'id': 0, 'x': 641.1937874793363, 'y': 79.48326071125356[1773 chars]rue}]
+
+First differing element 0:
+{'id': 0, 'x': 487.97290185565083, 'y': 191.270004284556[65 chars]True}
+{'id': 0, 'x': 641.1937874793363, 'y': 79.48326071125356[64 chars]True}
+
+Diff is 4203 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 6 tests in 20.721s
+
+FAILED (failures=1)

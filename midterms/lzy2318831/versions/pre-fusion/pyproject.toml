@@ -1,0 +1,9 @@
+[project]
+name = "six-ball-pool"
+version = "0.2.0"
+requires-python = ">=3.11"
+description = "Original deterministic competitive billiards with offline baseline"
+dependencies = []
+
+[tool.uv]
+package = false

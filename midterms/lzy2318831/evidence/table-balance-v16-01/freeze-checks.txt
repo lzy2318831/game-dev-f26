@@ -1,0 +1,2 @@
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: original v1.5 freeze (18 artifacts); archive157files verified

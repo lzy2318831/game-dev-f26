@@ -1,0 +1,60 @@
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 0}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 0, "power": 48}, "scores": {"p1": 0, "p2": 400}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 400}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 44, "power": 48}, "scores": {"p1": 0, "p2": 410}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 410}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 68, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 57, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 41, "power": 34}, "scores": {"p1": 0, "p2": 1370}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1370}}
+{"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 231, "power": 32}, "scores": {"p1": 0, "p2": 1370}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 0, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 120, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 137, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 150, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 164, "power": 48}, "scores": {"p1": 1480, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1480, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 265, "power": 48}, "scores": {"p1": 1480, "p2": 0}}
+{"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1480, "p2": 0}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 0}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 0, "power": 48}, "scores": {"p1": 0, "p2": 400}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 400}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 44, "power": 48}, "scores": {"p1": 0, "p2": 410}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 410}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 68, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 57, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 41, "power": 34}, "scores": {"p1": 0, "p2": 1370}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1370}}
+{"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 231, "power": 32}, "scores": {"p1": 0, "p2": 1370}}
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+test_call_limit_and_unknown_cost_reservations (test_prompt_v2_pilot.Pilot.test_call_limit_and_unknown_cost_reservations) ... ok
+test_declared_scope_and_settings (test_prompt_v2_pilot.Pilot.test_declared_scope_and_settings) ... ok
+test_entire_three_match_workflow_offline (test_prompt_v2_pilot.Pilot.test_entire_three_match_workflow_offline) ... ok
+test_failure_stops_without_retries_and_preserves_evidence (test_prompt_v2_pilot.Pilot.test_failure_stops_without_retries_and_preserves_evidence) ... ok
+test_fixture_cannot_be_replayed_as_genuine (test_prompt_v2_pilot.Pilot.test_fixture_cannot_be_replayed_as_genuine) ... ok
+test_interrupted_result_usage_is_in_summary (test_prompt_v2_pilot.Pilot.test_interrupted_result_usage_is_in_summary) ... ok
+test_interrupted_unanswered_request_keeps_unknowns (test_prompt_v2_pilot.Pilot.test_interrupted_unanswered_request_keeps_unknowns) ... ok
+test_live_alternate_directory_is_rejected (test_prompt_v2_pilot.Pilot.test_live_alternate_directory_is_rejected) ... ok
+test_preflight_cache_can_be_relocated (test_prompt_v2_pilot.Pilot.test_preflight_cache_can_be_relocated) ... ok
+test_unapproved_live_is_rejected_before_output (test_prompt_v2_pilot.Pilot.test_unapproved_live_is_rejected_before_output) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 52.873s
+
+OK

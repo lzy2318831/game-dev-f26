@@ -1,0 +1,20 @@
+{
+  "pool\\baseline.py": "b610304c211406a542aab6ce564ae17347195b31063f617a4989016622e0e027",
+  "pool\\engine.py": "3f0768bdc8963bab2d9b01bbbd3919f71055c6607e2114b165ee19175de014c8",
+  "pool\\model.py": "3c657b0ffe4eb2be0a8cc7616968fb11908ab9d512595b61fe73286c3956a16e",
+  "pool\\runner.py": "522e23f0f94b2c869abd22f8ccff68966634fc061eb61de6d2bc6e22416e30f4",
+  "pool\\ui.py": "d0bda11b18ae397a0161095d80dcadb29eb82c478bf08f0c2aca24e77b865dd4",
+  "pool\\__init__.py": "bfeab5e1ace9d38d77c3561c5cf5f8a97fd22ce635a698b795e7f369b5426119",
+  "historical\\baseline.py": "7d7d761fdb7751874207cf015a8a485aec2e1a7aa1e6b2d8136c39f6aa4121b2",
+  "historical\\engine.py": "2f625756f15dabdbd832fbdc7b3b045d616dc681915c183f073b43860c2b7a90",
+  "historical\\player.py": "e19e7cca035e54e05469308089c5451ea58a09436a60713b675814963e742124",
+  "historical\\runner.py": "6ab5555b82e2c3fbb1ffccadd067ec34f3c019fef17c85e83685e0de4e0ae172",
+  "historical\\ui.py": "995fcb05f5eae702325699b238631db952c58003f45ae972ff74c3a3e81016c5",
+  "historical\\__init__.py": "4ef0c5a9f8ed3095f6078e4ed1185eaf338ce775d62e8352b471bdbb7c107724",
+  "historical\\__main__.py": "d5d46b45e299186c8807d0bae4884cd6b275e6b76bd2fb544032d3a988b86c6b",
+  "tests\\test_historical.py": "b003d58117580b6b5202d0515bc19a3f1e341e9613e42dd52273d00725d5e87a",
+  "tests\\test_historical_ui.py": "336f1cb5f7da09de9858f3fda9b27e3f03d7cf96d96ee97853c7af8ccad2eb2c",
+  "tests\\test_model.py": "39198cfc1013ffb58a8f58dde00b4f0e4c1a35b4e300d00009a9046afdb82a9b",
+  "tests\\test_pool.py": "61606f7e4449133f0936c7437f28ccae960bd45a7e5ea363a35adef364201d65",
+  "tests\\test_ui.py": "0ad7d7467e51a34c0f56f57c651d664e41e019ec27008af9bb04821e07be90f8"
+}

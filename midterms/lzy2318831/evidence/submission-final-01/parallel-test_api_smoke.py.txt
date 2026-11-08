@@ -1,0 +1,12 @@
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+PASS: final gameplay and visual freeze (18 artifacts)
+test_non_json_success_status_is_retained (test_api_smoke.APISmoke.test_non_json_success_status_is_retained) ... ok
+test_offline_budget_and_no_network (test_api_smoke.APISmoke.test_offline_budget_and_no_network) ... ok
+test_one_failure_no_retry_or_recovery (test_api_smoke.APISmoke.test_one_failure_no_retry_or_recovery) ... ok
+test_one_success_usage_and_recovery_only (test_api_smoke.APISmoke.test_one_success_usage_and_recovery_only) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.419s
+
+OK

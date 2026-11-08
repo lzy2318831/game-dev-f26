@@ -1,0 +1,144 @@
+{
+  "version": "fusion-suite-2-aurum",
+  "declaration": "Aurum amendment declared before device implementation or policy adjustment; v1 retained in versions/fusion-v1",
+  "rules": "RULES.md F1-F9",
+  "trial_plan": {
+    "live_trials_per_situation": 2,
+    "model_seats": [
+      "p1",
+      "p2"
+    ],
+    "seeds": [
+      101,
+      102
+    ],
+    "memory_conditions": [
+      "observation_only",
+      "last_two_visible_shots"
+    ]
+  },
+  "development": "Default triangle only. Do not tune using these three held-out layouts.",
+  "situations": [
+    {
+      "id": "direct",
+      "purpose": "Direct pocket opportunities",
+      "cue": [
+        240,
+        250
+      ],
+      "objects": [
+        [
+          170,
+          95
+        ],
+        [
+          500,
+          90
+        ],
+        [
+          820,
+          95
+        ],
+        [
+          170,
+          405
+        ],
+        [
+          500,
+          410
+        ],
+        [
+          820,
+          405
+        ]
+      ]
+    },
+    {
+      "id": "bumper",
+      "purpose": "Bumper-assisted routes and combo scoring",
+      "cue": [
+        330,
+        165
+      ],
+      "objects": [
+        [
+          610,
+          110
+        ],
+        [
+          710,
+          180
+        ],
+        [
+          850,
+          390
+        ],
+        [
+          430,
+          405
+        ],
+        [
+          760,
+          405
+        ],
+        [
+          200,
+          100
+        ]
+      ]
+    },
+    {
+      "id": "risk",
+      "purpose": "Obstruction and scratch exposure",
+      "cue": [
+        500,
+        400
+      ],
+      "objects": [
+        [
+          500,
+          90
+        ],
+        [
+          500,
+          280
+        ],
+        [
+          420,
+          250
+        ],
+        [
+          630,
+          250
+        ],
+        [
+          220,
+          100
+        ],
+        [
+          780,
+          400
+        ]
+      ]
+    }
+  ],
+  "required_metrics": [
+    "game_and_config_version",
+    "seed",
+    "seat",
+    "win_loss_draw_or_failure",
+    "scores",
+    "pots",
+    "bumper_points",
+    "combos",
+    "scratches",
+    "invalid_actions",
+    "shot_and_call_limits",
+    "latency",
+    "token_usage",
+    "cost_with_dated_prices",
+    "trace"
+  ],
+  "status": "No live calls or held-out policy matches executed",
+  "amendment": "Move two former bumper-situation balls out of new bumper footprints. No held-out policy trials run."
+}

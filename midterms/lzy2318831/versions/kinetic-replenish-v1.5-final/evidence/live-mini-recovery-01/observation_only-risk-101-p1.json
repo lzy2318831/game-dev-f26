@@ -1,0 +1,6190 @@
+{
+  "version": "fusion-1.5.0-replenish",
+  "seed": 101,
+  "seats": [
+    "llm",
+    "baseline"
+  ],
+  "layout": [
+    [
+      500,
+      400
+    ],
+    [
+      500,
+      90
+    ],
+    [
+      500,
+      280
+    ],
+    [
+      420,
+      250
+    ],
+    [
+      630,
+      250
+    ],
+    [
+      220,
+      100
+    ],
+    [
+      780,
+      400
+    ],
+    [
+      700.0,
+      250.0
+    ],
+    [
+      720.7846096908265,
+      238.0
+    ],
+    [
+      720.7846096908265,
+      262.0
+    ],
+    [
+      741.569219381653,
+      226.0
+    ],
+    [
+      741.569219381653,
+      250.0
+    ],
+    [
+      741.569219381653,
+      274.0
+    ],
+    [
+      762.3538290724796,
+      214.0
+    ],
+    [
+      762.3538290724796,
+      238.0
+    ],
+    [
+      762.3538290724796,
+      262.0
+    ]
+  ],
+  "steps": [
+    {
+      "player": "p1",
+      "action": {
+        "angle": 270,
+        "power": 38
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "spinner",
+          "ball": 1,
+          "x": 500.0,
+          "y": 83.62049748263972,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 0.8125
+        },
+        {
+          "type": "pocket",
+          "ball": 1,
+          "x": 500.0,
+          "y": 28.21971707777937,
+          "points": 100,
+          "multiplier": 1,
+          "t": 1.0166666666666666
+        }
+      ],
+      "after": "bec8a94f65902441830b2c1ffe96837d103c9ebba5cfa5e84dae886ecf4c17d5",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 0
+        },
+        "shots": 1,
+        "shots_remaining": {
+          "p1": 5,
+          "p2": 6
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 0,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 14
+      },
+      "source": "model",
+      "model_metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_09fb671e2d519a01016aeedc9ea64087d2b6e3869c10ac1c6f",
+        "usage": {
+          "input_tokens": 2132,
+          "output_tokens": 24,
+          "total_tokens": 2156
+        },
+        "estimated_cost_usd": 0.001707,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 1.2421812000102364,
+        "request_sha256": "8e6bfb1c77f2cff76034a1d7214dbec7eec90d0fa6d309378f213ce06fef4801",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 270,
+          "power": 38
+        }
+      },
+      "latency_seconds": 1.2421812000102364,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 1.3017224999784958
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 270,
+        "power": 17
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "spinner",
+          "ball": 2,
+          "x": 500.0,
+          "y": 83.44082465277735,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 1.0875
+        },
+        {
+          "type": "pocket",
+          "ball": 2,
+          "x": 500.0,
+          "y": 28.722529097220814,
+          "points": 100,
+          "multiplier": 1,
+          "t": 1.5708333333333333
+        }
+      ],
+      "after": "3676aed737e08313b0d2e404941f459ced3a17ac4f320ab4e6673171cf0f9408",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 100
+        },
+        "shots": 2,
+        "shots_remaining": {
+          "p1": 5,
+          "p2": 5
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 13
+      },
+      "source": "baseline",
+      "model_metadata": null,
+      "latency_seconds": 0.11242520000087097,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 1.488933199987514
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 280,
+        "power": 86
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "spinner",
+          "ball": 0,
+          "x": 509.11028884612887,
+          "y": 82.17178137048292,
+          "points": 25,
+          "activated": true,
+          "multiplier": 2,
+          "t": 0.075
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 520.1826610107499,
+          "y": 19.377238413227197,
+          "points": 0,
+          "multiplier": 2,
+          "t": 0.175
+        }
+      ],
+      "after": "6b77c93b1bee32d16cc20b89cc754d484b6fd857feff59c3fd820c3850fe5f6f",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 100
+        },
+        "shots": 3,
+        "shots_remaining": {
+          "p1": 4,
+          "p2": 5
+        },
+        "scratches": {
+          "p1": 1,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 13
+      },
+      "source": "model",
+      "model_metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0f077acf9572b97a016aeedca0295487d299a21dd1bb93e513",
+        "usage": {
+          "input_tokens": 2299,
+          "output_tokens": 24,
+          "total_tokens": 2323
+        },
+        "estimated_cost_usd": 0.00183225,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 1.0767777000146452,
+        "request_sha256": "80326b43866b3d3b35da6f8c0d2c6e50cf93c273471e0e8b7d11e56bf89b39f2",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 280,
+          "power": 86
+        }
+      },
+      "latency_seconds": 1.0767777000146452,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 2.5990937000024132
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 44,
+        "power": 30
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 331.97057647534933,
+          "y": 348.03855697857244,
+          "points": 15,
+          "t": 0.48333333333333334
+        },
+        {
+          "type": "spinner",
+          "ball": 0,
+          "x": 475.54775509445705,
+          "y": 83.54459607664798,
+          "points": 25,
+          "activated": true,
+          "multiplier": 2,
+          "t": 1.1416666666666666
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 506.0672616571989,
+          "y": 27.32239382146587,
+          "points": 0,
+          "multiplier": 2,
+          "t": 1.3041666666666667
+        }
+      ],
+      "after": "1d001eacaa41b55ec01cd7ee83594760a3fb17c798bdc9e4a27907edccf36178",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 100
+        },
+        "shots": 4,
+        "shots_remaining": {
+          "p1": 4,
+          "p2": 4
+        },
+        "scratches": {
+          "p1": 1,
+          "p2": 1
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 13
+      },
+      "source": "baseline",
+      "model_metadata": null,
+      "latency_seconds": 0.07349440001416951,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 2.732282299984945
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 338,
+        "power": 63
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 318.6334505633854,
+          "y": 214.995601929142,
+          "points": 15,
+          "t": 0.17916666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 396.68698003722926,
+          "y": 393.4712272408408,
+          "points": 15,
+          "t": 0.46249999999999997
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 365.2690857179389,
+          "y": 406.8915772930869,
+          "points": 15,
+          "t": 0.5041666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 423.2275412473752,
+          "y": 443.23884562742114,
+          "points": 0,
+          "t": 0.6625
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 402.14217002386033,
+          "y": 427.82899711461494,
+          "points": 0,
+          "t": 0.7875
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 366.5299988941217,
+          "y": 404.3205171730392,
+          "points": 0,
+          "t": 0.8416666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 395.95879111481764,
+          "y": 413.75123470051847,
+          "points": 0,
+          "t": 0.875
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 249.20465060191026,
+          "y": 434.40906011216055,
+          "t": 1.1,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 209.95234352935398,
+          "y": 445.40063439866606,
+          "t": 1.2458333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 222.98687782666772,
+          "y": 441.7509647954182,
+          "t": 1.4041666666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 329.4301558632686,
+          "y": 428.0059417794386,
+          "points": 0,
+          "t": 1.7291666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 447.39959791351725,
+          "y": 443.04011135082413,
+          "points": 0,
+          "t": 2.120833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 875.4430481362009,
+          "y": 469.31134406502144,
+          "t": 3.4,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 0,
+          "x": 948.4713877541112,
+          "y": 436.28120695339015,
+          "t": 4.075,
+          "points": 0
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 974.2073488645283,
+          "y": 487.3480865921448,
+          "points": 0,
+          "multiplier": 1,
+          "t": 4.391666666666667
+        }
+      ],
+      "after": "2cac8be749f361997a0076a74f0510181a62b434f77ce735b5b1dc383c7e9be3",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 100
+        },
+        "shots": 5,
+        "shots_remaining": {
+          "p1": 3,
+          "p2": 4
+        },
+        "scratches": {
+          "p1": 2,
+          "p2": 1
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 13
+      },
+      "source": "model",
+      "model_metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0376e0b8ee954e23016aeedca1664087d2ba67675dcebcbf91",
+        "usage": {
+          "input_tokens": 2350,
+          "output_tokens": 24,
+          "total_tokens": 2374
+        },
+        "estimated_cost_usd": 0.0018705,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 0.8350251000083517,
+        "request_sha256": "083300f3186d458ff7bfe76c7b562bfbaea1625f9bd1fddec6411db05c3a8d62",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 338,
+          "power": 63
+        }
+      },
+      "latency_seconds": 0.8350251000083517,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 3.8034647000022233
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 44,
+        "power": 30
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 331.97057647534933,
+          "y": 348.03855697857244,
+          "points": 15,
+          "t": 0.48333333333333334
+        },
+        {
+          "type": "spinner",
+          "ball": 0,
+          "x": 475.54775509445705,
+          "y": 83.54459607664798,
+          "points": 25,
+          "activated": true,
+          "multiplier": 2,
+          "t": 1.1416666666666666
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 506.0672616571989,
+          "y": 27.32239382146587,
+          "points": 0,
+          "multiplier": 2,
+          "t": 1.3041666666666667
+        }
+      ],
+      "after": "c8b0a93867fc6a15c2371d9f253178b667fd82ab66884e3dc582f61a678b3cd2",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 100,
+          "p2": 100
+        },
+        "shots": 6,
+        "shots_remaining": {
+          "p1": 3,
+          "p2": 3
+        },
+        "scratches": {
+          "p1": 2,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 13
+      },
+      "source": "baseline",
+      "model_metadata": null,
+      "latency_seconds": 0.08671940001659095,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 3.946352500002831
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 198,
+        "power": 86
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 207.9238490449074,
+          "t": 0.19583333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 0,
+          "x": 161.77810408924194,
+          "y": 187.1050382493748,
+          "t": 0.3,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 233.53935910430116,
+          "t": 0.4375,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 290.43758011529496,
+          "y": 393.96783318016656,
+          "points": 15,
+          "t": 0.9333333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 259.92536468097245,
+          "y": 421.5917252086904,
+          "t": 0.9958333333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 360.96066285649357,
+          "y": 413.34240429569655,
+          "points": 0,
+          "t": 1.2916666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 395.72793215786436,
+          "y": 397.3511577737087,
+          "points": 15,
+          "t": 1.3541666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 368.4029033088012,
+          "y": 376.77426539353144,
+          "points": 0,
+          "t": 1.3958333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 3,
+          "x": 561.8992491256879,
+          "y": 66.04481249303879,
+          "t": 1.8541666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 341.0569625053147,
+          "y": 213.06402821113056,
+          "points": 15,
+          "t": 1.9041666666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 3,
+          "x": 606.1662993617632,
+          "y": 22.8646865292233,
+          "t": 1.9708333333333332,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 406.6167302051698,
+          "y": 433.19911515905915,
+          "points": 0,
+          "t": 2.7041666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 2,
+          "x": 312.3993784972947,
+          "y": 352.0692579715015,
+          "points": 0,
+          "t": 2.8541666666666665
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 192.5266282409598,
+          "y": 450.27983467941647,
+          "t": 3.125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 3,
+          "x": 103.01,
+          "y": 279.36482916891384,
+          "t": 3.2125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 137.8476974412535,
+          "y": 465.5899353033342,
+          "t": 3.2958333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 126.16185010197174,
+          "y": 468.8619725583331,
+          "t": 3.4125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 139.743566179447,
+          "y": 465.05909205664,
+          "t": 3.5625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 7,
+          "x": 300.1849341399913,
+          "y": 203.5089391780998,
+          "points": 0,
+          "t": 3.6041666666666665
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 3,
+          "x": 202.23225261258546,
+          "y": 334.31513765666926,
+          "points": 0,
+          "t": 3.8249999999999997
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 3,
+          "x": 202.23225261258546,
+          "y": 334.31513765666926,
+          "t": 3.8249999999999997,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 248.94872218955686,
+          "y": 434.48164837380926,
+          "t": 4.116666666666666,
+          "points": 0
+        },
+        {
+          "type": "spinner",
+          "ball": 3,
+          "x": 495.43891332671365,
+          "y": 83.48190343867074,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 4.2375
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 3,
+          "x": 602.0434502513799,
+          "y": 27.421878952435936,
+          "t": 4.408333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 3,
+          "x": 432.6892139209812,
+          "y": 58.28827619326453,
+          "t": 4.670833333333333,
+          "points": 0
+        },
+        {
+          "type": "pocket",
+          "ball": 3,
+          "x": 476.48760203884586,
+          "y": 16.240490922460143,
+          "points": 100,
+          "multiplier": 1,
+          "t": 4.783333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 414.93368644798164,
+          "y": 439.61420460493184,
+          "points": 0,
+          "t": 5.004166666666666
+        }
+      ],
+      "after": "73e48607d4bf00bec92d34925cf2ea5b6f057ab7a218e0c2d857c6278c1095af",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 295,
+          "p2": 100
+        },
+        "shots": 7,
+        "shots_remaining": {
+          "p1": 2,
+          "p2": 3
+        },
+        "scratches": {
+          "p1": 2,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 45,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 12
+      },
+      "source": "model",
+      "model_metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_07e429deae8d6170016aeedca2a3c087d2b1772d4caa8319b1",
+        "usage": {
+          "input_tokens": 2350,
+          "output_tokens": 24,
+          "total_tokens": 2374
+        },
+        "estimated_cost_usd": 0.0018705,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 1.126698200008832,
+        "request_sha256": "d7ec4d00a81f3bde0990f704db85666ce46cd2a8be70db4d2601f7c2286c091c",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 198,
+          "power": 86
+        }
+      },
+      "latency_seconds": 1.126698200008832,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 5.402124299987918
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 298,
+        "power": 31
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 8,
+          "x": 620.1439962686528,
+          "y": 192.00961615933508,
+          "points": 15,
+          "t": 0.8791666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-bank",
+          "ball": 4,
+          "x": 592.5362349272933,
+          "y": 209.79417494805227,
+          "t": 2.654166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 3,
+          "x": 636.2637379624564,
+          "y": 366.4903574243041,
+          "points": 0,
+          "t": 3.5625
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 4,
+          "x": 103.01,
+          "y": 199.02817277044008,
+          "t": 5.3375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 4,
+          "x": 159.99,
+          "y": 179.06566231925,
+          "t": 5.6125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 4,
+          "x": 103.01,
+          "y": 156.8217498044579,
+          "t": 5.954166666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 4,
+          "x": 132.99,
+          "y": 143.84554239931882,
+          "t": 6.179166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 4,
+          "x": 103.81238123519171,
+          "y": 130.01020539056435,
+          "t": 6.458333333333333,
+          "points": 0
+        }
+      ],
+      "after": "a3aff760dd560dae401564ed989ef995775d3cd48b56f5ffcf35c5818f618d15",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 295,
+          "p2": 115
+        },
+        "shots": 8,
+        "shots_remaining": {
+          "p1": 2,
+          "p2": 2
+        },
+        "scratches": {
+          "p1": 2,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 45,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 15,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 12
+      },
+      "source": "baseline",
+      "model_metadata": null,
+      "latency_seconds": 0.05503099999623373,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 5.808669599995483
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 175,
+        "power": 78
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 257.0784266355548,
+          "t": 1.0166666666666666,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 0,
+          "x": 787.5544283201658,
+          "y": 343.50712481719313,
+          "points": 10,
+          "t": 2.529166666666667
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 0,
+          "x": 787.5544283201658,
+          "y": 343.50712481719313,
+          "t": 2.529166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 9,
+          "x": 702.6037315923187,
+          "y": 180.09792242035627,
+          "points": 0,
+          "t": 2.8041666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 13,
+          "x": 784.9912309001413,
+          "y": 200.1922241065204,
+          "t": 2.8666666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 8,
+          "x": 646.252031235241,
+          "y": 158.6461857106199,
+          "points": 0,
+          "t": 2.9208333333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 1,
+          "x": 657.1659684528204,
+          "y": 149.89574823441274,
+          "points": 0,
+          "t": 2.9416666666666664
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 12,
+          "x": 849.5160228401004,
+          "y": 196.35985561497762,
+          "t": 3.1166666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 3,
+          "x": 655.0301040162987,
+          "y": 350.8960606641672,
+          "points": 0,
+          "t": 3.1791666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 13,
+          "bumper": 9,
+          "x": 748.9794087942856,
+          "y": 177.43093133584668,
+          "points": 0,
+          "t": 3.2125
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 13,
+          "x": 785.7917872190375,
+          "y": 195.1598771120051,
+          "t": 3.35,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 202.26702513009096,
+          "t": 3.4375,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 0,
+          "x": 786.0543869777737,
+          "y": 344.8571620253461,
+          "points": 0,
+          "t": 3.5208333333333335
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 0,
+          "x": 786.0543869777737,
+          "y": 344.8571620253461,
+          "t": 3.5208333333333335,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 13,
+          "bumper": 9,
+          "x": 741.2478643092633,
+          "y": 186.57653830872246,
+          "points": 0,
+          "t": 3.525
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 6,
+          "x": 384.3601008646813,
+          "y": 138.73556894144505,
+          "points": 0,
+          "t": 3.55
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 2,
+          "x": 336.9640813097883,
+          "y": 348.6007402162089,
+          "points": 0,
+          "t": 3.779166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 10,
+          "bumper": 9,
+          "x": 713.8369407960274,
+          "y": 189.59524769561392,
+          "points": 0,
+          "t": 3.8125
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 3,
+          "x": 697.4905510454197,
+          "y": 358.9299173854085,
+          "points": 15,
+          "t": 3.8583333333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 8,
+          "bumper": 7,
+          "x": 358.2447168992578,
+          "y": 196.7945486128991,
+          "points": 0,
+          "t": 3.9416666666666664
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 13,
+          "x": 789.5359022028337,
+          "y": 210.76116895561717,
+          "t": 3.9416666666666664,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 8,
+          "x": 555.095467270776,
+          "y": 75.79689981841248,
+          "t": 4.1875,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 0,
+          "x": 896.99,
+          "y": 175.62626737708692,
+          "t": 4.304166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 8,
+          "x": 578.4165417310273,
+          "y": 42.454132070316035,
+          "t": 4.304166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-rise",
+          "ball": 0,
+          "x": 867.01,
+          "y": 144.0685612987157,
+          "t": 4.383333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-entry",
+          "ball": 0,
+          "x": 887.4972827881304,
+          "y": 120.61524757793958,
+          "t": 4.445833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-rise",
+          "ball": 0,
+          "x": 867.01,
+          "y": 135.7513808068179,
+          "t": 4.5,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 8,
+          "x": 416.95127053231874,
+          "y": 38.696619302353376,
+          "t": 4.520833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 10,
+          "bumper": 2,
+          "x": 369.5875516304864,
+          "y": 393.7987805531485,
+          "points": 0,
+          "t": 4.5875
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 0,
+          "x": 896.99,
+          "y": 161.07649117069917,
+          "t": 4.591666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 8,
+          "x": 385.24658516315486,
+          "y": 19.99202559446106,
+          "t": 4.591666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 15,
+          "x": 896.99,
+          "y": 315.05614764165523,
+          "t": 4.616666666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 10,
+          "bumper": 4,
+          "x": 395.5874200690428,
+          "y": 411.88829755352594,
+          "points": 0,
+          "t": 4.633333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 8,
+          "x": 365.56355696083756,
+          "y": 19.990000000000002,
+          "t": 4.6375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 8,
+          "x": 342.44431621285025,
+          "y": 19.990000000000002,
+          "t": 4.691666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 8,
+          "x": 312.4659377779032,
+          "y": 19.990000000000002,
+          "t": 4.7625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 7,
+          "x": 103.01,
+          "y": 235.96719030411282,
+          "t": 4.791666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 8,
+          "x": 274.12680528857254,
+          "y": 19.990000000000002,
+          "t": 4.854166666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 247.29082680274482,
+          "y": 434.9458590821166,
+          "t": 4.870833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-crown",
+          "ball": 8,
+          "x": 226.14581174296183,
+          "y": 20.033797560847617,
+          "t": 4.970833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 206.04163989022229,
+          "y": 446.495631417623,
+          "t": 5.020833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 216.4062783234478,
+          "y": 443.5935326563198,
+          "t": 5.183333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 3,
+          "x": 686.8599062177221,
+          "y": 351.7157932106872,
+          "points": 0,
+          "t": 5.3375
+        },
+        {
+          "type": "bumper",
+          "ball": 10,
+          "bumper": 2,
+          "x": 317.74592211705925,
+          "y": 426.08723769504456,
+          "points": 0,
+          "t": 5.520833333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 9,
+          "x": 719.1024214085522,
+          "y": 191.3582751096823,
+          "points": 15,
+          "t": 5.620833333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 10,
+          "bumper": 2,
+          "x": 314.674447335795,
+          "y": 424.95845688792593,
+          "points": 0,
+          "t": 5.7375
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 8,
+          "x": 72.99,
+          "y": 130.67654518840033,
+          "t": 5.779166666666667,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 15,
+          "x": 841.5655322781322,
+          "y": 339.8219980908249,
+          "points": 0,
+          "t": 5.791666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-2",
+          "ball": 15,
+          "x": 841.5655322781322,
+          "y": 339.8219980908249,
+          "t": 5.791666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 3,
+          "x": 681.0155839076454,
+          "y": 349.5362896852939,
+          "points": 0,
+          "t": 5.845833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 195.02270701787282,
+          "y": 449.5809326218808,
+          "t": 6.05,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 9,
+          "x": 735.4506801304084,
+          "y": 189.90629207272505,
+          "points": 0,
+          "t": 6.095833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 15,
+          "x": 860.439413376327,
+          "y": 190.78511698398137,
+          "t": 6.1625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 163.90880989064698,
+          "y": 458.29282381750403,
+          "t": 6.233333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 15,
+          "x": 896.99,
+          "y": 185.59000146937913,
+          "t": 6.2625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 254.47362915064463,
+          "t": 6.295833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 8,
+          "x": 72.99,
+          "y": 205.32611673254544,
+          "t": 6.325,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 15,
+          "x": 865.0008055482901,
+          "y": 180.5252931585186,
+          "t": 6.3625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 169.947546465546,
+          "y": 456.6019775765323,
+          "t": 6.433333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 15,
+          "x": 896.99,
+          "y": 177.33815467519844,
+          "t": 6.475,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 15,
+          "x": 863.5383374420314,
+          "y": 173.5182163484355,
+          "t": 6.608333333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 8,
+          "x": 625.8019024430623,
+          "y": 191.37950014767506,
+          "points": 15,
+          "t": 6.845833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-entry",
+          "ball": 15,
+          "x": 891.3234140096541,
+          "y": 124.75160565526255,
+          "t": 6.8625,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 8,
+          "lane": "left",
+          "x": 36.46799398449324,
+          "y": 270.08039642324053,
+          "points": 0,
+          "t": 6.8875
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 10,
+          "x": 246.62892237759291,
+          "y": 435.1311923211592,
+          "t": 6.908333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-rise",
+          "ball": 15,
+          "x": 867.01,
+          "y": 135.5519039972894,
+          "t": 7.004166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 8,
+          "x": 72.99,
+          "y": 299.79645923245613,
+          "t": 7.195833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 15,
+          "x": 896.99,
+          "y": 150.35523019079582,
+          "t": 7.2124999999999995,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 9,
+          "bumper": 3,
+          "x": 677.9716783725892,
+          "y": 348.7921889934672,
+          "points": 0,
+          "t": 7.466666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 15,
+          "x": 860.9546084525828,
+          "y": 169.73858422776846,
+          "t": 7.5249999999999995,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 423.33574266366844,
+          "y": 366.72801023213145,
+          "points": 15,
+          "t": 7.620833333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 13,
+          "bumper": 6,
+          "x": 409.4491010971725,
+          "y": 111.2417572523118,
+          "points": 0,
+          "t": 7.758333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 13,
+          "x": 428.93423843061265,
+          "y": 105.14145063043101,
+          "t": 7.791666666666667,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 9,
+          "lane": "right-inner",
+          "x": 794.4873508725234,
+          "y": 159.21006506989644,
+          "points": 0,
+          "t": 8.025
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 9,
+          "x": 809.99,
+          "y": 133.83392433072473,
+          "t": 8.104166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-entry",
+          "ball": 15,
+          "x": 888.9601797220232,
+          "y": 122.19675777674263,
+          "t": 8.158333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-return",
+          "ball": 8,
+          "x": 20.403858275990654,
+          "y": 365.18373983122086,
+          "t": 8.179166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 2,
+          "x": 319.33677177517546,
+          "y": 349.4371206491877,
+          "points": 0,
+          "t": 8.216666666666667
+        },
+        {
+          "type": "pocket",
+          "ball": 10,
+          "x": 473.6187071249937,
+          "y": 488.5958288904741,
+          "points": 100,
+          "multiplier": 1,
+          "t": 8.308333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 9,
+          "x": 763.5675749635656,
+          "y": 50.01,
+          "t": 8.375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 4,
+          "x": 103.01,
+          "y": 177.60152054441815,
+          "t": 8.433333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 0,
+          "x": 159.99,
+          "y": 160.57757553781573,
+          "t": 8.541666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 0,
+          "x": 159.54048171131842,
+          "y": 159.5977800490908,
+          "t": 8.545833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 0,
+          "x": 159.99,
+          "y": 160.5505895699747,
+          "t": 8.55,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 4,
+          "x": 103.01,
+          "y": 147.27003962082716,
+          "t": 8.579166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 4,
+          "x": 132.99,
+          "y": 123.09736222505553,
+          "t": 8.658333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 193.52231383569742,
+          "t": 8.695833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 4,
+          "x": 120.26064680968949,
+          "y": 112.22829666137756,
+          "t": 8.695833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 4,
+          "x": 132.99,
+          "y": 125.76051891870549,
+          "t": 8.741666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-rise",
+          "ball": 15,
+          "x": 867.01,
+          "y": 132.15658519288593,
+          "t": 8.8375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 4,
+          "x": 103.01,
+          "y": 159.7176096209398,
+          "t": 8.858333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 278.8525977188579,
+          "t": 9.058333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 7,
+          "x": 298.08001900867816,
+          "y": 200.73156860114227,
+          "points": 0,
+          "t": 9.2375
+        },
+        {
+          "type": "rail",
+          "rail": "left-exit",
+          "ball": 0,
+          "x": 117.53095745216814,
+          "y": 331.78328186183126,
+          "t": 9.3,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 0,
+          "x": 160.04128406545297,
+          "y": 328.76027519605,
+          "points": 10,
+          "t": 9.5125
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 0,
+          "x": 160.04128406545297,
+          "y": 328.76027519605,
+          "t": 9.5125,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 7,
+          "x": 197.38688958642697,
+          "y": 329.9543109331266,
+          "points": 0,
+          "t": 9.558333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 7,
+          "x": 197.38688958642697,
+          "y": 329.9543109331266,
+          "t": 9.558333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 2,
+          "x": 290.28926334479416,
+          "y": 392.88441340397094,
+          "points": 0,
+          "t": 9.741666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 9,
+          "bumper": 5,
+          "x": 569.4247356927717,
+          "y": 365.2354201072222,
+          "points": 0,
+          "t": 9.745833333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 7,
+          "x": 330.0252224956271,
+          "y": 215.87904999927537,
+          "points": 0,
+          "t": 9.7875
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 259.9325557483567,
+          "y": 418.47721346794174,
+          "t": 9.825,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 0,
+          "lane": "left-orbit",
+          "x": 124.60111540938301,
+          "y": 109.67981397394239,
+          "points": 10,
+          "t": 10.066666666666666
+        },
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 0,
+          "x": 124.86039018864331,
+          "y": 107.25560111656262,
+          "t": 10.075,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 5,
+          "x": 525.5055540880924,
+          "y": 398.59774710657217,
+          "points": 0,
+          "t": 10.083333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 0,
+          "x": 132.99,
+          "y": 107.52901813306958,
+          "t": 10.1,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 0,
+          "x": 124.02632572325182,
+          "y": 108.15729243049938,
+          "t": 10.129166666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 4,
+          "x": 473.49801693172367,
+          "y": 415.89508110684443,
+          "points": 0,
+          "t": 10.141666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 3,
+          "x": 640.1102047530467,
+          "y": 414.5969968247395,
+          "points": 0,
+          "t": 10.3875
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 5,
+          "x": 525.8077479490285,
+          "y": 413.04782449939825,
+          "points": 0,
+          "t": 10.554166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 4,
+          "x": 459.9013637737002,
+          "y": 436.3164841929909,
+          "points": 0,
+          "t": 10.645833333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 4,
+          "x": 469.30884010013006,
+          "y": 384.4159384235349,
+          "points": 0,
+          "t": 10.654166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 4,
+          "x": 459.40425809984237,
+          "y": 436.70539838255115,
+          "points": 0,
+          "t": 10.770833333333334
+        },
+        {
+          "type": "spinner",
+          "ball": 9,
+          "x": 526.9918161868171,
+          "y": 84.51582901284824,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 10.783333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-exit",
+          "ball": 0,
+          "x": 122.49158470200886,
+          "y": 335.12216558768563,
+          "t": 10.9625,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 0,
+          "x": 163.76922983408735,
+          "y": 320.0415914182814,
+          "points": 0,
+          "t": 11.1625
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 0,
+          "x": 163.76922983408735,
+          "y": 320.0415914182814,
+          "t": 11.1625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 7,
+          "x": 819.5918030950104,
+          "y": 453.67299545348806,
+          "t": 11.254166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 7,
+          "x": 887.5393835530981,
+          "y": 467.9791292327056,
+          "t": 11.379166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 7,
+          "x": 921.3523812578919,
+          "y": 454.7746477114156,
+          "t": 11.433333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 290.35146843186266,
+          "y": 138.44468868601038,
+          "points": 15,
+          "t": 11.616666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 4,
+          "x": 466.0289199764701,
+          "y": 379.7412148927583,
+          "points": 0,
+          "t": 11.6375
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 308.26435200737717,
+          "y": 151.4250850500542,
+          "points": 15,
+          "t": 11.654166666666667
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 7,
+          "x": 949.6462783796625,
+          "y": 435.06580285799237,
+          "t": 11.6625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 302.50504211324585,
+          "y": 131.81833662778195,
+          "points": 0,
+          "t": 11.679166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 325.88678691287697,
+          "y": 146.00770289588496,
+          "points": 0,
+          "t": 11.708333333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 5,
+          "x": 535.8144385115005,
+          "y": 377.63207898650296,
+          "points": 0,
+          "t": 11.720833333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 6,
+          "x": 345.9274770994292,
+          "y": 124.50611473860918,
+          "points": 15,
+          "t": 11.741666666666667
+        },
+        {
+          "type": "pocket",
+          "ball": 7,
+          "x": 986.4500788213282,
+          "y": 475.72870446291705,
+          "points": 100,
+          "multiplier": 1,
+          "t": 11.770833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 232.34073691095014,
+          "t": 12.025,
+          "points": 0
+        },
+        {
+          "type": "spinner",
+          "ball": 4,
+          "x": 475.16058909961174,
+          "y": 82.66135561924162,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 12.041666666666666
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 4,
+          "x": 445.6726655342588,
+          "y": 76.89789017229573,
+          "t": 12.220833333333333,
+          "points": 0
+        },
+        {
+          "type": "pocket",
+          "ball": 9,
+          "x": 483.943538238895,
+          "y": 476.0216616210215,
+          "points": 100,
+          "multiplier": 1,
+          "t": 12.295833333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 342.25340748868405,
+          "y": 349.9125466207537,
+          "points": 15,
+          "t": 12.341666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 4,
+          "x": 544.9940280563412,
+          "y": 94.65228456156498,
+          "t": 12.366666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 4,
+          "x": 442.848675765427,
+          "y": 109.7372028005137,
+          "t": 12.533333333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 6,
+          "x": 407.03775233993633,
+          "y": 119.11674626126374,
+          "points": 0,
+          "t": 12.595833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 316.99283888666656,
+          "t": 12.9625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 3,
+          "x": 630.3527040550811,
+          "y": 393.3751301617743,
+          "points": 0,
+          "t": 13.041666666666666
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 12,
+          "x": 840.6931227022604,
+          "y": 333.7151310597226,
+          "points": 0,
+          "t": 13.045833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-2",
+          "ball": 12,
+          "x": 840.6931227022604,
+          "y": 333.7151310597226,
+          "t": 13.045833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 307.05697334771037,
+          "t": 13.195833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 0,
+          "x": 841.7659796034998,
+          "y": 199.45987290961787,
+          "t": 13.204166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 0,
+          "x": 896.99,
+          "y": 228.07459406544075,
+          "t": 13.4375,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 7,
+          "x": 329.00653511536404,
+          "y": 215.95245222914713,
+          "points": 0,
+          "t": 13.6
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 236.77824460083323,
+          "y": 406.7148009248815,
+          "t": 13.825,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 4,
+          "x": 215.10943844223354,
+          "y": 395.38190064906934,
+          "points": 0,
+          "t": 13.854166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-1",
+          "ball": 4,
+          "x": 215.10943844223354,
+          "y": 395.38190064906934,
+          "t": 13.854166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 214.59567597770135,
+          "y": 412.9259201393584,
+          "t": 13.8875,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 4,
+          "x": 205.59373945235535,
+          "y": 399.34677522818527,
+          "points": 0,
+          "t": 13.920833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-1",
+          "ball": 4,
+          "x": 205.59373945235535,
+          "y": 399.34677522818527,
+          "t": 13.920833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 221.38963305233418,
+          "y": 411.0236121584612,
+          "t": 13.966666666666667,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 12,
+          "lane": "right-inner",
+          "x": 765.4946316882102,
+          "y": 159.28080813639463,
+          "points": 0,
+          "t": 13.966666666666667
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 4,
+          "x": 230.98752613611083,
+          "y": 388.7640702835095,
+          "points": 0,
+          "t": 14.025
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 4,
+          "x": 230.98752613611083,
+          "y": 388.7640702835095,
+          "t": 14.025,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 2,
+          "x": 295.8829943868414,
+          "y": 408.90047913306546,
+          "points": 0,
+          "t": 14.2
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 221.8639419741654,
+          "y": 442.06538683411884,
+          "t": 14.470833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 12,
+          "x": 739.9932181873972,
+          "y": 50.01,
+          "t": 14.604166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 217.8691551258632,
+          "y": 443.1839271516435,
+          "t": 14.691666666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 3,
+          "x": 682.3858425418845,
+          "y": 349.9554076835137,
+          "points": 0,
+          "t": 14.695833333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 2,
+          "x": 296.61753147113154,
+          "y": 410.0547250021193,
+          "points": 0,
+          "t": 15.158333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 259.46740685036787,
+          "y": 416.00072018659245,
+          "t": 15.295833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 9,
+          "x": 716.8313182429739,
+          "y": 139.25485019751432,
+          "points": 0,
+          "t": 15.441666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 2,
+          "x": 292.6143646681563,
+          "y": 402.25181991306385,
+          "points": 0,
+          "t": 15.45
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 1,
+          "x": 708.6044317256932,
+          "y": 122.51180056585414,
+          "points": 0,
+          "t": 15.5125
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 258.73694228611384,
+          "y": 413.9504945137658,
+          "t": 15.620833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 12,
+          "x": 810.7119629804425,
+          "y": 105.40085897935762,
+          "t": 15.737499999999999,
+          "points": 0
+        },
+        {
+          "type": "scoop",
+          "device": "vault",
+          "ball": 12,
+          "x": 775,
+          "y": 88,
+          "points": 0,
+          "t": 15.741666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 2,
+          "x": 336.3575862958087,
+          "y": 348.49833931982926,
+          "points": 0,
+          "t": 15.8125
+        },
+        {
+          "type": "bumper",
+          "ball": 4,
+          "bumper": 2,
+          "x": 290.83366531332734,
+          "y": 396.17302436136964,
+          "points": 0,
+          "t": 15.825
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 1,
+          "x": 708.091945538463,
+          "y": 99.7605643473743,
+          "points": 0,
+          "t": 15.85
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-crown",
+          "ball": 12,
+          "x": 796.1513184742648,
+          "y": 61.81659811589066,
+          "t": 15.9625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 12,
+          "x": 810.4822539442864,
+          "y": 106.18750089025414,
+          "t": 16.020833333333332,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 9,
+          "x": 752.0049683676997,
+          "y": 165.5213285523904,
+          "points": 0,
+          "t": 16.129166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 12,
+          "x": 786.3535135129957,
+          "y": 193.74911953721642,
+          "t": 16.179166666666667,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 4,
+          "x": 228.86185526125408,
+          "y": 389.5046948930725,
+          "points": 0,
+          "t": 16.2375
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 4,
+          "x": 228.86185526125408,
+          "y": 389.5046948930725,
+          "t": 16.2375,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 9,
+          "x": 740.033554776541,
+          "y": 187.4395260819105,
+          "points": 0,
+          "t": 16.2375
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 7,
+          "x": 311.31407964214156,
+          "y": 212.29939300572653,
+          "points": 0,
+          "t": 16.275
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 12,
+          "x": 762.9484319017329,
+          "y": 366.0523854367306,
+          "points": 0,
+          "t": 16.508333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 12,
+          "x": 762.9484319017329,
+          "y": 366.0523854367306,
+          "t": 16.508333333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 3,
+          "x": 687.7331217472484,
+          "y": 352.1344665019846,
+          "points": 0,
+          "t": 16.59583333333333
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 14,
+          "x": 192.5644415276811,
+          "y": 325.61410768025536,
+          "points": 0,
+          "t": 16.608333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 14,
+          "x": 192.5644415276811,
+          "y": 325.61410768025536,
+          "t": 16.608333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 4,
+          "x": 179.8595581438446,
+          "y": 422.6520331328383,
+          "t": 16.741666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 8,
+          "x": 622.2940053261012,
+          "y": 191.9124067961938,
+          "points": 0,
+          "t": 16.791666666666668
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 7,
+          "x": 305.4247603434728,
+          "y": 208.57189028273933,
+          "points": 0,
+          "t": 16.829166666666666
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 14,
+          "x": 214.76528305749892,
+          "y": 345.5948650570914,
+          "points": 0,
+          "t": 17.004166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 14,
+          "x": 214.76528305749892,
+          "y": 345.5948650570914,
+          "t": 17.004166666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 6,
+          "x": 400.69931006500724,
+          "y": 128.7748935262099,
+          "points": 0,
+          "t": 17.041666666666668
+        },
+        {
+          "type": "bumper",
+          "ball": 11,
+          "bumper": 2,
+          "x": 345.59088366867604,
+          "y": 351.1526873920253,
+          "points": 0,
+          "t": 17.3
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 5,
+          "x": 560.7124416149343,
+          "y": 365.22039538790443,
+          "points": 0,
+          "t": 17.34583333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 6,
+          "x": 385.81397869675334,
+          "y": 138.29801742966336,
+          "points": 0,
+          "t": 17.34583333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 797.2444223120667,
+          "y": 447.41572883426386,
+          "t": 17.420833333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 8,
+          "x": 612.5085850075681,
+          "y": 190.95031409079985,
+          "points": 0,
+          "t": 17.541666666666668
+        },
+        {
+          "type": "bumper",
+          "ball": 11,
+          "bumper": 7,
+          "x": 330.0595845705134,
+          "y": 215.87605256126153,
+          "points": 0,
+          "t": 17.558333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 797.0741300290558,
+          "y": 447.3680469950208,
+          "t": 17.608333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 5,
+          "x": 557.8847097500505,
+          "y": 365.6277668317001,
+          "points": 0,
+          "t": 17.679166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 11,
+          "bumper": 2,
+          "x": 339.31826639814926,
+          "y": 349.0902324430854,
+          "points": 0,
+          "t": 17.7375
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 4,
+          "x": 462.961279629085,
+          "y": 376.38240154198616,
+          "points": 0,
+          "t": 17.808333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 13,
+          "x": 896.99,
+          "y": 284.7712350612188,
+          "t": 18.03333333333333,
+          "points": 0
+        },
+        {
+          "type": "spinner",
+          "ball": 11,
+          "x": 473.6271879709984,
+          "y": 83.88279607741369,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 18.054166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 3,
+          "x": 707.0286514081803,
+          "y": 403.1551666071829,
+          "points": 0,
+          "t": 18.066666666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 214.0669185154028,
+          "t": 18.091666666666665,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 14,
+          "x": 567.4162926593705,
+          "y": 108.04985452756343,
+          "t": 18.116666666666667,
+          "points": 0
+        },
+        {
+          "type": "pocket",
+          "ball": 11,
+          "x": 502.4575409001575,
+          "y": 26.954157977132166,
+          "points": 100,
+          "multiplier": 1,
+          "t": 18.129166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 14,
+          "x": 584.99,
+          "y": 110.30259216755074,
+          "t": 18.1375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 12,
+          "x": 851.1206794448506,
+          "y": 195.71799297307754,
+          "t": 18.154166666666665,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 0,
+          "x": 762.7200629759346,
+          "y": 383.6315263241786,
+          "points": 0,
+          "t": 18.320833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 0,
+          "x": 762.7200629759346,
+          "y": 383.6315263241786,
+          "t": 18.320833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 6,
+          "x": 388.4310545399721,
+          "y": 137.33120588447474,
+          "points": 0,
+          "t": 18.3875
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 12,
+          "x": 763.0912832166783,
+          "y": 365.8631206325884,
+          "points": 0,
+          "t": 18.416666666666668
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 12,
+          "x": 763.0912832166783,
+          "y": 365.8631206325884,
+          "t": 18.416666666666668,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 7,
+          "x": 361.5430734208111,
+          "y": 175.30121252857649,
+          "points": 0,
+          "t": 18.441666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 5,
+          "x": 596.1265655394452,
+          "y": 430.138357498425,
+          "points": 15,
+          "t": 18.7375
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 909.1787958859181,
+          "y": 442.3731853296199,
+          "t": 18.825,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 13,
+          "bumper": 4,
+          "x": 472.5830031931221,
+          "y": 418.72289951088226,
+          "points": 0,
+          "t": 18.883333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 6,
+          "x": 894.9781219967804,
+          "y": 454.02226718907184,
+          "t": 18.920833333333334,
+          "points": 0
+        },
+        {
+          "type": "pocket",
+          "ball": 13,
+          "x": 491.0080378141369,
+          "y": 473.20832519485583,
+          "points": 100,
+          "multiplier": 1,
+          "t": 18.954166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 764.545746928616,
+          "y": 438.2600997268977,
+          "t": 18.97083333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 818.7407217691456,
+          "y": 453.43469268224595,
+          "t": 19.108333333333334,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 805.0988181921616,
+          "y": 327.7171739323969,
+          "points": 0,
+          "t": 19.108333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 14,
+          "x": 805.0988181921616,
+          "y": 327.7171739323969,
+          "t": 19.108333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 823.922369728758,
+          "y": 454.88555411093745,
+          "t": 19.229166666666668,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 12,
+          "bumper": 3,
+          "x": 703.9350509013994,
+          "y": 366.8053681249373,
+          "points": 0,
+          "t": 19.28333333333333
+        },
+        {
+          "type": "lane",
+          "ball": 14,
+          "lane": "right-inner",
+          "x": 762.9621932314222,
+          "y": 159.66215414779168,
+          "points": 0,
+          "t": 19.320833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 775.5305721773979,
+          "y": 441.3358507965566,
+          "t": 19.433333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 14,
+          "x": 735.2981930213886,
+          "y": 50.01,
+          "t": 19.4625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 9,
+          "x": 707.9142952531637,
+          "y": 144.0806598262771,
+          "points": 0,
+          "t": 19.6
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 1,
+          "x": 694.7971196481999,
+          "y": 143.39909166127038,
+          "points": 0,
+          "t": 19.616666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 3,
+          "x": 703.7766083708495,
+          "y": 366.553768933394,
+          "points": 0,
+          "t": 19.854166666666668
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 763.7382386457244,
+          "y": 384.92334778183977,
+          "points": 0,
+          "t": 19.920833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 14,
+          "x": 763.7382386457244,
+          "y": 384.92334778183977,
+          "t": 19.920833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 762.0595288469552,
+          "y": 406.3893774902623,
+          "t": 19.954166666666666,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 771.1324930505722,
+          "y": 389.5031889595402,
+          "points": 0,
+          "t": 19.9875
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 14,
+          "x": 771.1324930505722,
+          "y": 389.5031889595402,
+          "t": 19.9875,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 5,
+          "x": 560.122391691315,
+          "y": 444.7115730887993,
+          "points": 0,
+          "t": 20.0125
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 770.5312762715074,
+          "y": 408.76146676913686,
+          "t": 20.020833333333332,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 780.0511693115076,
+          "y": 393.3654872131281,
+          "points": 0,
+          "t": 20.058333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-1",
+          "ball": 14,
+          "x": 780.0511693115076,
+          "y": 393.3654872131281,
+          "t": 20.058333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 776.0691058549792,
+          "y": 410.31205905250897,
+          "t": 20.09583333333333,
+          "points": 0
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 516.209961699904,
+          "y": 477.66359411987554,
+          "points": 0,
+          "multiplier": 1,
+          "t": 20.120833333333334
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 781.472095537712,
+          "y": 393.95753980738,
+          "points": 0,
+          "t": 20.1375
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-1",
+          "ball": 14,
+          "x": 781.472095537712,
+          "y": 393.95753980738,
+          "t": 20.1375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 773.1802548782306,
+          "y": 409.5031807790194,
+          "t": 20.1875,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 226.89941525714138,
+          "t": 20.204166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 948.583449352767,
+          "y": 436.1652811616773,
+          "t": 20.208333333333332,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 773.7919410241371,
+          "y": 390.7574754267238,
+          "points": 0,
+          "t": 20.245833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-1",
+          "ball": 14,
+          "x": 773.7919410241371,
+          "y": 390.7574754267238,
+          "t": 20.245833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 758.9750102117558,
+          "y": 405.5259061141487,
+          "t": 20.316666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 12,
+          "x": 855.5594974330115,
+          "y": 193.94246577781317,
+          "t": 20.466666666666665,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 12,
+          "x": 833.282136724044,
+          "y": 317.4817608552863,
+          "points": 0,
+          "t": 21.304166666666667
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 12,
+          "x": 833.282136724044,
+          "y": 317.4817608552863,
+          "t": 21.304166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 1,
+          "x": 682.9494202373897,
+          "y": 149.85647389173323,
+          "points": 0,
+          "t": 21.454166666666666
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 761.5648980234548,
+          "y": 368.30685911698913,
+          "points": 0,
+          "t": 22.0
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 14,
+          "x": 761.5648980234548,
+          "y": 368.30685911698913,
+          "t": 22.0,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 14,
+          "bumper": 3,
+          "x": 710.0062104824957,
+          "y": 387.4493432736703,
+          "points": 0,
+          "t": 22.145833333333332
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 12,
+          "x": 896.99,
+          "y": 279.1087956839206,
+          "t": 22.270833333333332,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 816.0595606469943,
+          "y": 408.3689836029143,
+          "points": 0,
+          "t": 22.325
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-1",
+          "ball": 14,
+          "x": 816.0595606469943,
+          "y": 408.3689836029143,
+          "t": 22.325,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 853.4660130706984,
+          "y": 431.98319307291035,
+          "t": 22.4,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 14,
+          "x": 911.4667306674625,
+          "y": 431.74062594150905,
+          "t": 22.5,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-exit",
+          "ball": 14,
+          "x": 886.8687467217935,
+          "y": 365.00859074515165,
+          "t": 22.633333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 14,
+          "x": 935.2228010731208,
+          "y": 406.7937701218871,
+          "t": 22.770833333333332,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-exit",
+          "ball": 14,
+          "x": 893.0697322792755,
+          "y": 360.8348504660772,
+          "t": 22.920833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 14,
+          "x": 920.7506218791272,
+          "y": 421.7649899777425,
+          "t": 23.104166666666668,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 14,
+          "x": 848.9986512928316,
+          "y": 394.58355633448446,
+          "points": 0,
+          "t": 23.34583333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-1",
+          "ball": 14,
+          "x": 848.9986512928316,
+          "y": 394.58355633448446,
+          "t": 23.34583333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-exit",
+          "ball": 14,
+          "x": 856.2567352515636,
+          "y": 379.535751408961,
+          "t": 23.404166666666665,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 14,
+          "x": 853.1788361962183,
+          "y": 431.90278354805594,
+          "t": 23.6125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-exit",
+          "ball": 14,
+          "x": 892.9423158193043,
+          "y": 360.92061154490403,
+          "t": 24.0,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-channel",
+          "ball": 14,
+          "x": 926.598801912929,
+          "y": 333.4892811160836,
+          "t": 25.108333333333334,
+          "points": 0
+        },
+        {
+          "type": "replenish",
+          "x": 500,
+          "y": 250,
+          "points": 0,
+          "t": 26.333333333333332,
+          "balls": [
+            {
+              "id": 1,
+              "x": 278,
+              "y": 250
+            },
+            {
+              "id": 2,
+              "x": 306,
+              "y": 250
+            },
+            {
+              "id": 3,
+              "x": 334,
+              "y": 250
+            },
+            {
+              "id": 7,
+              "x": 362,
+              "y": 250
+            },
+            {
+              "id": 9,
+              "x": 390,
+              "y": 250
+            }
+          ],
+          "event": 1
+        }
+      ],
+      "after": "9d54604b40c4d0e6d3c36372fc2c590898d482b6707283432a7fabeec765f17a",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 295,
+          "p2": 115
+        },
+        "shots": 9,
+        "shots_remaining": {
+          "p1": 1,
+          "p2": 2
+        },
+        "scratches": {
+          "p1": 3,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 45,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 1,
+            "bumper_points": 15,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 12
+      },
+      "source": "model",
+      "model_metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_072738b6c39fb591016aeedca4782c87d2b67dc5b10a9f9f42",
+        "usage": {
+          "input_tokens": 2588,
+          "output_tokens": 24,
+          "total_tokens": 2612
+        },
+        "estimated_cost_usd": 0.002049,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 0.9507551999995485,
+        "request_sha256": "9f6fe81ee1ddb5a230000a8971cfb0dc91851a72777fcb30c1d028442eb6eb5c",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 175,
+          "power": 78
+        }
+      },
+      "latency_seconds": 0.9507551999995485,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 7.641086299991002
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 44,
+        "power": 28
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 331.7959606949322,
+          "y": 348.03032868308446,
+          "points": 15,
+          "t": 0.5083333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 7,
+          "x": 339.46277488439233,
+          "y": 213.7166523681895,
+          "points": 0,
+          "t": 0.8958333333333334
+        },
+        {
+          "type": "spinner",
+          "ball": 9,
+          "x": 529.1550543410132,
+          "y": 83.31590683368414,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 1.3458333333333332
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 239.16345322882822,
+          "y": 406.0469425090429,
+          "t": 1.5666666666666667,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 3,
+          "x": 215.35150191698958,
+          "y": 395.281040867921,
+          "points": 0,
+          "t": 1.6708333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-1",
+          "ball": 3,
+          "x": 215.35150191698958,
+          "y": 395.281040867921,
+          "t": 1.6708333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 442.8531426120765,
+          "y": 365.76827494087996,
+          "points": 15,
+          "t": 1.675
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 9,
+          "x": 603.3155610978255,
+          "y": 25.578005118800416,
+          "t": 1.7625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 2,
+          "x": 294.9924202190725,
+          "y": 407.37187285426984,
+          "points": 0,
+          "t": 1.8666666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 196.36408426803297,
+          "y": 449.20534699183594,
+          "t": 2.1333333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 178.8683721049011,
+          "y": 454.10414639751286,
+          "t": 2.3,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 0,
+          "x": 551.484074620236,
+          "y": 107.36038490202841,
+          "t": 2.4833333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 205.98865558250665,
+          "y": 446.5104670237833,
+          "t": 2.529166666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 9,
+          "x": 446.9660836606541,
+          "y": 78.75178948679564,
+          "t": 2.7291666666666665,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 7,
+          "x": 771.4470862245335,
+          "y": 358.00373270326224,
+          "points": 0,
+          "t": 2.7916666666666665
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 7,
+          "x": 771.4470862245335,
+          "y": 358.00373270326224,
+          "t": 2.7916666666666665,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 8,
+          "x": 639.3193870293534,
+          "y": 183.8759472559671,
+          "points": 0,
+          "t": 3.308333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 4,
+          "x": 394.99684506077784,
+          "y": 405.74006412464587,
+          "points": 0,
+          "t": 3.345833333333333
+        },
+        {
+          "type": "pocket",
+          "ball": 9,
+          "x": 499.91777946913464,
+          "y": 28.834254121798665,
+          "points": 100,
+          "multiplier": 1,
+          "t": 3.3833333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 2,
+          "x": 368.5113078668114,
+          "y": 398.8480074846799,
+          "points": 0,
+          "t": 3.404166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 4,
+          "x": 395.0579688315427,
+          "y": 407.331146957613,
+          "points": 0,
+          "t": 3.4458333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 2,
+          "x": 347.9995718874642,
+          "y": 423.73255535038055,
+          "points": 0,
+          "t": 3.5
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 7,
+          "x": 812.293327824993,
+          "y": 321.2421152628487,
+          "points": 0,
+          "t": 3.6958333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 7,
+          "x": 812.293327824993,
+          "y": 321.2421152628487,
+          "t": 3.6958333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 188.73514838756427,
+          "y": 451.34144903836716,
+          "t": 3.7125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 147.8083063493972,
+          "y": 462.80096480905394,
+          "t": 3.8125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 143.96402375827364,
+          "y": 463.87736393456856,
+          "t": 3.9,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 1,
+          "x": 669.2508440319124,
+          "y": 152.00298570526303,
+          "points": 0,
+          "t": 3.975
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 3,
+          "x": 179.04109168227765,
+          "y": 454.0557849158474,
+          "t": 4.041666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 4,
+          "x": 406.28509175950404,
+          "y": 432.86133781317574,
+          "points": 0,
+          "t": 4.491666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 2,
+          "x": 363.7688867433413,
+          "y": 409.45838736054947,
+          "points": 0,
+          "t": 4.545833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 217.6301453945819,
+          "y": 412.07626870263186,
+          "t": 4.591666666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 7,
+          "bumper": 4,
+          "x": 405.23044745936227,
+          "y": 431.73151401492646,
+          "points": 0,
+          "t": 4.595833333333333
+        },
+        {
+          "type": "pocket",
+          "ball": 7,
+          "x": 474.27408125465155,
+          "y": 488.3145576389614,
+          "points": 100,
+          "multiplier": 1,
+          "t": 4.708333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 2,
+          "x": 345.8467775330578,
+          "y": 424.73798772140054,
+          "points": 0,
+          "t": 4.8125
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 0,
+          "x": 186.2848910905314,
+          "y": 407.3921287122786,
+          "points": 10,
+          "t": 4.8375
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-1",
+          "ball": 0,
+          "x": 186.2848910905314,
+          "y": 407.3921287122786,
+          "t": 4.8375,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 290.7294419156764,
+          "y": 395.6565898248348,
+          "points": 0,
+          "t": 5.095833333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 4,
+          "x": 402.1425589501414,
+          "y": 427.8295568869627,
+          "points": 0,
+          "t": 5.125
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 249.45072514661268,
+          "y": 405.6650376467425,
+          "t": 5.1625,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 0,
+          "x": 232.04297295912812,
+          "y": 388.25506061461016,
+          "points": 0,
+          "t": 5.204166666666667
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 0,
+          "x": 232.04297295912812,
+          "y": 388.25506061461016,
+          "t": 5.204166666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 249.81580132326982,
+          "y": 405.78352513402876,
+          "t": 5.254166666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 292.5247465312985,
+          "y": 402.01447385585965,
+          "points": 0,
+          "t": 5.345833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 257.5179686902087,
+          "y": 428.2825454946505,
+          "t": 5.441666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 150.65627389353963,
+          "y": 462.0035338966941,
+          "t": 5.695833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 126.93076276804466,
+          "y": 468.64667701183265,
+          "t": 5.8125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 129.08262382062833,
+          "y": 468.04415591710926,
+          "t": 5.929166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 173.0726502397918,
+          "y": 455.7269485197435,
+          "t": 6.175,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 3,
+          "bumper": 2,
+          "x": 312.1372042975069,
+          "y": 423.801126095292,
+          "points": 0,
+          "t": 6.954166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 290.2241274714304,
+          "y": 392.322044029274,
+          "points": 0,
+          "t": 7.416666666666667
+        }
+      ],
+      "after": "709d3f400befafa256c547ebf35fa014321535ee4283762da53df953e92564e0",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 295,
+          "p2": 455
+        },
+        "shots": 10,
+        "shots_remaining": {
+          "p1": 1,
+          "p2": 1
+        },
+        "scratches": {
+          "p1": 3,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 45,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 3,
+            "bumper_points": 45,
+            "combo_points": 100,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 10
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 10
+      },
+      "source": "baseline",
+      "model_metadata": null,
+      "latency_seconds": 0.07782289999886416,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 8.105095699982485
+    },
+    {
+      "player": "p1",
+      "action": {
+        "angle": 238,
+        "power": 82
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 0,
+          "x": 112.07884802868618,
+          "y": 121.0734845327325,
+          "t": 0.45416666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 0,
+          "x": 132.99,
+          "y": 131.6672493441084,
+          "t": 0.49583333333333335,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 148.50042555729615,
+          "t": 0.5625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 0,
+          "x": 160.55506632934382,
+          "y": 184.07970479941173,
+          "t": 0.7041666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 310.82571035636096,
+          "t": 1.0166666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-exit",
+          "ball": 0,
+          "x": 110.07177871688637,
+          "y": 326.76268079000704,
+          "t": 1.0583333333333333,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 0,
+          "x": 160.00665646371266,
+          "y": 329.29307029849457,
+          "points": 10,
+          "t": 1.1833333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 0,
+          "x": 160.00665646371266,
+          "y": 329.29307029849457,
+          "t": 1.1833333333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 217.09135300449833,
+          "t": 1.4916666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 0,
+          "x": 133.0978517398911,
+          "y": 151.79612840123778,
+          "t": 1.6791666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 0,
+          "x": 111.49691241252638,
+          "y": 121.70260411777011,
+          "t": 1.7833333333333332,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-rise",
+          "ball": 0,
+          "x": 132.99,
+          "y": 134.56363697999743,
+          "t": 1.8625,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 0,
+          "x": 103.01,
+          "y": 154.39801578284425,
+          "t": 1.9875,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 409.0480048567204,
+          "y": 374.5484967845068,
+          "points": 15,
+          "t": 3.8541666666666665
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 344.37599028395186,
+          "y": 211.39366811775125,
+          "points": 15,
+          "t": 4.5125
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 1,
+          "x": 103.01,
+          "y": 270.36710014043615,
+          "t": 5.0125,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 5,
+          "x": 539.3378416358875,
+          "y": 374.30384831782317,
+          "points": 15,
+          "t": 5.2125
+        },
+        {
+          "type": "bumper",
+          "ball": 2,
+          "bumper": 0,
+          "x": 285.2967995999356,
+          "y": 139.60699371511663,
+          "points": 0,
+          "t": 5.258333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 2,
+          "bumper": 7,
+          "x": 292.0212549823816,
+          "y": 182.479018929032,
+          "points": 0,
+          "t": 5.391666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 6,
+          "x": 380.96162662974166,
+          "y": 139.4986826984387,
+          "points": 15,
+          "t": 5.716666666666667
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 1,
+          "x": 193.36634437998225,
+          "y": 326.33582024732635,
+          "points": 0,
+          "t": 5.758333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 1,
+          "x": 193.36634437998225,
+          "y": 326.33582024732635,
+          "t": 5.758333333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 2,
+          "x": 354.8238832453462,
+          "y": 356.6220631554365,
+          "points": 15,
+          "t": 6.008333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 1,
+          "x": 584.99,
+          "y": 108.394194061402,
+          "t": 6.420833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 9,
+          "x": 700.2563899704546,
+          "y": 175.83022911603354,
+          "points": 15,
+          "t": 6.429166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 1,
+          "x": 573.7239145600245,
+          "y": 101.5619862241068,
+          "t": 6.445833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 1,
+          "x": 584.99,
+          "y": 111.38886515069035,
+          "t": 6.475,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 0,
+          "x": 221.35526283964654,
+          "y": 351.5258468610242,
+          "points": 0,
+          "t": 6.979166666666667
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 0,
+          "x": 221.35526283964654,
+          "y": 351.5258468610242,
+          "t": 6.979166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 291.99078425322597,
+          "y": 181.23433479431895,
+          "points": 0,
+          "t": 7.175
+        },
+        {
+          "type": "bumper",
+          "ball": 1,
+          "bumper": 2,
+          "x": 310.9719769154974,
+          "y": 352.80434064411304,
+          "points": 0,
+          "t": 7.233333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 252.66466293804368,
+          "y": 126.874173074867,
+          "points": 15,
+          "t": 7.245833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-crown",
+          "ball": 5,
+          "x": 189.53166478613466,
+          "y": 68.69620356219218,
+          "t": 7.320833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 5,
+          "x": 190.01,
+          "y": 132.6787515891997,
+          "t": 7.404166666666667,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 1,
+          "x": 198.74111569772367,
+          "y": 331.1731144332937,
+          "points": 0,
+          "t": 7.4375
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 1,
+          "x": 198.74111569772367,
+          "y": 331.1731144332937,
+          "t": 7.4375,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 5,
+          "lane": "left-inner",
+          "x": 206.76300412710353,
+          "y": 162.1814915486916,
+          "points": 0,
+          "t": 7.454166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 7,
+          "x": 308.603895328064,
+          "y": 210.7873032162896,
+          "points": 0,
+          "t": 7.666666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 1,
+          "x": 103.01,
+          "y": 223.2658839746409,
+          "t": 7.75,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 2,
+          "bumper": 7,
+          "x": 294.7279280468115,
+          "y": 194.57252636203822,
+          "points": 0,
+          "t": 7.816666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 4,
+          "x": 428.0201034505262,
+          "y": 365.6035389386478,
+          "points": 0,
+          "t": 7.8999999999999995
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 421.5147262730733,
+          "y": 367.33108055027515,
+          "points": 0,
+          "t": 8.129166666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 1,
+          "bumper": 7,
+          "x": 294.2192882206803,
+          "y": 168.7067077135061,
+          "points": 0,
+          "t": 8.1625
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 2,
+          "x": 103.01,
+          "y": 260.4399049934436,
+          "t": 8.204166666666666,
+          "points": 0
+        },
+        {
+          "type": "spinner",
+          "ball": 5,
+          "x": 526.0291796706863,
+          "y": 83.187563179712,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 8.241666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-crown",
+          "ball": 1,
+          "x": 191.439224017822,
+          "y": 67.77958419112164,
+          "t": 8.379166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-right",
+          "ball": 5,
+          "x": 568.7633986278133,
+          "y": 56.20619820665894,
+          "t": 8.4125,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 6,
+          "x": 382.68804930305606,
+          "y": 139.15543877501472,
+          "points": 0,
+          "t": 8.5
+        },
+        {
+          "type": "lane",
+          "ball": 1,
+          "lane": "left-inner",
+          "x": 197.97384287534516,
+          "y": 160.14258512134174,
+          "points": 0,
+          "t": 8.533333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 5,
+          "x": 433.2187708251829,
+          "y": 59.047307755953604,
+          "t": 8.625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 2,
+          "bumper": 2,
+          "x": 333.9163492021305,
+          "y": 348.1821358065633,
+          "points": 0,
+          "t": 8.758333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 443.52723626725486,
+          "y": 365.90925503853356,
+          "points": 0,
+          "t": 8.783333333333333
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 1,
+          "x": 210.95584340909917,
+          "y": 342.1663693735316,
+          "points": 0,
+          "t": 8.845833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 1,
+          "x": 210.95584340909917,
+          "y": 342.1663693735316,
+          "t": 8.845833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-bank",
+          "ball": 0,
+          "x": 580.5706693297722,
+          "y": 206.6785197311774,
+          "t": 9.054166666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 2,
+          "x": 584.99,
+          "y": 164.74683391774238,
+          "t": 9.345833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 5,
+          "x": 526.4167351773119,
+          "y": 394.41077077298263,
+          "points": 0,
+          "t": 9.404166666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 4,
+          "x": 474.7682898948521,
+          "y": 400.6087338000295,
+          "points": 0,
+          "t": 9.4625
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 5,
+          "x": 591.3910791468929,
+          "y": 374.9282351455317,
+          "points": 0,
+          "t": 9.5
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 5,
+          "x": 526.4368043877273,
+          "y": 394.33791558045067,
+          "points": 0,
+          "t": 9.525
+        },
+        {
+          "type": "bumper",
+          "ball": 1,
+          "bumper": 2,
+          "x": 354.08233374046563,
+          "y": 356.0493927817822,
+          "points": 0,
+          "t": 9.558333333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 3,
+          "x": 634.6097573222937,
+          "y": 369.3363770073156,
+          "points": 0,
+          "t": 9.570833333333333
+        },
+        {
+          "type": "spinner",
+          "ball": 2,
+          "x": 485.0475672785308,
+          "y": 83.87884966435774,
+          "points": 0,
+          "activated": false,
+          "multiplier": 1,
+          "t": 9.620833333333334
+        },
+        {
+          "type": "bumper",
+          "ball": 1,
+          "bumper": 6,
+          "x": 382.5466878183158,
+          "y": 139.1869507703288,
+          "points": 0,
+          "t": 9.9375
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 2,
+          "x": 381.4994561657063,
+          "y": 19.990000000000002,
+          "t": 9.945833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "orbit-left",
+          "ball": 5,
+          "x": 438.82694022929553,
+          "y": 109.96409137817444,
+          "t": 9.975,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 0,
+          "lane": "left-inner",
+          "x": 220.92526907898417,
+          "y": 158.4431814354233,
+          "points": 10,
+          "t": 9.995833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-split-return",
+          "ball": 0,
+          "x": 190.01,
+          "y": 133.94945246021845,
+          "t": 10.045833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 2,
+          "x": 350.8317056374214,
+          "y": 19.990000000000002,
+          "t": 10.045833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 7,
+          "x": 361.839682915257,
+          "y": 177.5508559954173,
+          "points": 0,
+          "t": 10.1125
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 2,
+          "x": 310.9044821126634,
+          "y": 19.990000000000002,
+          "t": 10.179166666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 0,
+          "x": 288.9022895804508,
+          "y": 50.01,
+          "t": 10.220833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 6,
+          "x": 342.4197949669816,
+          "y": 92.18476141437539,
+          "points": 0,
+          "t": 10.320833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 2,
+          "x": 261.42484201395115,
+          "y": 19.990000000000002,
+          "t": 10.35,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 310.9543787737666,
+          "y": 88.64376159594802,
+          "points": 0,
+          "t": 10.370833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 0,
+          "x": 342.14426331714714,
+          "y": 50.01,
+          "t": 10.429166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 6,
+          "x": 361.9236421165345,
+          "y": 72.52371689211449,
+          "points": 0,
+          "t": 10.466666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 0,
+          "x": 361.15274574289714,
+          "y": 50.01,
+          "t": 10.495833333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 6,
+          "x": 359.0467888227251,
+          "y": 73.8359958745146,
+          "points": 0,
+          "t": 10.533333333333333
+        },
+        {
+          "type": "bumper",
+          "ball": 1,
+          "bumper": 5,
+          "x": 587.6832219848775,
+          "y": 437.95863377606497,
+          "points": 0,
+          "t": 10.533333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 0,
+          "x": 319.30095949071193,
+          "y": 50.01,
+          "t": 10.604166666666666,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "right-sling",
+          "ball": 5,
+          "x": 784.9573919585384,
+          "y": 345.8444575426578,
+          "points": 0,
+          "t": 10.608333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-sling-0",
+          "ball": 5,
+          "x": 784.9573919585384,
+          "y": 345.8444575426578,
+          "t": 10.608333333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 0,
+          "x": 282.23902932364115,
+          "y": 70.0616707942713,
+          "points": 0,
+          "t": 10.670833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 0,
+          "x": 252.516776276654,
+          "y": 50.01,
+          "t": 10.729166666666666,
+          "points": 0
+        },
+        {
+          "type": "bridge",
+          "device": "skyway",
+          "ball": 0,
+          "x": 630,
+          "y": 75,
+          "points": 20,
+          "t": 10.75,
+          "entry": [
+            241.94908334750923,
+            56.837249898797026
+          ]
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 1,
+          "x": 642.959474383187,
+          "y": 82.51084819180997,
+          "points": 15,
+          "t": 10.775
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 9,
+          "x": 713.7439968550982,
+          "y": 189.55285101982986,
+          "points": 0,
+          "t": 10.791666666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 623.5705915459364,
+          "y": 50.01,
+          "t": 10.820833333333333,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 0,
+          "x": 611.3105708439548,
+          "y": 70.13232108427322,
+          "t": 10.854166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 659.4755311133513,
+          "y": 50.01,
+          "t": 10.929166666666667,
+          "points": 0
+        },
+        {
+          "type": "pocket",
+          "ball": 1,
+          "x": 976.6616651640668,
+          "y": 486.2723503185664,
+          "points": 100,
+          "multiplier": 1,
+          "t": 11.025
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 0,
+          "x": 809.9937373271456,
+          "y": 109.66506628521898,
+          "t": 11.170833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 2,
+          "x": 343.1539799856344,
+          "y": 350.214117576302,
+          "points": 0,
+          "t": 11.225
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 9,
+          "x": 732.146077423159,
+          "y": 138.9524727188507,
+          "points": 0,
+          "t": 11.308333333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 686.2339852538198,
+          "y": 50.01,
+          "t": 11.45,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 0,
+          "x": 267.6600874707958,
+          "y": 137.76319060732013,
+          "points": 0,
+          "t": 11.466666666666667
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 1,
+          "x": 672.9860508814514,
+          "y": 72.10158398966968,
+          "points": 0,
+          "t": 11.491666666666667
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 666.7337041705335,
+          "y": 50.01,
+          "t": 11.520833333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 1,
+          "x": 659.1299598011082,
+          "y": 73.49490519328026,
+          "points": 0,
+          "t": 11.554166666666667
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 630.8330610957147,
+          "y": 50.01,
+          "t": 11.604166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 0,
+          "x": 608.137275137871,
+          "y": 67.3871155824456,
+          "t": 11.645833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 611.938897014993,
+          "y": 49.69454825828889,
+          "t": 11.675,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-channel",
+          "ball": 5,
+          "x": 103.01,
+          "y": 262.92568360865704,
+          "t": 11.6875,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 0,
+          "x": 608.793517916322,
+          "y": 67.83553771614528,
+          "t": 11.708333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 0,
+          "x": 644.3318850753332,
+          "y": 50.01,
+          "t": 11.783333333333333,
+          "points": 0
+        },
+        {
+          "type": "sling",
+          "device": "left-sling",
+          "ball": 5,
+          "x": 168.74444094563805,
+          "y": 316.3556575491015,
+          "points": 0,
+          "t": 11.7875
+        },
+        {
+          "type": "rail",
+          "rail": "left-sling-0",
+          "ball": 5,
+          "x": 168.74444094563805,
+          "y": 316.3556575491015,
+          "t": 11.7875,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-entry",
+          "ball": 2,
+          "x": 91.76598217404013,
+          "y": 98.82399632918501,
+          "t": 11.816666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "left-orbit-roof",
+          "ball": 5,
+          "x": 250.7724831452712,
+          "y": 50.01,
+          "t": 12.0875,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 0,
+          "x": 259.67432587120294,
+          "y": 76.49443788994944,
+          "points": 0,
+          "t": 12.120833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 0,
+          "x": 809.99,
+          "y": 127.49615497913415,
+          "t": 12.145833333333334,
+          "points": 0
+        },
+        {
+          "type": "bridge",
+          "device": "skyway",
+          "ball": 5,
+          "x": 630,
+          "y": 75,
+          "points": 0,
+          "t": 12.145833333333334,
+          "entry": [
+            241.81083833687384,
+            60.88204778335563
+          ]
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 1,
+          "x": 642.959474383187,
+          "y": 82.51084819180997,
+          "points": 0,
+          "t": 12.170833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 5,
+          "x": 623.5705915459364,
+          "y": 50.01,
+          "t": 12.216666666666667,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-west",
+          "ball": 5,
+          "x": 611.3105708439548,
+          "y": 70.13232108427322,
+          "t": 12.25,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 9,
+          "x": 751.123793301068,
+          "y": 158.13796505669941,
+          "points": 0,
+          "t": 12.295833333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 5,
+          "x": 659.4755311133513,
+          "y": 50.01,
+          "t": 12.325,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 0,
+          "x": 809.99,
+          "y": 156.60190880892367,
+          "t": 12.4375,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 5,
+          "x": 809.9937373271456,
+          "y": 109.66506628521898,
+          "t": 12.566666666666666,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 9,
+          "x": 749.8864590063362,
+          "y": 154.50217841045338,
+          "points": 0,
+          "t": 12.604166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 5,
+          "x": 728.2108527821886,
+          "y": 50.01,
+          "t": 12.804166666666667,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 1,
+          "x": 704.6821184108874,
+          "y": 92.0512967205087,
+          "points": 0,
+          "t": 12.908333333333333
+        },
+        {
+          "type": "scoop",
+          "device": "vault",
+          "ball": 5,
+          "x": 775,
+          "y": 88,
+          "points": 0,
+          "t": 13.041666666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 1,
+          "x": 708.091945538463,
+          "y": 99.7605643473743,
+          "points": 0,
+          "t": 13.15
+        },
+        {
+          "type": "bumper",
+          "ball": 0,
+          "bumper": 3,
+          "x": 707.9214238087754,
+          "y": 375.2420332217378,
+          "points": 15,
+          "t": 13.204166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-crown",
+          "ball": 5,
+          "x": 792.2149033990186,
+          "y": 59.925073988824245,
+          "t": 13.308333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 5,
+          "x": 809.99,
+          "y": 123.9534382657457,
+          "t": 13.429166666666667,
+          "points": 0
+        },
+        {
+          "type": "lane",
+          "ball": 5,
+          "lane": "right-inner",
+          "x": 800.6161132483124,
+          "y": 161.02858518340358,
+          "points": 0,
+          "t": 13.5
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 5,
+          "x": 793.7564612435376,
+          "y": 186.35015297534244,
+          "t": 13.549999999999999,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 0,
+          "x": 909.1830780653505,
+          "y": 442.3997759025592,
+          "t": 13.5875,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-lower-bank",
+          "ball": 0,
+          "x": 894.9903319717765,
+          "y": 454.2318545867249,
+          "t": 13.625,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 9,
+          "x": 751.9099510592935,
+          "y": 167.3226351384641,
+          "points": 0,
+          "t": 13.645833333333334
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 5,
+          "x": 809.99,
+          "y": 157.91870016490773,
+          "t": 13.737499999999999,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 9,
+          "x": 744.6242737592229,
+          "y": 146.44122904330476,
+          "points": 0,
+          "t": 13.85
+        },
+        {
+          "type": "scratch",
+          "ball": 0,
+          "x": 973.6557201264794,
+          "y": 488.3224739736303,
+          "points": 0,
+          "multiplier": 1,
+          "t": 13.875
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 983.6848030397293,
+          "y": 399.8535359682681,
+          "t": 13.979166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 5,
+          "x": 730.9146297821046,
+          "y": 50.01,
+          "t": 14.020833333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 977.0398673033301,
+          "y": 406.72760741971547,
+          "t": 14.045833333333333,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 9,
+          "x": 716.0143053481044,
+          "y": 139.5284984419274,
+          "points": 0,
+          "t": 14.204166666666666
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 1,
+          "x": 705.7330256719479,
+          "y": 129.99863817981563,
+          "points": 0,
+          "t": 14.237499999999999
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 5,
+          "x": 809.99,
+          "y": 152.01393229120438,
+          "t": 14.479166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 928.9666254403259,
+          "y": 454.16448840359254,
+          "t": 14.558333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 9,
+          "x": 752.0031291048274,
+          "y": 165.60919499999767,
+          "points": 0,
+          "t": 14.633333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "chamber-east",
+          "ball": 5,
+          "x": 806.440044242069,
+          "y": 181.25771755215462,
+          "t": 14.791666666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 5,
+          "x": 809.99,
+          "y": 175.30455291941726,
+          "t": 14.8125,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 954.7258399275076,
+          "y": 429.8110840153938,
+          "t": 15.183333333333334,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 5,
+          "x": 737.0614392627461,
+          "y": 50.01,
+          "t": 15.275,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 1,
+          "x": 707.0220688728309,
+          "y": 96.82876022286362,
+          "points": 0,
+          "t": 15.483333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "right-return",
+          "ball": 6,
+          "x": 973.3433784017654,
+          "y": 410.55156145581685,
+          "t": 15.704166666666666,
+          "points": 0
+        },
+        {
+          "type": "rail",
+          "rail": "right-split-return",
+          "ball": 5,
+          "x": 809.99,
+          "y": 122.49081622208536,
+          "t": 15.933333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 9,
+          "x": 739.0630362515013,
+          "y": 141.93983713437913,
+          "points": 0,
+          "t": 16.329166666666666
+        },
+        {
+          "type": "rail",
+          "rail": "right-orbit-roof",
+          "ball": 5,
+          "x": 717.2926802047928,
+          "y": 50.01,
+          "t": 16.983333333333334,
+          "points": 0
+        },
+        {
+          "type": "bumper",
+          "ball": 5,
+          "bumper": 1,
+          "x": 705.8579477056467,
+          "y": 94.2515441139488,
+          "points": 0,
+          "t": 17.475
+        }
+      ],
+      "after": "397efaa58813616375db2ad13865f2326a17e424fcb97b1641caba222b1ac9e2",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 295,
+          "p2": 455
+        },
+        "shots": 11,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 1
+        },
+        "scratches": {
+          "p1": 4,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 45,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 3,
+            "bumper_points": 45,
+            "combo_points": 100,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 10
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 9
+      },
+      "source": "model",
+      "model_metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0f594cc8a4eee8a8016aeedca6c40887d2bc26d1d4c0c6a0b7",
+        "usage": {
+          "input_tokens": 3708,
+          "output_tokens": 18,
+          "total_tokens": 3726
+        },
+        "estimated_cost_usd": 0.002862,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 0.9828136999858543,
+        "request_sha256": "6db9500a3a00bad4e0abdd4815de302f6c84c1a071982b2f694418526995d9a4",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 238,
+          "power": 82
+        }
+      },
+      "latency_seconds": 0.9828136999858543,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 9.74354929997935
+    },
+    {
+      "player": "p2",
+      "action": {
+        "angle": 74,
+        "power": 37
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 224.98598287020963,
+          "y": 441.1912153832265,
+          "t": 1.0958333333333332,
+          "points": 0
+        },
+        {
+          "type": "pocket",
+          "ball": 3,
+          "x": 473.26631514536143,
+          "y": 488.89594288191347,
+          "points": 100,
+          "multiplier": 1,
+          "t": 1.7458333333333333
+        },
+        {
+          "type": "rail",
+          "rail": "left-lower-bank",
+          "ball": 0,
+          "x": 237.9354450047143,
+          "y": 437.56536598556517,
+          "t": 1.8375,
+          "points": 0
+        }
+      ],
+      "after": "673021c8d79319d3b77926fe68188654f2514d4064342e45b62f8e339394b91e",
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p2",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 295,
+          "p2": 555
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 4,
+          "p2": 2
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 2,
+            "bumper_points": 45,
+            "combo_points": 50,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 4,
+            "bumper_points": 45,
+            "combo_points": 100,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 10
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 8
+      },
+      "source": "baseline",
+      "model_metadata": null,
+      "latency_seconds": 0.03747909999219701,
+      "decision_origin": "fresh",
+      "active_elapsed_seconds": 9.888228399999207
+    }
+  ],
+  "model_calls": 6,
+  "call_events": [
+    {
+      "player": "p1",
+      "reason": null,
+      "latency_seconds": 1.2421812000102364,
+      "metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_09fb671e2d519a01016aeedc9ea64087d2b6e3869c10ac1c6f",
+        "usage": {
+          "input_tokens": 2132,
+          "output_tokens": 24,
+          "total_tokens": 2156
+        },
+        "estimated_cost_usd": 0.001707,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 1.2421812000102364,
+        "request_sha256": "8e6bfb1c77f2cff76034a1d7214dbec7eec90d0fa6d309378f213ce06fef4801",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 270,
+          "power": 38
+        }
+      }
+    },
+    {
+      "player": "p1",
+      "reason": null,
+      "latency_seconds": 1.0767777000146452,
+      "metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0f077acf9572b97a016aeedca0295487d299a21dd1bb93e513",
+        "usage": {
+          "input_tokens": 2299,
+          "output_tokens": 24,
+          "total_tokens": 2323
+        },
+        "estimated_cost_usd": 0.00183225,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 1.0767777000146452,
+        "request_sha256": "80326b43866b3d3b35da6f8c0d2c6e50cf93c273471e0e8b7d11e56bf89b39f2",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 280,
+          "power": 86
+        }
+      }
+    },
+    {
+      "player": "p1",
+      "reason": null,
+      "latency_seconds": 0.8350251000083517,
+      "metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0376e0b8ee954e23016aeedca1664087d2ba67675dcebcbf91",
+        "usage": {
+          "input_tokens": 2350,
+          "output_tokens": 24,
+          "total_tokens": 2374
+        },
+        "estimated_cost_usd": 0.0018705,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 0.8350251000083517,
+        "request_sha256": "083300f3186d458ff7bfe76c7b562bfbaea1625f9bd1fddec6411db05c3a8d62",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 338,
+          "power": 63
+        }
+      }
+    },
+    {
+      "player": "p1",
+      "reason": null,
+      "latency_seconds": 1.126698200008832,
+      "metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_07e429deae8d6170016aeedca2a3c087d2b1772d4caa8319b1",
+        "usage": {
+          "input_tokens": 2350,
+          "output_tokens": 24,
+          "total_tokens": 2374
+        },
+        "estimated_cost_usd": 0.0018705,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 1.126698200008832,
+        "request_sha256": "d7ec4d00a81f3bde0990f704db85666ce46cd2a8be70db4d2601f7c2286c091c",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 198,
+          "power": 86
+        }
+      }
+    },
+    {
+      "player": "p1",
+      "reason": null,
+      "latency_seconds": 0.9507551999995485,
+      "metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_072738b6c39fb591016aeedca4782c87d2b67dc5b10a9f9f42",
+        "usage": {
+          "input_tokens": 2588,
+          "output_tokens": 24,
+          "total_tokens": 2612
+        },
+        "estimated_cost_usd": 0.002049,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 0.9507551999995485,
+        "request_sha256": "9f6fe81ee1ddb5a230000a8971cfb0dc91851a72777fcb30c1d028442eb6eb5c",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 175,
+          "power": 78
+        }
+      }
+    },
+    {
+      "player": "p1",
+      "reason": null,
+      "latency_seconds": 0.9828136999858543,
+      "metadata": {
+        "provider": "openai",
+        "requested_model": "gpt-5.4-mini-2026-03-17",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "response_id": "resp_0f594cc8a4eee8a8016aeedca6c40887d2bc26d1d4c0c6a0b7",
+        "usage": {
+          "input_tokens": 3708,
+          "output_tokens": 18,
+          "total_tokens": 3726
+        },
+        "estimated_cost_usd": 0.002862,
+        "price_date": "2026-11-07",
+        "price_source": "https://developers.openai.com/api/docs/pricing",
+        "input_usd_per_million": 0.75,
+        "output_usd_per_million": 4.5,
+        "cache_discount_ignored": true,
+        "live": true,
+        "status": "completed",
+        "network_attempted": true,
+        "service_tier": "default",
+        "http_status": 200,
+        "latency_seconds": 0.9828136999858543,
+        "request_sha256": "6db9500a3a00bad4e0abdd4815de302f6c84c1a071982b2f694418526995d9a4",
+        "prompt_sha256": "4063d80aee264642d48559e550428f013b32e6825d683496f6357bf7d1f56a16",
+        "action": {
+          "angle": 238,
+          "power": 82
+        }
+      }
+    }
+  ],
+  "limits": {
+    "shots": 12,
+    "model_calls": 12,
+    "request_timeout": 20,
+    "deadline_seconds": 0
+  },
+  "engine_sha256": "0c882929d1b3b96719dc1845a987abae201dd9ba7e1dec898823d6bccc85f464",
+  "outcome": {
+    "status": "terminal",
+    "reason": "shots_exhausted",
+    "winner": "p2",
+    "draw": false,
+    "failure": false,
+    "scores": {
+      "p1": 295,
+      "p2": 555
+    },
+    "shots": 12,
+    "shots_remaining": {
+      "p1": 0,
+      "p2": 0
+    },
+    "scratches": {
+      "p1": 4,
+      "p2": 2
+    },
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "metrics": {
+      "p1": {
+        "pots": 2,
+        "bumper_points": 45,
+        "combo_points": 50,
+        "lane_points": 0,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 0
+      },
+      "p2": {
+        "pots": 4,
+        "bumper_points": 45,
+        "combo_points": 100,
+        "lane_points": 0,
+        "spinner_points": 0,
+        "multiplier_points": 0,
+        "device_points": 10
+      }
+    },
+    "replenishments_used": 1,
+    "object_balls_remaining": 8
+  },
+  "elapsed_seconds": 9.910659999994095,
+  "evaluation": {
+    "trial_id": "observation_only-risk-101-p1",
+    "memory": "observation_only",
+    "provider": "openai",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "recovery": true,
+    "original_failed_trial_not_retried": true
+  }
+}

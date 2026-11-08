@@ -1,0 +1,15 @@
+test_cluster_chain_and_settling (test_fusion_kinetic.Kinetic.test_cluster_chain_and_settling) ... ok
+test_cluster_public_geometry (test_fusion_kinetic.Kinetic.test_cluster_public_geometry) ... ok
+test_default_skyway_vault_chain (test_fusion_kinetic.Kinetic.test_default_skyway_vault_chain) ... ok
+test_no_stationary_device_launch (test_fusion_kinetic.Kinetic.test_no_stationary_device_launch) ... ok
+test_repeat_sling_feedback_never_rescores (test_fusion_kinetic.Kinetic.test_repeat_sling_feedback_never_rescores) ... ok
+test_skyway_blocked_exit_and_once (test_fusion_kinetic.Kinetic.test_skyway_blocked_exit_and_once) ... ok
+test_skyway_followup_and_full_cap (test_fusion_kinetic.Kinetic.test_skyway_followup_and_full_cap) ... ok
+test_solids_do_not_overlap (test_fusion_kinetic.Kinetic.test_solids_do_not_overlap) ... ok
+test_stronger_inward_sling (test_fusion_kinetic.Kinetic.test_stronger_inward_sling) ... ok
+test_vault_fixed_launch_and_followup (test_fusion_kinetic.Kinetic.test_vault_fixed_launch_and_followup) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.823s
+
+OK

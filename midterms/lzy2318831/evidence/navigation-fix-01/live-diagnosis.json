@@ -1,0 +1,288 @@
+{
+  "kind": "READ_ONLY_POST_OFFICIAL_LIVE_DIAGNOSIS",
+  "runs": [
+    {
+      "directory": "20261107T135148Z-10b5cb5427b9",
+      "kind": "MOCKED_LIVE_DEMO_NOT_REAL_LLM",
+      "run_status": "stopping",
+      "outcome": {
+        "status": "ongoing",
+        "reason": "",
+        "winner": null,
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 0,
+          "p2": 0
+        },
+        "shots": 0,
+        "shots_remaining": {
+          "p1": 6,
+          "p2": 6
+        },
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 0,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 0,
+            "bumper_points": 0,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          }
+        },
+        "replenishments_used": 0,
+        "object_balls_remaining": 15
+      },
+      "accounting": {
+        "calls": 1,
+        "known_estimated_usd": 0.0,
+        "cost_unknown_calls": 1,
+        "conservative_charged_or_reserved_usd": 0.01424775
+      },
+      "shots": [],
+      "mean_power": null,
+      "real_requests": 0,
+      "genuine_http200": 0
+    },
+    {
+      "directory": "20261107T140001Z-d4531653511b",
+      "kind": "LIVE_BROWSER_PROMPT_V2",
+      "run_status": "complete",
+      "outcome": {
+        "status": "terminal",
+        "reason": "shots_exhausted",
+        "winner": "p2",
+        "draw": false,
+        "failure": false,
+        "scores": {
+          "p1": 15,
+          "p2": 1185
+        },
+        "shots": 12,
+        "shots_remaining": {
+          "p1": 0,
+          "p2": 0
+        },
+        "scratches": {
+          "p1": 4,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "metrics": {
+          "p1": {
+            "pots": 0,
+            "bumper_points": 15,
+            "combo_points": 0,
+            "lane_points": 0,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 0
+          },
+          "p2": {
+            "pots": 6,
+            "bumper_points": 225,
+            "combo_points": 300,
+            "lane_points": 10,
+            "spinner_points": 0,
+            "multiplier_points": 0,
+            "device_points": 50
+          }
+        },
+        "replenishments_used": 1,
+        "object_balls_remaining": 13
+      },
+      "accounting": {
+        "calls": 6,
+        "known_estimated_usd": 0.01737675,
+        "cost_unknown_calls": 0,
+        "conservative_charged_or_reserved_usd": 0.01737675
+      },
+      "shots": [
+        {
+          "shot": 1,
+          "action": {
+            "angle": 171,
+            "power": 57
+          },
+          "points": 0,
+          "scratch": true,
+          "physical_pots": 0,
+          "events": {
+            "rail": 4,
+            "bumper": 3,
+            "scratch": 1
+          },
+          "cue_before": {
+            "id": 0,
+            "x": 230,
+            "y": 250
+          },
+          "initial_velocity": [
+            -492.856,
+            78.061
+          ],
+          "preceding_feedback_player": null
+        },
+        {
+          "shot": 3,
+          "action": {
+            "angle": 316,
+            "power": 56
+          },
+          "points": 0,
+          "scratch": false,
+          "physical_pots": 0,
+          "events": {
+            "rail": 5
+          },
+          "cue_before": {
+            "id": 0,
+            "x": 978.2499049026138,
+            "y": 451.2803052584029
+          },
+          "initial_velocity": [
+            353.915,
+            -341.772
+          ],
+          "preceding_feedback_player": "p2"
+        },
+        {
+          "shot": 5,
+          "action": {
+            "angle": 197,
+            "power": 56
+          },
+          "points": 15,
+          "scratch": false,
+          "physical_pots": 0,
+          "events": {
+            "bumper": 1,
+            "rail": 7
+          },
+          "cue_before": {
+            "id": 0,
+            "x": 782.6564263014811,
+            "y": 472.9217021477152
+          },
+          "initial_velocity": [
+            -470.502,
+            -143.847
+          ],
+          "preceding_feedback_player": "p2"
+        },
+        {
+          "shot": 7,
+          "action": {
+            "angle": 167,
+            "power": 47
+          },
+          "points": 0,
+          "scratch": true,
+          "physical_pots": 0,
+          "events": {
+            "rail": 3,
+            "scratch": 1
+          },
+          "cue_before": {
+            "id": 0,
+            "x": 966.0073192645276,
+            "y": 13.324192290821903
+          },
+          "initial_velocity": [
+            -418.005,
+            96.504
+          ],
+          "preceding_feedback_player": "p2"
+        },
+        {
+          "shot": 9,
+          "action": {
+            "angle": 203,
+            "power": 53
+          },
+          "points": 0,
+          "scratch": true,
+          "physical_pots": 1,
+          "events": {
+            "rail": 6,
+            "bumper": 16,
+            "sling": 1,
+            "spinner": 1,
+            "pocket": 1,
+            "scratch": 1,
+            "replenish": 1
+          },
+          "cue_before": {
+            "id": 0,
+            "x": 982.0789185279517,
+            "y": 405.51734006246073
+          },
+          "initial_velocity": [
+            -433.558,
+            -184.034
+          ],
+          "preceding_feedback_player": "p2"
+        },
+        {
+          "shot": 11,
+          "action": {
+            "angle": 198,
+            "power": 46
+          },
+          "points": 0,
+          "scratch": true,
+          "physical_pots": 0,
+          "events": {
+            "rail": 1,
+            "scratch": 1
+          },
+          "cue_before": {
+            "id": 0,
+            "x": 982.0789185279517,
+            "y": 405.51734006246073
+          },
+          "initial_velocity": [
+            -401.346,
+            -130.405
+          ],
+          "preceding_feedback_player": "p2"
+        }
+      ],
+      "mean_power": 52.5,
+      "real_requests": 6,
+      "genuine_http200": 6
+    }
+  ],
+  "source_hashes": {
+    "20261107T135148Z-10b5cb5427b9\\calls.jsonl": "22aeca466970332c16fd71c5058f12bc68aca7da0fee1abdd0ba110ef3822214",
+    "20261107T135148Z-10b5cb5427b9\\status.json": "acfd423741a43087f90e673c3f95e91c4ce0b6099596781c6bb832692775cb02",
+    "20261107T135148Z-10b5cb5427b9\\trace.json": "241c5344cf61c69c11ff410ef8d004cf9de2af2bb370273b4ac2b3985afd8269",
+    "20261107T140001Z-d4531653511b\\calls.jsonl": "214791403a681988a792732199612aa3e72ff446769cf1cbac80e68693dcfddf",
+    "20261107T140001Z-d4531653511b\\preservation.json": "54d33bdc935331d4ea70dabd0ba2c64f294af28cdc2cf5f64f33e411af7c27f3",
+    "20261107T140001Z-d4531653511b\\status.json": "38dda0028b01032b4e2029d7925d1e966db9980b2a0d9611230fcb1f3cce036a",
+    "20261107T140001Z-d4531653511b\\steps.jsonl": "8a2a05acc5a8eabb1dc592734742afa56962dd930979261b8926ffd5653c9bdb",
+    "20261107T140001Z-d4531653511b\\trace.json": "1ad9449882689cc9965ae07e4fd95e57ea4e490350a24ae4fb29997908fff288"
+  },
+  "caution": "Mocked/incomplete records are separate. One completed live match is not a controlled prompt-v1/v2 comparison."
+}

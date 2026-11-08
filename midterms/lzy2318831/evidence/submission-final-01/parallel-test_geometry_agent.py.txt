@@ -1,0 +1,19 @@
+test_blocked_target (test_geometry_agent.GeometryTests.test_blocked_target) ... ok
+test_geometry_http_identity_and_paid_disabled (test_geometry_agent.GeometryTests.test_geometry_http_identity_and_paid_disabled) ... ok
+test_ghost_pot_and_scratch_screen (test_geometry_agent.GeometryTests.test_ghost_pot_and_scratch_screen) ... ok
+test_invalid_selection_retains_usage (test_geometry_agent.GeometryTests.test_invalid_selection_retains_usage) ... ok
+test_live_variant_identity_and_executed_mock_selection (test_geometry_agent.GeometryTests.test_live_variant_identity_and_executed_mock_selection) ... ok
+test_minimum_energy_fallback_is_still_selected_by_model (test_geometry_agent.GeometryTests.test_minimum_energy_fallback_is_still_selected_by_model) ... ok
+test_oblique_bank_matches_normal_only_cushion_loss (test_geometry_agent.GeometryTests.test_oblique_bank_matches_normal_only_cushion_loss) ... ok
+test_offline_selection_and_empty_failure (test_geometry_agent.GeometryTests.test_offline_selection_and_empty_failure) ... ok
+test_opening_contact_and_reach (test_geometry_agent.GeometryTests.test_opening_contact_and_reach) ... ok
+test_quadrant_candidates_and_portal_obstruction (test_geometry_agent.GeometryTests.test_quadrant_candidates_and_portal_obstruction) ... ok
+test_quadrants_and_insufficient_power (test_geometry_agent.GeometryTests.test_quadrants_and_insufficient_power) ... ok
+test_restricted_angles_and_bank (test_geometry_agent.GeometryTests.test_restricted_angles_and_bank) ... ok
+test_selection_strict_and_no_default (test_geometry_agent.GeometryTests.test_selection_strict_and_no_default) ... ok
+test_worker_failure_budget_timeout_and_consent (test_geometry_agent.GeometryTests.test_worker_failure_budget_timeout_and_consent) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 5.468s
+
+OK

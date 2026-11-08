@@ -1,0 +1,100 @@
+{
+  "before": {
+    "file": "fusion/engine.py",
+    "raw_blob": "e730b15ef90167493dca1d640682cc27f3a2f85f",
+    "filtered_blob": "ff378021fc1fda811ed0157ea6c8a15c61234938",
+    "core_autocrlf": true
+  },
+  "after": [
+    {
+      "file": "fusion/engine.py",
+      "raw_git_blob": "e730b15ef90167493dca1d640682cc27f3a2f85f",
+      "clean_filtered_git_blob": "e730b15ef90167493dca1d640682cc27f3a2f85f"
+    },
+    {
+      "file": "fusion/devices.py",
+      "raw_git_blob": "da3e9424e3b7f14d931875e124e10e7f6b9783ac",
+      "clean_filtered_git_blob": "da3e9424e3b7f14d931875e124e10e7f6b9783ac"
+    },
+    {
+      "file": "fusion/geometry.py",
+      "raw_git_blob": "5ab05d9cf12b894acae95b49352e20d550931f83",
+      "clean_filtered_git_blob": "5ab05d9cf12b894acae95b49352e20d550931f83"
+    },
+    {
+      "file": "fusion/baseline.py",
+      "raw_git_blob": "e0007db6dfe38e2e5ae6a3da8aceafa3f69b58cd",
+      "clean_filtered_git_blob": "e0007db6dfe38e2e5ae6a3da8aceafa3f69b58cd"
+    },
+    {
+      "file": "fusion/smart.py",
+      "raw_git_blob": "0456ba8af38db51fcc0c743937e51cb4cf1cbf90",
+      "clean_filtered_git_blob": "0456ba8af38db51fcc0c743937e51cb4cf1cbf90"
+    },
+    {
+      "file": "fusion/web/game.js",
+      "raw_git_blob": "56375b49f9bfbfa96b584ab3c475cc001b774475",
+      "clean_filtered_git_blob": "56375b49f9bfbfa96b584ab3c475cc001b774475"
+    },
+    {
+      "file": "fusion/web/aurum.js",
+      "raw_git_blob": "c36e67b722640e397f661f78307fcf36aa13a7b5",
+      "clean_filtered_git_blob": "c36e67b722640e397f661f78307fcf36aa13a7b5"
+    },
+    {
+      "file": "fusion/web/index.html",
+      "raw_git_blob": "47f8563c234c7501e45c555bb2764c22a209402c",
+      "clean_filtered_git_blob": "47f8563c234c7501e45c555bb2764c22a209402c"
+    },
+    {
+      "file": "fusion/web/style.css",
+      "raw_git_blob": "520c039555daad8661c601de1bdc60ffd92255d5",
+      "clean_filtered_git_blob": "520c039555daad8661c601de1bdc60ffd92255d5"
+    },
+    {
+      "file": "fusion/evaluation.json",
+      "raw_git_blob": "dc32c2c822665c5c33be313004a83317bd539c30",
+      "clean_filtered_git_blob": "dc32c2c822665c5c33be313004a83317bd539c30"
+    },
+    {
+      "file": "fusion/smart-comparison.json",
+      "raw_git_blob": "a9b6d9f44409c47aeaa860db6f65a983de38e6ab",
+      "clean_filtered_git_blob": "a9b6d9f44409c47aeaa860db6f65a983de38e6ab"
+    },
+    {
+      "file": "fusion/FINAL-RULES.md",
+      "raw_git_blob": "8848496b7bf7d65b49b2489cc470e3aa67b86b01",
+      "clean_filtered_git_blob": "8848496b7bf7d65b49b2489cc470e3aa67b86b01"
+    },
+    {
+      "file": "RULES.md",
+      "raw_git_blob": "c281ab1a00a91f187d5c7922718396f6d38a8855",
+      "clean_filtered_git_blob": "c281ab1a00a91f187d5c7922718396f6d38a8855"
+    },
+    {
+      "file": "fusion/RULES.md",
+      "raw_git_blob": "af86de642f306d3e812ca1977baab44e185475f5",
+      "clean_filtered_git_blob": "af86de642f306d3e812ca1977baab44e185475f5"
+    },
+    {
+      "file": "fusion/replenish.py",
+      "raw_git_blob": "bf7ddfe6f627924a2ee766143d8966056571000e",
+      "clean_filtered_git_blob": "bf7ddfe6f627924a2ee766143d8966056571000e"
+    },
+    {
+      "file": "fusion/REPLENISH-RULES.md",
+      "raw_git_blob": "c6491decaa938044178b399e040f9316d7a046cc",
+      "clean_filtered_git_blob": "c6491decaa938044178b399e040f9316d7a046cc"
+    },
+    {
+      "file": "fusion/player.py",
+      "raw_git_blob": "04677cf312e84318676faa828c60bc86d6c2b836",
+      "clean_filtered_git_blob": "04677cf312e84318676faa828c60bc86d6c2b836"
+    },
+    {
+      "file": "fusion/__init__.py",
+      "raw_git_blob": "8c8ed4fa6421c1d010baea42691f79e346c438d6",
+      "clean_filtered_git_blob": "8c8ed4fa6421c1d010baea42691f79e346c438d6"
+    }
+  ]
+}

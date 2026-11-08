@@ -1,0 +1,17 @@
+{
+  "checked": 1098,
+  "intentional_changes": [
+    "AGENT-TEAM.md",
+    "EVALUATION.md",
+    "README.md",
+    "rule-source-map.md",
+    "SUBMISSION-CHECKLIST.md",
+    "fusion/GEOMETRY-ASSISTED.md",
+    "fusion/geometry_agent.py",
+    "fusion/geometry_lifecycle_check.py",
+    "fusion/geometry_live.py",
+    "tests/test_geometry_lifecycle.py"
+  ],
+  "unexpected_changes": [],
+  "historical_evidence_changes": []
+}

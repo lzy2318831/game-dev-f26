@@ -1,0 +1,2 @@
+# Preserve exact archived/frozen bytes on Windows and Linux; hashes include line endings.
+* -text

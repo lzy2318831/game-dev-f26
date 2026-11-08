@@ -1,0 +1,18 @@
+{
+  "python_tests": 212,
+  "python_execution": "all30modules_isolated_complete_suite_verified",
+  "python_all_module_returncodes_zero": true,
+  "javascript_checks": 6,
+  "historical_replays": 24,
+  "frozen_artifacts": 18,
+  "browser_full_adaptive_then_1x_matches": true,
+  "browser_http_failure_then_1x_recovery": true,
+  "preservation_paths_checked": 1195,
+  "unexpected_changes": [],
+  "historical_evidence_changes": [],
+  "real_api_calls": 0,
+  "initial_setting": "2x",
+  "optional_setting": "Adaptive energy - experimental",
+  "legacy_1x_2x_request_payloads_unchanged": true,
+  "earlier_failures_retained": true
+}

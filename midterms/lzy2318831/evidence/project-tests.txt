@@ -1,0 +1,25 @@
+test_failures_count_and_never_fallback (test_model.ModelTests.test_failures_count_and_never_fallback) ... ok
+test_hung_transport_is_terminated (test_model.ModelTests.test_hung_transport_is_terminated) ... ok
+test_public_context_and_history_budget (test_model.ModelTests.test_public_context_and_history_budget) ... ok
+test_valid_fake_model_and_budget (test_model.ModelTests.test_valid_fake_model_and_budget) ... ok
+test_attempt_and_simulation_limits (test_pool.InterfaceTests.test_attempt_and_simulation_limits) ... ok
+test_determinism (test_pool.InterfaceTests.test_determinism) ... ok
+test_invalid_and_wrong_seat (test_pool.InterfaceTests.test_invalid_and_wrong_seat) ... ok
+test_reset_isolation_and_boundary (test_pool.InterfaceTests.test_reset_isolation_and_boundary) ... ok
+test_score_clearance_and_precedence (test_pool.InterfaceTests.test_score_clearance_and_precedence) ... ok
+test_scratch_respot_and_turn (test_pool.InterfaceTests.test_scratch_respot_and_turn) ... ok
+test_scratch_voids_object_points (test_pool.InterfaceTests.test_scratch_voids_object_points) ... ok
+test_seeded_match_invariants_and_miss_turn (test_pool.InterfaceTests.test_seeded_match_invariants_and_miss_turn) ... ok
+test_collision_at_cushion_keeps_centers_inside (test_pool.PhysicsTests.test_collision_at_cushion_keeps_centers_inside) ... ok
+test_equal_mass_collision (test_pool.PhysicsTests.test_equal_mass_collision) ... ok
+test_rail_friction_and_pocket (test_pool.PhysicsTests.test_rail_friction_and_pocket) ... ok
+test_episode_deadline (test_pool.RunnerTests.test_episode_deadline) ... ok
+test_trace_rejects_altered_acceptance (test_pool.RunnerTests.test_trace_rejects_altered_acceptance) ... ok
+test_trace_replay_and_seats (test_pool.RunnerTests.test_trace_replay_and_seats) ... ok
+test_human_baseline_complete_and_restart (test_ui.UITests.test_human_baseline_complete_and_restart) ... ok
+test_human_human_aim_and_alternate (test_ui.UITests.test_human_human_aim_and_alternate) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.403s
+
+OK

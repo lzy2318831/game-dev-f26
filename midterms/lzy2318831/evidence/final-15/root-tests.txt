@@ -1,0 +1,95 @@
+test_diagnose (unittest.loader._FailedTest.test_diagnose) ... ERROR
+test_bad_response_shapes_rejected (test_game.NarratorTests.test_bad_response_shapes_rejected) ... ok
+test_extra_state_mutation_field_rejected (test_game.NarratorTests.test_extra_state_mutation_field_rejected) ... ok
+test_fixture_reports_its_mode_and_preserves_world (test_game.NarratorTests.test_fixture_reports_its_mode_and_preserves_world) ... ok
+test_input_budget_enforced (test_game.NarratorTests.test_input_budget_enforced) ... ok
+test_missing_live_configuration_fails_without_fixture (test_game.NarratorTests.test_missing_live_configuration_fails_without_fixture) ... ok
+test_unavailable_fact_rejected (test_game.NarratorTests.test_unavailable_fact_rejected) ... ok
+test_complete_puzzle_path (test_game.WorldTests.test_complete_puzzle_path) ... ok
+test_key_cannot_be_taken_remotely_or_duplicated (test_game.WorldTests.test_key_cannot_be_taken_remotely_or_duplicated) ... ok
+test_locked_door_cannot_be_bypassed (test_game.WorldTests.test_locked_door_cannot_be_bypassed) ... ok
+test_observation_is_a_copy_and_hides_unseen_key (test_game.WorldTests.test_observation_is_a_copy_and_hides_unseen_key) ... ok
+test_unknown_action_never_changes_state (test_game.WorldTests.test_unknown_action_never_changes_state) ... ok
+test_boundary_ownership_and_mixed_changes (test_minigame_tools.MinigameToolsTests.test_boundary_ownership_and_mixed_changes) ... ok
+test_draft_and_ready (test_minigame_tools.MinigameToolsTests.test_draft_and_ready) ... ok
+test_gallery_escape_links_and_no_overwrite_outside_build (test_minigame_tools.MinigameToolsTests.test_gallery_escape_links_and_no_overwrite_outside_build) ... ok
+test_gallery_handles_combined_games_larger_than_single_game_limit (test_minigame_tools.MinigameToolsTests.test_gallery_handles_combined_games_larger_than_single_game_limit) ... ok
+test_gallery_preserves_unrelated_build_directory (test_minigame_tools.MinigameToolsTests.test_gallery_preserves_unrelated_build_directory) ... ok
+test_git_rename_and_delete_keep_both_paths (test_minigame_tools.MinigameToolsTests.test_git_rename_and_delete_keep_both_paths) ... ok
+test_invalid_usernames (test_minigame_tools.MinigameToolsTests.test_invalid_usernames) ... ok
+test_manifest_mismatches (test_minigame_tools.MinigameToolsTests.test_manifest_mismatches) ... ok
+test_symlinked_submission_parent_rejected_before_writing (test_minigame_tools.MinigameToolsTests.test_symlinked_submission_parent_rejected_before_writing) ... ERROR
+test_symlinks_rejected (test_minigame_tools.MinigameToolsTests.test_symlinks_rejected) ... ERROR
+test_two_students_and_overwrite_refusal (test_minigame_tools.MinigameToolsTests.test_two_students_and_overwrite_refusal) ... ok
+test_acceptance_trace_reaches_the_garden (test_player_interface.PlayerInterfaceTests.test_acceptance_trace_reaches_the_garden) ... ok
+test_every_listed_action_is_in_the_vocabulary (test_player_interface.PlayerInterfaceTests.test_every_listed_action_is_in_the_vocabulary) ... ok
+test_illegal_action_is_refused_counted_and_changes_nothing (test_player_interface.PlayerInterfaceTests.test_illegal_action_is_refused_counted_and_changes_nothing) ... ok
+test_legal_actions_at_start (test_player_interface.PlayerInterfaceTests.test_legal_actions_at_start) ... ok
+test_legal_actions_do_not_reveal_the_unseen_key (test_player_interface.PlayerInterfaceTests.test_legal_actions_do_not_reveal_the_unseen_key) ... ok
+test_malformed_action_is_counted_not_raised (test_player_interface.PlayerInterfaceTests.test_malformed_action_is_counted_not_raised) ... ok
+test_no_actions_after_winning (test_player_interface.PlayerInterfaceTests.test_no_actions_after_winning) ... ok
+test_observation_is_a_copy (test_player_interface.PlayerInterfaceTests.test_observation_is_a_copy) ... ok
+test_refused_actions_change_no_state (test_player_interface.PlayerInterfaceTests.test_refused_actions_change_no_state) ... ok
+test_reset_starts_a_fresh_episode (test_player_interface.PlayerInterfaceTests.test_reset_starts_a_fresh_episode) ... ok
+test_step_limit_ends_the_episode (test_player_interface.PlayerInterfaceTests.test_step_limit_ends_the_episode) ... ok
+test_unknown_player_is_rejected (test_player_interface.PlayerInterfaceTests.test_unknown_player_is_rejected) ... ok
+test_providers (unittest.loader._FailedTest.test_providers) ... ERROR
+
+======================================================================
+ERROR: test_diagnose (unittest.loader._FailedTest.test_diagnose)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_diagnose
+Traceback (most recent call last):
+  File "C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\Lib\unittest\loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\Lib\unittest\loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\lzy21\Documents\game-dev-f26\tests\test_diagnose.py", line 10, in <module>
+    import anthropic
+ModuleNotFoundError: No module named 'anthropic'
+
+
+======================================================================
+ERROR: test_symlinked_submission_parent_rejected_before_writing (test_minigame_tools.MinigameToolsTests.test_symlinked_submission_parent_rejected_before_writing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\tests\test_minigame_tools.py", line 64, in test_symlinked_submission_parent_rejected_before_writing
+    (self.root / 'minigames/submissions').symlink_to(target)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\Lib\pathlib\__init__.py", line 1414, in symlink_to
+    os.symlink(target, self, target_is_directory)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\lzy21\\AppData\\Local\\Temp\\tmpoqkwn1lh\\elsewhere' -> 'C:\\Users\\lzy21\\AppData\\Local\\Temp\\tmpoqkwn1lh\\minigames\\submissions'
+
+======================================================================
+ERROR: test_symlinks_rejected (test_minigame_tools.MinigameToolsTests.test_symlinks_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\lzy21\Documents\game-dev-f26\tests\test_minigame_tools.py", line 57, in test_symlinks_rejected
+    (folder / 'shortcut').symlink_to(self.root / 'minigames/get-out')
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\Lib\pathlib\__init__.py", line 1414, in symlink_to
+    os.symlink(target, self, target_is_directory)
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 1314] A required privilege is not held by the client: 'C:\\Users\\lzy21\\AppData\\Local\\Temp\\tmpast806_4\\minigames\\get-out' -> 'C:\\Users\\lzy21\\AppData\\Local\\Temp\\tmpast806_4\\minigames\\submissions\\alice\\get-out\\shortcut'
+
+======================================================================
+ERROR: test_providers (unittest.loader._FailedTest.test_providers)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_providers
+Traceback (most recent call last):
+  File "C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\Lib\unittest\loader.py", line 433, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "C:\Users\lzy21\AppData\Local\Python\pythoncore-3.15-64\Lib\unittest\loader.py", line 374, in _get_module_from_name
+    __import__(name)
+    ~~~~~~~~~~^^^^^^
+  File "C:\Users\lzy21\Documents\game-dev-f26\tests\test_providers.py", line 9, in <module>
+    import anthropic
+ModuleNotFoundError: No module named 'anthropic'
+
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.819s
+
+FAILED (errors=4)

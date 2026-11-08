@@ -1,0 +1,1588 @@
+{
+  "version": "0.2.0",
+  "seed": 101,
+  "seats": [
+    "baseline",
+    "baseline"
+  ],
+  "layout": [
+    [
+      250,
+      250
+    ],
+    [
+      700,
+      250
+    ],
+    [
+      718,
+      239
+    ],
+    [
+      718,
+      261
+    ],
+    [
+      736,
+      228
+    ],
+    [
+      736,
+      250
+    ],
+    [
+      736,
+      272
+    ]
+  ],
+  "max_attempts": 24,
+  "model_calls": 0,
+  "steps": [
+    {
+      "player": "p1",
+      "observation": {
+        "player_id": "p1",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 250,
+            "y": 250
+          },
+          {
+            "id": 1,
+            "x": 700,
+            "y": 250
+          },
+          {
+            "id": 2,
+            "x": 718,
+            "y": 239
+          },
+          {
+            "id": 3,
+            "x": 718,
+            "y": 261
+          },
+          {
+            "id": 4,
+            "x": 736,
+            "y": 228
+          },
+          {
+            "id": 5,
+            "x": 736,
+            "y": 250
+          },
+          {
+            "id": 6,
+            "x": 736,
+            "y": 272
+          }
+        ],
+        "scores": {
+          "p1": 0,
+          "p2": 0
+        },
+        "attempts_remaining": 24,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 0,
+        "power": 2
+      },
+      "accepted": true,
+      "events": [],
+      "latency_seconds": 0.00016979998326860368,
+      "after": {
+        "player_id": "p1",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 671.9213423922163,
+            "y": 248.87656508397083
+          },
+          {
+            "id": 1,
+            "x": 695.0893523091669,
+            "y": 287.19745256956384
+          },
+          {
+            "id": 2,
+            "x": 717.5272863791338,
+            "y": 235.98256525023294
+          },
+          {
+            "id": 3,
+            "x": 718.7504580513565,
+            "y": 262.18203477399976
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          },
+          {
+            "id": 5,
+            "x": 736.0,
+            "y": 250.0
+          },
+          {
+            "id": 6,
+            "x": 988.131529669775,
+            "y": 427.468762323606
+          }
+        ],
+        "scores": {
+          "p1": 0,
+          "p2": 0
+        },
+        "attempts_remaining": 23,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "observation": {
+        "player_id": "p2",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 671.9213423922163,
+            "y": 248.87656508397083
+          },
+          {
+            "id": 1,
+            "x": 695.0893523091669,
+            "y": 287.19745256956384
+          },
+          {
+            "id": 2,
+            "x": 717.5272863791338,
+            "y": 235.98256525023294
+          },
+          {
+            "id": 3,
+            "x": 718.7504580513565,
+            "y": 262.18203477399976
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          },
+          {
+            "id": 5,
+            "x": 736.0,
+            "y": 250.0
+          },
+          {
+            "id": 6,
+            "x": 988.131529669775,
+            "y": 427.468762323606
+          }
+        ],
+        "scores": {
+          "p1": 0,
+          "p2": 0
+        },
+        "attempts_remaining": 23,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 0,
+        "power": 2
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 3
+        }
+      ],
+      "latency_seconds": 0.0001571999746374786,
+      "after": {
+        "player_id": "p2",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 691.1694275184313,
+            "y": 262.01606602089635
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 751.059759024477,
+            "y": 236.9038359477633
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          },
+          {
+            "id": 5,
+            "x": 710.2640648861376,
+            "y": 274.13458672833576
+          },
+          {
+            "id": 6,
+            "x": 988.131529669775,
+            "y": 427.468762323606
+          }
+        ],
+        "scores": {
+          "p1": 0,
+          "p2": 1
+        },
+        "attempts_remaining": 22,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 3
+          }
+        ],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "observation": {
+        "player_id": "p1",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 691.1694275184313,
+            "y": 262.01606602089635
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 751.059759024477,
+            "y": 236.9038359477633
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          },
+          {
+            "id": 5,
+            "x": 710.2640648861376,
+            "y": 274.13458672833576
+          },
+          {
+            "id": 6,
+            "x": 988.131529669775,
+            "y": 427.468762323606
+          }
+        ],
+        "scores": {
+          "p1": 0,
+          "p2": 1
+        },
+        "attempts_remaining": 22,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 3
+          }
+        ],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 357,
+        "power": 2
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 5
+        }
+      ],
+      "latency_seconds": 0.0002032000047620386,
+      "after": {
+        "player_id": "p1",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 897.874446362185,
+            "y": 229.36826921524482
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 751.059759024477,
+            "y": 236.9038359477633
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          },
+          {
+            "id": 6,
+            "x": 988.131529669775,
+            "y": 427.468762323606
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 1
+        },
+        "attempts_remaining": 21,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 5
+          }
+        ],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "observation": {
+        "player_id": "p2",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 897.874446362185,
+            "y": 229.36826921524482
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 751.059759024477,
+            "y": 236.9038359477633
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          },
+          {
+            "id": 6,
+            "x": 988.131529669775,
+            "y": 427.468762323606
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 1
+        },
+        "attempts_remaining": 21,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 5
+          }
+        ],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 64,
+        "power": 1
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 6
+        }
+      ],
+      "latency_seconds": 0.0002023999986704439,
+      "after": {
+        "player_id": "p2",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 971.4104818307028,
+            "y": 403.63854459656534
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 751.059759024477,
+            "y": 236.9038359477633
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 2
+        },
+        "attempts_remaining": 20,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 6
+          }
+        ],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "observation": {
+        "player_id": "p1",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 971.4104818307028,
+            "y": 403.63854459656534
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 751.059759024477,
+            "y": 236.9038359477633
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 2
+        },
+        "attempts_remaining": 20,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 6
+          }
+        ],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 217,
+        "power": 2
+      },
+      "accepted": true,
+      "events": [],
+      "latency_seconds": 0.00014319998444989324,
+      "after": {
+        "player_id": "p1",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 765.9237011186945,
+            "y": 249.99094341271052
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 181.73793128390162,
+            "y": 475.74711920092693
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 2
+        },
+        "attempts_remaining": 19,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "observation": {
+        "player_id": "p2",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 765.9237011186945,
+            "y": 249.99094341271052
+          },
+          {
+            "id": 1,
+            "x": 687.1306819804327,
+            "y": 294.7784774165812
+          },
+          {
+            "id": 2,
+            "x": 181.73793128390162,
+            "y": 475.74711920092693
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 2
+        },
+        "attempts_remaining": 19,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 155,
+        "power": 1
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 1
+        }
+      ],
+      "latency_seconds": 0.00013490000856108963,
+      "after": {
+        "player_id": "p2",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 655.8519438893213,
+            "y": 237.36614834076954
+          },
+          {
+            "id": 2,
+            "x": 181.73793128390162,
+            "y": 475.74711920092693
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 3
+        },
+        "attempts_remaining": 18,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 1
+          }
+        ],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "observation": {
+        "player_id": "p1",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 655.8519438893213,
+            "y": 237.36614834076954
+          },
+          {
+            "id": 2,
+            "x": 181.73793128390162,
+            "y": 475.74711920092693
+          },
+          {
+            "id": 4,
+            "x": 696.6677765039249,
+            "y": 130.34782638260225
+          }
+        ],
+        "scores": {
+          "p1": 1,
+          "p2": 3
+        },
+        "attempts_remaining": 18,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 1
+          }
+        ],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 283,
+        "power": 2
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 4
+        }
+      ],
+      "latency_seconds": 0.00011570000788196921,
+      "after": {
+        "player_id": "p1",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 349.3912615810016,
+            "y": 403.415575605456
+          },
+          {
+            "id": 2,
+            "x": 181.73793128390162,
+            "y": 475.74711920092693
+          }
+        ],
+        "scores": {
+          "p1": 2,
+          "p2": 3
+        },
+        "attempts_remaining": 17,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 4
+          }
+        ],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p2",
+      "observation": {
+        "player_id": "p2",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 349.3912615810016,
+            "y": 403.415575605456
+          },
+          {
+            "id": 2,
+            "x": 181.73793128390162,
+            "y": 475.74711920092693
+          }
+        ],
+        "scores": {
+          "p1": 2,
+          "p2": 3
+        },
+        "attempts_remaining": 17,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 4
+          }
+        ],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 155,
+        "power": 1
+      },
+      "accepted": true,
+      "events": [],
+      "latency_seconds": 0.00010580001980997622,
+      "after": {
+        "player_id": "p2",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 205.49664127795072,
+            "y": 481.7991130040435
+          },
+          {
+            "id": 2,
+            "x": 149.47545771519947,
+            "y": 455.29345888256853
+          }
+        ],
+        "scores": {
+          "p1": 2,
+          "p2": 3
+        },
+        "attempts_remaining": 16,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    },
+    {
+      "player": "p1",
+      "observation": {
+        "player_id": "p1",
+        "active_player": "p1",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 205.49664127795072,
+            "y": 481.7991130040435
+          },
+          {
+            "id": 2,
+            "x": 149.47545771519947,
+            "y": 455.29345888256853
+          }
+        ],
+        "scores": {
+          "p1": 2,
+          "p2": 3
+        },
+        "attempts_remaining": 16,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [],
+        "status": "ongoing"
+      },
+      "action": {
+        "angle": 221,
+        "power": 2
+      },
+      "accepted": true,
+      "events": [
+        {
+          "type": "pocket",
+          "ball": 2
+        }
+      ],
+      "latency_seconds": 0.00014000001829117537,
+      "after": {
+        "player_id": "p1",
+        "active_player": "p2",
+        "table": {
+          "width": 1000,
+          "height": 500,
+          "ball_radius": 10,
+          "pocket_radius": 24,
+          "pockets": [
+            [
+              0,
+              0
+            ],
+            [
+              500,
+              0
+            ],
+            [
+              1000,
+              0
+            ],
+            [
+              0,
+              500
+            ],
+            [
+              500,
+              500
+            ],
+            [
+              1000,
+              500
+            ]
+          ]
+        },
+        "balls": [
+          {
+            "id": 0,
+            "x": 146.65936026928688,
+            "y": 475.01897928916406
+          }
+        ],
+        "scores": {
+          "p1": 3,
+          "p2": 3
+        },
+        "attempts_remaining": 15,
+        "scratches": {
+          "p1": 0,
+          "p2": 0
+        },
+        "invalid_actions": {
+          "p1": 0,
+          "p2": 0
+        },
+        "last_events": [
+          {
+            "type": "pocket",
+            "ball": 2
+          }
+        ],
+        "status": "terminal"
+      },
+      "source": "baseline",
+      "model_metadata": null
+    }
+  ],
+  "call_events": [],
+  "limits": {
+    "attempts": 24,
+    "calls": 24,
+    "calls_per_seat": 12,
+    "deadline_seconds": 300
+  },
+  "elapsed_seconds": 0.08018960000481457,
+  "outcome": {
+    "status": "terminal",
+    "reason": "table_cleared",
+    "scores": {
+      "p1": 3,
+      "p2": 3
+    },
+    "winner": null,
+    "draw": true,
+    "failure": false,
+    "attempts": 9,
+    "invalid_actions": {
+      "p1": 0,
+      "p2": 0
+    },
+    "scratches": {
+      "p1": 0,
+      "p2": 0
+    }
+  },
+  "engine_sha256": "3f0768bdc8963bab2d9b01bbbd3919f71055c6607e2114b165ee19175de014c8"
+}

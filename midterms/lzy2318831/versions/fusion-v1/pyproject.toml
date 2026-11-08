@@ -1,0 +1,9 @@
+[project]
+name = "arcade-fusion"
+version = "1.0.0"
+requires-python = ">=3.11"
+description = "Original Pool + Pinball game with Python physics and Canvas visuals"
+dependencies = []
+
+[tool.uv]
+package = false

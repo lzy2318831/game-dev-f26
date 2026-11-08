@@ -1,0 +1,11 @@
+test_setting_trace_active_lock_fresh_match_and_rollback (test_geometry_adaptive.AdaptiveHTTP.test_setting_trace_active_lock_fresh_match_and_rollback) ... ok
+test_adaptive_is_explicit_and_uses_genuine_candidate_ids (test_geometry_adaptive.AdaptivePower.test_adaptive_is_explicit_and_uses_genuine_candidate_ids) ... ok
+test_distance_route_floors_caps_and_escape (test_geometry_adaptive.AdaptivePower.test_distance_route_floors_caps_and_escape) ... ok
+test_known_position_adaptive_25_settles (test_geometry_adaptive.AdaptivePower.test_known_position_adaptive_25_settles) ... ok
+test_legacy_1x_2x_requests_are_unchanged (test_geometry_adaptive.AdaptivePower.test_legacy_1x_2x_requests_are_unchanged) ... ok
+test_runtime_matches_tested_profile_on_all_saved_observations (test_geometry_adaptive.AdaptivePower.test_runtime_matches_tested_profile_on_all_saved_observations) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 10.469s
+
+OK

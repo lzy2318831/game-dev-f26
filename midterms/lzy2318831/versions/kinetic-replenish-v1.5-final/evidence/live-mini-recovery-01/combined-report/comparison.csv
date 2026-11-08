@@ -1,0 +1,13 @@
+trial,memory,case,seed,seat,status,reason,score,opponent_score,winner,failure,object_pots,invalid_actions,invalid_proposals,calls,latency_seconds,input_tokens,output_tokens,usage_unknown_calls,known_estimated_cost_usd,unknown_cost_calls,matched_baseline_score,matched_baseline_latency_seconds
+observation_only-direct-101-p1,observation_only,direct,101,p1,failed,provider_error,0,0,,True,0,0,0,1,1.7962202000198886,0,0,1,0,1,0,0.3334144000255037
+observation_only-direct-101-p2,observation_only,direct,101,p2,complete,shots_exhausted,990,1455,p1,False,4,0,0,6,8.493848400044953,21809,132,0,0.01695075,0,0,0.33097430001362227
+observation_only-direct-102-p1,observation_only,direct,102,p1,complete,shots_exhausted,605,1660,p2,False,10,0,0,6,7.276969799975632,17237,126,0,0.01349475,0,0,0.36670949996914715
+observation_only-direct-102-p2,observation_only,direct,102,p2,complete,shots_exhausted,685,1485,p1,False,9,0,0,6,6.896482499985723,21960,132,0,0.017064,0,0,0.3069674000435043
+observation_only-bumper-101-p1,observation_only,bumper,101,p1,complete,shots_exhausted,1235,185,p1,False,11,0,0,6,6.087677500006976,17530,126,0,0.0137145,0,460,0.3281542000186164
+observation_only-bumper-101-p2,observation_only,bumper,101,p2,complete,shots_exhausted,1095,1500,p1,False,5,0,0,6,6.4921687999449205,20910,138,0,0.0163035,0,1195,0.25137059995904565
+observation_only-bumper-102-p1,observation_only,bumper,102,p1,complete,shots_exhausted,745,1565,p2,False,6,0,0,6,5.99799050000729,17411,126,0,0.01362525,0,460,0.2558253000024706
+observation_only-bumper-102-p2,observation_only,bumper,102,p2,complete,shots_exhausted,900,935,p1,False,9,0,0,6,6.4431273000082,18589,144,0,0.01458975,0,1195,0.2590918999921996
+observation_only-risk-101-p1,observation_only,risk,101,p1,complete,shots_exhausted,295,555,p2,False,8,0,0,6,6.214251100027468,15427,138,0,0.01219125,0,2875,0.2962016999954358
+observation_only-risk-101-p2,observation_only,risk,101,p2,complete,shots_exhausted,130,2670,p1,False,4,0,0,6,6.012799899966922,19503,144,0,0.01527525,0,25,0.09529489997657947
+observation_only-risk-102-p1,observation_only,risk,102,p1,complete,shots_exhausted,1010,385,p1,False,8,0,0,6,5.84437470001285,15261,132,0,0.01203975,0,2875,0.3137529999949038
+observation_only-risk-102-p2,observation_only,risk,102,p2,complete,shots_exhausted,235,2425,p1,False,6,0,0,6,6.625018899998395,18354,144,0,0.014413500000000001,0,25,0.13898990000598133
