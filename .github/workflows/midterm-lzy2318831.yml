@@ -13,7 +13,7 @@ permissions:
   contents: read
 jobs:
   runtime-comparison:
-    name: Archived replay numeric provenance (${{ matrix.os }})
+    name: Numeric provenance only, not replay validation (${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     env:
       OPENAI_API_KEY: ''
@@ -32,7 +32,10 @@ jobs:
           name: numeric-provenance-${{ matrix.os }}
           path: midterms/lzy2318831/evidence/replay-runtime.json
   deterministic:
-    runs-on: ubuntu-latest
+    # Exact frozen traces were recorded with Windows' C math library.
+    # Preserve strict events/hashes by reproducing that runtime, not rounding
+    # replay comparisons or changing archived engine/evidence bytes.
+    runs-on: windows-latest
     timeout-minutes: 20
     # No provider credentials are available to the offline checks.
     env:
@@ -40,6 +43,7 @@ jobs:
       ANTHROPIC_API_KEY: ''
       GOOGLE_APPLICATION_CREDENTIALS: ''
     strategy:
+      fail-fast: false
       matrix:
         python-version: ['3.11', '3.12']
     defaults:

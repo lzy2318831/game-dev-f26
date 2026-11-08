@@ -342,8 +342,20 @@ for commit `a8fd61c43d7eeac5c569d8f859a9826d37009bb0` failed on Linux/Python3.11
 replay divergence, including strict checks during server creation. The3.12job
 was cancelled by matrix fail-fast. Shared Setup and Minigame workflows passed.
 Local Windows/Python3.15.1 separately reports222tests OK and24historical replay
-verifications. This difference is unresolved; a runtime/platform effect is a
-hypothesis, not a verified cause. No archived code, trace, hash, strict replay
+verifications. The initial diagnosis was unresolved; the follow-up below
+identifies the exact platform-math cause. No archived code, trace, hash, strict replay
 check or game logic was changed to conceal it. Remote logs are retained in
 evidence/submission-final-01/remote-ci-failure.txt. Later documentation-only
 pushes must be assessed through their own workflow runs, not assumed green.
+
+Follow-up: [runtime evidence](evidence/replay-compatibility-01/REPORT.md) proves
+that Linux sin(123degrees) differs from Windows by one ULP at the identical
+radian input. The default recorded match first diverges on shot9, third event
+x-coordinate, then its observation hash. An isolated one-function
+counterfactual reproduces the exact failing Linux hash on Windows. Windows
+CPython3.11 replays all12shots exactly; this is not a Python3.11-only issue.
+The CI compatibility correction uses Windows3.11/3.12 for all unchanged strict
+tests and24historical replays. No replay comparison, physics or expected
+result was relaxed. Linux bit-exact replay remains unsupported; its separate
+CI numeric probe is diagnostic only. Current actual results appear in
+[course PR checks](https://github.com/columbia-university-ai-games/game-dev-f26/pull/97/checks).

@@ -3,10 +3,12 @@
 Final publication update: the reviewed commit was pushed to the student fork.
 The [Midterm CI run](https://github.com/lzy2318831/game-dev-f26/actions/runs/42435757312)
 failed with13historical replay-divergence errors on Linux/Python3.11;3.12was
-cancelled. Local Windows/Python3.15.1 checks passed. This remains unresolved.
-Course PR creation from the different fork network failed; no PR is yet verified.
-Permission for a direct course-repository student branch is pending. No game
-code or historical evidence is changed in response. CourseWorks remains manual.
+cancelled. Local Windows/Python3.15.1 checks passed. The follow-up proves a
+one-ULP platform sine difference; strict CI now uses the Windows reference
+environment without changing engine/evidence or relaxing assertions.
+[Course PR97](https://github.com/columbia-university-ai-games/game-dev-f26/pull/97)
+is open from the authorized course student branch to main. Inspect its actual
+checks for final status. CourseWorks remains manual.
 
 This checklist follows [MIDTERM_REQUIREMENTS.txt](MIDTERM_REQUIREMENTS.txt).
 **The submission is not complete.** Technical implementation and the original
@@ -72,7 +74,7 @@ live comparison are present; personal evidence and the actual hand-in remain.
   no keys, private playtester data, dependency caches or browser profiles.
 - [x] Authorize final scoped staging (student instruction in this session).
 - [x] Explicitly approve committing and pushing the intended branch (student final submission instruction).
-- [ ] Open **one PR** to `columbia-university-ai-games/game-dev-f26`, targeting
+- [x] Open **one PR** to `columbia-university-ai-games/game-dev-f26`, targeting
   `main`; include login, title, README, evaluation, agent team, playtest and video links.
 - [ ] Review the actual remote CI result and final source-branch links.
 - [ ] Submit the **course-repository PR URL** to CourseWorks. A fork URL or archive

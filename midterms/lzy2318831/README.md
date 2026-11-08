@@ -24,6 +24,13 @@ remains associated with v1.5 physics.
 Requires Python 3.11+ and a current browser. From your clone's
 `midterms/lzy2318831/` directory, run:
 
+**Reference environment: Windows with CPython 3.11 or 3.12.** Exact historical
+replays and this combined launcher depend on Windows C-library math results.
+Linux returns a one-ULP-different sine for a recorded shot and fails strict
+replay validation. The [runtime investigation](evidence/replay-compatibility-01/REPORT.md)
+records the exact cause and unchanged evidence. CI runs all strict checks on
+the reference platform; Linux numeric probes are diagnostic only.
+
 ```powershell
 python -m fusion.geometry_live
 ```
@@ -323,8 +330,12 @@ illegal actions, regressions, limits, replay, controllers and freeze without
 provider credentials. The [first remote Midterm run](https://github.com/lzy2318831/game-dev-f26/actions/runs/42435757312)
 failed on Linux/Python 3.11 with 13 historical replay-divergence errors and
 5 skips; Python 3.12 was cancelled by matrix fail-fast. Local Windows/Python
-3.15.1 checks passed. The runtime/platform cause remains unresolved; historical
-evidence and strict replay checks are preserved. Remote CI is not green.
+3.15.1 checks passed. The cause is now verified: platform `sin(123°)` rounding
+first changes shot9of the default archived match by one ULP. Windows Python3.11
+replays it exactly. The workflow now runs all unchanged strict tests/replays on
+Windows3.11/3.12, with a separate Linux diagnostic. Inspect the
+[course PR checks](https://github.com/columbia-university-ai-games/game-dev-f26/pull/97/checks)
+for current status; the original failed run remains preserved.
 
 Small samples, deterministic repeated layouts, frequent scratches and no live
 memory ablation limit the claims. My own playtesting motivated the bounded
@@ -355,5 +366,6 @@ allowance remains. My chosen final demonstration setting is Adaptive Distance v2
 Final local validation passed222Python tests,7JavaScript suites,24historical
 replays, both18-artifact freeze checks and157archive hashes. See
 [final submission verification](evidence/submission-final-01/REPORT.md).
-Remote CI has the replay-divergence failure disclosed above. CourseWorks hand-in
-remains manual; PR publication is tracked separately.
+The [course PR](https://github.com/columbia-university-ai-games/game-dev-f26/pull/97)
+is open against main from the student-specific course branch. CourseWorks
+hand-in remains manual. The runtime correction changes no game physics or AI.
