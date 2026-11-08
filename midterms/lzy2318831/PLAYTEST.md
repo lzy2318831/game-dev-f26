@@ -19,19 +19,15 @@ beyond the three findings below has been recorded.
 
 1. The cue ball scratched too easily. My friend found the scratches frustrating
    and scoring difficult.
-2. Balls sometimes became trapped near table edges or terrain obstacles, making
-   them difficult to hit again.
+2. Some balls ended up in awkward positions near the table edges or obstacles,
+   making it harder for the player to aim and take effective follow-up shots.
 3. The terrain layout could be improved to make play smoother.
-
-The word "trapped" describes the observed gameplay problem. I have not established
-whether these were physically trapped balls, awkward resting positions or a
-simulation defect.
 
 ## My interpretation and future improvements
 
-I take this feedback as evidence that cue survival and recovering useful shot
-positions need more attention. The current scratch rule removes all points from
-a shot, including points earned before the cue falls into a pocket. That makes
+I take this feedback as evidence that cue survival, awkward ball positions and
+difficult follow-up shots need more attention. The current scratch rule removes
+all points from a shot, including points earned before the cue falls into a pocket. That makes
 scratches especially costly and helps explain why the player found scoring
 frustrating. This explains the scoring consequence, not why a particular shot
 scratched.
@@ -40,12 +36,13 @@ The official LLM evaluation also recorded frequent scratches: 25 in 66 LLM
 shots. The human feedback suggests that pocket exposure and obstacle-driven
 trajectories could be worth investigating alongside the agent's decisions.
 However, one friend's feedback and the saved model results do not establish a
-shared cause. Poor angle or power choices, difficult recovery positions and
-layout interactions are possibilities to test, not proven explanations.
+shared cause. Poor angle or power choices, awkward ball positions, difficult
+follow-up shots and layout interactions are possibilities to test, not proven
+explanations.
 
-After submission, I would investigate scratch trajectories and difficult resting
-positions with reproducible shot traces, then test whether changes to pocket
-approaches, clearances or guide geometry improve recovery and flow. I would
+After submission, I would investigate scratch trajectories, awkward ball positions
+and difficult follow-up shots with reproducible shot traces, then test whether
+changes to pocket approaches, clearances or guide geometry improve recovery and flow. I would
 compare both human experience and agent scratches before deciding on a fix.
 These are future improvements only: I have made no changes to the frozen
 physics, terrain, scoring or official evaluation in response to this playtest.
