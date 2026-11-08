@@ -34,6 +34,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Diagnose archived replay runtime without changing physics
+        run: python -m fusion.replay_diagnostics --output evidence/replay-runtime.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: replay-runtime-${{ matrix.python-version }}
+          path: midterms/lzy2318831/evidence/replay-runtime.json
       - run: python -m unittest discover -s tests -v
       - run: node tests/replay-timers.cjs
       - run: node tests/geometry-controller.cjs
