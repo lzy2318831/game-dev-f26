@@ -1,5 +1,23 @@
 # Final documentation and GitHub submission preparation
 
+## Publication status discovered after the first push
+
+Commit a8fd61c43d7eeac5c569d8f859a9826d37009bb0 was pushed and verified on the
+student fork branch. Course PR creation was rejected with unreadable head/base
+references; REST returned500. No PR was found afterward. The fork source is
+rogerwangdev/game-dev-f26, a different network from the standalone course repo.
+Publishing a course-repository student branch requires the student's separate
+permission; main is not to be modified directly.
+
+The first remote Midterm run42435757312 failed on Linux/Python3.11 with13errors
+and5skips;3.12was cancelled by matrix fail-fast. All13errors involve strict
+historical replay divergence (including server startup checks). The local
+Windows/Python3.15.1 run reports222tests OK and24historical replays pass. The
+runtime/platform cause is unverified. Shared Setup and Minigame workflows passed.
+See remote-ci-failure.txt. This disclosure does not change archived physics,
+traces, hashes, test assertions or gameplay. Later pushes require their own CI
+status; no green Midterm run is claimed.
+
 Final student-confirmed game: Kinetic Circuit, fusion-1.6.0-balanced.
 Demonstration: Geometry-Assisted Live LLM, Adaptive Distance v2; contact/pot
 bands30–40,40–80,80–100. This pass changes documentation only, without gameplay,

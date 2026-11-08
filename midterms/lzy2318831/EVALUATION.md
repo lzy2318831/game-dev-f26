@@ -333,3 +333,17 @@ evidence. In the historical266° public position transplanted to the v1.6 table,
 scratch or limit. This is a counterfactual position, not a historical replay.
 See [method, evidence and limitations](evidence/adaptive-distance-v2-01/REPORT.md).
 The original official11matches/2wins/9losses remain associated with v1.5.
+
+## Final remote CI disclosure
+
+The first fork [Midterm workflow run](https://github.com/lzy2318831/game-dev-f26/actions/runs/42435757312)
+for commit `a8fd61c43d7eeac5c569d8f859a9826d37009bb0` failed on Linux/Python3.11:
+222tests ran with13errors and5skips. All13errors involve historical recorded
+replay divergence, including strict checks during server creation. The3.12job
+was cancelled by matrix fail-fast. Shared Setup and Minigame workflows passed.
+Local Windows/Python3.15.1 separately reports222tests OK and24historical replay
+verifications. This difference is unresolved; a runtime/platform effect is a
+hypothesis, not a verified cause. No archived code, trace, hash, strict replay
+check or game logic was changed to conceal it. Remote logs are retained in
+evidence/submission-final-01/remote-ci-failure.txt. Later documentation-only
+pushes must be assessed through their own workflow runs, not assumed green.

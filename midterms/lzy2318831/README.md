@@ -320,7 +320,11 @@ Earlier finalization/controller/replay results are recorded in
 [the final report](evidence/final-geometry-01/REPORT.md). The scoped
 [CI workflow](../../.github/workflows/midterm-lzy2318831.yml) checks rules,
 illegal actions, regressions, limits, replay, controllers and freeze without
-provider credentials. A remote green run for the submitted commit is still pending.
+provider credentials. The [first remote Midterm run](https://github.com/lzy2318831/game-dev-f26/actions/runs/42435757312)
+failed on Linux/Python 3.11 with 13 historical replay-divergence errors and
+5 skips; Python 3.12 was cancelled by matrix fail-fast. Local Windows/Python
+3.15.1 checks passed. The runtime/platform cause remains unresolved; historical
+evidence and strict replay checks are preserved. Remote CI is not green.
 
 Small samples, deterministic repeated layouts, frequent scratches and no live
 memory ablation limit the claims. My own playtesting motivated the bounded
@@ -351,4 +355,5 @@ allowance remains. My chosen final demonstration setting is Adaptive Distance v2
 Final local validation passed222Python tests,7JavaScript suites,24historical
 replays, both18-artifact freeze checks and157archive hashes. See
 [final submission verification](evidence/submission-final-01/REPORT.md).
-Remote CI and CourseWorks hand-in remain separately tracked.
+Remote CI has the replay-divergence failure disclosed above. CourseWorks hand-in
+remains manual; PR publication is tracked separately.

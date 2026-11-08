@@ -1,5 +1,13 @@
 # Midterm submission checklist
 
+Final publication update: the reviewed commit was pushed to the student fork.
+The [Midterm CI run](https://github.com/lzy2318831/game-dev-f26/actions/runs/42435757312)
+failed with13historical replay-divergence errors on Linux/Python3.11;3.12was
+cancelled. Local Windows/Python3.15.1 checks passed. This remains unresolved.
+Course PR creation from the different fork network failed; no PR is yet verified.
+Permission for a direct course-repository student branch is pending. No game
+code or historical evidence is changed in response. CourseWorks remains manual.
+
 This checklist follows [MIDTERM_REQUIREMENTS.txt](MIDTERM_REQUIREMENTS.txt).
 **The submission is not complete.** Technical implementation and the original
 live comparison are present; personal evidence and the actual hand-in remain.

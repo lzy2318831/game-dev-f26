@@ -1,0 +1,617 @@
+deterministic (3.11)	Run python -m unittest discover -s tests -v	﻿2026-11-08T01:47:31.2402263Z ##[group]Run python -m unittest discover -s tests -v
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2402580Z ^[[36;1mpython -m unittest discover -s tests -v^[[0m
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2538508Z shell: /usr/bin/bash -e {0}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2538706Z env:
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2538853Z   OPENAI_API_KEY: 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2539017Z   ANTHROPIC_API_KEY: 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2539179Z   GOOGLE_APPLICATION_CREDENTIALS: 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2539404Z   pythonLocation: /opt/hostedtoolcache/Python/3.11.18/x64
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2539672Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib/pkgconfig
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2539946Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2540182Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2540452Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.11.18/x64
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2540863Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.11.18/x64/lib
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:31.2541067Z ##[endgroup]
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:32.9323004Z test_boundaries_interpolation_rounding_and_cap (test_adaptive_distance_v2.AdaptiveDistanceV2.test_boundaries_interpolation_rounding_and_cap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:32.9323971Z test_escape_fallback_and_device_keep_prior_separate_treatment (test_adaptive_distance_v2.AdaptiveDistanceV2.test_escape_fallback_and_device_keep_prior_separate_treatment) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:32.9325042Z test_intended_power_ignores_base_floor_and_preserves_identity (test_adaptive_distance_v2.AdaptiveDistanceV2.test_intended_power_ignores_base_floor_and_preserves_identity) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.2930880Z test_mandatory_266_position_on_unchanged_current_physics (test_adaptive_distance_v2.AdaptiveDistanceV2.test_mandatory_266_position_on_unchanged_current_physics) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.2973156Z test_monotone_legal_integer_profile (test_adaptive_distance_v2.AdaptiveDistanceV2.test_monotone_legal_integer_profile) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.2999308Z test_non_json_success_status_is_retained (test_api_smoke.APISmoke.test_non_json_success_status_is_retained) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.3011677Z test_offline_budget_and_no_network (test_api_smoke.APISmoke.test_offline_budget_and_no_network) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.3557488Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.4292022Z test_one_failure_no_retry_or_recovery (test_api_smoke.APISmoke.test_one_failure_no_retry_or_recovery) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.4321003Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.4777947Z test_one_success_usage_and_recovery_only (test_api_smoke.APISmoke.test_one_success_usage_and_recovery_only) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:33.9783767Z test_former_diagonal_is_open_and_surrounding_boundary_remains (test_balanced_table.BalancedTable.test_former_diagonal_is_open_and_surrounding_boundary_remains) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1829252Z test_historical_replay_remains_versioned_and_fingerprint_checked (test_balanced_table.BalancedTable.test_historical_replay_remains_versioned_and_fingerprint_checked) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1852344Z test_legacy_prompt_host_and_preferred_geometry_host_are_explicit (test_balanced_table.BalancedTable.test_legacy_prompt_host_and_preferred_geometry_host_are_explicit) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1853512Z test_new_version_and_only_confirmed_segments_removed (test_balanced_table.BalancedTable.test_new_version_and_only_confirmed_segments_removed) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1854542Z test_sling_vector_reduced_exactly_and_floor_scaled (test_balanced_table.BalancedTable.test_sling_vector_reduced_exactly_and_floor_scaled) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1883197Z test_illegal_wrong_seat_and_limits (test_fusion.FusionInterface.test_illegal_wrong_seat_and_limits) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1895887Z test_initial_state_and_isolation (test_fusion.FusionInterface.test_initial_state_and_isolation) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1925140Z test_pot_end_and_final_score (test_fusion.FusionInterface.test_pot_end_and_final_score) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:37.1942307Z test_scratch_and_respot (test_fusion.FusionInterface.test_scratch_and_respot) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:38.4362864Z test_simulation_limit_and_frame_independence (test_fusion.FusionInterface.test_simulation_limit_and_frame_independence) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:38.4363795Z test_bumper_impulse_and_farming_caps (test_fusion.FusionPhysics.test_bumper_impulse_and_farming_caps) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:38.4364514Z test_combo_and_scratch_scoring (test_fusion.FusionPhysics.test_combo_and_scratch_scoring) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:38.4365238Z test_equal_mass_transfer_and_friction (test_fusion.FusionPhysics.test_equal_mass_transfer_and_friction) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:38.4365611Z test_rail_and_pocket (test_fusion.FusionPhysics.test_rail_and_pocket) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:48.4977695Z test_baseline_complete_replay_and_determinism (test_fusion.FusionRunner.test_baseline_complete_replay_and_determinism) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:48.4985065Z test_deadline (test_fusion.FusionRunner.test_deadline) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:49.6141453Z test_break_settles (test_fusion_final.FinalRack.test_break_settles) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:49.6154393Z test_fifteen_clear_deterministic (test_fusion_final.FinalRack.test_fifteen_clear_deterministic) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:50.0118636Z test_broadphase_matches_reference_kernel_with_current_devices (test_fusion_final.PhysicsRegression.test_broadphase_matches_reference_kernel_with_current_devices) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:52.4621303Z test_prediction_matches_real_physics_preserving_ids (test_fusion_final.SmartTests.test_prediction_matches_real_physics_preserving_ids) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:53.7429924Z test_public_legal_deterministic_budget (test_fusion_final.SmartTests.test_public_legal_deterministic_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.8504311Z test_smart_mode_automatic (test_fusion_final.SmartTests.test_smart_mode_automatic) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.8519509Z test_429_billing_keeps_provider_details_without_retry (test_fusion_http_errors.HTTPDiagnostics.test_429_billing_keeps_provider_details_without_retry) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.8534350Z test_429_rate_limit_and_unknown_are_distinct (test_fusion_http_errors.HTTPDiagnostics.test_429_rate_limit_and_unknown_are_distinct) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.8548562Z test_auth_and_unsupported_parameter_redact_secrets (test_fusion_http_errors.HTTPDiagnostics.test_auth_and_unsupported_parameter_redact_secrets) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.8555942Z test_non_json_body_is_not_logged (test_fusion_http_errors.HTTPDiagnostics.test_non_json_body_is_not_logged) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.8996941Z test_cluster_chain_and_settling (test_fusion_kinetic.Kinetic.test_cluster_chain_and_settling) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:47:59.9002774Z test_cluster_public_geometry (test_fusion_kinetic.Kinetic.test_cluster_public_geometry) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9925024Z test_default_skyway_vault_chain (test_fusion_kinetic.Kinetic.test_default_skyway_vault_chain) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9925888Z test_no_stationary_device_launch (test_fusion_kinetic.Kinetic.test_no_stationary_device_launch) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9926735Z test_repeat_sling_feedback_never_rescores (test_fusion_kinetic.Kinetic.test_repeat_sling_feedback_never_rescores) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9929771Z test_skyway_blocked_exit_and_once (test_fusion_kinetic.Kinetic.test_skyway_blocked_exit_and_once) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9992105Z test_skyway_followup_and_full_cap (test_fusion_kinetic.Kinetic.test_skyway_followup_and_full_cap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9997644Z test_solids_do_not_overlap (test_fusion_kinetic.Kinetic.test_solids_do_not_overlap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:01.9998349Z test_stronger_inward_sling (test_fusion_kinetic.Kinetic.test_stronger_inward_sling) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0051164Z test_vault_fixed_launch_and_followup (test_fusion_kinetic.Kinetic.test_vault_fixed_launch_and_followup) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0068538Z test_completed_reply_at_deadline_retains_metadata (test_fusion_llm.LLMContracts.test_completed_reply_at_deadline_retains_metadata) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0069378Z test_control_latency (test_fusion_llm.LLMContracts.test_control_latency) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0082770Z test_http_adapter_contract_and_no_redirect (test_fusion_llm.LLMContracts.test_http_adapter_contract_and_no_redirect) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0109599Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0607513Z test_invalid_keeps_usage_and_counts_failed_call (test_fusion_llm.LLMContracts.test_invalid_keeps_usage_and_counts_failed_call) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0625427Z test_ledger_budget_refuses_before_dispatch_and_no_overwrite (test_fusion_llm.LLMContracts.test_ledger_budget_refuses_before_dispatch_and_no_overwrite) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0631646Z test_live_requires_explicit_consent (test_fusion_llm.LLMContracts.test_live_requires_explicit_consent) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0633133Z test_malformed_envelopes_retain_usage_and_duplicate_keys_reject (test_fusion_llm.LLMContracts.test_malformed_envelopes_retain_usage_and_duplicate_keys_reject) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0634145Z test_parse_valid_invalid_and_usage (test_fusion_llm.LLMContracts.test_parse_valid_invalid_and_usage) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.0838689Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.1429888Z {"trial": "observation_only-direct-101-p1", "player": "p1", "source": "model", "action": {"angle": 180, "power": 1}, "scores": {"p1": 0, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:02.3862481Z {"trial": "observation_only-direct-101-p1", "player": "p2", "source": "baseline", "action": {"angle": 15, "power": 45}, "scores": {"p1": 0, "p2": 320}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:05.1792019Z test_plan_counts_and_offline_fixture_suite (test_fusion_llm.LLMContracts.test_plan_counts_and_offline_fixture_suite) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:06.9583625Z test_real_boundary_executes_fixture_action_and_replays (test_fusion_llm.LLMContracts.test_real_boundary_executes_fixture_action_and_replays) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:06.9592730Z test_request_is_public_and_structured (test_fusion_llm.LLMContracts.test_request_is_public_and_structured) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.5106121Z test_watchdog_unknown_cost_and_error_privacy (test_fusion_llm.LLMContracts.test_watchdog_unknown_cost_and_error_privacy) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.5121332Z test_zero_cli_limit_rejected_without_network (test_fusion_llm.LLMContracts.test_zero_cli_limit_rejected_without_network) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.5127211Z test_default_clear_and_replay (test_fusion_maximal.Maximal.test_default_clear_and_replay) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.5133178Z test_density_and_copy (test_fusion_maximal.Maximal.test_density_and_copy) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.5133550Z test_lane_caps (test_fusion_maximal.Maximal.test_lane_caps) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.6564418Z test_long_cascade_settles (test_fusion_maximal.Maximal.test_long_cascade_settles) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.6565219Z test_objects_no_device_score_and_full_cap (test_fusion_maximal.Maximal.test_objects_no_device_score_and_full_cap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.6565932Z test_scoop_once_scratch (test_fusion_maximal.Maximal.test_scoop_once_scratch) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.6566479Z test_sling_cap (test_fusion_maximal.Maximal.test_sling_cap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.6573593Z test_wrong_seat (test_fusion_maximal.Maximal.test_wrong_seat) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:07.7030112Z test_failed_request_counts_without_fallback (test_fusion_player.FusionPlayerTests.test_failed_request_counts_without_fallback) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6430894Z test_public_context_and_counted_budget (test_fusion_player.FusionPlayerTests.test_public_context_and_counted_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6431480Z test_crossing_segments_are_obstacles (test_fusion_polish.AurumDevices.test_crossing_segments_are_obstacles) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6432261Z test_device_farming_is_bounded (test_fusion_polish.AurumDevices.test_device_farming_is_bounded) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6446681Z test_frozen_layouts_clear_new_solids (test_fusion_polish.AurumDevices.test_frozen_layouts_clear_new_solids) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6475607Z test_full_spinner_assisted_pot (test_fusion_polish.AurumDevices.test_full_spinner_assisted_pot) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6476497Z test_lane_scores_once_and_objects_do_not_score (test_fusion_polish.AurumDevices.test_lane_scores_once_and_objects_do_not_score) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6484404Z test_layout_is_open_and_public (test_fusion_polish.AurumDevices.test_layout_is_open_and_public) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:08.6485335Z test_rail_reflects_and_end_has_finite_normal (test_fusion_polish.AurumDevices.test_rail_reflects_and_end_has_finite_normal) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:09.9639200Z test_recording_does_not_change_device_physics (test_fusion_polish.AurumDevices.test_recording_does_not_change_device_physics) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:09.9640239Z test_return_elbow_banks_downward_ball_inward (test_fusion_polish.AurumDevices.test_return_elbow_banks_downward_ball_inward) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:09.9641330Z test_spinner_doubles_later_pots_without_stacking (test_fusion_polish.AurumDevices.test_spinner_doubles_later_pots_without_stacking) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:09.9642223Z test_spinner_object_and_minimum_speed (test_fusion_polish.AurumDevices.test_spinner_object_and_minimum_speed) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:09.9750458Z test_device_exclusion_and_many_states (test_fusion_replenish.Replenish.test_device_exclusion_and_many_states) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:10.0096207Z test_final_opportunity_never_spawns (test_fusion_replenish.Replenish.test_final_opportunity_never_spawns) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:10.0218709Z test_max_two_and_empty_clear_priority (test_fusion_replenish.Replenish.test_max_two_and_empty_clear_priority) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:10.0225705Z test_moving_or_blocked_batch_atomic (test_fusion_replenish.Replenish.test_moving_or_blocked_batch_atomic) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:10.0625327Z test_nine_no_spawn_and_no_invalid_spawn (test_fusion_replenish.Replenish.test_nine_no_spawn_and_no_invalid_spawn) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:10.1325438Z test_no_overlap_and_deterministic_positions (test_fusion_replenish.Replenish.test_no_overlap_and_deterministic_positions) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:10.1366281Z test_points_and_scratch_precedence (test_fusion_replenish.Replenish.test_points_and_scratch_precedence) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:16.0077049Z test_replay_counters_events_and_tampering (test_fusion_replenish.Replenish.test_replay_counters_events_and_tampering) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:16.0154570Z test_reset_and_single_event_per_boundary (test_fusion_replenish.Replenish.test_reset_and_single_event_per_boundary) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:16.0613324Z test_threshold_count_and_isolation (test_fusion_replenish.Replenish.test_threshold_count_and_isolation) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:16.9989479Z test_baseline_selects_own_action_and_reset (test_fusion_server.FusionSessionTests.test_baseline_selects_own_action_and_reset) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:18.3807973Z test_playback_lock_and_modes (test_fusion_server.FusionSessionTests.test_playback_lock_and_modes) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:21.7428278Z test_setting_trace_active_lock_fresh_match_and_rollback (test_geometry_adaptive.AdaptiveHTTP.test_setting_trace_active_lock_fresh_match_and_rollback) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:21.7576740Z test_adaptive_is_explicit_and_uses_genuine_candidate_ids (test_geometry_adaptive.AdaptivePower.test_adaptive_is_explicit_and_uses_genuine_candidate_ids) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:21.7577460Z test_distance_profile_caps_and_escape (test_geometry_adaptive.AdaptivePower.test_distance_profile_caps_and_escape) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:21.7875379Z test_legacy_1x_2x_requests_are_unchanged (test_geometry_adaptive.AdaptivePower.test_legacy_1x_2x_requests_are_unchanged) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:22.6744617Z test_preserved_previous_profile_matches_historical_calibration (test_geometry_adaptive.AdaptivePower.test_preserved_previous_profile_matches_historical_calibration) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:22.8407761Z test_previous_profile_historical_25_still_settles (test_geometry_adaptive.AdaptivePower.test_previous_profile_historical_25_still_settles) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:22.8432479Z test_blocked_target (test_geometry_agent.GeometryTests.test_blocked_target) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.2601846Z test_geometry_http_identity_and_paid_disabled (test_geometry_agent.GeometryTests.test_geometry_http_identity_and_paid_disabled) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.2622027Z test_ghost_pot_and_scratch_screen (test_geometry_agent.GeometryTests.test_ghost_pot_and_scratch_screen) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.2623023Z test_invalid_selection_retains_usage (test_geometry_agent.GeometryTests.test_invalid_selection_retains_usage) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.7806764Z test_live_variant_identity_and_executed_mock_selection (test_geometry_agent.GeometryTests.test_live_variant_identity_and_executed_mock_selection) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.8878349Z test_minimum_energy_fallback_is_still_selected_by_model (test_geometry_agent.GeometryTests.test_minimum_energy_fallback_is_still_selected_by_model) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.8958443Z test_oblique_bank_matches_normal_only_cushion_loss (test_geometry_agent.GeometryTests.test_oblique_bank_matches_normal_only_cushion_loss) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.9592169Z test_offline_selection_and_empty_failure (test_geometry_agent.GeometryTests.test_offline_selection_and_empty_failure) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.9728181Z test_opening_contact_and_reach (test_geometry_agent.GeometryTests.test_opening_contact_and_reach) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.9760204Z test_quadrant_candidates_and_portal_obstruction (test_geometry_agent.GeometryTests.test_quadrant_candidates_and_portal_obstruction) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.9761439Z test_quadrants_and_insufficient_power (test_geometry_agent.GeometryTests.test_quadrants_and_insufficient_power) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.9792412Z test_restricted_angles_and_bank (test_geometry_agent.GeometryTests.test_restricted_angles_and_bank) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:26.9793284Z test_selection_strict_and_no_default (test_geometry_agent.GeometryTests.test_selection_strict_and_no_default) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:27.2448337Z test_worker_failure_budget_timeout_and_consent (test_geometry_agent.GeometryTests.test_worker_failure_budget_timeout_and_consent) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:27.2539007Z test_actual_openai_http_adapter_with_synthetic_http (test_geometry_final.FinalGeometry.test_actual_openai_http_adapter_with_synthetic_http) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:27.8537157Z test_cancel_inflight_selection_never_commits_move (test_geometry_final.FinalGeometry.test_cancel_inflight_selection_never_commits_move) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:28.2099375Z test_masked_launcher_and_single_match_cancel (test_geometry_final.FinalGeometry.test_masked_launcher_and_single_match_cancel) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6170425Z test_preferred_menu_failure_labels_and_navigation (test_geometry_final.FinalGeometry.test_preferred_menu_failure_labels_and_navigation) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6253123Z test_real_transport_branch_without_network (test_geometry_final.FinalGeometry.test_real_transport_branch_without_network) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6270449Z test_combined_windowsapps_and_install_path_is_not_invoked (test_geometry_launcher.LauncherResolution.test_combined_windowsapps_and_install_path_is_not_invoked) ... skipped 'Windows PowerShell launcher test'
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6271763Z test_environment_override_precedes_alias_and_other_installation (test_geometry_launcher.LauncherResolution.test_environment_override_precedes_alias_and_other_installation) ... skipped 'Windows PowerShell launcher test'
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6273109Z test_multiple_application_results_resolve_individually (test_geometry_launcher.LauncherResolution.test_multiple_application_results_resolve_individually) ... skipped 'Windows PowerShell launcher test'
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6273963Z test_no_valid_interpreter_stops (test_geometry_launcher.LauncherResolution.test_no_valid_interpreter_stops) ... skipped 'Windows PowerShell launcher test'
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:31.6274685Z test_same_verified_interpreter_runs_freeze_and_mock_server (test_geometry_launcher.LauncherResolution.test_same_verified_interpreter_runs_freeze_and_mock_server) ... skipped 'Windows PowerShell launcher test'
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:34.9786083Z test_failure_and_cancel_can_prepare_fresh_match_without_resetting_spend (test_geometry_lifecycle.GeometryLifecycle.test_failure_and_cancel_can_prepare_fresh_match_without_resetting_spend) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:38.3384156Z test_timeout_is_incomplete_and_unknown_reservation_survives_new_match (test_geometry_lifecycle.GeometryLifecycle.test_timeout_is_incomplete_and_unknown_reservation_survives_new_match) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:41.6981234Z test_two_complete_matches_same_server_with_fresh_consent (test_geometry_lifecycle.GeometryLifecycle.test_two_complete_matches_same_server_with_fresh_consent) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:41.6984464Z test_equal_safe_results_do_not_automatically_enable (test_geometry_power_experiment.PowerExperiment.test_equal_safe_results_do_not_automatically_enable) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:41.6985464Z test_exact_doubling_and_cap (test_geometry_power_experiment.PowerExperiment.test_exact_doubling_and_cap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:41.6986480Z test_five_percentage_point_scratch_regression_rejects (test_geometry_power_experiment.PowerExperiment.test_five_percentage_point_scratch_regression_rejects) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:41.6987636Z test_new_limit_rejects_even_with_provisional_pots (test_geometry_power_experiment.PowerExperiment.test_new_limit_rejects_even_with_provisional_pots) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:41.7071014Z test_public_observation_is_not_modified_by_simulator (test_geometry_power_experiment.PowerExperiment.test_public_observation_is_not_modified_by_simulator) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:45.0718030Z test_settings_lock_failure_recovery_and_cumulative_budget (test_geometry_power_setting.PowerHTTP.test_settings_lock_failure_recovery_and_cumulative_budget) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:45.0722172Z test_capped_same_angle_candidates_keep_the_selected_id (test_geometry_power_setting.PowerSetting.test_capped_same_angle_candidates_keep_the_selected_id) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:49.1070435Z test_known_simulation_limit_position_at_both_settings (test_geometry_power_setting.PowerSetting.test_known_simulation_limit_position_at_both_settings) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:49.1216670Z test_only_candidate_power_changes_and_selection_is_genuine (test_geometry_power_setting.PowerSetting.test_only_candidate_power_changes_and_selection_is_genuine) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:49.1217628Z test_power_cap_and_invalid_settings (test_geometry_power_setting.PowerSetting.test_power_cap_and_invalid_settings) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:52.4916839Z test_preferred_server_and_waiting_only_change_without_spend (test_geometry_power_setting.PowerSetting.test_preferred_server_and_waiting_only_change_without_spend) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:52.4934597Z test_snapshot_trace_consent_and_policy_match_setting (test_geometry_power_setting.PowerSetting.test_snapshot_trace_consent_and_policy_match_setting) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:54.3252341Z test_known_nonsettling_candidate_is_not_offered (test_geometry_stability.GeometryStability.test_known_nonsettling_candidate_is_not_offered) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:54.3768649Z test_leave_does_not_wait_for_locked_simulation_or_audit (test_geometry_stability.GeometryStability.test_leave_does_not_wait_for_locked_simulation_or_audit) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2114066Z test_replacement_contact_settles_in_frozen_simulator (test_geometry_stability.PowerRegression.test_replacement_contact_settles_in_frozen_simulator) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2116872Z test_fifteen_objects_mirrored_rack_and_reset (test_historical.HistoricalControls.test_fifteen_objects_mirrored_rack_and_reset) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2123659Z test_public_boundary_illegal_and_wrong_seat (test_historical.HistoricalControls.test_public_boundary_illegal_and_wrong_seat) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2126734Z test_velocity_control_delay_and_neutral_stop (test_historical.HistoricalControls.test_velocity_control_delay_and_neutral_stop) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2127720Z test_collision_transfer_friction_and_rebound (test_historical.HistoricalPhysics.test_collision_transfer_friction_and_rebound) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2128588Z test_corner_and_middle_openings (test_historical.HistoricalPhysics.test_corner_and_middle_openings) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2130887Z test_pocket_score_scratch_preserves_points (test_historical.HistoricalPhysics.test_pocket_score_scratch_preserves_points) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2132481Z test_score_digit_wrap (test_historical.HistoricalPhysics.test_score_digit_wrap) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2134827Z test_small_object_velocity_eventually_stops (test_historical.HistoricalPhysics.test_small_object_velocity_eventually_stops) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2188192Z test_countdown_zero_then_segment_transition (test_historical.HistoricalProgression.test_countdown_zero_then_segment_transition) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2189288Z test_default_limits_allow_five_extended_heats_at_gui_rate (test_historical.HistoricalProgression.test_default_limits_allow_five_extended_heats_at_gui_rate) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2397361Z test_heat_progression_and_terminal_immutability (test_historical.HistoricalProgression.test_heat_progression_and_terminal_immutability) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2401101Z test_limits_and_invalid_state_isolation (test_historical.HistoricalProgression.test_limits_and_invalid_state_isolation) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2405458Z test_rerack_bonus_only_once_and_disabled (test_historical.HistoricalProgression.test_rerack_bonus_only_once_and_disabled) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2407786Z test_baseline_handles_clearance_before_next_frame_rerack (test_historical.HistoricalRunner.test_baseline_handles_clearance_before_next_frame_rerack) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.2762156Z test_model_call_budget_and_public_context (test_historical.HistoricalRunner.test_model_call_budget_and_public_context) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.5119180Z test_model_timeout_and_failed_calls (test_historical.HistoricalRunner.test_model_timeout_and_failed_calls) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.9921091Z test_repeatable_baseline_trace_and_replay (test_historical.HistoricalRunner.test_repeatable_baseline_trace_and_replay) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:56.9982119Z test_trace_tampering_and_deadline (test_historical.HistoricalRunner.test_trace_tampering_and_deadline) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:57.0012036Z test_baseline_turn_and_mouse_controls_use_valid_actions (test_historical_ui.HistoricalUI.test_baseline_turn_and_mouse_controls_use_valid_actions) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:57.0022577Z test_start_steer_pause_restart_and_game_over (test_historical_ui.HistoricalUI.test_start_steer_pause_restart_and_game_over) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:57.0227157Z test_cancel_before_reservation_blocks_dispatch (test_live_demo.LiveDemo.test_cancel_before_reservation_blocks_dispatch) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:57.2198167Z test_cancel_during_physics_cannot_lose_wake (test_live_demo.LiveDemo.test_cancel_during_physics_cannot_lose_wake) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:48:57.9073846Z test_cancel_inflight_discards_reply_and_blocks_new_calls (test_live_demo.LiveDemo.test_cancel_inflight_discards_reply_and_blocks_new_calls) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:10.7836713Z test_full_autonomous_mock_match_and_replay (test_live_demo.LiveDemo.test_full_autonomous_mock_match_and_replay) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:10.7852968Z test_get_and_missing_confirmation_never_call (test_live_demo.LiveDemo.test_get_and_missing_confirmation_never_call) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.1582405Z test_http_confirmation_origin_and_no_manual_shots (test_live_demo.LiveDemo.test_http_confirmation_origin_and_no_manual_shots) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.1630115Z test_match_ledger_has_strict_caps (test_live_demo.LiveDemo.test_match_ledger_has_strict_caps) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.4482659Z test_missing_browser_ack_stops_safely (test_live_demo.LiveDemo.test_missing_browser_ack_stops_safely) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.4494926Z test_paid_server_disabled_even_with_key (test_live_demo.LiveDemo.test_paid_server_disabled_even_with_key) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5357164Z test_provider_failure_no_retry (test_live_demo.LiveDemo.test_provider_failure_no_retry) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5360044Z test_corrupt_journal_is_preserved (test_llm_resume.Recovery.test_corrupt_journal_is_preserved) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5362605Z test_exclusive_process_lock (test_llm_resume.Recovery.test_exclusive_process_lock) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5442499Z test_execute_skips_completed_trials_and_preserves_failure (test_llm_resume.Recovery.test_execute_skips_completed_trials_and_preserves_failure) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5483246Z test_interrupted_trials_are_counted (test_llm_resume.Recovery.test_interrupted_trials_are_counted) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5494499Z test_ledger_restores_and_never_resets_limits (test_llm_resume.Recovery.test_ledger_restores_and_never_resets_limits) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5515361Z test_live_output_cannot_reset_budget (test_llm_resume.Recovery.test_live_output_cannot_reset_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5529701Z test_prior_attempts_and_budget (test_llm_resume.Recovery.test_prior_attempts_and_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:14.5550300Z test_prior_evidence_unchanged (test_llm_resume.Recovery.test_prior_evidence_unchanged) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5392800Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5393151Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5393376Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5393775Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5394106Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5394440Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5394768Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.5395394Z {"trial": "observation_only-direct-101-p2", "player": "p2", "source": "model", "action": {"angle": 345, "power": 72}, "scores": {"p1": 0, "p2": 55}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:16.7362495Z {"trial": "observation_only-direct-101-p2", "player": "p1", "source": "baseline", "action": {"angle": 322, "power": 31}, "scores": {"p1": 100, "p2": 55}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:19.3022804Z test_recorded_response_reused_without_network_and_replay (test_llm_resume.Recovery.test_recorded_response_reused_without_network_and_replay) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:19.3034997Z test_unanswered_request_is_not_retried (test_llm_resume.Recovery.test_unanswered_request_is_not_retried) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:19.4129609Z test_failures_count_and_never_fallback (test_model.ModelTests.test_failures_count_and_never_fallback) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:19.5651509Z test_hung_transport_is_terminated (test_model.ModelTests.test_hung_transport_is_terminated) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:19.5655498Z test_public_context_and_history_budget (test_model.ModelTests.test_public_context_and_history_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:19.6302434Z test_valid_fake_model_and_budget (test_model.ModelTests.test_valid_fake_model_and_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:22.9787349Z test_all_pages_return_to_actual_menu_and_modes_still_play (test_navigation.Navigation.test_all_pages_return_to_actual_menu_and_modes_still_play) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.5578286Z test_live_leave_waits_for_inflight_and_retains_budget (test_navigation.Navigation.test_live_leave_waits_for_inflight_and_retains_budget) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.5581013Z test_attempt_and_simulation_limits (test_pool.InterfaceTests.test_attempt_and_simulation_limits) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.6608966Z test_determinism (test_pool.InterfaceTests.test_determinism) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.6618567Z test_invalid_and_wrong_seat (test_pool.InterfaceTests.test_invalid_and_wrong_seat) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.6620866Z test_reset_isolation_and_boundary (test_pool.InterfaceTests.test_reset_isolation_and_boundary) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.6627487Z test_score_clearance_and_precedence (test_pool.InterfaceTests.test_score_clearance_and_precedence) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.6630266Z test_scratch_respot_and_turn (test_pool.InterfaceTests.test_scratch_respot_and_turn) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:23.6631602Z test_scratch_voids_object_points (test_pool.InterfaceTests.test_scratch_voids_object_points) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.0022455Z test_seeded_match_invariants_and_miss_turn (test_pool.InterfaceTests.test_seeded_match_invariants_and_miss_turn) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.0023375Z test_collision_at_cushion_keeps_centers_inside (test_pool.PhysicsTests.test_collision_at_cushion_keeps_centers_inside) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.0024366Z test_equal_mass_collision (test_pool.PhysicsTests.test_equal_mass_collision) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.0024948Z test_rail_friction_and_pocket (test_pool.PhysicsTests.test_rail_friction_and_pocket) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.0031386Z test_episode_deadline (test_pool.RunnerTests.test_episode_deadline) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.0433315Z test_trace_rejects_altered_acceptance (test_pool.RunnerTests.test_trace_rejects_altered_acceptance) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.1789198Z test_trace_replay_and_seats (test_pool.RunnerTests.test_trace_replay_and_seats) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.2271283Z test_invalid_action_keeps_usage_and_v2_identity (test_prompt_v2.PromptV2.test_invalid_action_keeps_usage_and_v2_identity) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.2277168Z test_live_unapproved_refuses_without_request (test_prompt_v2.PromptV2.test_live_unapproved_refuses_without_request) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:24.2287104Z test_only_developer_prompt_changes (test_prompt_v2.PromptV2.test_only_developer_prompt_changes) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.6822545Z test_runner_and_audit_compatibility_no_replacement (test_prompt_v2.PromptV2.test_runner_and_audit_compatibility_no_replacement) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.6829673Z test_same_public_feedback_no_added_history (test_prompt_v2.PromptV2.test_same_public_feedback_no_added_history) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.6831159Z test_unchanged_strict_parser (test_prompt_v2.PromptV2.test_unchanged_strict_parser) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.7011369Z test_call_limit_and_unknown_cost_reservations (test_prompt_v2_pilot.Pilot.test_call_limit_and_unknown_cost_reservations) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.7083889Z test_declared_scope_and_settings (test_prompt_v2_pilot.Pilot.test_declared_scope_and_settings) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.7305315Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.7305565Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:25.8327034Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:26.5145474Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 0, "power": 48}, "scores": {"p1": 0, "p2": 400}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:26.6065273Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 400}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:26.8129436Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 44, "power": 48}, "scores": {"p1": 0, "p2": 410}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:26.9093365Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 410}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:27.8601003Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 68, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:27.9456055Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:28.0937152Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 57, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:28.1482438Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:28.4760967Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 41, "power": 34}, "scores": {"p1": 0, "p2": 1370}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:28.5582331Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1370}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:28.7888730Z {"trial": "prompt-v2-seed-2701101-p1", "player": "p2", "source": "baseline", "action": {"angle": 231, "power": 32}, "scores": {"p1": 0, "p2": 1370}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:32.7068002Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 0, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:32.7972972Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:32.9460951Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 120, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:33.0276969Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:33.1364190Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 137, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:33.2195263Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:33.3220858Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 150, "power": 48}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:33.4103694Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1060, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:34.0409953Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 164, "power": 48}, "scores": {"p1": 1480, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:34.1344120Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1480, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:34.3028019Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p1", "source": "baseline", "action": {"angle": 265, "power": 48}, "scores": {"p1": 1480, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:34.3924601Z {"trial": "prompt-v2-seed-2701102-p2", "player": "p2", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 1480, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:36.9292649Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 0}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:37.6225013Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 0, "power": 48}, "scores": {"p1": 0, "p2": 400}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:37.7169921Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 400}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:37.8913436Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 44, "power": 48}, "scores": {"p1": 0, "p2": 410}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:37.9866230Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 410}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:38.9330766Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 68, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:39.0172369Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:39.1692711Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 57, "power": 48}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:39.2236767Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1330}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:39.5548484Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 41, "power": 34}, "scores": {"p1": 0, "p2": 1370}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:39.6493170Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p1", "source": "model", "action": {"angle": 0, "power": 1}, "scores": {"p1": 0, "p2": 1370}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:39.8814355Z {"trial": "prompt-v2-seed-2701103-p1", "player": "p2", "source": "baseline", "action": {"angle": 231, "power": 32}, "scores": {"p1": 0, "p2": 1370}}
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.3713401Z test_entire_three_match_workflow_offline (test_prompt_v2_pilot.Pilot.test_entire_three_match_workflow_offline) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.3869338Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.4650174Z test_failure_stops_without_retries_and_preserves_evidence (test_prompt_v2_pilot.Pilot.test_failure_stops_without_retries_and_preserves_evidence) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.4800126Z test_fixture_cannot_be_replayed_as_genuine (test_prompt_v2_pilot.Pilot.test_fixture_cannot_be_replayed_as_genuine) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.4949257Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.4949628Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.4949958Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.5458872Z test_interrupted_result_usage_is_in_summary (test_prompt_v2_pilot.Pilot.test_interrupted_result_usage_is_in_summary) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.5689395Z test_interrupted_unanswered_request_keeps_unknowns (test_prompt_v2_pilot.Pilot.test_interrupted_unanswered_request_keeps_unknowns) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.5692288Z test_live_alternate_directory_is_rejected (test_prompt_v2_pilot.Pilot.test_live_alternate_directory_is_rejected) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.6049527Z test_preflight_cache_can_be_relocated (test_prompt_v2_pilot.Pilot.test_preflight_cache_can_be_relocated) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.6051979Z test_unapproved_live_is_rejected_before_output (test_prompt_v2_pilot.Pilot.test_unapproved_live_is_rejected_before_output) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:50.6131001Z test_authentic_source_and_failed_trial_rejection (test_recorded_replay.RecordedReplay.test_authentic_source_and_failed_trial_rejection) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:54.0281067Z test_automatic_sequence_matches_recorded_outcome (test_recorded_replay.RecordedReplay.test_automatic_sequence_matches_recorded_outcome) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:49:57.4105257Z test_game_button_replay_assets_and_manual_action_rejection (test_recorded_replay.RecordedReplay.test_game_button_replay_assets_and_manual_action_rejection) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:00.7726609Z test_occupied_port_is_refused (test_recorded_replay.RecordedReplay.test_occupied_port_is_refused) ... ERROR
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:01.9686059Z test_tampering_stops_playback (test_recorded_replay.RecordedReplay.test_tampering_stops_playback) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.1838340Z test_human_baseline_complete_and_restart (test_ui.UITests.test_human_baseline_complete_and_restart) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2457715Z test_human_human_aim_and_alternate (test_ui.UITests.test_human_human_aim_and_alternate) ... ok
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2459612Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2459905Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2461021Z ERROR: test_setting_trace_active_lock_fresh_match_and_rollback (test_geometry_adaptive.AdaptiveHTTP.test_setting_trace_active_lock_fresh_match_and_rollback)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2461610Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2462033Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2462582Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_lifecycle.py", line 27, in setUp
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2463413Z     self.game,self.recorded,self.live=make_geometry_servers(0,0,0,transport=offline_response,root=Path(self.temp.name),power_multiplier=1)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2464065Z                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2464714Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2465378Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2465836Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2466393Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2467062Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2467247Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2467549Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2467848Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2468028Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2468348Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2468715Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2468922Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2469194Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2469528Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2469769Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2470164Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2471121Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2471809Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2472050Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2472143Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2472248Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2472637Z ERROR: test_geometry_http_identity_and_paid_disabled (test_geometry_agent.GeometryTests.test_geometry_http_identity_and_paid_disabled)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2473011Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2473218Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2473612Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_agent.py", line 170, in test_geometry_http_identity_and_paid_disabled
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2474018Z     game,recorded,live=make_geometry_servers(0,0,0,root=Path(d))
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2474233Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2474580Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2474993Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2475280Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2475627Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2475934Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2476122Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2476421Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2476715Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2476887Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2477200Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2477557Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2477765Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2478022Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2478435Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2478663Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2479054Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2479616Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2480055Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2480289Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2480373Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2480476Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2481080Z ERROR: test_preferred_menu_failure_labels_and_navigation (test_geometry_final.FinalGeometry.test_preferred_menu_failure_labels_and_navigation)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2481462Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2481663Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2482143Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_final.py", line 24, in test_preferred_menu_failure_labels_and_navigation
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2482539Z     game,recorded,live=make_geometry_servers(0,0,0,root=Path(d))
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2482748Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2483096Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2483500Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2483783Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2484128Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2484452Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2484753Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2485053Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2485344Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2485514Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2485831Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2486187Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2486395Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2486655Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2486982Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2487208Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2487600Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2488153Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2488597Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2488829Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2488959Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2489056Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2489657Z ERROR: test_failure_and_cancel_can_prepare_fresh_match_without_resetting_spend (test_geometry_lifecycle.GeometryLifecycle.test_failure_and_cancel_can_prepare_fresh_match_without_resetting_spend)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2490141Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2490352Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2490806Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_lifecycle.py", line 27, in setUp
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2491289Z     self.game,self.recorded,self.live=make_geometry_servers(0,0,0,transport=offline_response,root=Path(self.temp.name),power_multiplier=1)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2491682Z                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2492072Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2492488Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2492775Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2493198Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2493513Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2493692Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2493992Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2494280Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2494461Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2494776Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2495138Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2495344Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2495608Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2495936Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2496166Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2496549Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2497105Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2497545Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2497776Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2497866Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2497962Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2498469Z ERROR: test_timeout_is_incomplete_and_unknown_reservation_survives_new_match (test_geometry_lifecycle.GeometryLifecycle.test_timeout_is_incomplete_and_unknown_reservation_survives_new_match)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2498928Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2499127Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2499441Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_lifecycle.py", line 27, in setUp
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2499925Z     self.game,self.recorded,self.live=make_geometry_servers(0,0,0,transport=offline_response,root=Path(self.temp.name),power_multiplier=1)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2500315Z                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2500898Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2501313Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2501599Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2501942Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2502248Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2502431Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2502724Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2503007Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2503181Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2503496Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2503935Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2504132Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2504390Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2504718Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2504944Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2505327Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2505882Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2506354Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2506586Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2506677Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2506773Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2507216Z ERROR: test_two_complete_matches_same_server_with_fresh_consent (test_geometry_lifecycle.GeometryLifecycle.test_two_complete_matches_same_server_with_fresh_consent)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2507631Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2507833Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2508150Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_lifecycle.py", line 27, in setUp
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2508629Z     self.game,self.recorded,self.live=make_geometry_servers(0,0,0,transport=offline_response,root=Path(self.temp.name),power_multiplier=1)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2509017Z                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2509406Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2509812Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2510099Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2510445Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2510938Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2511119Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2511509Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2511795Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2511965Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2512282Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2512639Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2512842Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2513099Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2513417Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2513651Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2514037Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2514594Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2515131Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2515357Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2515446Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2515542Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2515977Z ERROR: test_settings_lock_failure_recovery_and_cumulative_budget (test_geometry_power_setting.PowerHTTP.test_settings_lock_failure_recovery_and_cumulative_budget)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2516403Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2516610Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2516927Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_lifecycle.py", line 27, in setUp
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2517400Z     self.game,self.recorded,self.live=make_geometry_servers(0,0,0,transport=offline_response,root=Path(self.temp.name),power_multiplier=1)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2517799Z                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2518187Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2518595Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2518881Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2519228Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2519539Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2519718Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2520019Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2520310Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2520480Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2520955Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2521314Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2521513Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2521772Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2522090Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2522421Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2522801Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2523356Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2523795Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2524026Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2524111Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2524210Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2524665Z ERROR: test_preferred_server_and_waiting_only_change_without_spend (test_geometry_power_setting.PowerSetting.test_preferred_server_and_waiting_only_change_without_spend)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2525094Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2525301Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2525813Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_geometry_power_setting.py", line 53, in test_preferred_server_and_waiting_only_change_without_spend
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2526263Z     game,recorded,live=make_geometry_servers(0,0,0,transport=offline_response)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2526505Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2526863Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/geometry_live.py", line 183, in make_geometry_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2527268Z     game,recorded,live=make_live_servers(port,replay_port,live_port,enable_paid,transport,root)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2527563Z                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2527912Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2528217Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2528405Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2528701Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2528989Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2529161Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2529479Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2529833Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2530033Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2530290Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2530762Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2531003Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2531393Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2531951Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2532399Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2532627Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2532716Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2532811Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2533283Z ERROR: test_http_confirmation_origin_and_no_manual_shots (test_live_demo.LiveDemo.test_http_confirmation_origin_and_no_manual_shots)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2533641Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2533846Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2534227Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_live_demo.py", line 145, in test_http_confirmation_origin_and_no_manual_shots
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2534679Z     game,recorded=make_servers(0,0);live=make_live_server(0,transport=offline_response,root=Path(d))
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2534930Z                   ^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2535217Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2535508Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2535678Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2536000Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2536359Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2536637Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2536894Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2537215Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2537443Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2537824Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2538379Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2538825Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2539054Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2539145Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2539239Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2539653Z ERROR: test_all_pages_return_to_actual_menu_and_modes_still_play (test_navigation.Navigation.test_all_pages_return_to_actual_menu_and_modes_still_play)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2540049Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2540251Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2540723Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_navigation.py", line 34, in test_all_pages_return_to_actual_menu_and_modes_still_play
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2541145Z     servers=make_live_servers(0,0,0,transport=offline_response,root=Path(d))
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2541384Z             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2541720Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/live_demo.py", line 86, in make_live_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2542036Z     game,recorded=make_servers(port,replay_port)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2542217Z                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2542512Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2542798Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2542969Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2543290Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2543646Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2543985Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2544244Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2544574Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2544803Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2545184Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2545741Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2546185Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2546412Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2546504Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2546599Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2546994Z ERROR: test_automatic_sequence_matches_recorded_outcome (test_recorded_replay.RecordedReplay.test_automatic_sequence_matches_recorded_outcome)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2547461Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2547661Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2548052Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_recorded_replay.py", line 24, in test_automatic_sequence_matches_recorded_outcome
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2548396Z     result=session.next()
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2548533Z            ^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2548815Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 82, in next
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2549188Z     self.invalid=True;raise ValueError('Replay diverged; stopped without replacement actions')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2549475Z                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2549726Z ValueError: Replay diverged; stopped without replacement actions
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2549864Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2549970Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2550408Z ERROR: test_game_button_replay_assets_and_manual_action_rejection (test_recorded_replay.RecordedReplay.test_game_button_replay_assets_and_manual_action_rejection)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2550889Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2551088Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2551498Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_recorded_replay.py", line 43, in test_game_button_replay_assets_and_manual_action_rejection
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2551873Z     game,recorded=make_servers(0,0)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2552025Z                   ^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2552312Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2552604Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2552774Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2553092Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2553448Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2553650Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2553909Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2554231Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2554459Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2554847Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2555490Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2555934Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2556164Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2556247Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2556345Z ======================================================================
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2556665Z ERROR: test_occupied_port_is_refused (test_recorded_replay.RecordedReplay.test_occupied_port_is_refused)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2556984Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2557186Z Traceback (most recent call last):
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2557550Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/tests/test_recorded_replay.py", line 72, in test_occupied_port_is_refused
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2557938Z     with self.assertRaises(OSError):make_servers(held.server_port,0)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2558253Z                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2558565Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/demo.py", line 32, in make_servers
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2558851Z     recorded=replay_server(replay_port,trial)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2559022Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2559334Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/recorded_replay.py", line 142, in make_server
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2559697Z     replay(trace) # Offline authority check before making the viewer available.
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2559897Z     ^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2560156Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/fusion/runner.py", line 72, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2560478Z     if trace['version']==OLD_VERSION:return module('runner').replay(trace)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2560847Z                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2561240Z   File "/home/runner/work/game-dev-f26/game-dev-f26/midterms/lzy2318831/versions/kinetic-replenish-v1.5-final/fusion/runner.py", line 75, in replay
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2561793Z     if result['accepted']!=row['accepted'] or result['events']!=row['events'] or fingerprint(e.observe(row['player']))!=row['after']: raise ValueError('Replay diverged')
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2562234Z                                                                                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2562461Z ValueError: Replay diverged
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2562544Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2562662Z ----------------------------------------------------------------------
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2562854Z Ran 222 tests in 149.314s
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2562937Z 
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2563006Z FAILED (errors=13, skipped=5)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2563231Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2563461Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2563675Z PASS: final gameplay and visual freeze (18 artifacts)
+deterministic (3.11)	Run python -m unittest discover -s tests -v	2026-11-08T01:50:02.2753213Z ##[error]Process completed with exit code 1.

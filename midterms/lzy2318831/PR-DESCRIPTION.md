@@ -96,7 +96,7 @@ These experiments helped me understand that stronger shots do not automatically 
 
 ## 5. Testing and Evaluation
 
-The final development validation included:
+The final local development validation on Windows/Python 3.15.1 included:
 
 - 222 Python tests passed.
 - 7 JavaScript test suites passed.
@@ -105,6 +105,8 @@ The final development validation included:
 - Browser tests for gameplay, Live LLM navigation, match restart, and failure recovery, using synthetic model responses without paid calls.
 
 These are project-specific checks. Supplemental repository-starter diagnostics remain environment-incomplete locally because of missing optional dependencies and Windows symlink privileges; their output is preserved in the [final validation report](https://github.com/lzy2318831/game-dev-f26/blob/lzy2318831/midterm/midterms/lzy2318831/evidence/submission-final-01/REPORT.md).
+
+**Remote CI limitation:** The [first Midterm workflow run](https://github.com/lzy2318831/game-dev-f26/actions/runs/42435757312) failed on Linux/Python 3.11 with 13 errors and 5 skips; the 3.12 job was cancelled by matrix fail-fast. All 13 errors involve historical recorded replay divergence, including server startup checks. The same local suite and 24 historical replays passed on Windows/Python 3.15.1. The runtime/platform cause remains unresolved; I have preserved the historical engine, traces and strict checks rather than rewriting evidence or claiming CI is green. The shared Setup and Minigame workflows passed for that commit.
 
 ### Recorded LLM Evaluation
 
