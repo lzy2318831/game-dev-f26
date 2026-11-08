@@ -318,9 +318,10 @@ py -m fusion.runner --p1 baseline --p2 baseline --seed 101 --trace evidence/my-o
 py -m fusion.runner --replay evidence/my-offline-match.json
 ```
 
-Use a new trace filename to preserve previous results. On Linux/macOS, use
-`python` or `python3` instead of `py`, from the same project directory. Recorded
-traces replay deterministically; fresh model responses are not deterministic.
+Use a new trace filename to preserve previous results. Exact historical replay
+and the combined launcher require the Windows reference environment described
+above. Earlier generic Linux/macOS command examples do not establish bit-exact
+historical replay support. Fresh model responses are not deterministic.
 Final local validation results, including two consecutive actual-browser mock
 matches, are recorded in [the lifecycle report](evidence/lifecycle-fix-01/REPORT.md).
 Earlier finalization/controller/replay results are recorded in

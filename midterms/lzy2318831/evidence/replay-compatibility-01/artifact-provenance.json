@@ -1,0 +1,18 @@
+{
+  "linux-diagnostics/replay-runtime-3.11/replay-runtime.json": {
+    "run_url": "https://github.com/columbia-university-ai-games/game-dev-f26/actions/runs/42436598174",
+    "sha256": "bb629e823401ec8f30d4a9370372a71f2fa84e4ac9c201205e5cb0706754ae23"
+  },
+  "linux-diagnostics/replay-runtime-3.12/replay-runtime.json": {
+    "run_url": "https://github.com/columbia-university-ai-games/game-dev-f26/actions/runs/42436598174",
+    "sha256": "74045a31b418a156feb22d2de50a090cbb3b0144f500d47e31ea2766955fd884"
+  },
+  "linux-per-shot/replay-runtime.json": {
+    "run_url": "https://github.com/columbia-university-ai-games/game-dev-f26/actions/runs/42436858299",
+    "sha256": "e3c54f60913506368e29f19fa7d608479db4f0daa46771d9acf96e6fe8e8b08a"
+  },
+  "windows-3.11/replay-runtime.json": {
+    "run_url": "https://github.com/columbia-university-ai-games/game-dev-f26/actions/runs/42436858299",
+    "sha256": "1f2a19bed4363b554d27c0f92e1cd44c76f872eb0b65cbf5e193fa7c36177467"
+  }
+}

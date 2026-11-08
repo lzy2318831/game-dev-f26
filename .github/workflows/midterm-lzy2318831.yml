@@ -82,6 +82,7 @@ jobs:
       - run: python -m fusion.runner --p1 smart --p2 baseline --trace evidence/ci-smart.json
       - run: python -m fusion.runner --replay evidence/ci-smart.json
       - run: python -m fusion.freeze
+      - run: python -c "from fusion.legacy import module; module('freeze').main()"
       - run: python -c "from fusion.legacy import verify; print(verify())"
       - name: Offline LLM adapter smoke and replay (no credentials)
         run: python -m fusion.llm_smoke --output evidence/ci-llm-offline

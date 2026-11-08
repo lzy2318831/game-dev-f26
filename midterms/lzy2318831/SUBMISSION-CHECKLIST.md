@@ -11,8 +11,9 @@ is open from the authorized course student branch to main. Inspect its actual
 checks for final status. CourseWorks remains manual.
 
 This checklist follows [MIDTERM_REQUIREMENTS.txt](MIDTERM_REQUIREMENTS.txt).
-**The submission is not complete.** Technical implementation and the original
-live comparison are present; personal evidence and the actual hand-in remain.
+**The course PR is published; CourseWorks hand-in is not complete.** Technical
+implementation, the original live comparison, student video URL and finalized
+reflection are present. Confirm recording access/duration and current CI status.
 
 ## Completed and inspectable locally
 
@@ -63,7 +64,7 @@ live comparison are present; personal evidence and the actual hand-in remain.
 | **Implementation session reference: completed** | AGENT-TEAM and PR link the sanitized reference to actual session `01a1b37c-aa97-7781-91f4-ec7693968a43`, with source lines and hashes. | Retain the original local log for verification. No implementation session link remains missing. |
 | **Student reflection** | Student finalized the first-person PR description and authorized publication. | Preserve the supplied reflection and substantial future-improvement discussion. |
 | **Week 3 scope change: publication confirmed** | The student confirmed publishing “Midterm Scope Update — Kinetic Circuit” in the Week 3 CourseWorks Discussion. WEEK3-SCOPE-CHANGE.md preserves the student-provided text verbatim. | Direct URL unavailable; add it if available and required. Publication is student-confirmed, not independently verified through CourseWorks. |
-| **Remote CI** | Workflow and local passing checks exist; no current remote run verified. | After approving the push, inspect both Python jobs and link the green run for the submitted version. |
+| **Remote CI** | The first Linux run failed; platform sine rounding is verified as the cause. The unchanged strict suite now runs on Windows3.11/3.12. | Inspect the [course PR checks](https://github.com/columbia-university-ai-games/game-dev-f26/pull/97/checks) for the submitted head; Linux numeric probes are not replay passes. |
 | **Geometry-assisted real-provider smoke** | Real HTTP wiring is exercised with a synthetic opener; no genuine new request or live quality result. | If desired, explicitly authorize the bounded paid smoke, supply the key privately and confirm the browser match. This is not a stronger-agent claim. |
 
 ## Final hand-in — not performed
