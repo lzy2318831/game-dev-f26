@@ -12,6 +12,25 @@ on:
 permissions:
   contents: read
 jobs:
+  runtime-comparison:
+    name: Archived replay numeric provenance (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    env:
+      OPENAI_API_KEY: ''
+    strategy:
+      matrix:
+        os: ['windows-latest', 'ubuntu-latest']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m fusion.replay_diagnostics --output evidence/replay-runtime.json
+        working-directory: midterms/lzy2318831
+      - uses: actions/upload-artifact@v4
+        with:
+          name: numeric-provenance-${{ matrix.os }}
+          path: midterms/lzy2318831/evidence/replay-runtime.json
   deterministic:
     runs-on: ubuntu-latest
     timeout-minutes: 20

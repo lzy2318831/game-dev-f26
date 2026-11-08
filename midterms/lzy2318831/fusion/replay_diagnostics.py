@@ -53,12 +53,17 @@ def diagnose():
     def tick(*args,**kwargs):
         original_tick(*args,**kwargs)
         if len(ticks)<16:ticks.append([dict(id=b.id,x=b.x,y=b.y,vx=b.vx,vy=b.vy,active=b.active) for b in args[0]])
-    rows=[];first_observation=None
+    rows=[];first_observation=None;launches=[];shot_probes=[]
+    for row in trace['steps']:
+        angle=math.radians(row['action']['angle']);speed=100+7*row['action']['power']
+        launches.append(dict(action=row['action'],radians=angle.hex(),cos=math.cos(angle).hex(),sin=math.sin(angle).hex(),vx=(math.cos(angle)*speed).hex(),vy=(math.sin(angle)*speed).hex()))
     try:
         for name in names:setattr(math,name,wrapped(name))
         engine.tick=tick
         for i,row in enumerate(trace['steps']):
+            calls.clear();ticks.clear()
             result=episode.step(row['player'],deepcopy(row['action']))
+            shot_probes.append(dict(shot=i+1,math_calls=deepcopy(calls[:256]),first_ticks=deepcopy(ticks[:4])))
             if i==0:first_observation=episode.observe('p2')
             actual=fingerprint(episode.observe(row['player']))
             checks=dict(accepted=result['accepted']==row['accepted'],events=result['events']==row['events'],fingerprint=actual==row['after'],outcome=episode.outcome()==row['outcome'])
@@ -73,7 +78,8 @@ def diagnose():
     # The historical prompt retained only the last32events; do not reconstruct
     # missing request data or mistake that truncation for a physics divergence.
     request_view=deepcopy(first_observation);request_view['last_events']=request_view['last_events'][-32:]
-    return dict(kind='READ_ONLY_ARCHIVED_ENGINE_RUNTIME_DIAGNOSTIC',python=sys.version,platform=platform.platform(),archive_hashes=verify(),trial=DEFAULT_TRIAL,source_trace_sha256=info['trace_sha256'],source_request_sha256=request['request_sha256'],shots=rows,first_observation_difference=first_difference(expected,request_view),request_event_cap=32,first_observation=first_observation,first_ticks=ticks,math_calls=calls)
+    request_view=json.loads(json.dumps(request_view))
+    return dict(kind='READ_ONLY_ARCHIVED_ENGINE_RUNTIME_DIAGNOSTIC',python=sys.version,platform=platform.platform(),archive_hashes=verify(),trial=DEFAULT_TRIAL,source_trace_sha256=info['trace_sha256'],source_request_sha256=request['request_sha256'],shots=rows,first_observation_difference=first_difference(expected,request_view),request_event_cap=32,first_observation=first_observation,launches=launches,shot_probes=shot_probes)
 
 
 def main():
